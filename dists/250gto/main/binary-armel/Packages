@@ -1,0 +1,100 @@
+Package: libncursesw5
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/libn/libncursesw5/libncursesw5_5.9-r15.1_armel.deb
+Size: 67750
+SHA256: 146025caf23b7ead388afaf7268e38e960d2f5ff924f92adad0e1c00c9ff8059
+SHA1: d1f53ed840f2b9f46c2f44a5805775c6f0b527c4
+MD5sum: f8ddca4ac7abd7fcf989b3b7118e1c17
+Description: ncurses ncursesw library
+ ncurses ncursesw library
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+
+Package: libtinfo5
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/libt/libtinfo5/libtinfo5_5.9-r15.1_armel.deb
+Size: 37078
+SHA256: b902ea5e4d081ed99cf5bd702e31f85571a8df060aaed39b1c7e9fafe99964a7
+SHA1: e1f8ac8ac02dfc043f30ff64dfef15cd54fc5547
+MD5sum: c30e6f2e1b8af810cf36cba75e2cffa8
+Description: ncurses tinfo library
+ ncurses tinfo library
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.19)
+Suggests: ncurses-terminfo
+Recommends: ncurses-terminfo-base
+
+Package: nano
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano/nano_2.2.5-r3.0_armel.deb
+Size: 74136
+SHA256: e57cf7393d2867126826ac5563ecbb62304e837958aab343216fdb554221dc58
+SHA1: b1cbc6191df350595b102bb9304b2f2493454f14
+MD5sum: 7d2e222807c0721eb7b843bad713f771
+Description: nano version 2.2.5-r3.0
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: nano
+PackageArch: armv6-vfp
+Homepage: http://www.nano-editor.org/
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), ncurses-terminfo, libc6 (>= 2.19)
+
+Package: ncurses-terminfo
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/n/ncurses-terminfo/ncurses-terminfo_5.9-r15.1_armel.deb
+Size: 200116
+SHA256: fc1cdcfa0035d537cd3866aa9e67b710342af98ad93069db37919b5a23e22d3a
+SHA1: 66028835600ba5e4bd64bdd58b8236d2515715fa
+MD5sum: 9c90eff79e8f1d906c9d35ff7247089e
+Description: The New Curses library
+ SVr4 and XSI-Curses compatible curses library and terminfo tools
+ including tic, infocmp, captoinfo. Supports color, multiple highlights,
+ forms-drawing characters, and automatic recognition of keypad and
+ function-key sequences. Extensions include resizable windows and mouse
+ support on both xterm and Linux console using the gpm library.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: ncurses-terminfo-base
+
+Package: ncurses-terminfo-base
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/n/ncurses-terminfo-base/ncurses-terminfo-base_5.9-r15.1_armel.deb
+Size: 6130
+SHA256: 47ca599a9eac250c4843a747e2cdaaeaf58c176e5fcbfbefe823f5941ac51bee
+SHA1: caf937cdbf0a22dc6c729b06a24ea4a45273bab0
+MD5sum: 12b0128d71df1d20f3466315cafe0410
+Description: The New Curses library
+ SVr4 and XSI-Curses compatible curses library and terminfo tools
+ including tic, infocmp, captoinfo. Supports color, multiple highlights,
+ forms-drawing characters, and automatic recognition of keypad and
+ function-key sequences. Extensions include resizable windows and mouse
+ support on both xterm and Linux console using the gpm library.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+
