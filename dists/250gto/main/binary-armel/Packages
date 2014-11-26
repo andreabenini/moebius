@@ -98,3 +98,23 @@ OE: ncurses
 PackageArch: armv6-vfp
 Homepage: http://www.gnu.org/software/ncurses/ncurses.html
 
+Package: python-core
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python-core/python-core_2.7.3-r0.3_armel.deb
+Size: 160248
+SHA256: 9cb9079714f7691eab119eb8077bdefba122df7e3322c681e86039d6dadf78d4
+SHA1: 4fb687dbaa2273e6ca8b5ae4ff6d50793fbe7455
+MD5sum: 7d226de7bd2c194b4acd0970e5956c6d
+Description: Python interpreter and core modules
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python-re, libpython2.7-1.0 (>= 2.7.3), libz1 (>= 1.2.8), python-lang, libc6 (>= 2.19)
+Recommends: python-readline
+Provides: python
+
