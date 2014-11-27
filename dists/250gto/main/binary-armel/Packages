@@ -16,6 +16,24 @@ PackageArch: armv6-vfp
 Homepage: http://www.gnu.org/software/ncurses/ncurses.html
 Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
 
+Package: libpython2.7-1.0
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/libp/libpython2.7-1.0/libpython2.7-1.0_2.7.3-r0.3_armel.deb
+Size: 459290
+SHA256: 15328795835b28f770e0d390ad30a4eb75cf158aa5fa49c53f207cda418dcd87
+SHA1: 7b858f4b3874b9608c7ac297cd73e61645451d2e
+MD5sum: 760a50fb439b49105919e587b4314b97
+Description: The Python Programming Language
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libc6 (>= 2.19)
+
 Package: libtinfo5
 Version: 5.9-r15.1
 Priority: optional
@@ -117,4 +135,58 @@ Homepage: http://www.python.org
 Depends: python-re, libpython2.7-1.0 (>= 2.7.3), libz1 (>= 1.2.8), python-lang, libc6 (>= 2.19)
 Recommends: python-readline
 Provides: python
+
+Package: python-lang
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python-lang/python-lang_2.7.3-r0.3_armel.deb
+Size: 140270
+SHA256: 6c2d1b9327985e35f054c66eccdef48419439031740db3d34ee50ae1eb40d300
+SHA1: 55fada6a558bc5369456b9db2096230bed2424a1
+MD5sum: d44fbabccad7ff6c14d3af2450c85eb6
+Description: Python low-level language support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+
+Package: python-re
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python-re/python-re_2.7.3-r0.3_armel.deb
+Size: 28760
+SHA256: 2c9b10ad5565b85fce5866cfd60ac05fd911435d79f9ab388b41a33950027446
+SHA1: 953069248d415619c2c93cad596f206168240da6
+MD5sum: eb868bd71a283821eefafded6fb28e29
+Description: Python Regular Expression APIs
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python-core
+
+Package: python-readline
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python-readline/python-readline_2.7.3-r0.3_armel.deb
+Size: 10434
+SHA256: 0d01100edb7aaef2cebdae2d124e21efb8e113f19cdf1aab50da9584c305f279
+SHA1: f345d5f0a39a4ffdfff1366ca75c838150f59e25
+MD5sum: 82aa016e47713ddc1b65ac75f76ede15
+Description: Python readline support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libreadline6 (>= 6.3), libncursesw5 (>= 5.9), libc6 (>= 2.19)
 
