@@ -116,6 +116,213 @@ OE: ncurses
 PackageArch: armv6-vfp
 Homepage: http://www.gnu.org/software/ncurses/ncurses.html
 
+Package: openssh
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh/openssh_6.5p1-r0_armel.deb
+Size: 804
+SHA256: 5cf378f8d1ab2033388e22dcae2f70dc978a72c9a5e89e45912dddaf18ade7d5
+SHA1: ad102cf5e9ff0102e4a9cfced36b898c5e17c5e7
+MD5sum: 2477b15d8f980d751f5050ee60992d12
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: openssh-scp, openssh-ssh, openssh-keygen, openssh-sshd
+Recommends: update-rc.d
+Conflicts: dropbear
+
+Package: openssh-dev
+Version: 6.5p1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/o/openssh-dev/openssh-dev_6.5p1-r0_armel.deb
+Size: 946
+SHA256: 4622424d42cd35f573fc6b7c2e6d0d8043af8d280d9c081132c35334b548bc64
+SHA1: 7338db9ac5b2ca8f45da76b87b66cf7ffacf0905
+MD5sum: 7a801204996c5bf11384c8ab660cbc73
+Description: Secure rlogin/rsh/rcp/telnet replacement - Development files
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: openssh (= 6.5p1-r0)
+Recommends: tcp-wrappers-dev, base-passwd-dev, shadow-dev, libz-dev, shadow-sysroot-dev, base-files-dev, openssl-dev, libwrap-dev, libcrypto-dev, openssh-scp-dev, openssh-sshd-dev, libc6-dev, update-alternatives-opkg-dev, openssh-ssh-dev, openssh-keygen-dev, initscripts-dev
+
+Package: openssh-doc
+Version: 6.5p1-r0
+Priority: optional
+Section: doc
+Filename: pool/main/o/openssh-doc/openssh-doc_6.5p1-r0_armel.deb
+Size: 51348
+SHA256: feaa13541f9a54b6cf0708f281dfeacd820d9e55e332a77305386fd10cde99dc
+SHA1: b8a1772756977e600ff38073c1d869401f3cf95e
+MD5sum: 86423cbc1537556d9f0355c6bf68a3ed
+Description: Secure rlogin/rsh/rcp/telnet replacement - Documentation files
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+
+Package: openssh-keygen
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh-keygen/openssh-keygen_6.5p1-r0_armel.deb
+Size: 155126
+SHA256: e2ff40d7218928020cad3c11d7741a6d0e916f0bee7fe16430206be46a937ef2
+SHA1: 232bc86eac51c476f9754edb27fd85734396bb2a
+MD5sum: 3f703c84059b906c8a39b3bbb87389ab
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: libcrypto1.0.0 (>= 1.0.1j), libc6 (>= 2.19)
+Conflicts: ssh-keygen
+
+Package: openssh-misc
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh-misc/openssh-misc_6.5p1-r0_armel.deb
+Size: 252340
+SHA256: 59c9295c148c3f1ddff13059342a7c9dff84372a9666b73bcbf9d9e1cbafdf78
+SHA1: 2740204bc9edf893ae6d77a14e263f8d91795915
+MD5sum: 4adc032f5bb64cb0f55fc39eb2418466
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: libcrypto1.0.0 (>= 1.0.1j), libz1 (>= 1.2.8), libc6 (>= 2.19)
+
+Package: openssh-scp
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh-scp/openssh-scp_6.5p1-r0_armel.deb
+Size: 27978
+SHA256: 6cdfbd0953145c50ee219c6cab32c1b56a6b8097f2908015ce0511c4564b471e
+SHA1: 461354bbb091426e6ea989ac8be6dbc9eaaab1af
+MD5sum: 4e2758f88048ba5a9d6da5f50834e0f8
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+
+Package: openssh-sftp
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh-sftp/openssh-sftp_6.5p1-r0_armel.deb
+Size: 45710
+SHA256: d88646cb0bc716c9a77efc9bc61c09ce0e762c512e93cfa6aecc1014b9b2357b
+SHA1: 33493fe8aae1192ee86e0d251da40f1432bab867
+MD5sum: 697174dd82cc5ddf43b89e7f02c72d6d
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: libc6 (>= 2.19)
+
+Package: openssh-sftp-server
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh-sftp-server/openssh-sftp-server_6.5p1-r0_armel.deb
+Size: 29650
+SHA256: e43be5d2ef7cef7a4cbff8d8000bd5f6676ba5f07587c603df4d8f2c3321716c
+SHA1: fdcbb9429bbf6bf006957bb2f4540d6a16012c08
+MD5sum: 698aa3dd8571a51d837af7a79c1a6e7b
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: libc6 (>= 2.19)
+
+Package: openssh-ssh
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh-ssh/openssh-ssh_6.5p1-r0_armel.deb
+Size: 234918
+SHA256: c33c01d7789e6849e3af17688b44822911ce0369c887c641ba7f2b8c5b809d60
+SHA1: 2ce6b920a006793d198d89f3dd0831f9e68fbf4d
+MD5sum: a14489deb398de1ea9ef9e3c7f175172
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: libcrypto1.0.0 (>= 1.0.1j), update-alternatives-opkg, libz1 (>= 1.2.8), libc6 (>= 2.19)
+Provides: ssh
+
+Package: openssh-sshd
+Version: 6.5p1-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openssh-sshd/openssh-sshd_6.5p1-r0_armel.deb
+Size: 273290
+SHA256: 5b6a03b6e31650944f1c644184ce9a903eba3f691eb7dfc48b001a13efa6f029
+SHA1: 688fa3c7f6482eaefd409fd5f960ba8863e1c75d
+MD5sum: a5ade3fbc77e4c50773925175a355ac0
+Description: Secure rlogin/rsh/rcp/telnet replacement
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssh
+PackageArch: armv6-vfp
+Homepage: http://openssh.org
+Depends: libc6 (>= 2.19), libz1 (>= 1.2.8), openssh-keygen, libwrap0 (>= 7.6), libcrypto1.0.0 (>= 1.0.1j), base-files, shadow, base-passwd
+Provides: sshd
+Conflicts: dropbear
+
 Package: python-core
 Version: 2.7.3-r0.3
 Priority: optional
