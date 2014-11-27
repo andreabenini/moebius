@@ -54,6 +54,77 @@ Depends: libc6 (>= 2.19)
 Suggests: ncurses-terminfo
 Recommends: ncurses-terminfo-base
 
+Package: libwrap-dev
+Version: 7.6-r10
+Priority: optional
+Section: console/network
+Filename: pool/main/libw/libwrap-dev/libwrap-dev_7.6-r10_armel.deb
+Size: 3886
+SHA256: c60aade890a500ae5b7ef5dbe87d2ecdc7d073b533780e48e7aa39157459839b
+SHA1: 01790b08a081dbe86b90a702055da2222c0fc491
+MD5sum: d2a14024766617366fd66d2e6a34dbd0
+Description: Security tool that is a wrapper for TCP daemons
+ Tools for monitoring and filtering incoming requests for tcp
+ services.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tcp-wrappers
+PackageArch: armv6-vfp
+Depends: libwrap0
+Recommends: libc6-dev
+
+Package: libwrap-doc
+Version: 7.6-r10
+Priority: optional
+Section: console/network
+Filename: pool/main/libw/libwrap-doc/libwrap-doc_7.6-r10_armel.deb
+Size: 4754
+SHA256: b9741f919a212ec7643b4ae8a12fc9761efb90875ca3855cbbb0efbbc30153e1
+SHA1: 078aedf9bd7235ba9e4f74008bc38555aceca718
+MD5sum: 6e3428f84f820a767c0cb04a6221acaa
+Description: Security tool that is a wrapper for TCP daemons
+ Tools for monitoring and filtering incoming requests for tcp
+ services.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tcp-wrappers
+PackageArch: armv6-vfp
+
+Package: libwrap-staticdev
+Version: 7.6-r10
+Priority: optional
+Section: console/network
+Filename: pool/main/libw/libwrap-staticdev/libwrap-staticdev_7.6-r10_armel.deb
+Size: 48030
+SHA256: d3af9bbdabb985feac5ea6d6223148634729aa8a1fd2b8d72d4dc16a34847af5
+SHA1: 8f0b3a3db4f2f768d7c0687d58abdc4ad443bb72
+MD5sum: 06081bfa116c9e1dae5b931c54e1148b
+Description: Security tool that is a wrapper for TCP daemons
+ Tools for monitoring and filtering incoming requests for tcp
+ services.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tcp-wrappers
+PackageArch: armv6-vfp
+
+Package: libwrap0
+Version: 7.6-r10
+Priority: optional
+Section: console/network
+Filename: pool/main/libw/libwrap0/libwrap0_7.6-r10_armel.deb
+Size: 11256
+SHA256: bd64613bf75a366c4e56122bfcb3f949a19025028c22f49e9b64b28cd2dc5145
+SHA1: e29146963a73d0fe76aaeb71642db396a68c715f
+MD5sum: a68441f4646c203bf2f093d79d6a1f23
+Description: Security tool that is a wrapper for TCP daemons
+ Tools for monitoring and filtering incoming requests for tcp
+ services.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tcp-wrappers
+PackageArch: armv6-vfp
+Depends: libc6 (>= 2.19)
+
 Package: nano
 Version: 2.2.5-r3.0
 Priority: optional
