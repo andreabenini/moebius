@@ -20,6 +20,112 @@ Homepage: http://www.gnu.org/software/coreutils/
 Recommends: virtual-locale-it
 Provides: coreutils-locale, it-translation
 
+Package: libffi-dev
+Version: 3.0.13-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libf/libffi-dev/libffi-dev_3.0.13-r0_armel.deb
+Size: 5884
+SHA256: 2b6b8f5ee92e5f6efbc046f1fef2be00114a8b039483d894eaec29b549a82fb9
+SHA1: 91fca0b92385cc1f8abfaa9678001da78ac3cd99
+MD5sum: ad7d628db684b068f37261e053a38a9f
+Description: A portable foreign function interface library - Development files
+ The `libffi' library provides a portable, high level programming
+ interface to various calling conventions.  This allows a programmer to
+ call any function specified by a call interface description at run time.
+ FFI stands for Foreign Function Interface.  A foreign function interface
+ is the popular name for the interface that allows code written in one
+ language to call code written in another language.  The `libffi' library
+ really only provides the lowest, machine dependent layer of a fully
+ featured foreign function interface.  A layer must exist above `libffi'
+ that handles type conversions for values passed between the two
+ languages.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libffi
+PackageArch: armv6-vfp
+Depends: libffi6 (= 3.0.13-r0)
+Recommends: libc6-dev, libgcc-s-dev
+
+Package: libffi-doc
+Version: 3.0.13-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libf/libffi-doc/libffi-doc_3.0.13-r0_armel.deb
+Size: 8346
+SHA256: 13beb182b112d12fcb0425aefb2a6c119d9b46640e786122ea8091383096fdb5
+SHA1: a38c7fd89b0828d17afd34021623f9a5bf326f2e
+MD5sum: f980948488bd9aa492972804a2e7a5bc
+Description: A portable foreign function interface library - Documentation files
+ The `libffi' library provides a portable, high level programming
+ interface to various calling conventions.  This allows a programmer to
+ call any function specified by a call interface description at run time.
+ FFI stands for Foreign Function Interface.  A foreign function interface
+ is the popular name for the interface that allows code written in one
+ language to call code written in another language.  The `libffi' library
+ really only provides the lowest, machine dependent layer of a fully
+ featured foreign function interface.  A layer must exist above `libffi'
+ that handles type conversions for values passed between the two
+ languages.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libffi
+PackageArch: armv6-vfp
+
+Package: libffi-staticdev
+Version: 3.0.13-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libf/libffi-staticdev/libffi-staticdev_3.0.13-r0_armel.deb
+Size: 42322
+SHA256: 6e32feaa9de76e9faa61dbd5d47ad858d5d5476186b340dd2e915639d9b38da8
+SHA1: 0f179ec6acdca8eaade1c7d76f51bc4e2a0ce6cd
+MD5sum: e5ef1500ad8e79a7bc00e1fa432a51ac
+Description: A portable foreign function interface library - Development files (Static Libraries)
+ The `libffi' library provides a portable, high level programming
+ interface to various calling conventions.  This allows a programmer to
+ call any function specified by a call interface description at run time.
+ FFI stands for Foreign Function Interface.  A foreign function interface
+ is the popular name for the interface that allows code written in one
+ language to call code written in another language.  The `libffi' library
+ really only provides the lowest, machine dependent layer of a fully
+ featured foreign function interface.  A layer must exist above `libffi'
+ that handles type conversions for values passed between the two
+ languages.  This package contains static libraries for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libffi
+PackageArch: armv6-vfp
+Depends: libffi-dev (= 3.0.13-r0)
+
+Package: libffi6
+Version: 3.0.13-r0
+Priority: optional
+Section: base
+Filename: pool/main/libf/libffi6/libffi6_3.0.13-r0_armel.deb
+Size: 12230
+SHA256: 7802ac4d60f060c954df07237a49776dbbf323ef48293e3d5413bd7e08004d02
+SHA1: 75e0dae85e824f019aa2ac4b53cd91a6ef558abd
+MD5sum: 5ad8bd9de6f2dd00c8c03df4e24b9a68
+Description: A portable foreign function interface library
+ The `libffi' library provides a portable, high level programming
+ interface to various calling conventions.  This allows a programmer to
+ call any function specified by a call interface description at run time.
+ FFI stands for Foreign Function Interface.  A foreign function interface
+ is the popular name for the interface that allows code written in one
+ language to call code written in another language.  The `libffi' library
+ really only provides the lowest, machine dependent layer of a fully
+ featured foreign function interface.  A layer must exist above `libffi'
+ that handles type conversions for values passed between the two
+ languages.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libffi
+PackageArch: armv6-vfp
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
+
 Package: libgdbm-bin
 Version: 1.11-r0
 Priority: optional
