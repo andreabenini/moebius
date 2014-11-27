@@ -34,6 +34,41 @@ PackageArch: armv6-vfp
 Homepage: http://www.python.org
 Depends: libc6 (>= 2.19)
 
+Package: libpython3.3m-staticdev
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/libp/libpython3.3m-staticdev/libpython3.3m-staticdev_3.3.3-r0.0_armel.deb
+Size: 2074546
+SHA256: 54d9efbb51b12dc71409fd15f06f00210e5bc2ac014b9bb57a3edd4cfbd62383
+SHA1: e4546dcface2b7072e273c88e7f6fe07953c8c76
+MD5sum: c717b61fedbbd80d95f2ac881a752d6e
+Description: The Python Programming Language
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+
+Package: libpython3.3m1.0
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/libp/libpython3.3m1.0/libpython3.3m1.0_3.3.3-r0.0_armel.deb
+Size: 550732
+SHA256: d43c6db266189c4bafd56fcc72f333ccec0769b9330457343bb02f222d0b3d54
+SHA1: 7619dcef33e332fc4b51241e6f90785a2432617b
+MD5sum: 1b465fe23b46a8a3ea9d8b3d2d0eba19
+Description: The Python Programming Language
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+
 Package: libtinfo5
 Version: 5.9-r15.1
 Priority: optional
@@ -394,6 +429,24 @@ Depends: libc6 (>= 2.19), libz1 (>= 1.2.8), openssh-keygen, libwrap0 (>= 7.6), l
 Provides: sshd
 Conflicts: dropbear
 
+Package: python-2to3
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python-2to3/python-2to3_2.7.3-r0.3_armel.deb
+Size: 219140
+SHA256: 8f05c738ae8d7c06393d7a7eb0f9d05bc2a62f04396dc9a068d0b9daa0303a9f
+SHA1: 81c161c11846323a969f70e7c69a7003ec6294bb
+MD5sum: 47487115ff12461bcb06485c42f5eb5d
+Description: Python automated Python 2 to 3 code translator
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python-core
+
 Package: python-core
 Version: 2.7.3-r0.3
 Priority: optional
@@ -467,4 +520,1178 @@ OE: python
 PackageArch: armv6-vfp
 Homepage: http://www.python.org
 Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libreadline6 (>= 6.3), libncursesw5 (>= 5.9), libc6 (>= 2.19)
+
+Package: python3-2to3
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-2to3/python3-2to3_3.3.3-r0.0_armel.deb
+Size: 110516
+SHA256: 9462a670e9ccf4b5e6c84dbc16c091a0b388d08a55da38e93f6726f4a6a11c22
+SHA1: a3e2b474a49731495255d8c75a3b6fa527efd5dd
+MD5sum: 3a2baaac6bdf4fa5768e4849423656a2
+Description: Python automated Python 2 to 3 code translator
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-audio
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-audio/python3-audio_3.3.3-r0.0_armel.deb
+Size: 24470
+SHA256: 084b55a157ce35769a3ffe36d40d3e4afe05bfedaba1fda755cbe1af7079fde6
+SHA1: b8370c4bc5475e72db1be529360ea9a276377d48
+MD5sum: 37eb4380b02ae34f09f3f9f100fde49d
+Description: Python Audio Handling
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-codecs
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-codecs/python3-codecs_3.3.3-r0.0_armel.deb
+Size: 566516
+SHA256: 769daf85595ab3f1af04f8c8bfa69b31f8af09dd7b013d4fe2032837b98b2670
+SHA1: 8e2fd09d31aa66a1028d4ed085745fc5bfb3a105
+MD5sum: 3d3d220b88c7cdcebdfecd84f959c1c8
+Description: Python codecs, encodings & i18n support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), python3-lang, libc6 (>= 2.19)
+
+Package: python3-compile
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-compile/python3-compile_3.3.3-r0.0_armel.deb
+Size: 5438
+SHA256: 75bb1ea7a560133732fedc57883884394c04dd90369516b2f667e41022720392
+SHA1: 0322d0c28ea4acb09494ce1c12bc61a68bb464bf
+MD5sum: 3b5d2a6989e797590ba95c4a975699de
+Description: Python bytecode compilation support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-compression
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-compression/python3-compression_3.3.3-r0.0_armel.deb
+Size: 39008
+SHA256: 5c75fafe42cc42da6c5fb538c4bc9ed40e2c2eab0ca6581a040fe0b7b093eb2c
+SHA1: 623f0ac8668f1fea04a407874f34bf75ef37a58b
+MD5sum: ca0918dc031e325b3878339757dce04b
+Description: Python high-level compression support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-codecs, python3-core
+
+Package: python3-core
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-core/python3-core_3.3.3-r0.0_armel.deb
+Size: 100954
+SHA256: 2e35476966180f8dd0f44e06cb60cd6ffb49a18293599dff0f4ba16ba1e387d4
+SHA1: 921d00e6f7cd1547c78d39a0f9607c35db62775e
+MD5sum: 7d5be569ba241040a0d5dbb5065df36a
+Description: Python interpreter and core modules
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libz1 (>= 1.2.8), libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19), python3-lang, python3-re
+Recommends: python3-readline
+Provides: python3
+
+Package: python3-crypt
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-crypt/python3-crypt_3.3.3-r0.0_armel.deb
+Size: 18772
+SHA256: 5f325949413257a1ac13300d72066c33b0dd872c3b52a046d23c20cae968a2e2
+SHA1: bfec020bb2f1fa30cf95684f466e637f2cd30e87
+MD5sum: 81c3c0a483b816046cacbb3cf66d66b1
+Description: Python basic cryptographic and hashing support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libcrypto1.0.0 (>= 1.0.1j), python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+Recommends: openssl
+
+Package: python3-ctypes
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-ctypes/python3-ctypes_3.3.3-r0.0_armel.deb
+Size: 83188
+SHA256: 61307c28387fc8776211c864d7330e9258352b1b4ab580d5ac6cfb277d7305b2
+SHA1: 1dbb938e928ab44c78992d33d11bae9846afeb3f
+MD5sum: db7b3d71d9460c956efff5f4eb0bc1d7
+Description: Python C types support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libffi6 (>= 3.0.13), python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-curses
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-curses/python3-curses_3.3.3-r0.0_armel.deb
+Size: 24812
+SHA256: 095ab695aa9bb90d1a8d46fcd235213991f18769e4a46d992fc74e3874f0143c
+SHA1: dca50aee7b8db6d6164f3f8ee87c25aaba433d8d
+MD5sum: 44704d195d6d697d769702d7afc73ee7
+Description: Python curses support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libtinfo5 (>= 5.9), libpython3.3m1.0 (>= 3.3.3), libncurses5 (>= 5.9), libc6 (>= 2.19), libpanel5 (>= 5.9)
+
+Package: python3-datetime
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-datetime/python3-datetime_3.3.3-r0.0_armel.deb
+Size: 11970
+SHA256: 58f48a0b4850285d6b7b5dd37f852a5d588aaac612002894f3e9f4f450a01cdb
+SHA1: 901b3c4b6a29a220f4cf03e7a090684f00dca737
+MD5sum: e88d44f914d0861a5fb7090a5f12dd7b
+Description: Python calendar and time support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-codecs, python3-core
+
+Package: python3-db
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-db/python3-db_3.3.3-r0.0_armel.deb
+Size: 9528
+SHA256: bc139b8d340aa5b3058b32835cb561ed17ce0d479f2336a4ee349528f4ce9408
+SHA1: 096c0b10d167a99c0871d88b7a037202d03d5bab
+MD5sum: 4325112371139338fcadcb86c49fb2f2
+Description: Python file-based database support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libgdbm-compat4 (>= 1.11), python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-dbg
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel
+Filename: pool/main/p/python3-dbg/python3-dbg_3.3.3-r0.0_armel.deb
+Size: 4116144
+SHA256: 324da81e6cf6cf3fa4766029ddb471d32309d648dbea88f6f592181393e462f5
+SHA1: 48c1af07eb396fb4e221d0fc4cfc370fb21f4ad4
+MD5sum: f130bba9f754a2e0f5934f362e914988
+Description: The Python Programming Language - Debugging files
+ The Python Programming Language.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Recommends: libsqlite3-dbg, libbz2-dbg, gdbm-compat-dbg, libpython3-dbg, libgdbm-dbg, libreadline-dbg, ncurses-libtinfo-dbg, libffi-dbg, libssl-dbg, ncurses-libncurses-dbg, libz-dbg, libcrypto-dbg, ncurses-libpanel-dbg, liblzma-dbg, libc6-dbg
+
+Package: python3-debugger
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-debugger/python3-debugger_3.3.3-r0.0_armel.deb
+Size: 20536
+SHA256: 77e5f3e1c5c7dd20088f6b7c5e63b6a939e7e3c9ea8f3ac1fab4771a6c7d89f8
+SHA1: 8c1c2879e48515b719fe3e40008b44875a0a64f6
+MD5sum: 0d9cef93a59ad78fd6697dcebf5a8bf9
+Description: Python debugger
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-shell, python3-re, python3-io, python3-stringold, python3-lang, python3-core, python3-pprint
+
+Package: python3-dev
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel
+Filename: pool/main/p/python3-dev/python3-dev_3.3.3-r0.0_armel.deb
+Size: 114312
+SHA256: f525b851ff9e9c3302d9506fc89dbda66aa5e06da07e379a5146231217ad6917
+SHA1: 007eaedb0e47090081bdaafb8b331b0b49099c44
+MD5sum: 9ceb1c42d164954a9dfedaedb68e1169
+Description: Python development package
+ The Python Programming Language.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+Recommends: python3-lang-dev, python3-smtpd-dev, openssl-dev, ncurses-libtinfo-dev, libgdbm-dev, python3-curses-dev, python3-sqlite3-dev, python3-multiprocessing-dev, libpython3-dev, libffi-dev, python3-threading-dev, db-dev, python3-stringold-dev, python3-xmlrpc-dev, python3-tkinter-dev, python3-pprint-dev, python3-mime-dev, python3-debugger-dev, xz-dev, python3-elementtree-dev, python3-difflib-dev, ncurses-libpanel-dev, python3-pkgutil-dev, python3-unittest-dev, python3-codecs-dev, python3-ctypes-dev, python3-profile-dev, python3-datetime-dev, liblzma-dev, libreadline-dev, python3-2to3-dev, libz-dev, libbz2-dev, sqlite3-dev, python3-textutils-dev, python3-tests-dev, python3-subprocess-dev, python3-core-dev, python3-resource-dev, python3-image-dev, python3-pydoc-dev, python3-audio-dev, bzip2-dev, libssl-dev, ncurses-libncurses-dev, libcrypto-dev, python3-readline-dev, python3-shell-dev, libc6-dev, libsqlite3-dev, python3-distutils-dev, python3-pickle-dev, python3-numbers-dev, python3-idle-dev, python3-crypt-dev, python3-compile-dev, python3-mmap-dev, python3-json-dev, python3-gdbm-dev, python3-email-dev, python3-fcntl-dev, python3-netserver-dev, python3-io-dev, python3-robotparser-dev, python3-html-dev, gdbm-compat-dev, python3-compression-dev, python3-unixadmin-dev, python3-xml-dev, python3-syslog-dev, python3-terminal-dev, python3-re-dev, python3-mailbox-dev, python3-doctest-dev, python3-math-dev, python3-netclient-dev, python3-db-dev, python3-sqlite3-tests-dev, python3-logging-dev
+
+Package: python3-difflib
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-difflib/python3-difflib_3.3.3-r0.0_armel.deb
+Size: 21546
+SHA256: fbab3040030b127785cb0f2e6641408ee3c120165fbaea86922f7c1d57b2e141
+SHA1: 95a87d5bda29af9572d8875583acdebcfe5d024d
+MD5sum: 01d389006876b55aab54fbf7048c1a1c
+Description: Python helpers for computing deltas between objects
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-lang, python3-re
+
+Package: python3-distutils
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-distutils/python3-distutils_3.3.3-r0.0_armel.deb
+Size: 453560
+SHA256: 48075e4d41f3228287ba4aad2137ca4ce84f5e53a7968e0acfddf834c6ae5712
+SHA1: 8e62dec75b7e793f5f15c475efb0919d0958a7c5
+MD5sum: ee1ed50fa2753142dbba6bff064368c8
+Description: Python Distribution Utilities
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-doctest
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-doctest/python3-doctest_3.3.3-r0.0_armel.deb
+Size: 24336
+SHA256: 2423810589092a486ae9fc5cfb9b8bc28bdbb583cc217892b1a12a434507377a
+SHA1: 0ef71ed12237efe7840115d1efc1f9277aa04656
+MD5sum: cb3ecdcc26ea87b74d0c5e46cc04a49f
+Description: Python framework for running examples in docstrings
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-debugger, python3-re, python3-unittest, python3-io, python3-lang, python3-difflib
+
+Package: python3-elementtree
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-elementtree/python3-elementtree_3.3.3-r0.0_armel.deb
+Size: 15160
+SHA256: 84678af7d341d98c9c4f9995a7a6264252c2f7d5cfdf294a938b15bf344cf6fc
+SHA1: ddfd903859b2be9290c217e8b3063d17e1bd96a0
+MD5sum: c2d82067933f3320bb7305921dcda8a9
+Description: Python elementree
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-email
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-email/python3-email_3.3.3-r0.0_armel.deb
+Size: 86296
+SHA256: 4a506dca552c5e07cf23cb0524a51beed8b21a75ba5e90b05ba94df9a38e5b66
+SHA1: 66e9de18a4e585e92776d3b7341dd3f0f182f7fd
+MD5sum: 1086e62d6ad2d17debca98c3aee9de4a
+Description: Python email support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-image, python3-core, python3-re, python3-io, python3-audio, python3-mime, python3-netclient
+
+Package: python3-fcntl
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-fcntl/python3-fcntl_3.3.3-r0.0_armel.deb
+Size: 5696
+SHA256: f0ba9d95e95e159b9a07e9f29b3cc1d140670e615fe3c357e727f02a5ca1f7e6
+SHA1: 853ad3f50fe9a99037de9d2c4652fa5be21619ef
+MD5sum: 35cd65a005b38dba31278cdab69bffa2
+Description: Python's fcntl interface
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-gdbm
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-gdbm/python3-gdbm_3.3.3-r0.0_armel.deb
+Size: 6096
+SHA256: 13298cc1c144bc66ae3c05a496e8d55daa799856dc40d3b63d48746318cce079
+SHA1: 25805319807e7b92fb3b0135339d72d586f8a4f1
+MD5sum: 7a74a01fae98d47f1fa8d39063c5cf3b
+Description: Python GNU database support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libgdbm4 (>= 1.11), python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-html
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-html/python3-html_3.3.3-r0.0_armel.deb
+Size: 4278
+SHA256: 38b7cee423a233c23b4774c30903931dafdf9d4df02d459699f19077f5544539
+SHA1: 5738eea8a4512d574a53222891bc7f04e314ebfa
+MD5sum: 609ce2b6a604ddcbb46fb09e919a6a53
+Description: Python HTML processing support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-idle
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-idle/python3-idle_3.3.3-r0.0_armel.deb
+Size: 180328
+SHA256: efe25b6b9f6d9ae1fd1009b2baad3ff707cfcd537ae8942841a8dfe5624e5928
+SHA1: 29f4584a9d320d59f71e1da52e779a76e6d6111d
+MD5sum: fce5c30f3a72be4cdfd12395631d18ad
+Description: Python Integrated Development Environment
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-tkinter
+
+Package: python3-image
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-image/python3-image_3.3.3-r0.0_armel.deb
+Size: 3156
+SHA256: c5a6ac37791a6c3c6ad2ca61ad03690c97e87909147472caba72d3394c6e8784
+SHA1: fd498044050f953df5032431ff0d88d800bd46fc
+MD5sum: 021937a0a076ec765213fb516623743c
+Description: Python graphical image handling
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-io
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-io/python3-io_3.3.3-r0.0_armel.deb
+Size: 79666
+SHA256: 65c0fe53372189b2bab1b9868a10cd21f5d62a22a9a300270fa4cf775ced2329
+SHA1: 068321b4d9ec582fe2ee01d17b6c9964fb99a755
+MD5sum: 934e9709822380b278e57623da28649d
+Description: Python low-level I/O
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libssl1.0.0 (>= 1.0.1j), libpython3.3m1.0 (>= 3.3.3), python3-math, libcrypto1.0.0 (>= 1.0.1j), libc6 (>= 2.19), python3-core
+
+Package: python3-json
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-json/python3-json_3.3.3-r0.0_armel.deb
+Size: 21212
+SHA256: a580b3bec1647480168411fa7969adfbe5b9ae34be8c817f70fe6e6cc0e44a62
+SHA1: 8ea29c57d80485ea8c63480892df952e343c60b7
+MD5sum: 2f56346a58a74ff0249e23de393b3a6f
+Description: Python JSON support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-math, python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19), python3-re
+
+Package: python3-lang
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-lang/python3-lang_3.3.3-r0.0_armel.deb
+Size: 76864
+SHA256: 3d6ec7c00be82b3ee4a480669ff1f205a4681025f67b02daa45652cc92737f6b
+SHA1: ebbbe22c658f76dd73bf550da732647e7d613929
+MD5sum: 29ad807253044772874cd0b0edd655da
+Description: Python low-level language support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-logging
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-logging/python3-logging_3.3.3-r0.0_armel.deb
+Size: 34766
+SHA256: a21ccb17f835ca6a584b0146dd49bcfb174c6d2cfc8c10ebbabf8aed20d17bcb
+SHA1: 841e6b8f8670f7e00abdafb90f2807eae17fcb31
+MD5sum: 2f5cac99d4f64981ec2367a95b183ef0
+Description: Python logging support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-io, python3-lang, python3-pickle, python3-stringold
+
+Package: python3-mailbox
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-mailbox/python3-mailbox_3.3.3-r0.0_armel.deb
+Size: 13352
+SHA256: 275f0c3e1daeadbcda0a103ec4a7e4ab617e04bb4a2a7f1fcdd2e7b709aed4f3
+SHA1: 096186e6e025ff77d90b444ae2304218946b0727
+MD5sum: c836f289d16841cea89abc75227d59aa
+Description: Python mailbox format support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-mime, python3-core
+
+Package: python3-man
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-man/python3-man_3.3.3-r0.0_armel.deb
+Size: 5758
+SHA256: 131b943f4f0454ad8c2bcb1399ac9096046a384603b3a4041fe222429cdecb42
+SHA1: 6c81bd76f49a3306aba16e19c675d632761b5949
+MD5sum: 7cc781901560c70e6ed3a051d0a3e7f6
+Description: The Python Programming Language
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+
+Package: python3-math
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-math/python3-math_3.3.3-r0.0_armel.deb
+Size: 30170
+SHA256: b38a47f5963405f8f4c1ec500823a829418bd8aefad1b7b59378564de8fac816
+SHA1: 4f9dc1568da26f80dc17090d54d775fa44a1a815
+MD5sum: 75ee79a8a68beaec88a54716ac078b0f
+Description: Python math support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-mime
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-mime/python3-mime_3.3.3-r0.0_armel.deb
+Size: 5178
+SHA256: dfa074567862551d1ab3a84a1032b52527308b8b4697cd50c19e43d734ae800e
+SHA1: 9b9af6a648e03804c7bc6b799783ca56071b3d1c
+MD5sum: ae12ede8aa248736d4f8a3e1a2b50173
+Description: Python MIME handling APIs
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-io
+
+Package: python3-misc
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-misc/python3-misc_3.3.3-r0.0_armel.deb
+Size: 508596
+SHA256: 1f8382fe6403e7d51a22594548cc692019a5ff1865af3fff9b7cb88aa533b93a
+SHA1: dcacbc756e4495745f2088c3ab44dce80940ff53
+MD5sum: 1c1a0a984c8cb4157580ee36f807280b
+Description: The Python Programming Language
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: liblzma5 (>= 5.1.3alpha), libpython3.3m1.0 (>= 3.3.3), libbz2-0 (>= 1.0.6), libc6 (>= 2.19)
+
+Package: python3-mmap
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-mmap/python3-mmap_3.3.3-r0.0_armel.deb
+Size: 7446
+SHA256: 879142c0e1923f6702e99bf5678b3025d9a52204282cf600dd30e8064995bd92
+SHA1: f9efabd62b7e5a86c2df428a67cacda013c10f4c
+MD5sum: fe88e62ce0c83c07d387f2bcbff53274
+Description: Python memory-mapped file support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-io, python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-modules
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-modules/python3-modules_3.3.3-r0.0_armel.deb
+Size: 1006
+SHA256: 24b617d6e25c2cec035d306c9e7fadfb3eddb7dba61ea69e51110ba9b6c56492
+SHA1: dc021012bccbc9b34022cb0574a9634471eade38
+MD5sum: 612bbb9751c95ff336c078fdaa082cc5
+Description: All Python modules
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-pickle, python3-textutils, python3-xmlrpc, python3-debugger, python3-pprint, python3-multiprocessing, python3-audio, python3-difflib, python3-subprocess, python3-idle, python3-crypt, python3-math, python3-compile, python3-doctest, python3-html, python3-sqlite3, python3-re, python3-unittest, python3-numbers, python3-io, python3-mailbox, python3-lang, python3-smtpd, python3-gdbm, python3-netclient, python3-sqlite3-tests, python3-tkinter, python3-stringold, python3-pydoc, python3-email, python3-codecs, python3-logging, python3-threading, python3-json, python3-ctypes, python3-netserver, python3-profile, python3-core, python3-tests, python3-terminal, python3-image, python3-fcntl, python3-2to3, python3-xml, python3-readline, python3-db, python3-resource, python3-unixadmin, python3-shell, python3-compression, python3-mmap, python3-elementtree, python3-syslog, python3-datetime, python3-curses, python3-robotparser, python3-mime, python3-pkgutil, python3-distutils
+
+Package: python3-multiprocessing
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-multiprocessing/python3-multiprocessing_3.3.3-r0.0_armel.deb
+Size: 40742
+SHA256: ba1a533ee4b96918f4e367cb8353e9fd61e89a1a21492ce5abdbab64ace37d3c
+SHA1: 19b872227e3134cb1cbc61b0a739a3408e614b82
+MD5sum: ca75ec0ad448319cc021f2d70575c7f3
+Description: Python multiprocessing support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libpython3.3m1.0 (>= 3.3.3), python3-lang, python3-pickle, python3-threading, python3-io, python3-ctypes, libc6 (>= 2.19), python3-core, python3-mmap
+
+Package: python3-netclient
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-netclient/python3-netclient_3.3.3-r0.0_armel.deb
+Size: 50182
+SHA256: 2218b32e4753838e6503eca8eb6102c62e22ea5f99b712c0bf5b7ab06522b95d
+SHA1: cf5c91e7f7e114a55e6d81f5988206b220af637d
+MD5sum: 99ae89f7b79ca59cd4aa7fdf7b5de5d6
+Description: Python Internet Protocol clients
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-crypt, python3-logging, python3-io, python3-datetime, python3-lang, python3-mime, python3-core
+
+Package: python3-netserver
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-netserver/python3-netserver_3.3.3-r0.0_armel.deb
+Size: 9666
+SHA256: 2836dcbc68c04bda05d4d11c3fef7b4c068e053be21aa16ab604df8333fdf951
+SHA1: a040c41c4bef882d0429ae1216d36edae7ad79f0
+MD5sum: 51b9989fb6b18bf47d6d559811acf731
+Description: Python Internet Protocol servers
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-netclient
+
+Package: python3-numbers
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-numbers/python3-numbers_3.3.3-r0.0_armel.deb
+Size: 43972
+SHA256: c0eb86bd52585c978c328b5033793a6695717caaf5693a60821de129ad4ba06a
+SHA1: 54c0fed791c0e839ab0dfba0fa0f01bc7a292e01
+MD5sum: e23f8515f11084332e650ced8e65fd24
+Description: Python number APIs
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-lang, python3-re
+
+Package: python3-pickle
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-pickle/python3-pickle_3.3.3-r0.0_armel.deb
+Size: 31636
+SHA256: b273ceab5c490731820bb1f97dca7abc17f68b9b366cc3ec0ab7b0b3392945e7
+SHA1: 4ecf4996586d1774bb0829e1fa635dbb4ce5fce5
+MD5sum: a55dc2f4652bf0f55680883d995cd4a0
+Description: Python serialisation/persistence support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-codecs, python3-core, python3-io, python3-re
+
+Package: python3-pkgutil
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-pkgutil/python3-pkgutil_3.3.3-r0.0_armel.deb
+Size: 6542
+SHA256: fa4c78c1ce8ba7d6a6d805917c9c8fda7890da56c967205842657f8d89e28c9f
+SHA1: fec1aca856913b83edb7f385892bd0abfbd38b9e
+MD5sum: 5a1acf56290f4234aca98e5dfa5877fc
+Description: Python package extension utility support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-pprint
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-pprint/python3-pprint_3.3.3-r0.0_armel.deb
+Size: 4028
+SHA256: cb5dd5793628aa25717fba5c583c54ab9bb7fcfc5a5c753e0d9cdc9c6a37f1de
+SHA1: a506a09e3816eba53196596a5a6cc79e5feb9d03
+MD5sum: 628d2884cc469f7685be7f023c061ea5
+Description: Python pretty-print support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-io
+
+Package: python3-profile
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-profile/python3-profile_3.3.3-r0.0_armel.deb
+Size: 18982
+SHA256: ad242de1753feba499580e8b1f57d41ee059f575f14db00e2d9db498c8fce1ea
+SHA1: b927db38de604eec9027f61a3214e7a437377a40
+MD5sum: eb03fea8daf1d7aa76d64256f60fb6fd
+Description: Python basic performance profiling support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19), python3-textutils
+
+Package: python3-pydoc
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-pydoc/python3-pydoc_3.3.3-r0.0_armel.deb
+Size: 98958
+SHA256: 77a23339cd0dabcb682a8aed703a0aa35fdd719ea2dab1bdac4b582f02791e6f
+SHA1: 65a3b6c2f23c6c492ab74be5def58109142e33e7
+MD5sum: 19d7bcf5ac68cab4565c78ce831b8150
+Description: Python interactive help support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-stringold, python3-lang, python3-re
+
+Package: python3-pyvenv
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-pyvenv/python3-pyvenv_3.3.3-r0.0_armel.deb
+Size: 910
+SHA256: ea7c2998de0bdadab86c200a71ce7262617dd66d209d8bcc9f95c10bd25a9497
+SHA1: 2c0fb54993f9c3cde2054e391d8343c64bced837
+MD5sum: 6d4159fc4a6686b0f4f621b45c6bac16
+Description: The Python Programming Language
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+
+Package: python3-re
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-re/python3-re_3.3.3-r0.0_armel.deb
+Size: 15886
+SHA256: 3031a83be7f8504bb2ea08c98f6f83329f164a47f75e8f54fc9d76582a634edc
+SHA1: dc2b57d439e47f786bd4a91f0a3cef0c936d034f
+MD5sum: b673214fdb5d44b6e790eba27f40eacc
+Description: Python Regular Expression APIs
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-readline
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-readline/python3-readline_3.3.3-r0.0_armel.deb
+Size: 8996
+SHA256: fdb39bf2507fd949a2ac7a2e5f0682bf731824efd8784c24c1bae65039484530
+SHA1: 0c3a23a0b4483571b99707d9e048eaad266aa741
+MD5sum: 56a2a2f1509ab074abaf59bd784fe922
+Description: Python readline support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libreadline6 (>= 6.3), libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-resource
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-resource/python3-resource_3.3.3-r0.0_armel.deb
+Size: 4018
+SHA256: 5dddc55a5e60800d7365d4122b8449393d001a9e7bf4b8e17a65e2add48acc55
+SHA1: fcf9e503baec182600be7ff5c47aa73a14b8ac32
+MD5sum: ec62a11e9746c3ebebf9bcb7b0a9554e
+Description: Python resource control interface
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-robotparser
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-robotparser/python3-robotparser_3.3.3-r0.0_armel.deb
+Size: 2800
+SHA256: 7c499cb7997e6511cf03b9601f5fd0428296f208ebfbe34012fa57466fc82bcc
+SHA1: 645bb43aa9c9444efd76dedcbebe9f5c76771a1e
+MD5sum: 3e4d688562c3dee8e14abe5b134b511d
+Description: Python robots.txt parser
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-netclient
+
+Package: python3-shell
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-shell/python3-shell_3.3.3-r0.0_armel.deb
+Size: 18560
+SHA256: b2d8d4806ed6fc6a2109b7d00cbd19102ca7fc8e59f4f03d5bcb6c9df0ca1801
+SHA1: 6aad01ff206fbae42f42cb127649e21bbf1cb23f
+MD5sum: 0d1ab2ae28ff522b387a10cb4a511250
+Description: Python shell-like functionality
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-re
+
+Package: python3-smtpd
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-smtpd/python3-smtpd_3.3.3-r0.0_armel.deb
+Size: 7806
+SHA256: 6c39a7d94b1b8773b691290fe4177abac66c91aa1379d0aae47408d4a57bf17a
+SHA1: 462d0855d79ddd10d1dffe3871b77137c9536861
+MD5sum: d770c56cb1cebf5a3a30875eb0bbceac
+Description: Python Simple Mail Transport Daemon
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-mime, python3-core, python3-netserver, python3-email
+
+Package: python3-sqlite3
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-sqlite3/python3-sqlite3_3.3.3-r0.0_armel.deb
+Size: 22350
+SHA256: 9d5fea9750bafa25e8eb8d826064cfc6d6c9fcb3394488d8f5e22431fe3e648e
+SHA1: 78ccc3739b9b6ee88cd4058c7ecc9230ed9d1a9e
+MD5sum: 8b54c9a63070635ff4e9f4b83850cd5e
+Description: Python Sqlite3 database support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-crypt, python3-threading, libpython3.3m1.0 (>= 3.3.3), libsqlite3-0 (>= 3.8.3.1), python3-io, python3-datetime, python3-lang, libc6 (>= 2.19), python3-core
+
+Package: python3-sqlite3-tests
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-sqlite3-tests/python3-sqlite3-tests_3.3.3-r0.0_armel.deb
+Size: 15372
+SHA256: ff1d4e1ec3aeffe20fe03a870d96aae55428bd432582c85e4bdbb4d6afb61d64
+SHA1: 97b958eabf897d8dc78f20cffd25a35ce9fabfe6
+MD5sum: 5f1e0673c6fdf359fd3e4fa4a3857fcc
+Description: Python Sqlite3 database support tests
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-sqlite3
+
+Package: python3-stringold
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-stringold/python3-stringold_3.3.3-r0.0_armel.deb
+Size: 3582
+SHA256: 4dabf75e1368ef0fc7fbf3c82ddc265d5a8e6d1970ba5b1185d818f96d0870d9
+SHA1: 85e1621454381a097f7124f4bbb4d7388930ffae
+MD5sum: 7250ddc0e722b670866b1bb12fae638e
+Description: Python string APIs [deprecated]
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-re
+
+Package: python3-subprocess
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-subprocess/python3-subprocess_3.3.3-r0.0_armel.deb
+Size: 15456
+SHA256: 8b670b8a793a5e11e2278198ea0c3467ad87f85a3db642356f2982d2392a8ffd
+SHA1: 2c9473e3e397d8e1d69ab2a8935ddef007ebb872
+MD5sum: 9950ffd13623979e91704e317475477d
+Description: Python subprocess support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-io, python3-fcntl, python3-pickle, python3-re
+
+Package: python3-syslog
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-syslog/python3-syslog_3.3.3-r0.0_armel.deb
+Size: 3534
+SHA256: f68167d6cc9dbef26c9f5b4364296b560d88fb90c7040ed67cbf0a3bbf48d262
+SHA1: 494b566d51946f7ec8976cf5ba80a473cf020ac7
+MD5sum: 23702a9966fd96dbf45601c73b5c1929
+Description: Python syslog interface
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-terminal
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-terminal/python3-terminal_3.3.3-r0.0_armel.deb
+Size: 2710
+SHA256: 24d3282565071bba9e10d7b35b3934c0788d2d8554768aa0d3721649d2ab4496
+SHA1: b07d130a519367c29cf834479d962835bec9fbc1
+MD5sum: 13034b93fadde15549e6a6d19e057c39
+Description: Python terminal controlling support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-io
+
+Package: python3-tests
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-tests/python3-tests_3.3.3-r0.0_armel.deb
+Size: 1963260
+SHA256: 7dd2387afa933906b7f9c75dd6ef2ae9844336b1436d9a38712d76ddc4d780bd
+SHA1: 348cce3383f3394a0cdc86bfc18c14868d5d053e
+MD5sum: 490fa3ee49525025631bfd12e203f1cb
+Description: Python tests
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-textutils
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-textutils/python3-textutils_3.3.3-r0.0_armel.deb
+Size: 32284
+SHA256: 328728fb75d61d494a8405b688f9c9a1bad9ee2a0de6c7e859897acac2fddcb7
+SHA1: b52f5cbd0742308f606758b7555c2a0727685b28
+MD5sum: 2af3cca1236b9ed08e504d4da33280d8
+Description: Python option parsing, text wrapping and CSV support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: libpython3.3m1.0 (>= 3.3.3), python3-re, python3-io, python3-stringold, libc6 (>= 2.19), python3-core
+
+Package: python3-threading
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-threading/python3-threading_3.3.3-r0.0_armel.deb
+Size: 14850
+SHA256: 8d52b2646a66e24a20cce12827816e051eb2e9802864a45653af97619319b12c
+SHA1: 8002c476b267dde8ed1386c2cf102ae2256bab85
+MD5sum: d28fe44a00041f0dd57e8bd4073e8441
+Description: Python threading & synchronization support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-lang
+
+Package: python3-tkinter
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-tkinter/python3-tkinter_3.3.3-r0.0_armel.deb
+Size: 84798
+SHA256: 25d23a95e770e480cb77d13cca5ab0395fde67f8bbd54a653d881ac41fb6382e
+SHA1: 1614ae247df9b43df2c4551817f7cae5be2ca09c
+MD5sum: f7cc5909f8b6f353ce70997b87b7df72
+Description: Python Tcl/Tk bindings
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core
+
+Package: python3-unittest
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-unittest/python3-unittest_3.3.3-r0.0_armel.deb
+Size: 83762
+SHA256: 720ae7e847969648a85d4deecdbdddcc5201317d559c22da7664760db76e7515
+SHA1: 4a43947fcc38c9d1b1bbd1ba70ebd548c224f0b4
+MD5sum: c981e4a17ae47745ac5f660e992d1a0c
+Description: Python unit testing framework
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-shell, python3-difflib, python3-io, python3-pprint, python3-lang, python3-core, python3-stringold
+
+Package: python3-unixadmin
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-unixadmin/python3-unixadmin_3.3.3-r0.0_armel.deb
+Size: 8236
+SHA256: 26a8d4ea6253182b728c231369bedc1309b364fb6497f3dcea4039c7113c6422
+SHA1: c9d1301d1b7f0acb94c7c50d8f1641a8972140cb
+MD5sum: b82ebc675e5e3241317fb6c7e78a9d14
+Description: Python Unix administration support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19)
+
+Package: python3-xml
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-xml/python3-xml_3.3.3-r0.0_armel.deb
+Size: 99654
+SHA256: 96f3f23da1cea107b476b9a60900ee5b676e34bab333cfe38d91af4659b00147
+SHA1: cbb632d85a79ffdcab65ed7d9f51b50624dd722d
+MD5sum: 21da9dbbfa336c1951dc385c9d2a2093
+Description: Python basic XML support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-elementtree, python3-core, libpython3.3m1.0 (>= 3.3.3), libc6 (>= 2.19), python3-re
+
+Package: python3-xmlrpc
+Version: 3.3.3-r0.0
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python3-xmlrpc/python3-xmlrpc_3.3.3-r0.0_armel.deb
+Size: 20950
+SHA256: 66950e239bb599644568d044f6cdb0a37df15922c2845841dea2bbb34837f719
+SHA1: 420ee73d27dd526f0af26d4a771b8ca6c1e59e28
+MD5sum: 09d6630546f627f941957fb960ea3e74
+Description: Python XML-RPC support
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python3
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python3-core, python3-xml, python3-lang, python3-netserver
 
