@@ -467,6 +467,42 @@ Depends: python-re, libpython2.7-1.0 (>= 2.7.3), libz1 (>= 1.2.8), python-lang, 
 Recommends: python-readline
 Provides: python
 
+Package: python-distutils
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python-distutils/python-distutils_2.7.3-r0.3_armel.deb
+Size: 530704
+SHA256: 74ec4b647fa9292d62850a20ee4e5f56201a8dc13c20680db14273582ecb4b87
+SHA1: 9990e631ce9a131b2c515bc298aa0071f34b144e
+MD5sum: 65c3f9e616181e589081fe709714226f
+Description: Python Distribution Utilities
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python-core
+
+Package: python-distutils-staticdev
+Version: 2.7.3-r0.3
+Priority: optional
+Section: devel/python
+Filename: pool/main/p/python-distutils-staticdev/python-distutils-staticdev_2.7.3-r0.3_armel.deb
+Size: 1832838
+SHA256: 8c93a6845dea474189b6ed0362f06b60abf611773e7748e8851b962d4723f201
+SHA1: 541a53a1092492dfa5e11d00a15a004c9e84bb35
+MD5sum: 40cf8915e674a2afc9efcfb0a6fea78b
+Description: Python distribution utilities (static libraries)
+ The Python Programming Language.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: python
+PackageArch: armv6-vfp
+Homepage: http://www.python.org
+Depends: python-distutils
+
 Package: python-lang
 Version: 2.7.3-r0.3
 Priority: optional
