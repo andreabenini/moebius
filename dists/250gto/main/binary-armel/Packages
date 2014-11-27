@@ -20,6 +20,385 @@ Homepage: http://www.gnu.org/software/coreutils/
 Recommends: virtual-locale-it
 Provides: coreutils-locale, it-translation
 
+Package: libgdbm-bin
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-bin/libgdbm-bin_1.11-r0_armel.deb
+Size: 32616
+SHA256: 6d774680bdd33d03d23aebfba55d85496690de7d25dc670133c1645a13b960dc
+SHA1: 0fd8e58732847592d187f67545db54cd27b7a484
+MD5sum: aa78e60f3f00586c01cd2c68be9c6fe1
+Description: Key/value database library with extensible hashing
+ Key/value database library with extensible hashing.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgdbm4 (>= 1.11), libc6 (>= 2.19)
+
+Package: libgdbm-compat4
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-compat4/libgdbm-compat4_1.11-r0_armel.deb
+Size: 4048
+SHA256: 91ad6c977f095c73f467ea673de0923cc80aeb97e8224f8c062c3f9185e1e419
+SHA1: a554c14ee93aa10d4201e40f50b80ccefb54803f
+MD5sum: de25762a6940f495e2b9df5414a684fc
+Description: Key/value database library with extensible hashing
+ Key/value database library with extensible hashing.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgdbm4 (>= 1.11), libc6 (>= 2.19)
+
+Package: libgdbm-dbg
+Version: 1.11-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgdbm-dbg/libgdbm-dbg_1.11-r0_armel.deb
+Size: 167680
+SHA256: f51af141710155643f6f8deddc69a2b7997dae7394f298de103a11442bd54c95
+SHA1: 57a879e49132b9c02cc62fa2c786e914a365f810
+MD5sum: 4099e84addf37448acc10ce5630e29aa
+Description: Key/value database library with extensible hashing - Debugging files
+ Key/value database library with extensible hashing.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: libc6-dbg
+
+Package: libgdbm-dev
+Version: 1.11-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgdbm-dev/libgdbm-dev_1.11-r0_armel.deb
+Size: 4410
+SHA256: cc3077f0c2b2ca70c7d696f1d7a117bd5ef4e464c021ed9f255f430a2d597ce1
+SHA1: c18540a0bc8a86dc1d647aadd727b59c00464b21
+MD5sum: 83229d9dfc18cb36c9ab63adca6fec9f
+Description: Key/value database library with extensible hashing - Development files
+ Key/value database library with extensible hashing.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgdbm4 (= 1.11-r0), libgdbm-compat4
+Recommends: gdbm-compat-dev, libc6-dev
+
+Package: libgdbm-doc
+Version: 1.11-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libg/libgdbm-doc/libgdbm-doc_1.11-r0_armel.deb
+Size: 37716
+SHA256: 49d3829a45f9dc89d6c7771528e5c86690ce6a89a1175a9314e4105bac4da3f1
+SHA1: 2c77b5384264c8fb56ea0262ec9487f845fc682b
+MD5sum: 74340fc5671d03ea651a2e0222325aac
+Description: Key/value database library with extensible hashing - Documentation files
+ Key/value database library with extensible hashing.  This package
+ contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+
+Package: libgdbm-locale-de
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-de/libgdbm-locale-de_1.11-r0_armel.deb
+Size: 3470
+SHA256: 47cb7ba4df703cf7b9e0758c1a8ef5bf0ec0caefcfba90db75af3f9c3e8feffd
+SHA1: 879fa32fa65f3c536d0a320a84b826eee7d29dbc
+MD5sum: 057b1caaea00e5791a219c21be8d487e
+Description: Key/value database library with extensible hashing - de translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the de locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-de
+Provides: de-translation, gdbm-locale
+
+Package: libgdbm-locale-eo
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-eo/libgdbm-locale-eo_1.11-r0_armel.deb
+Size: 5578
+SHA256: 48fe0245b96655043f7be2bd1905345aabe68add69002f4accd4c8a068631473
+SHA1: 30d46b55ea7152cb493cc0fdecd3dbfbb05261d8
+MD5sum: 1c9582e6567f6833071a666bd1854f57
+Description: Key/value database library with extensible hashing - eo translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the eo locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-eo
+Provides: eo-translation, gdbm-locale
+
+Package: libgdbm-locale-fi
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-fi/libgdbm-locale-fi_1.11-r0_armel.deb
+Size: 5740
+SHA256: 3d169412d70e008c6cc9fc62730d493031d01027aa74bc2949ef41dd9fd49c44
+SHA1: b5659d4a040317435b4e7781b838f264e0d1ebe3
+MD5sum: 87f67a6fba7171ef43c9ea1f68fb9399
+Description: Key/value database library with extensible hashing - fi translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the fi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-fi
+Provides: fi-translation, gdbm-locale
+
+Package: libgdbm-locale-fr
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-fr/libgdbm-locale-fr_1.11-r0_armel.deb
+Size: 3432
+SHA256: 4140999ad05adc1982e5b052a1e4b73d88f681ca0ae38534ca20eecb01202b66
+SHA1: 97b0523d930ef14af6488717d8008a0a6e5ee627
+MD5sum: 44b7a4de99cb76bc1ee1195f4b3c7d6b
+Description: Key/value database library with extensible hashing - fr translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the fr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-fr
+Provides: fr-translation, gdbm-locale
+
+Package: libgdbm-locale-ja
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-ja/libgdbm-locale-ja_1.11-r0_armel.deb
+Size: 3638
+SHA256: 8a7b69074ebd7354e923c2e0c6b0b537fc42069717578722eceaf2e7083e090c
+SHA1: d1b20267afab642b482dea179244e0a9494c55d5
+MD5sum: 141c9fcf3968342bbfb8a45b5b86e04c
+Description: Key/value database library with extensible hashing - ja translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the ja locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-ja
+Provides: gdbm-locale, ja-translation
+
+Package: libgdbm-locale-pl
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-pl/libgdbm-locale-pl_1.11-r0_armel.deb
+Size: 5826
+SHA256: 9fedc228cb24074e5670f4a634874418b059796670a13e2e25661d369db2fb5c
+SHA1: c495f52f85458782252da02cde72a05772bd7f8e
+MD5sum: 2c55ac52210bc89a114b20bbe419f308
+Description: Key/value database library with extensible hashing - pl translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the pl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-pl
+Provides: pl-translation, gdbm-locale
+
+Package: libgdbm-locale-pt-br
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-pt-br/libgdbm-locale-pt-br_1.11-r0_armel.deb
+Size: 5678
+SHA256: 5c058e4b5554adea4a4cb4b6357c92921fdd3ef21737d792ab55c571a54b263d
+SHA1: 128472f753540b0967f0aa1b1748e4ef05e7f713
+MD5sum: cee7cfe9540e5e9bb90d9d061c58e1c9
+Description: Key/value database library with extensible hashing - pt_BR translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the pt_BR locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-pt-br
+Provides: pt-br-translation, gdbm-locale
+
+Package: libgdbm-locale-sr
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-sr/libgdbm-locale-sr_1.11-r0_armel.deb
+Size: 6228
+SHA256: a3c8d682c5288391ef4e8a5118979bbfc465e43b03dd1fc02c6fc90dbc4bcb1b
+SHA1: f15b096305921d45bfa8b16d6d6884c4ee7ef090
+MD5sum: a1291c078e346901d5dae8748e195ab0
+Description: Key/value database library with extensible hashing - sr translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the sr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-sr
+Provides: sr-translation, gdbm-locale
+
+Package: libgdbm-locale-uk
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-uk/libgdbm-locale-uk_1.11-r0_armel.deb
+Size: 6454
+SHA256: 9c196a8d1c624c1ec2a71804e15ab20c78adcca6f8dbfc30a22d4bfe0bc73193
+SHA1: d8ed709839d441c4760dfefa48c358299297f55c
+MD5sum: 8f2739814806d1ef851d689c49ab8522
+Description: Key/value database library with extensible hashing - uk translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the uk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-uk
+Provides: uk-translation, gdbm-locale
+
+Package: libgdbm-locale-vi
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm-locale-vi/libgdbm-locale-vi_1.11-r0_armel.deb
+Size: 6036
+SHA256: c7b00d7fd4dca00e6507216ec672ceaa5627ed5ced5819c781dd64e86ea91e73
+SHA1: f1aee8eaa12d1234db45f9aca2636ed6434408a5
+MD5sum: cc805361a3e766fbb371598ea50bd75d
+Description: Key/value database library with extensible hashing - vi translations
+ Key/value database library with extensible hashing.  This package
+ contains language translation files for the vi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Recommends: virtual-locale-vi
+Provides: vi-translation, gdbm-locale
+
+Package: libgdbm-staticdev
+Version: 1.11-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgdbm-staticdev/libgdbm-staticdev_1.11-r0_armel.deb
+Size: 90532
+SHA256: 0b4acbfda510d59cc384ff38e7eb5453dc98cbb70b710391eb53e43d96feb400
+SHA1: 3454b4496bb82f63c24ce36ef934c2aedf72d528
+MD5sum: a586b93def0fa6fa144e7b3cbe82bb88
+Description: Key/value database library with extensible hashing - Development files (Static Libraries)
+ Key/value database library with extensible hashing.  This package
+ contains static libraries for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgdbm-dev (= 1.11-r0)
+
+Package: libgdbm4
+Version: 1.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgdbm4/libgdbm4_1.11-r0_armel.deb
+Size: 17938
+SHA256: fc1120969184ed7aca5414ca0366d3654770dd1beaf7e070491e98eeb0a3ebb3
+SHA1: bbb3478532ae2bca54d078d0dbc0596a18eaea7f
+MD5sum: 08426e6dc2ee776e497a9251a71ab008
+Description: Key/value database library with extensible hashing
+ Key/value database library with extensible hashing.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gdbm
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libc6 (>= 2.19)
+
+Package: libgettextlib
+Version: 0.18.3.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgettextlib/libgettextlib_0.18.3.2-r0_armel.deb
+Size: 376334
+SHA256: 681c4b98960349d224f5ddb615264c421294d86958541f2878893e2bff3a3baa
+SHA1: a43f58217df74e3936458a7d1160825fc270bfbb
+MD5sum: 1b2e82afb0115fa89851704bfa768bda
+Description: Utilities and libraries for producing multi-lingual messages
+ GNU gettext is a set of tools that provides a framework to help other
+ programs produce multi-lingual messages. These tools include a set of
+ conventions about how programs should be written to support message
+ catalogs, a directory and file naming organization for the message
+ catalogs themselves, a runtime library supporting the retrieval of
+ translated messages, and a few stand-alone programs to massage in various
+ ways the sets of translatable and already translated strings.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gettext
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gettext/gettext.html
+Depends: libc6 (>= 2.19)
+
+Package: libgettextsrc
+Version: 0.18.3.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgettextsrc/libgettextsrc_0.18.3.2-r0_armel.deb
+Size: 80626
+SHA256: c82f028b092b220b71031c9228908aac7e859285c2ac43bd1d00dbad02c5f3a2
+SHA1: 325e9d2d8bb992ebac5b61fafde8435c3d7b31b4
+MD5sum: ab99a0ff79224aa7766374ed669ac153
+Description: Utilities and libraries for producing multi-lingual messages
+ GNU gettext is a set of tools that provides a framework to help other
+ programs produce multi-lingual messages. These tools include a set of
+ conventions about how programs should be written to support message
+ catalogs, a directory and file naming organization for the message
+ catalogs themselves, a runtime library supporting the retrieval of
+ translated messages, and a few stand-alone programs to massage in various
+ ways the sets of translatable and already translated strings.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gettext
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gettext/gettext.html
+Depends: libgettextlib (>= 0.18.3.2), libc6 (>= 2.19)
+
 Package: libncurses5
 Version: 5.9-r15.1
 Priority: optional
