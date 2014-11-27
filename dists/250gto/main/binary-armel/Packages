@@ -612,6 +612,77 @@ PackageArch: armv6-vfp
 Homepage: http://www.python.org
 Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
 
+Package: libsqlite3-0
+Version: 1:3.8.3.1-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsqlite3-0/libsqlite3-0_3.8.3.1-r0_armel.deb
+Size: 282454
+SHA256: 5a026e915330c0eda869e118ea9c4dab2da06bfd5d2c1435fafb5c8766a41d98
+SHA1: edfb66e2cdf320a9aaabfe398a958100fabc21ce
+MD5sum: 127fa94289c9aae7fe3c8e912ae59fc6
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: sqlite3
+PackageArch: armv6-vfp
+Homepage: http://www.sqlite.org
+Depends: libc6 (>= 2.19)
+
+Package: libsqlite3-dev
+Version: 1:3.8.3.1-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsqlite3-dev/libsqlite3-dev_3.8.3.1-r0_armel.deb
+Size: 83406
+SHA256: f96ab058f17dd42d34ab71893c31577763241f8653f293607153b8c5de9a147a
+SHA1: d883796cd93b6d97a5e74e307eac9f40accb1987
+MD5sum: 1440170ae40c85391b4528fbfedd6f02
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: sqlite3
+PackageArch: armv6-vfp
+Homepage: http://www.sqlite.org
+Depends: libsqlite3-0
+Recommends: libc6-dev, libreadline-dev, ncurses-dev
+
+Package: libsqlite3-doc
+Version: 1:3.8.3.1-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsqlite3-doc/libsqlite3-doc_3.8.3.1-r0_armel.deb
+Size: 4106
+SHA256: c8a152b71468da2c1685ecb821bec357522881f216c8460e190fefaa16706e99
+SHA1: 9ac13c4add2f2f1e66856f42e6188a7e8cbd9b3e
+MD5sum: cde5984f08fa6168c3bb87c13dc0f42a
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: sqlite3
+PackageArch: armv6-vfp
+Homepage: http://www.sqlite.org
+
+Package: libsqlite3-staticdev
+Version: 1:3.8.3.1-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsqlite3-staticdev/libsqlite3-staticdev_3.8.3.1-r0_armel.deb
+Size: 1138390
+SHA256: efca5655f3616dd8c20a30e81a5ba93014338591843a5f3b938446aecdff3fd2
+SHA1: 005c045d75540d649e02355361fc348837ed1b8c
+MD5sum: 7231f126a5d103161c111ef22206bdd7
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: sqlite3
+PackageArch: armv6-vfp
+Homepage: http://www.sqlite.org
+
 Package: libtinfo5
 Version: 5.9-r15.1
 Priority: optional
