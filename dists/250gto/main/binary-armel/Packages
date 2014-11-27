@@ -1,3 +1,43 @@
+Package: coreutils-locale-it
+Version: 8.22-r0
+Priority: optional
+Section: base
+Filename: pool/main/c/coreutils-locale-it/coreutils-locale-it_8.22-r0_armel.deb
+Size: 58316
+SHA256: 6154dabb4b91ec0165a96b11ac76c247a9db4ebda7ac79ad89e1b0320c44e4e4
+SHA1: 78c0ff4ac60d9c1d1a6e971749bdc953a430c2a5
+MD5sum: 5b44f2b0a2029b261f4ad30a6592a73f
+Description: The basic file, shell and text manipulation utilities - it translations
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.  This package contains language translation
+ files for the it locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: coreutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/coreutils/
+Recommends: virtual-locale-it
+Provides: coreutils-locale, it-translation
+
+Package: libncurses5
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/libn/libncurses5/libncurses5_5.9-r15.1_armel.deb
+Size: 47480
+SHA256: 083adb9a635a599eb4763985ad5972916acf3b950bd4d99ddf6db4dff523e5e2
+SHA1: 97f43cd4ccb8a45c096c9ff314575740f4fedcd5
+MD5sum: 5f56c1e560551aebb4ec42f512229ed8
+Description: ncurses ncurses library
+ ncurses ncurses library
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+
 Package: libncursesw5
 Version: 5.9-r15.1
 Priority: optional
@@ -15,6 +55,24 @@ OE: ncurses
 PackageArch: armv6-vfp
 Homepage: http://www.gnu.org/software/ncurses/ncurses.html
 Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+
+Package: libpanel5
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/libp/libpanel5/libpanel5_5.9-r15.1_armel.deb
+Size: 3866
+SHA256: 8c5b410b7e6b1ffae97095df7621057eac7cbbcba9161e6e7f36bf72a6bef808
+SHA1: 410a2e3499a7fd0321e8a7f060a95e325d57d7dc
+MD5sum: 604956d34769c218d9b7ca161ef150bc
+Description: ncurses panel library
+ ncurses panel library
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
 
 Package: libpython2.7-1.0
 Version: 2.7.3-r0.3
