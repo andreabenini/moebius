@@ -20,6 +20,169 @@ Homepage: http://www.gnu.org/software/coreutils/
 Recommends: virtual-locale-it
 Provides: coreutils-locale, it-translation
 
+Package: e2fsprogs
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/e/e2fsprogs/e2fsprogs_1.42.9-r0_armel.deb
+Size: 92322
+SHA256: 72001e891b35b5104b7987cf8165d521210ca9a7f011d12c7ae5dceaef4d3ff3
+SHA1: 2594e3bb9123acb8965df4aec268adbf3109996e
+MD5sum: 926b1d2ca50b097050a41985d17993bf
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libss2 (>= 1.42.9), libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), e2fsprogs-badblocks, libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+Recommends: e2fsprogs-e2fsck, e2fsprogs-mke2fs
+
+Package: e2fsprogs-badblocks
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/e/e2fsprogs-badblocks/e2fsprogs-badblocks_1.42.9-r0_armel.deb
+Size: 9902
+SHA256: b0a662e678090ed21c8045e82eeb96f4aae2f6d0c5a7ba4b2b62549e9c4c0090
+SHA1: f6fa189865ca028ccf44ba6ebced6ad7bcd23996
+MD5sum: e70b174a15d300c997948593c2d79c06
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libcom-err2 (>= 1.42.9), libext2fs2 (>= 1.42.9), libc6 (>= 2.19)
+
+Package: e2fsprogs-dev
+Version: 1.42.9-r0
+Priority: optional
+Section: devel
+Filename: pool/main/e/e2fsprogs-dev/e2fsprogs-dev_1.42.9-r0_armel.deb
+Size: 35724
+SHA256: 5eb3ff63244d54696d41150659002554218f6fe74f756edb0c3e98aefb098683
+SHA1: 3f8c84f53966857e7c0172cd8afe86b923fd0340
+MD5sum: 5a080780c0d75f4cd81e4b4ac948e5d6
+Description: Ext2 Filesystem Utilities - Development files
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libe2p2, libcom-err2, libext2fs2, e2fsprogs (= 1.42.9-r0), libss2
+Recommends: e2fsprogs-badblocks-dev, util-linux-dev, util-linux-libuuid-dev, libss-dev, util-linux-libblkid-dev, libext2fs-dev, libc6-dev, libcomerr-dev, libe2p-dev
+
+Package: e2fsprogs-doc
+Version: 1.42.9-r0
+Priority: optional
+Section: doc
+Filename: pool/main/e/e2fsprogs-doc/e2fsprogs-doc_1.42.9-r0_armel.deb
+Size: 59948
+SHA256: bce92e84af6b92f8bfa4cc31d2c49a13e5a0ac2f39b20565c4c83fbb6b17a4f8
+SHA1: 3732e2415b0c7bcaefdf37517f25bcc6fc8cee92
+MD5sum: c9b8f259263c9527ee5cb0921744ef09
+Description: Ext2 Filesystem Utilities - Documentation files
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+
+Package: e2fsprogs-e2fsck
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/e/e2fsprogs-e2fsck/e2fsprogs-e2fsck_1.42.9-r0_armel.deb
+Size: 90170
+SHA256: 9b254a07490d2668b23c670554ad1b9d0dc21d7b719c1562b80d9a3e5e8818e7
+SHA1: d60dcfb3a9077dbeebf794d74be87aa33c3bf4f1
+MD5sum: 6ddbc34e3905664a9b4768dc513bca25
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+
+Package: e2fsprogs-mke2fs
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/e/e2fsprogs-mke2fs/e2fsprogs-mke2fs_1.42.9-r0_armel.deb
+Size: 37024
+SHA256: 59b2fbed6c598930ce2cb361cb9bbf8bf1d2ba091261685aee35454ed3538e0a
+SHA1: 0dd3ce3f9f9549501acae9fe534d8a90581796b5
+MD5sum: 8bb2b361e6b955bbca9c616aa4a0287e
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+
+Package: e2fsprogs-staticdev
+Version: 1.42.9-r0
+Priority: optional
+Section: devel
+Filename: pool/main/e/e2fsprogs-staticdev/e2fsprogs-staticdev_1.42.9-r0_armel.deb
+Size: 544830
+SHA256: c31f5c16a6c6cb9b5073fce1d3e9aaedd925b9588fb29c7dd78e2d8045dbfdfc
+SHA1: 7d02ca637e0aded23864ecfd5507f51f418ad278
+MD5sum: 3f05d90cb89df0434eb87d734764804f
+Description: Ext2 Filesystem Utilities - Development files (Static Libraries)
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.  This package contains static libraries for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: e2fsprogs-dev (= 1.42.9-r0)
+
+Package: e2fsprogs-tune2fs
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/e/e2fsprogs-tune2fs/e2fsprogs-tune2fs_1.42.9-r0_armel.deb
+Size: 24664
+SHA256: 287e1af94d81eba201a88367138388d10c7188802a04500695c4317944f6f124
+SHA1: 3d24af50a09f4dfae143754928880a4c064581a1
+MD5sum: 6f2cba6c504e02e6f57c3e15d27d0323
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+
 Package: libffi-dev
 Version: 3.0.13-r0
 Priority: optional
@@ -2344,4 +2507,40 @@ OE: python3
 PackageArch: armv6-vfp
 Homepage: http://www.python.org
 Depends: python3-core, python3-xml, python3-lang, python3-netserver
+
+Package: tzdata-atlantic
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-atlantic/tzdata-atlantic_2013i-r0_all.deb
+Size: 5302
+SHA256: b64af3f7d09c4e48554c090743c1b657a342add58ff54cc4714fae6101680ca3
+SHA1: e677c9a3f774c1070afcc37f8bdf4429b7de88a6
+MD5sum: c8de9bb5c9e0f836da278313be2136bb
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-atlantic
+
+Package: tzdata-europe
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-europe/tzdata-europe_2013i-r0_all.deb
+Size: 13006
+SHA256: 87e5d6e8e8119c839afb729ab2b69214377bc2b47b12dbc459bc6fac3f2f9df9
+SHA1: d373b0b15ea18d198a12a2591e5852cf4de7207d
+MD5sum: 6815f467a35e8da2922246d9edf59d1d
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-europe
 
