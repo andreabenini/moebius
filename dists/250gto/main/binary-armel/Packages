@@ -183,6 +183,66 @@ PackageArch: armv6-vfp
 Homepage: http://e2fsprogs.sourceforge.net/
 Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
 
+Package: libcom-err2
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/libc/libcom-err2/libcom-err2_1.42.9-r0_armel.deb
+Size: 4612
+SHA256: db7c2727228fd1420417e617e9b18b081ee05b42f1142221f25068357ee1337a
+SHA1: 18577fc62ef0dececa961050bc17bc51577730b2
+MD5sum: 30f0b7906ced9079aeb98c98bc6f52f4
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libc6 (>= 2.19)
+
+Package: libe2p2
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/libe/libe2p2/libe2p2_1.42.9-r0_armel.deb
+Size: 9600
+SHA256: 858ec4cc4106cb4e40e81abd1310b929d06f4dc6a3e82a1b778af31316c94d6a
+SHA1: 56c9d9bb7549cdedf529ef5e6dd5a0d51cba9748
+MD5sum: f218d8237d749ecdff0791fa7daa9d68
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libc6 (>= 2.19)
+
+Package: libext2fs2
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/libe/libext2fs2/libext2fs2_1.42.9-r0_armel.deb
+Size: 102094
+SHA256: 68a6c2936849777ac2ffbd95c49af1335b4a127d084c4c8bfd9eedf4e1aa6e8c
+SHA1: 1760365d5d95cfb89dff7fce89733e39cee163db
+MD5sum: b0e13919dd7ff373f65d6c8a6cac0f9a
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libcom-err2 (>= 1.42.9), libblkid1 (>= 2.24.1), libc6 (>= 2.19)
+
 Package: libffi-dev
 Version: 3.0.13-r0
 Priority: optional
@@ -845,6 +905,44 @@ Architecture: armel
 OE: sqlite3
 PackageArch: armv6-vfp
 Homepage: http://www.sqlite.org
+
+Package: libss2
+Version: 1.42.9-r0
+Priority: optional
+Section: base
+Filename: pool/main/libs/libss2/libss2_1.42.9-r0_armel.deb
+Size: 8014
+SHA256: 542c86ae5964a788694299ea7e03433ad12ab39373795801ead3d0c5dab2c4b8
+SHA1: 583f3d502a5053759a988e6cdad93485db47fd4b
+MD5sum: c86a86a34a08f473fa84693a3838e9c6
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: e2fsprogs
+PackageArch: armv6-vfp
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libcom-err2 (>= 1.42.9), libc6 (>= 2.19)
+
+Package: libssl1.0.0
+Version: 1.0.1j-r0
+Priority: optional
+Section: libs/network
+Filename: pool/main/libs/libssl1.0.0/libssl1.0.0_1.0.1j-r0_armel.deb
+Size: 111358
+SHA256: 050851f029c8bbc0d3d495dfa647272aef142b84135c39b76f5c7979bb55f48b
+SHA1: 074db829f671a2b39394db219c3bb3a8b9f01ca5
+MD5sum: b69fde817cb685885b32e485219adbc4
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssl
+PackageArch: armv6-vfp
+Homepage: http://www.openssl.org/
+Depends: libcrypto1.0.0 (>= 1.0.1j), libc6 (>= 2.19)
 
 Package: libtinfo5
 Version: 5.9-r15.1
