@@ -183,6 +183,586 @@ PackageArch: armv6-vfp
 Homepage: http://e2fsprogs.sourceforge.net/
 Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
 
+Package: libacl-dev
+Version: 2.2.52-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libacl-dev/libacl-dev_2.2.52-r0_armel.deb
+Size: 3380
+SHA256: 1b3814554071510d02ecfc0130491f12f0617e253a1972b4a0ea5581adc51902
+SHA1: 7ab057fcf3db68734d1e79680ed08d790af59bda
+MD5sum: 5b75b951865d63ccdd14655f01638cce
+Description: Utilities for managing POSIX Access Control Lists
+ Utilities for managing POSIX Access Control Lists.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: acl
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libacl1
+Recommends: libattr-dev, attr-dev, libc6-dev
+
+Package: libacl-doc
+Version: 2.2.52-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libacl-doc/libacl-doc_2.2.52-r0_armel.deb
+Size: 54506
+SHA256: e2f68b69181e7fe6c398f6dc1102d526b6e6c5152b1522a71749621d5bd2a138
+SHA1: 9328cbeab8b54e1c18e75f06741259aaaaa1b453
+MD5sum: 4d1430e154d5c5ca34cba6ae31357a24
+Description: Utilities for managing POSIX Access Control Lists
+ Utilities for managing POSIX Access Control Lists.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: acl
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/acl/
+
+Package: libacl-staticdev
+Version: 2.2.52-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libacl-staticdev/libacl-staticdev_2.2.52-r0_armel.deb
+Size: 60020
+SHA256: 20d0c2966a0ef3192cba3fd75bba406b1eeb2a61399aac464c3079acdd21cf13
+SHA1: cb1f6a454e4e3070841224ce0279ba3529b7f77f
+MD5sum: 3943f306d9151a76b8dec2db82ca8057
+Description: Utilities for managing POSIX Access Control Lists
+ Utilities for managing POSIX Access Control Lists.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: acl
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/acl/
+
+Package: libacl1
+Version: 2.2.52-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libacl1/libacl1_2.2.52-r0_armel.deb
+Size: 11070
+SHA256: d2e1d749e64c5f7f06e888a19c2155a45a439cdd7964b2da7dfce2e3174f1fe6
+SHA1: d926ce0985306a2f572be97f32aa576f2bcf63fe
+MD5sum: 02b4c660045d3f4f5bf669378774ad00
+Description: Utilities for managing POSIX Access Control Lists
+ Utilities for managing POSIX Access Control Lists.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: acl
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.19)
+
+Package: libassuan-dev
+Version: 2.1.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/liba/libassuan-dev/libassuan-dev_2.1.1-r0_armel.deb
+Size: 9140
+SHA256: ad547e1c1c6da6e2337b380ed6c8c73c0340da56d23475bfca5c182efd66ddf4
+SHA1: 4e2fca0655b2a476f1c813b17de63be38aea48fb
+MD5sum: 1e76d401b37f14ff69ca5bfcefbacd39
+Description: IPC library used by GnuPG and GPGME - Development files
+ IPC library used by GnuPG and GPGME.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libassuan
+PackageArch: armv6-vfp
+Homepage: http://www.gnupg.org/related_software/libassuan/
+Depends: libassuan0 (= 2.1.1-r0)
+Recommends: libgpg-error-dev, libc6-dev
+
+Package: libassuan-doc
+Version: 2.1.1-r0
+Priority: optional
+Section: doc
+Filename: pool/main/liba/libassuan-doc/libassuan-doc_2.1.1-r0_armel.deb
+Size: 39488
+SHA256: d143ae7dc829ae57336f08c3cbe1faf5cc83feb8539f04f498c9fbb0b379193c
+SHA1: ba0d80e394ad850a4a3c450bea0d0d67e6b16ede
+MD5sum: ed80213cb2ea15683ed5e2ba87d856aa
+Description: IPC library used by GnuPG and GPGME - Documentation files
+ IPC library used by GnuPG and GPGME.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libassuan
+PackageArch: armv6-vfp
+Homepage: http://www.gnupg.org/related_software/libassuan/
+
+Package: libassuan0
+Version: 2.1.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/liba/libassuan0/libassuan0_2.1.1-r0_armel.deb
+Size: 20920
+SHA256: 285dd1838ade89689696a02e2a712d9eaa520e921edf6e3e3770ca0182fe1fe0
+SHA1: d82fed0f11ca568b4f07279e7c5e313cc5312bbf
+MD5sum: 57ce95c7edfe430fedb5986a2a6ca4bd
+Description: IPC library used by GnuPG and GPGME
+ IPC library used by GnuPG and GPGME.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libassuan
+PackageArch: armv6-vfp
+Homepage: http://www.gnupg.org/related_software/libassuan/
+Depends: libgpg-error0 (>= 1.12), libc6 (>= 2.19)
+
+Package: libatomic-dev
+Version: 4.8.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/liba/libatomic-dev/libatomic-dev_4.8.2-r0_armel.deb
+Size: 1308
+SHA256: 8527db414d934d698918e9b8eed92891f96421f88b09e13dafeeb17222aece86
+SHA1: ccb0ba42f8035c76f330a5b12d888d5955c1ffc4
+MD5sum: 950e3c5610c34b38cdc1891e5a285c70
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gcc-runtime
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gcc/
+Depends: libatomic1
+Recommends: libc6-dev, libgcc-s-dev
+
+Package: libatomic-staticdev
+Version: 4.8.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/liba/libatomic-staticdev/libatomic-staticdev_4.8.2-r0_armel.deb
+Size: 20672
+SHA256: 44f39610bbde3993f358ec75975d2bba605aef5da26420cb98e04fcf3682b46a
+SHA1: 9a952c90d1d5961a696a4af9a5c30780e2260928
+MD5sum: 49807e818c300c9c60a216add585d82b
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gcc-runtime
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gcc/
+
+Package: libatomic1
+Version: 4.8.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/liba/libatomic1/libatomic1_4.8.2-r0_armel.deb
+Size: 5026
+SHA256: 3457c379c9139b70f191b2306d46c06f78026a630f7d798a6aa294896420cf4f
+SHA1: 4950f66527d2dbf22b5a413ad6ca56e52d6214af
+MD5sum: 33c246678f0f24ba8f207dc7abd1ad52
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gcc-runtime
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gcc/
+Depends: libc6 (>= 2.19)
+
+Package: libattr-dev
+Version: 2.4.47-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libattr-dev/libattr-dev_2.4.47-r0_armel.deb
+Size: 4790
+SHA256: 3d31a059bb9f311a2b1936d343a54a1f9a6cadb22ac445a91b226286a3298472
+SHA1: 92fccbd8fc9ecaa1f6db9b0b4f0b8951ad403ca0
+MD5sum: a66d9655110bbc298669dab73a8a8d0d
+Description: Utilities for manipulating filesystem extended attributes
+ Utilities for manipulating filesystem extended attributes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: attr
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: libattr1
+Recommends: libc6-dev, ncurses-dev
+
+Package: libattr-doc
+Version: 2.4.47-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libattr-doc/libattr-doc_2.4.47-r0_armel.deb
+Size: 19418
+SHA256: 5abed719f921a718a1f7a8cd22e28a9e3b9541db46b562c645235a855a09d5fd
+SHA1: 50e2fadd944432611bd0eb862d1575b908f6da6c
+MD5sum: 86bc61b9b9d9bed8f3588871d1284c20
+Description: Utilities for manipulating filesystem extended attributes
+ Utilities for manipulating filesystem extended attributes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: attr
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/attr/
+
+Package: libattr-staticdev
+Version: 2.4.47-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libattr-staticdev/libattr-staticdev_2.4.47-r0_armel.deb
+Size: 19178
+SHA256: 2e45dedf7ad9739ea4d0d81cc9376eee2e412f9e196f110768639eef8ad9d2b5
+SHA1: 8cff34dcdd74beadab9b1ab22712ea2ebcf85bda
+MD5sum: f30d9d7ba4f4c21dbb6284577bd2787d
+Description: Utilities for manipulating filesystem extended attributes
+ Utilities for manipulating filesystem extended attributes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: attr
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/attr/
+
+Package: libattr1
+Version: 2.4.47-r0
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libattr1/libattr1_2.4.47-r0_armel.deb
+Size: 6028
+SHA256: 59798da1fbed761cae838e4dbcec0a01c9fe99833465a0a2289df8b99d5b9e2f
+SHA1: e0fda60f4dfa375a0171d1b24985a6e8ccd8a049
+MD5sum: ab2a5684df273f0d67e49cf76d0c1dc4
+Description: Utilities for manipulating filesystem extended attributes
+ Utilities for manipulating filesystem extended attributes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: attr
+PackageArch: armv6-vfp
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: libc6 (>= 2.19)
+
+Package: libblkid1
+Version: 2.24.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/libb/libblkid1/libblkid1_2.24.1-r0_armel.deb
+Size: 82110
+SHA256: aaa462be4ad40628769ecc3ce91a3665e43b071832f67e89502c1352c79599af
+SHA1: 0f30d3b92ffeba88ac3cba152ef8fa8eab8a9d5e
+MD5sum: 5d40948c1223de70033a3009e31bbf6b
+Description: A suite of basic system administration utilities
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: util-linux
+PackageArch: armv6-vfp
+Depends: libuuid1 (>= 2.24.1), libc6 (>= 2.19)
+
+Package: libbz2-0
+Version: 1.0.6-r5
+Priority: optional
+Section: console/utils
+Filename: pool/main/libb/libbz2-0/libbz2-0_1.0.6-r5_armel.deb
+Size: 26654
+SHA256: f96c6c9babf4a37a2fb5b11d208c949ed47eb6b1d12abe9c8c96ea54cf0748ef
+SHA1: 258f04fb1ddcda9523ddfba249d61ad230c351ed
+MD5sum: f349bb9f0911dc17cc1dee5872822238
+Description: Very high-quality data compression program
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding. Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bzip2
+PackageArch: armv6-vfp
+Homepage: http://www.bzip.org/
+Depends: libc6 (>= 2.19)
+
+Package: libbz2-dev
+Version: 1.0.6-r5
+Priority: optional
+Section: devel
+Filename: pool/main/libb/libbz2-dev/libbz2-dev_1.0.6-r5_armel.deb
+Size: 2622
+SHA256: 1d0fdc3bdc1a545061ab58dc752c8b9e058c66a47cf1477ed1c16cdb51908550
+SHA1: d5263b65f413d97a9b9bc5e2bdf09bd481db83f0
+MD5sum: 02f1244c2b5c5b24bbb722d77a37a367
+Description: Very high-quality data compression program
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding. Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bzip2
+PackageArch: armv6-vfp
+Homepage: http://www.bzip.org/
+Depends: libbz2-0 (= 1.0.6-r5)
+Recommends: libc6-dev
+
+Package: libbz2-staticdev
+Version: 1.0.6-r5
+Priority: optional
+Section: devel
+Filename: pool/main/libb/libbz2-staticdev/libbz2-staticdev_1.0.6-r5_armel.deb
+Size: 69708
+SHA256: c8a0adcdd9809629df8bfcc13ee514b39b553a7403f668dbb15057ef29f0f5d8
+SHA1: c23f4ec3cd10140b130d0ec8d56161cacf39192f
+MD5sum: 46d3031e433f6cc4d26e03197b9ea2dc
+Description: Very high-quality data compression program
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding. Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bzip2
+PackageArch: armv6-vfp
+Homepage: http://www.bzip.org/
+Depends: libbz2-dev (= 1.0.6-r5)
+
+Package: libc6
+Version: 2.19-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libc6/libc6_2.19-r0_armel.deb
+Size: 965754
+SHA256: c002ba4a87cd43afb9adc92deb720eca9637c0580e9716b5da202718da6ce150
+SHA1: cc82963f3e017383e394f8c62f02e9a88ece8872
+MD5sum: 0e8615800afb233d99b51ee29953559d
+Description: Embedded GLIBC (GNU C Library)
+ Embedded GLIBC (EGLIBC) is a variant of the GNU C Library (GLIBC) that is
+ designed to work well on embedded systems. EGLIBC strives to be source
+ and binary compatible with GLIBC. EGLIBC's goals include reduced
+ footprint, configurable components, better support for cross-compilation
+ and cross-testing.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: eglibc
+PackageArch: armv6-vfp
+Homepage: http://www.eglibc.org/home
+Provides: glibc, rtld__GNU_HASH__
+
+Package: libc6-dev
+Version: 2.19-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libc/libc6-dev/libc6-dev_2.19-r0_armel.deb
+Size: 387298
+SHA256: cbbeb4d8f72da24ed885bf1ee550687d59739a954426072e6088a12f20e12a34
+SHA1: 8cec6530d8ee2e75122522e0e2ebdc157ecacc01
+MD5sum: 1f20f478606abd2e0f0393032cf6520a
+Description: Embedded GLIBC (GNU C Library) - Development files
+ Embedded GLIBC (EGLIBC) is a variant of the GNU C Library (GLIBC) that is
+ designed to work well on embedded systems. EGLIBC strives to be source
+ and binary compatible with GLIBC. EGLIBC's goals include reduced
+ footprint, configurable components, better support for cross-compilation
+ and cross-testing.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: eglibc
+PackageArch: armv6-vfp
+Homepage: http://www.eglibc.org/home
+Depends: libthread-db1, eglibc-extra-nss, libcidn1, libc6 (= 2.19-r0)
+Recommends: linux-libc-headers-dev, eglibc-extra-nss-dev, libsegfault-dev, eglibc-thread-db-dev, libcidn-dev
+Provides: virtual-libc-dev, libc6-dev, glibc-dev, libc-dev
+
+Package: libcap-bin
+Version: 2.22-r6
+Priority: optional
+Section: base
+Filename: pool/main/libc/libcap-bin/libcap-bin_2.22-r6_armel.deb
+Size: 10558
+SHA256: f386880c92ed3b21c9477923eaa88faec840be39c5c1f692e666a43491a75827
+SHA1: 6d651c448323ad3af0e3c9616289e93b8a2dbff5
+MD5sum: da7d2b510622a9c77ff800b0f6bd91b9
+Description: Library for getting/setting POSIX.1e capabilities
+ Library for getting/setting POSIX.1e capabilities.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcap
+PackageArch: armv6-vfp
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libcap2 (>= 2.22), libc6 (>= 2.19)
+
+Package: libcap-dev
+Version: 2.22-r6
+Priority: optional
+Section: devel
+Filename: pool/main/libc/libcap-dev/libcap-dev_2.22-r6_armel.deb
+Size: 2066
+SHA256: 812870a4c8201b71d62ce079d4b1f06a67b901ccae4d67788007b68f76c4d82a
+SHA1: a2ce1181d03f0306a019e97d6eebb2e04e7cf910
+MD5sum: b91e48908282078f9dc801d344bb5095
+Description: Library for getting/setting POSIX.1e capabilities - Development files
+ Library for getting/setting POSIX.1e capabilities.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcap
+PackageArch: armv6-vfp
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libcap2 (= 2.22-r6)
+Recommends: libc6-dev, attr-dev
+
+Package: libcap-doc
+Version: 2.22-r6
+Priority: optional
+Section: doc
+Filename: pool/main/libc/libcap-doc/libcap-doc_2.22-r6_armel.deb
+Size: 10464
+SHA256: 84f0c9e0c89bd19014f7c38d52936239987d951cfdcd359c43d7d26120cba4a0
+SHA1: 1a2130a95e0d5585152af023ed8506c613f8118c
+MD5sum: f34cc959851fe4c4996dad937cd058a8
+Description: Library for getting/setting POSIX.1e capabilities - Documentation files
+ Library for getting/setting POSIX.1e capabilities.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcap
+PackageArch: armv6-vfp
+Homepage: http://sites.google.com/site/fullycapable/
+
+Package: libcap-staticdev
+Version: 2.22-r6
+Priority: optional
+Section: devel
+Filename: pool/main/libc/libcap-staticdev/libcap-staticdev_2.22-r6_armel.deb
+Size: 20048
+SHA256: 7da8db0da4a8659504b8050ccb80181a1ef1674ae086eb4c6f69d215c03a93d8
+SHA1: 29b00a490d89b1bb9678bc76294e6d9c197c2344
+MD5sum: bd9c00b89b4a1b288c1548fb0120c63a
+Description: Library for getting/setting POSIX.1e capabilities - Development files (Static Libraries)
+ Library for getting/setting POSIX.1e capabilities.  This package contains
+ static libraries for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcap
+PackageArch: armv6-vfp
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libcap-dev (= 2.22-r6)
+
+Package: libcap2
+Version: 2.22-r6
+Priority: optional
+Section: base
+Filename: pool/main/libc/libcap2/libcap2_2.22-r6_armel.deb
+Size: 6248
+SHA256: b345d24c93092033dc3bea581863bffe26159c6d91a21cefe38da15ae1303e29
+SHA1: 5799424a239d9cb1d03c67694c2506621d7edaf1
+MD5sum: 08ef7068e11da4c493acb782a6f77c3b
+Description: Library for getting/setting POSIX.1e capabilities
+ Library for getting/setting POSIX.1e capabilities.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcap
+PackageArch: armv6-vfp
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libc6 (>= 2.19)
+
+Package: libcheck
+Version: 0.9.12-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libc/libcheck/libcheck_0.9.12-r0_armel.deb
+Size: 19626
+SHA256: c8e280bf0b44e2f8a31f1a818f3dc738eb1bbae0ad4ea93fca980f4af60dc3f6
+SHA1: 4fba1139ada5d491783e00c75d4aa98b9a680033
+MD5sum: 5be2dc3836923ecb4b224b2a46a67fe5
+Description: Check - unit testing framework for C code
+ Check - unit testing framework for C code.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcheck
+PackageArch: armv6-vfp
+Homepage: http://check.sourceforge.net/
+Depends: gawk, libc6 (>= 2.19)
+Replaces: check (<= 0.9.5)
+
+Package: libcheck-dev
+Version: 0.9.12-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libc/libcheck-dev/libcheck-dev_0.9.12-r0_armel.deb
+Size: 8446
+SHA256: 9f4a6ca76e11e543b7a27e0a8dbbe6bd11627500d7eca50ec3bf417d312d704a
+SHA1: 12350530487d8ebf27f344b137ebb505a2e5b5a9
+MD5sum: c749892923c0a81fa99fd0bdc16246b6
+Description: Check - unit testing framework for C code - Development files
+ Check - unit testing framework for C code.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcheck
+PackageArch: armv6-vfp
+Homepage: http://check.sourceforge.net/
+Depends: libcheck (= 0.9.12-r0)
+Recommends: gawk-dev, libc6-dev
+
+Package: libcheck-doc
+Version: 0.9.12-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libc/libcheck-doc/libcheck-doc_0.9.12-r0_armel.deb
+Size: 99394
+SHA256: 4c597f520c962d967ebaa81860beed783c57a3f593b44782d37f29c705fa0190
+SHA1: eb3477d2a9fb93cf64b593f4c39d0be75175894b
+MD5sum: daa972d5e3a246e93e107eaa1b3af39f
+Description: Check - unit testing framework for C code - Documentation files
+ Check - unit testing framework for C code.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcheck
+PackageArch: armv6-vfp
+Homepage: http://check.sourceforge.net/
+
+Package: libcheck-staticdev
+Version: 0.9.12-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libc/libcheck-staticdev/libcheck-staticdev_0.9.12-r0_armel.deb
+Size: 64842
+SHA256: 22b6fa12a4ca649c78da1b5417869c629795a2d40f1638b9d1f8d81f404d2bcb
+SHA1: 6ad6f4df4e803b8dd70cde4e23d5d4b57cd4dbce
+MD5sum: b48364e0a3c14d0ea87eb7ed3911724a
+Description: Check - unit testing framework for C code - Development files (Static Libraries)
+ Check - unit testing framework for C code.  This package contains static
+ libraries for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libcheck
+PackageArch: armv6-vfp
+Homepage: http://check.sourceforge.net/
+Depends: libcheck-dev (= 0.9.12-r0)
+
+Package: libcidn1
+Version: 2.19-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libc/libcidn1/libcidn1_2.19-r0_armel.deb
+Size: 31926
+SHA256: d4a4a53cf27ba9a9785144483dddc91ce16c4c3be0f517dff7dfe4cd2f04a7a1
+SHA1: 7a98c1ce71255b997b0ebcea70575686442fd4da
+MD5sum: 9042b2e64a1cadcadab70f7d528180e7
+Description: Embedded GLIBC (GNU C Library)
+ Embedded GLIBC (EGLIBC) is a variant of the GNU C Library (GLIBC) that is
+ designed to work well on embedded systems. EGLIBC strives to be source
+ and binary compatible with GLIBC. EGLIBC's goals include reduced
+ footprint, configurable components, better support for cross-compilation
+ and cross-testing.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: eglibc
+PackageArch: armv6-vfp
+Homepage: http://www.eglibc.org/home
+Depends: libc6 (>= 2.19)
+
 Package: libcom-err2
 Version: 1.42.9-r0
 Priority: optional
@@ -203,6 +783,219 @@ PackageArch: armv6-vfp
 Homepage: http://e2fsprogs.sourceforge.net/
 Depends: libc6 (>= 2.19)
 
+Package: libcrypto1.0.0
+Version: 1.0.1j-r0
+Priority: optional
+Section: libs/network
+Filename: pool/main/libc/libcrypto1.0.0/libcrypto1.0.0_1.0.1j-r0_armel.deb
+Size: 463832
+SHA256: 877eaf979911757d858745ed0a5c2dc255110f10df3554872a62926df3e0645d
+SHA1: 8491e5adbd63bc8e57586f2d499fe455884aa1ed
+MD5sum: 8f5d431d57634b338c38f536f6912160
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openssl
+PackageArch: armv6-vfp
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.19)
+Recommends: openssl-conf
+
+Package: libcurl-dev
+Version: 7.35.0-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/libc/libcurl-dev/libcurl-dev_7.35.0-r0_armel.deb
+Size: 39710
+SHA256: 2b175d5d9b641bd1aa2dc9197080405c7dcd1018baeba294a806a2df7523181b
+SHA1: 52d43bf4052cee257c60589fb42f48c01ec3231d
+MD5sum: bc385009d5deeddd7b19c9a85987f644
+Description: Command line tool and library for client-side URL transfers
+ Command line tool and library for client-side URL transfers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: curl
+PackageArch: armv6-vfp
+Homepage: http://curl.haxx.se/
+Depends: libcurl5
+Recommends: libz-dev, libtasn1-dev, libc6-dev, libcap-dev, libgpg-error-dev, libgnutls-dev, libgcrypt-dev
+
+Package: libcurl-doc
+Version: 7.35.0-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/libc/libcurl-doc/libcurl-doc_7.35.0-r0_armel.deb
+Size: 91348
+SHA256: 2f234f2646319c27b6b87e2f386ad35c5d75e87340920d9f0a5053fbbc98587b
+SHA1: 9b4ed7c2fe99387de3d7b0496c1137ae4e3f9a62
+MD5sum: b3cec2669e2f686c6e6fbacc6a852a83
+Description: Command line tool and library for client-side URL transfers
+ Command line tool and library for client-side URL transfers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: curl
+PackageArch: armv6-vfp
+Homepage: http://curl.haxx.se/
+
+Package: libcurl-staticdev
+Version: 7.35.0-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/libc/libcurl-staticdev/libcurl-staticdev_7.35.0-r0_armel.deb
+Size: 787262
+SHA256: b7774a38ab76b349923e32dfc62dce9c0a2dc45613f883465d8b095b111b6e4d
+SHA1: e1f30cca3ffe80c43670e20f64cdb483e51530ec
+MD5sum: 75a057630c13149640a9e09ba9905557
+Description: Command line tool and library for client-side URL transfers
+ Command line tool and library for client-side URL transfers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: curl
+PackageArch: armv6-vfp
+Homepage: http://curl.haxx.se/
+
+Package: libcurl5
+Version: 7.35.0-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/libc/libcurl5/libcurl5_7.35.0-r0_armel.deb
+Size: 122774
+SHA256: 271965d942fa08f20e9d09833514853cc320b9005b66ada923bdd62f7ff21016
+SHA1: c46b96546f85324d44bce1d5fdf3e262e0bb0257
+MD5sum: 294bf5803f926d8ce98b18ae07fe97a4
+Description: Command line tool and library for client-side URL transfers
+ Command line tool and library for client-side URL transfers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: curl
+PackageArch: armv6-vfp
+Homepage: http://curl.haxx.se/
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.8), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Recommends: ca-certificates
+
+Package: libdbus-1-3
+Version: 1.6.18-r0
+Priority: optional
+Section: base
+Filename: pool/main/libd/libdbus-1-3/libdbus-1-3_1.6.18-r0_armel.deb
+Size: 82574
+SHA256: b7716ad3bf964efba32a2db954921073d83c38042a4055a10447d7572250790f
+SHA1: 9daec7b98e98cfaa923b83b29be071a58a13cd55
+MD5sum: 0d0b75049087624a5862cef215ba8f00
+Description: D-Bus message bus
+ D-Bus is a message bus system, a simple way for applications to talk to
+ one another. In addition to interprocess communication, D-Bus helps
+ coordinate process lifecycle; it makes it simple and reliable to code a
+ \"single instance\" application or daemon, and to launch applications and
+ daemons on demand when their services are needed.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: dbus
+PackageArch: armv6-vfp
+Homepage: http://dbus.freedesktop.org
+Depends: libc6 (>= 2.19)
+Recommends: dbus-1
+
+Package: libdbus-glib-1-2
+Version: 0.100.2-r0
+Priority: optional
+Section: base
+Filename: pool/main/libd/libdbus-glib-1-2/libdbus-glib-1-2_0.100.2-r0_armel.deb
+Size: 38810
+SHA256: 7c9e62be5b6f7e41f769fd1c9cda0ba320a665e95060522da0aa95fad5757013
+SHA1: ea6bccaa099e6196f945a85dacd9f1c13aeefa71
+MD5sum: 89f5a6584ec3f6b820f7101aa24e7f79
+Description: High level language (GLib) binding for D-Bus
+ GLib bindings for the D-Bus message bus that integrate the D-Bus library
+ with the GLib thread abstraction and main loop.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: dbus-glib
+PackageArch: armv6-vfp
+Homepage: http://www.freedesktop.org/Software/dbus
+Depends: libglib-2.0-0 (>= 2.38.2), libffi6 (>= 3.0.13), libdbus-1-3 (>= 1.6.18), libz1 (>= 1.2.8), libc6 (>= 2.19)
+
+Package: libdbus-glib-1-bash-completion
+Version: 0.100.2-r0
+Priority: optional
+Section: base
+Filename: pool/main/libd/libdbus-glib-1-bash-completion/libdbus-glib-1-bash-completion_0.100.2-r0_armel.deb
+Size: 9482
+SHA256: 982fffd9d1ea071ae0f32316c649561250ef0ba74c876f4dc6ee199592ef61e8
+SHA1: ed7e082762285330d0c2bd6459d8fe1186eee7bf
+MD5sum: 4721e0ef85d47f64eff914c53264c753
+Description: High level language (GLib) binding for D-Bus
+ GLib bindings for the D-Bus message bus that integrate the D-Bus library
+ with the GLib thread abstraction and main loop.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: dbus-glib
+PackageArch: armv6-vfp
+Homepage: http://www.freedesktop.org/Software/dbus
+Depends: libglib-2.0-0 (>= 2.38.2), libdbus-1-3 (>= 1.6.18), libexpat1 (>= 2.1.0), libc6 (>= 2.19), libdbus-glib-1-2 (>= 0.100.2)
+
+Package: libdbus-glib-1-dev
+Version: 0.100.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libd/libdbus-glib-1-dev/libdbus-glib-1-dev_0.100.2-r0_armel.deb
+Size: 31236
+SHA256: 171b56dc815787d7b8720ca43c3035b56df975fb86f856775f4caef7b3281c15
+SHA1: 784ed319c96952f70a5012206e3284011d4c34c5
+MD5sum: 0c4ef7e3c58fecbea968827e45c94dc4
+Description: High level language (GLib) binding for D-Bus - Development files
+ GLib bindings for the D-Bus message bus that integrate the D-Bus library
+ with the GLib thread abstraction and main loop.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: dbus-glib
+PackageArch: armv6-vfp
+Homepage: http://www.freedesktop.org/Software/dbus
+Depends: libglib-2.0-0 (>= 2.38.2), libdbus-1-3 (>= 1.6.18), libexpat1 (>= 2.1.0), libc6 (>= 2.19), libdbus-glib-1-2 (= 0.100.2-r0), libdbus-glib-1-2 (>= 0.100.2)
+Recommends: libz-dev, dbus-lib-dev, libglib-2.0-dev, libffi-dev, libc6-dev, libexpat-dev, dbus-dev, dbus-x11-dev
+
+Package: libdbus-glib-1-doc
+Version: 0.100.2-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libd/libdbus-glib-1-doc/libdbus-glib-1-doc_0.100.2-r0_armel.deb
+Size: 3568
+SHA256: 839bf2bdbf05f9c5b9c96758bef7b37f6eaaeed122b4313c1f371ec9f898b91a
+SHA1: f6e5d3394bd019c84aac5da0361e338129049f47
+MD5sum: ac5125d2fef1179e6a1b8bb8de41219d
+Description: High level language (GLib) binding for D-Bus - Documentation files
+ GLib bindings for the D-Bus message bus that integrate the D-Bus library
+ with the GLib thread abstraction and main loop.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: dbus-glib
+PackageArch: armv6-vfp
+Homepage: http://www.freedesktop.org/Software/dbus
+
+Package: libdbus-glib-1-staticdev
+Version: 0.100.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libd/libdbus-glib-1-staticdev/libdbus-glib-1-staticdev_0.100.2-r0_armel.deb
+Size: 183172
+SHA256: dc647cb222f4343bdd4f53b9c737cf6d8d62fc2ddc6595b6a72b88c65053c131
+SHA1: 69652ebb4ef3913bda917672c95492c517ff3a86
+MD5sum: 28dc31d220addeffb6cc1b7f0cae8026
+Description: High level language (GLib) binding for D-Bus - Development files (Static Libraries)
+ GLib bindings for the D-Bus message bus that integrate the D-Bus library
+ with the GLib thread abstraction and main loop.  This package contains
+ static libraries for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: dbus-glib
+PackageArch: armv6-vfp
+Homepage: http://www.freedesktop.org/Software/dbus
+Depends: libdbus-glib-1-dev (= 0.100.2-r0)
+
 Package: libe2p2
 Version: 1.42.9-r0
 Priority: optional
@@ -222,6 +1015,110 @@ OE: e2fsprogs
 PackageArch: armv6-vfp
 Homepage: http://e2fsprogs.sourceforge.net/
 Depends: libc6 (>= 2.19)
+
+Package: libexpat-bin
+Version: 2.1.0-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libexpat-bin/libexpat-bin_2.1.0-r0_armel.deb
+Size: 7240
+SHA256: 3e0ef95a81d6c178b5718fc1fb94f3c4bca09ff3c59f1bbb9c992f425d01dca7
+SHA1: ec74d531590d5736e61bc8b7da0f5b220ab38e0c
+MD5sum: 5f6752cee462bb45d96024b68a855abc
+Description: A stream-oriented XML parser library
+ Expat is an XML parser library written in C. It is a stream-oriented
+ parser in which an application registers handlers for things the parser
+ might find in the XML document (like start tags)
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: expat
+PackageArch: armv6-vfp
+Homepage: http://expat.sourceforge.net/
+Depends: libgcc1 (>= 4.8.2), libexpat1 (>= 2.1.0), libc6 (>= 2.19)
+
+Package: libexpat-dev
+Version: 2.1.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libe/libexpat-dev/libexpat-dev_2.1.0-r0_armel.deb
+Size: 12748
+SHA256: de94cd44d766e20866ae298c5ef060952d194e2b0c4b4f5329a2f40cf5b34aab
+SHA1: 5b09043b312421ff17a580074e93676be5084cab
+MD5sum: 6351bc26ef225830ba1f64e5ac5970f5
+Description: A stream-oriented XML parser library - Development files
+ Expat is an XML parser library written in C. It is a stream-oriented
+ parser in which an application registers handlers for things the parser
+ might find in the XML document (like start tags)  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: expat
+PackageArch: armv6-vfp
+Homepage: http://expat.sourceforge.net/
+Depends: libexpat1 (= 2.1.0-r0)
+Recommends: libc6-dev, libgcc-s-dev
+
+Package: libexpat-doc
+Version: 2.1.0-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libe/libexpat-doc/libexpat-doc_2.1.0-r0_armel.deb
+Size: 4270
+SHA256: 8672bc78d0c5ce2e355cc8d6aca623b4472a752819e9ad583ef4db182fb19e82
+SHA1: 2c776acc2f8fcf27e4aff8c90b6821630ef7f81f
+MD5sum: 7b7983e66178f19fa4e978091284a1c5
+Description: A stream-oriented XML parser library - Documentation files
+ Expat is an XML parser library written in C. It is a stream-oriented
+ parser in which an application registers handlers for things the parser
+ might find in the XML document (like start tags)  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: expat
+PackageArch: armv6-vfp
+Homepage: http://expat.sourceforge.net/
+
+Package: libexpat-staticdev
+Version: 2.1.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libe/libexpat-staticdev/libexpat-staticdev_2.1.0-r0_armel.deb
+Size: 137702
+SHA256: 77bf1238c48cea39e0ba409a3fa0dc70d53bbc11ae3d7f227031717f046398cd
+SHA1: e15cfcb63864a74149456586c5d350d132a945fd
+MD5sum: 9d0733cda4b7d290c195e794cc982f02
+Description: A stream-oriented XML parser library - Development files (Static Libraries)
+ Expat is an XML parser library written in C. It is a stream-oriented
+ parser in which an application registers handlers for things the parser
+ might find in the XML document (like start tags)  This package contains
+ static libraries for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: expat
+PackageArch: armv6-vfp
+Homepage: http://expat.sourceforge.net/
+Depends: libexpat-dev (= 2.1.0-r0)
+
+Package: libexpat1
+Version: 2.1.0-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libexpat1/libexpat1_2.1.0-r0_armel.deb
+Size: 40018
+SHA256: 54e182dbb5cbfe20bd681d0adc7e7c8b32f498e5da303f410ccf968358011a84
+SHA1: 9dce3d64bdbca5572e861f237861b96221a1414c
+MD5sum: c2db29b3bc0815ae4b2c1412d33caed4
+Description: A stream-oriented XML parser library
+ Expat is an XML parser library written in C. It is a stream-oriented
+ parser in which an application registers handlers for things the parser
+ might find in the XML document (like start tags)
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: expat
+PackageArch: armv6-vfp
+Homepage: http://expat.sourceforge.net/
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
 
 Package: libext2fs2
 Version: 1.42.9-r0
@@ -348,6 +1245,192 @@ Architecture: armel
 OE: libffi
 PackageArch: armv6-vfp
 Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
+
+Package: libform5
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libform5/libform5_5.9-r15.1_armel.deb
+Size: 17514
+SHA256: ee2b5fa69a1948db731ab3ca626e2b151e1b32ad5b1276bc4008fde5665435e1
+SHA1: 8aa9b58aeca4a8f45165b38a45f61a7e7aa5549f
+MD5sum: a9578b89570b6563e84f57545181eaa8
+Description: ncurses form library
+ ncurses form library
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
+
+Package: libformw5
+Version: 5.9-r15.1
+Priority: optional
+Section: libs
+Filename: pool/main/libf/libformw5/libformw5_5.9-r15.1_armel.deb
+Size: 19926
+SHA256: 03ba3bf71bfdf400ca23c15dce91209cf5908f3614944a9b79c376cdf02c2b2f
+SHA1: 628e1bc74da1e3ce5a2f1305eed7d5a48ac36ff2
+MD5sum: 195201bf7491311deb5c3d577b5c1102
+Description: ncurses formw library
+ ncurses formw library
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: ncurses
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+
+Package: libgcc-s-dbg
+Version: 4.8.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgcc-s-dbg/libgcc-s-dbg_4.8.2-r0_armel.deb
+Size: 120158
+SHA256: b3a5f90ff321119a0d135fe1052a1a471299ddd5861df0ce718ea86abb332b45
+SHA1: 3fcff611b3c85a7b4b9ad2dcd633241890183c5f
+MD5sum: bf6ee9e8a128afbe30890f6ddaa04a04
+Description: GNU cc and gcc C compilers - Debugging files
+ GNU cc and gcc C compilers.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcc
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gcc/
+Recommends: libc6-dbg
+
+Package: libgcc-s-dev
+Version: 4.8.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgcc-s-dev/libgcc-s-dev_4.8.2-r0_armel.deb
+Size: 215346
+SHA256: 503a74fbc84791794f30f3dfd8ccb98c2b2a2d07b4f97349d5ef64fc87b2a9a6
+SHA1: 28f229b6a3b977eb0e4ec04f502e532cab16a378
+MD5sum: be5f6b33efb026dbc40b5e3b5cd4ebe4
+Description: GNU cc and gcc C compilers - Development files
+ GNU cc and gcc C compilers.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcc
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gcc/
+Depends: libgcc1 (= 4.8.2-r0)
+Recommends: libc6-dev
+
+Package: libgcc1
+Version: 4.8.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgcc1/libgcc1_4.8.2-r0_armel.deb
+Size: 34884
+SHA256: b9eaac4adcd7abb36a6f3e5363bc7899fd400a9da615eff0eb5b2cb4b4c6d51a
+SHA1: f6042a7b57791b6fe2c462d173f42013fca408df
+MD5sum: 0dc20f2f1c04419da4fbef66d27d27f1
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcc
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gcc/
+Depends: libc6 (>= 2.19)
+
+Package: libgcov-dev
+Version: 4.8.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgcov-dev/libgcov-dev_4.8.2-r0_armel.deb
+Size: 26958
+SHA256: 827ca825c27c4db82d45b0b94aa8d102b1168c6becbaae36e044c1ed853bddc5
+SHA1: ea28403011a22083e84295092ab46046518f45fe
+MD5sum: 7e452f62de2619ecf2c185d3859e9276
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcc
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/gcc/
+
+Package: libgcrypt-dbg
+Version: 1.5.3-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgcrypt-dbg/libgcrypt-dbg_1.5.3-r0_armel.deb
+Size: 675770
+SHA256: 607cd9299add0d04f7ad8c98ef03b0639638475af770effe8618679536df1829
+SHA1: 0b4d3f22d781352d97e0e8b53f97a93992558ace
+MD5sum: 79c1288c70c5f93bf7d2e601d7ed6c09
+Description: General purpose cryptographic library based on the code from GnuPG - Debugging files
+ General purpose cryptographic library based on the code from GnuPG.  This
+ package contains ELF symbols and related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcrypt
+PackageArch: armv6-vfp
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Recommends: libgpg-error-dbg, libc6-dbg, libcap-dbg
+
+Package: libgcrypt-dev
+Version: 1.5.3-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libgcrypt-dev/libgcrypt-dev_1.5.3-r0_armel.deb
+Size: 28944
+SHA256: c870aefcd7ca63e163ac9eb74c2c46f7ad2570559a2c691fedfd99178c9e30c1
+SHA1: 17e8c5a2b703b99be7fc9a7843f685545132690a
+MD5sum: 6747ea293c15f08b73d209c350359769
+Description: General purpose cryptographic library based on the code from GnuPG - Development files
+ General purpose cryptographic library based on the code from GnuPG.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcrypt
+PackageArch: armv6-vfp
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Depends: libgcrypt11 (= 1.5.3-r0), libc6 (>= 2.19)
+Recommends: libgpg-error-dev, libc6-dev, libcap-dev
+
+Package: libgcrypt-doc
+Version: 1.5.3-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libg/libgcrypt-doc/libgcrypt-doc_1.5.3-r0_armel.deb
+Size: 64808
+SHA256: 7653e8672a90d3d39af5ff35bd9f1769a7f5bdb64c3f9c8b17a3d45d7a0948cd
+SHA1: 1af98c2adffa604bae1b5363c1d83c718f88e329
+MD5sum: 89bd736275e87244d50d30ea3f864e02
+Description: General purpose cryptographic library based on the code from GnuPG - Documentation files
+ General purpose cryptographic library based on the code from GnuPG.  This
+ package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcrypt
+PackageArch: armv6-vfp
+Homepage: http://directory.fsf.org/project/libgcrypt/
+
+Package: libgcrypt11
+Version: 1.5.3-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libgcrypt11/libgcrypt11_1.5.3-r0_armel.deb
+Size: 194036
+SHA256: 29def8ca6c8e18b3290c49cf1efc64d4ad4ae2d8961f0f384e541838d705a023
+SHA1: 7f55cacca9832a2aca5f0a9b0a57029a3822bde4
+MD5sum: f584f5313ad401daecdebebc4802dc24
+Description: General purpose cryptographic library based on the code from GnuPG
+ General purpose cryptographic library based on the code from GnuPG.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libgcrypt
+PackageArch: armv6-vfp
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Depends: libcap2 (>= 2.22), libgpg-error0 (>= 1.12), libc6 (>= 2.19)
 
 Package: libgdbm-bin
 Version: 1.11-r0
