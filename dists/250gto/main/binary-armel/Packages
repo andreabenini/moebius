@@ -3689,6 +3689,114 @@ PackageArch: armv6-vfp
 Homepage: http://www.python.org
 Depends: python3-core, python3-xml, python3-lang, python3-netserver
 
+Package: tzdata
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata/tzdata_2013i-r0_all.deb
+Size: 27736
+SHA256: ce06542d2c3ca058c65fc2c2a01978283cba9fd35cb5f872da9ddf231f05850d
+SHA1: 72d7a313aef83c989a1ce4acf3f8d09ea977f2f8
+MD5sum: 82e00edbba40d2951321c8f4bf443223
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Conflicts: timezone-asia, timezone-europe, timezone-iso3166.tab, timezone-america, timezones, timezone-zone.tab, timezone-pacific, timezone-atlantic, timezone-antarctica, timezone-arctic, timezone-africa, timezone-indian, timezone-australia
+
+Package: tzdata-africa
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-africa/tzdata-africa_2013i-r0_all.deb
+Size: 6446
+SHA256: 6d195362d3b73fa3bcf1d27f0d5b4337df3ac15a84207dd7aa775a11b15f5d1b
+SHA1: d8d9c8f03505f35803c0b1fb4f5236625b921c83
+MD5sum: 652f9bced1e2081d4eeceb7a2a02addc
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-africa
+
+Package: tzdata-americas
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-americas/tzdata-americas_2013i-r0_all.deb
+Size: 30974
+SHA256: 400c99f260953c512aa80a3d5f0241303cce0a1ddf59bfcb5ece3c7a7dc2d3ce
+SHA1: b312a8651263b987e8bc35a899d7d0c7df93eef9
+MD5sum: daf7a67c509f6b70e7c7229365147665
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-americas
+
+Package: tzdata-antarctica
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-antarctica/tzdata-antarctica_2013i-r0_all.deb
+Size: 3682
+SHA256: 5d366aa10f6c1ac75d035b060538d0f18e51ec68be189edd3e2b49c040fac64e
+SHA1: 93f245d61a40eaf0570f121d74861ce0c28bacff
+MD5sum: c999d6360e5ca88bd1f789eacafb00f3
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-antarctica
+
+Package: tzdata-arctic
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-arctic/tzdata-arctic_2013i-r0_all.deb
+Size: 1640
+SHA256: c9663e192fdb04a1d4ab80086045f24823567f507e56480be86489d10b94cd6c
+SHA1: a8353f933a891de41b00341f8dc3081946be8eb0
+MD5sum: 6133e99b259b7e3ac4318ebc766bcc03
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-arctic
+
+Package: tzdata-asia
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-asia/tzdata-asia_2013i-r0_all.deb
+Size: 17820
+SHA256: 0b003c6e1dc383c04bbc4c760e25f087dc2045eec207491d728dd026956a8f3b
+SHA1: 8d4839321a8332a0754cdbd099468f4e2c251df3
+MD5sum: 96da8f3e1b9bc4a1a09a85e060afdf47
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-asia
+
 Package: tzdata-atlantic
 Version: 2013i-r0
 Priority: optional
@@ -3707,6 +3815,24 @@ PackageArch: all
 Homepage: ftp://elsie.nci.nih.gov/pub/
 Provides: tzdata-atlantic
 
+Package: tzdata-australia
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-australia/tzdata-australia_2013i-r0_all.deb
+Size: 4348
+SHA256: f92b928260956016698ea478cd69fc6367b5157a7193da0bcc9a79f0e23e9809
+SHA1: cea4886d773e223837fbd88a6b862aec90ae481a
+MD5sum: 3e0678d37530d066d6d72d032be93bed
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-australia
+
 Package: tzdata-europe
 Version: 2013i-r0
 Priority: optional
@@ -3724,4 +3850,76 @@ OE: tzdata
 PackageArch: all
 Homepage: ftp://elsie.nci.nih.gov/pub/
 Provides: tzdata-europe
+
+Package: tzdata-misc
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-misc/tzdata-misc_2013i-r0_all.deb
+Size: 10260
+SHA256: 3c928fc6e0dcd59b2f51b5b071bc35ef3afef67d3842a49df959b2ecf9e82ea5
+SHA1: 33a415069979ed1a2f57a34d764dc7d836c5108e
+MD5sum: e7d46620e9b92b5ca96abe6c11ca925d
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-misc
+
+Package: tzdata-pacific
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-pacific/tzdata-pacific_2013i-r0_all.deb
+Size: 5862
+SHA256: 425431cf699d4d2c5b5aadac7909ca665a31d9e92b622e2635cb256c8c7b5f4f
+SHA1: 87c7a62c91ab3fd269961f2c922f57d97efbf4e5
+MD5sum: 1c8faf5b1ca6422c2909b6584a479397
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-pacific
+
+Package: tzdata-posix
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-posix/tzdata-posix_2013i-r0_all.deb
+Size: 76380
+SHA256: efa2c5b628139e4f57e950f2f518d122e0243767bfde2c2cdfa86a9265c36933
+SHA1: fb8794a6beb5bc723a564a332a157c7eb1e22538
+MD5sum: 9eb3f16373732858035de8cf16422a7e
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-posix
+
+Package: tzdata-right
+Version: 2013i-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tzdata-right/tzdata-right_2013i-r0_all.deb
+Size: 80116
+SHA256: 5e921550abbd69cb492dfe279549c103f4ce802869acf895dd47f1e57d6e2e1a
+SHA1: bcf1df01569eb016fd20f4ed27557d75bbb8ccd5
+MD5sum: e1f8982a79ff51b4f41b71a7c4b0f675
+Description: Timezone database
+ Timezone database.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: all
+OE: tzdata
+PackageArch: all
+Homepage: ftp://elsie.nci.nih.gov/pub/
+Provides: tzdata-right
 
