@@ -2118,6 +2118,1113 @@ OE: tcp-wrappers
 PackageArch: armv6-vfp
 Depends: libc6 (>= 2.19)
 
+Package: mc
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc/mc_4.8.10-r0_armel.deb
+Size: 668788
+SHA256: 58ffc19f39d2696a2e1fdaf624eaa67f1b1b3daf066161d1c32bf401300f19a1
+SHA1: f626e39a3a3eca7535444b1b2ac06f41271efae6
+MD5sum: c4e0bac52dabc48259135fd968de7591
+Description: Midnight Commander is an ncurses based file manager
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Depends: libglib-2.0-0 (>= 2.38.2), libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), ncurses-terminfo, libc6 (>= 2.19)
+
+Package: mc-dev
+Version: 4.8.10-r0
+Priority: optional
+Section: devel
+Filename: pool/main/m/mc-dev/mc-dev_4.8.10-r0_armel.deb
+Size: 838
+SHA256: 258a7c18cb6335068f75e64fe4b9fccca37fbe2bc1ee01b4917b31df62a36100
+SHA1: 7a2507ec250e3555ed456c8d543891d33a8965fa
+MD5sum: e6402b4a7974cd327f12464fd414b7e3
+Description: Midnight Commander is an ncurses based file manager - Development files
+ Midnight Commander is an ncurses based file manager.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Depends: mc (= 4.8.10-r0)
+Recommends: ncurses-libtinfo-dev, ncurses-dev, perl-dev, ncurses-libncursesw-dev, libglib-2.0-dev, ncurses-terminfo-dev, libc6-dev, python-dev
+
+Package: mc-doc
+Version: 4.8.10-r0
+Priority: optional
+Section: doc
+Filename: pool/main/m/mc-doc/mc-doc_4.8.10-r0_armel.deb
+Size: 246488
+SHA256: 293d175288de4130cfc6a0f9d65ec883f8fe803c058885d91bf15f1456299223
+SHA1: 8abe8fab9e11bfdf95481b0a7bc15ffe6425ab73
+MD5sum: b2e4891eb9fd5f3d4475c1953c9def20
+Description: Midnight Commander is an ncurses based file manager - Documentation files
+ Midnight Commander is an ncurses based file manager.  This package
+ contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+
+Package: mc-fish
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-fish/mc-fish_4.8.10-r0_armel.deb
+Size: 6040
+SHA256: 4ce8883444f66f8e01c9a35cfb15c8c19d8acd0c9e9364145f4b9a14926c8c12
+SHA1: f16dedc38e297af4c6402b66d6ca551f1fd0d731
+MD5sum: 85d410296f0fc905958b75253afc00c5
+Description: Midnight Commander Fish scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+
+Package: mc-helpers
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-helpers/mc-helpers_4.8.10-r0_armel.deb
+Size: 21148
+SHA256: 51741ecfd476d2bd204cbee54902e60854ec31d05755926a2235a97a1919db7b
+SHA1: 73ea8f4b123d12d2ea4ba62710eaa080d5370295
+MD5sum: 5aa081d321b06cb92ff9537e6e4e392e
+Description: Midnight Commander shell helper scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+
+Package: mc-helpers-perl
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-helpers-perl/mc-helpers-perl_4.8.10-r0_armel.deb
+Size: 17834
+SHA256: 18ca538e9fd48bce4239e896af124231b08c53ec8f413cea11e8bbfe99747eb1
+SHA1: dd5d5bea3859df82aa2fc6d298332bffdb0bf61d
+MD5sum: c54ac8ce24e1e15972378fafe97acbd0
+Description: Midnight Commander Perl-based helper scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Depends: perl
+
+Package: mc-helpers-python
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-helpers-python/mc-helpers-python_4.8.10-r0_armel.deb
+Size: 10208
+SHA256: 74e9589d6ae08efbe288cf3c64e775d38fe1afd3c74edff91a2d7f75499ae9cb
+SHA1: 4e78b5532884dff38c22836cd40da6e3f90bdf14
+MD5sum: a56ff56d5c41df99ccba9202242531b8
+Description: Midnight Commander Python-based helper scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Depends: python
+
+Package: mc-locale-az
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-az/mc-locale-az_4.8.10-r0_armel.deb
+Size: 9260
+SHA256: 558d78a34e52f8bc088410f5fa67ad21fdceefe936ef935396c6232f6bea3d87
+SHA1: 4bab35ea1e48eb1cdeeadc69d4910c201a2f7f8b
+MD5sum: 21fe9fbfdf989a7ceb4fcc1f44cae8f4
+Description: Midnight Commander is an ncurses based file manager - az translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the az locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-az
+Provides: az-translation, mc-locale
+
+Package: mc-locale-be
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-be/mc-locale-be_4.8.10-r0_armel.deb
+Size: 27268
+SHA256: f6990d120b7c5580a27e5057fbf30a26212f64926c780b46af24c55558316cef
+SHA1: 34d6057a174c8355f2d77c3d09b6848dee0976c4
+MD5sum: cefa7ab742f8434138269e835b0b28d0
+Description: Midnight Commander is an ncurses based file manager - be translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the be locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-be
+Provides: be-translation, mc-locale
+
+Package: mc-locale-bg
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-bg/mc-locale-bg_4.8.10-r0_armel.deb
+Size: 13646
+SHA256: 685d762c969115203181c7aa80b98bb8cb32328d5fc5a1cd1591e78f8da877c8
+SHA1: b5fd8681ceb854aab648ec5b1b2c5a03a61bffcb
+MD5sum: 5dc438b29fbc19b83227758f9de40eb1
+Description: Midnight Commander is an ncurses based file manager - bg translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the bg locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-bg
+Provides: bg-translation, mc-locale
+
+Package: mc-locale-ca
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ca/mc-locale-ca_4.8.10-r0_armel.deb
+Size: 12498
+SHA256: 3022edb1852816d55ad364496ac981fd3b083ac5b95f0c494993058b104428d6
+SHA1: 2c4f303b219d21ce249ceb1effd7b3923b075bef
+MD5sum: 7ba8bf9d1205b0b552833b29a7ffb233
+Description: Midnight Commander is an ncurses based file manager - ca translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ca locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ca
+Provides: ca-translation, mc-locale
+
+Package: mc-locale-cs
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-cs/mc-locale-cs_4.8.10-r0_armel.deb
+Size: 22564
+SHA256: f995337d34d896414eb5cbd94de5117d0fd373314aa3f130ffbd31bc38a6854f
+SHA1: cf94c57e9e69abdab36f33af914bec32dfce637d
+MD5sum: d861a8ceb6c7afb210063c2fc21f0185
+Description: Midnight Commander is an ncurses based file manager - cs translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the cs locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-cs
+Provides: cs-translation, mc-locale
+
+Package: mc-locale-da
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-da/mc-locale-da_4.8.10-r0_armel.deb
+Size: 21200
+SHA256: f5d34be52ecdc2616f2f1408b3f0d8481e7f1b6e466ab26cd1589cab66d6b462
+SHA1: 81e76de46173865e46d7e7cea964663030a3eb14
+MD5sum: 6f4e4a102bef46c5f5f3806c250acaab
+Description: Midnight Commander is an ncurses based file manager - da translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the da locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-da
+Provides: da-translation, mc-locale
+
+Package: mc-locale-de
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-de/mc-locale-de_4.8.10-r0_armel.deb
+Size: 23192
+SHA256: e21ca30ae8b4b9789516065b9afa02c208a55b9e49d858b0eb93bfdea928b111
+SHA1: 168c3b6b648c53f68788b6f14570939c7f6c1815
+MD5sum: 009294690e12d5dec5f20eec6fdd7d9a
+Description: Midnight Commander is an ncurses based file manager - de translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the de locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-de
+Provides: de-translation, mc-locale
+
+Package: mc-locale-de-ch
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-de-ch/mc-locale-de-ch_4.8.10-r0_armel.deb
+Size: 1252
+SHA256: 1976f763cc600223943922b4d3000543b16d61a5ced9f7d11a14ffd8dead1697
+SHA1: d7bf6dadecb2e7233d94c2e5ed2e3f053866c6e3
+MD5sum: 1575cacd476e42048441f2135667b642
+Description: Midnight Commander is an ncurses based file manager - de_CH translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the de_CH locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-de-ch
+Provides: de-ch-translation, mc-locale
+
+Package: mc-locale-el
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-el/mc-locale-el_4.8.10-r0_armel.deb
+Size: 17884
+SHA256: 5dc4cfecddf7925c8d65f85ca49a016c81468bf2b5cd9d9c5eea959853f6ca8f
+SHA1: c062479760884319275339d6c75068ced163481b
+MD5sum: 2164908f5c12a9d03932a34428399527
+Description: Midnight Commander is an ncurses based file manager - el translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the el locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-el
+Provides: el-translation, mc-locale
+
+Package: mc-locale-eo
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-eo/mc-locale-eo_4.8.10-r0_armel.deb
+Size: 26668
+SHA256: 3c5642952989fc6eb019deed2790573f62e67ba2e72875eab007595d722945d7
+SHA1: 4f1cc82d14ad0312a740feba3b911b3fb552919c
+MD5sum: 20baa2560bd6e4e9ee67f9f9840de48b
+Description: Midnight Commander is an ncurses based file manager - eo translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the eo locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-eo
+Provides: eo-translation, mc-locale
+
+Package: mc-locale-es
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-es/mc-locale-es_4.8.10-r0_armel.deb
+Size: 26852
+SHA256: 6b09dae837683457755696abd047bf43db38d38d9ca21130296061112d40c14a
+SHA1: eba3c6b5acb7d925ceaa3ea938728353b9533fe6
+MD5sum: 0eddadc9366c970eee111649c970de20
+Description: Midnight Commander is an ncurses based file manager - es translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the es locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-es
+Provides: es-translation, mc-locale
+
+Package: mc-locale-et
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-et/mc-locale-et_4.8.10-r0_armel.deb
+Size: 1300
+SHA256: 51eeb8d37ca60948da3edaaa8b2239b34cce8ebf75ec279dc109d783352a437a
+SHA1: e6dfd3d211fed538ae07a100ecb8732652e9a537
+MD5sum: 68b386ba36e201e01ef3630b33c0bb56
+Description: Midnight Commander is an ncurses based file manager - et translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the et locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-et
+Provides: et-translation, mc-locale
+
+Package: mc-locale-eu
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-eu/mc-locale-eu_4.8.10-r0_armel.deb
+Size: 23652
+SHA256: deab245aea94d7a032177b32ac6a66da93cd6e15ce07dffc0a62c9811b18023a
+SHA1: 56dda7cc58e3b48f0c126b0ce36ef83df6a9c2c0
+MD5sum: 42df5f5f523a3006dd3aa545d7ddc20a
+Description: Midnight Commander is an ncurses based file manager - eu translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the eu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-eu
+Provides: eu-translation, mc-locale
+
+Package: mc-locale-fa
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-fa/mc-locale-fa_4.8.10-r0_armel.deb
+Size: 6936
+SHA256: 39913711e1425c6b78ab8917fbbc59d9e423d4f4347e548a8c2f150ce81156d7
+SHA1: 5de846062b9c02334c4257325e51ee61acac9e3f
+MD5sum: e74a42e7ba17875832eab63557016beb
+Description: Midnight Commander is an ncurses based file manager - fa translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the fa locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-fa
+Provides: fa-translation, mc-locale
+
+Package: mc-locale-fi
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-fi/mc-locale-fi_4.8.10-r0_armel.deb
+Size: 5864
+SHA256: b1a0f98a6a51ebb9d9cb8d17c653cd7e60c4856be813171198e1daf699dcf2c7
+SHA1: 1c5b66868fdfc0d7e325b035b49df55ead41cd29
+MD5sum: f37ce752d7f6b5ba64bbe039eebbdf42
+Description: Midnight Commander is an ncurses based file manager - fi translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the fi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-fi
+Provides: fi-translation, mc-locale
+
+Package: mc-locale-fr
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-fr/mc-locale-fr_4.8.10-r0_armel.deb
+Size: 22888
+SHA256: c8013a6c6e08737ca6d32e04ed38ce6aaba05aef912de4e59f5cb52a7feb7377
+SHA1: 5fd149becf1a09ef11312f64728826a6c1dffc73
+MD5sum: 6d39dc8f665e34d1c53b46e2ebda5f70
+Description: Midnight Commander is an ncurses based file manager - fr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the fr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-fr
+Provides: fr-translation, mc-locale
+
+Package: mc-locale-gl
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-gl/mc-locale-gl_4.8.10-r0_armel.deb
+Size: 27268
+SHA256: cb3f07e2392eb534a7006a37c4edc615bc2f246d0b1be6a6b23de603988bb8e3
+SHA1: fc4868bf39fa2c92bca0f3532e963409464d6b85
+MD5sum: 6ce38e2946b9d60f28f024d67c11e5a3
+Description: Midnight Commander is an ncurses based file manager - gl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the gl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-gl
+Provides: gl-translation, mc-locale
+
+Package: mc-locale-hr
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-hr/mc-locale-hr_4.8.10-r0_armel.deb
+Size: 1270
+SHA256: e480bab13fb67c1881f113417e580e6b050cbfabbae7883b2b24a79b14cb2d38
+SHA1: 001ba4f0aa1211b1a1f19cf6dcad6ba165897abe
+MD5sum: e40ebba4cd91eeed9359f26394a11423
+Description: Midnight Commander is an ncurses based file manager - hr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the hr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-hr
+Provides: hr-translation, mc-locale
+
+Package: mc-locale-hu
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-hu/mc-locale-hu_4.8.10-r0_armel.deb
+Size: 27780
+SHA256: 00ed76c3cad17b7a2048a683fd37ab1dcf615833e33fb200270a7279b6e77edd
+SHA1: 196e9edd625e6180c1724b4d3ae68dfffe70928a
+MD5sum: c75fe09afee4f08bb6d1d87c71a081bd
+Description: Midnight Commander is an ncurses based file manager - hu translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the hu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-hu
+Provides: hu-translation, mc-locale
+
+Package: mc-locale-ia
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ia/mc-locale-ia_4.8.10-r0_armel.deb
+Size: 10630
+SHA256: 1182baf628b4dd482e225378321e0f0cd7630d741e40dda27daa4fb268483cd6
+SHA1: 9df74df36ede76a71612e8838f308839bca08b43
+MD5sum: 8b82b88f8483a096c6f0ca1afc23e12e
+Description: Midnight Commander is an ncurses based file manager - ia translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ia locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ia
+Provides: ia-translation, mc-locale
+
+Package: mc-locale-id
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-id/mc-locale-id_4.8.10-r0_armel.deb
+Size: 3266
+SHA256: 5fa3c86fafe64b1700ac638af45ce6aeb3e673adfdb23b30ca10051db4975158
+SHA1: ceb386702e364e7759afebc97b4878a52fe9387d
+MD5sum: 9891160c11d0620f2c050d44b37f00f8
+Description: Midnight Commander is an ncurses based file manager - id translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the id locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-id
+Provides: mc-locale, id-translation
+
+Package: mc-locale-it
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-it/mc-locale-it_4.8.10-r0_armel.deb
+Size: 26370
+SHA256: 366596e9cc6cea6a33fc77991e53895ab927889aa40e9bffc559964e3691004b
+SHA1: dcc44e968000f8701d731017ed633c7a2de109f2
+MD5sum: 6205cdabd37073466bcdbe72c7e271db
+Description: Midnight Commander is an ncurses based file manager - it translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the it locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-it
+Provides: mc-locale, it-translation
+
+Package: mc-locale-ja
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ja/mc-locale-ja_4.8.10-r0_armel.deb
+Size: 14486
+SHA256: 071dd52460952532092884dfc988be546fa43a19e7ff1d557a1a69f50aa19ae9
+SHA1: b791e4817418ade9d3a4eea09e20a25f3d27efce
+MD5sum: 2b28e010faf4b9c11a6c822d95a88511
+Description: Midnight Commander is an ncurses based file manager - ja translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ja locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ja
+Provides: mc-locale, ja-translation
+
+Package: mc-locale-ka
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ka/mc-locale-ka_4.8.10-r0_armel.deb
+Size: 4762
+SHA256: 3879323214c2d35db1e9d99818d6dbe56db4919cbcdc6e572e8c36a7b6e930d9
+SHA1: 43c9f38bfbe16adba8fb01f43c7738e4be404205
+MD5sum: c587bae59aa287e4f5fd4a3af6a25220
+Description: Midnight Commander is an ncurses based file manager - ka translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ka locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ka
+Provides: ka-translation, mc-locale
+
+Package: mc-locale-kk
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-kk/mc-locale-kk_4.8.10-r0_armel.deb
+Size: 1214
+SHA256: 4cf1c0d2745a176b62055044e55ecdd0a1361750debc60512daec7bbe290fc4d
+SHA1: eb6ad11b7ce0886bb7ae3a9fa7a9851da73f3dc8
+MD5sum: 047a22df16a639c709e2eacdc220611d
+Description: Midnight Commander is an ncurses based file manager - kk translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the kk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-kk
+Provides: kk-translation, mc-locale
+
+Package: mc-locale-ko
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ko/mc-locale-ko_4.8.10-r0_armel.deb
+Size: 14906
+SHA256: 4015ad8b8fa2cfdddbc217f7bf049002732edc63f24a65ea34ad6da11d8cba6a
+SHA1: 1f8e920d4a68f5449a23cd83d89bc68c3ca8ef62
+MD5sum: cff98473f30b26df26c43b27ab18fe63
+Description: Midnight Commander is an ncurses based file manager - ko translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ko locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ko
+Provides: ko-translation, mc-locale
+
+Package: mc-locale-lt
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-lt/mc-locale-lt_4.8.10-r0_armel.deb
+Size: 10822
+SHA256: e55c9ef80431eebe7564ca13c7d31c8a7968ea9d9b289960f8331745a31ff9cd
+SHA1: b20b891b3177707e5a13c19ab3d1713c1ab70698
+MD5sum: aee6beb6ddd74fa06feb1e33c57b3ceb
+Description: Midnight Commander is an ncurses based file manager - lt translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the lt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-lt
+Provides: lt-translation, mc-locale
+
+Package: mc-locale-lv
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-lv/mc-locale-lv_4.8.10-r0_armel.deb
+Size: 9066
+SHA256: a7cdf130439658e862cdf3ebbebfd0a00c79b8acd53ca2202f94886f82218b16
+SHA1: 2d8b9950faa5a861e2f574f33d2ac74759a8b2cf
+MD5sum: 0a61a010760585a91e9e29ea1f71ad49
+Description: Midnight Commander is an ncurses based file manager - lv translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the lv locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-lv
+Provides: lv-translation, mc-locale
+
+Package: mc-locale-mn
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-mn/mc-locale-mn_4.8.10-r0_armel.deb
+Size: 10210
+SHA256: 1ddf68e08c0a3affdb4945ebc250a5343e773b9a54ce9255b6d4188ad8ec0827
+SHA1: 9311db3fe8e98f098673e7deddc466b1371f22f2
+MD5sum: 07390dea43bb6bbfaeaaf0dd9fda92b9
+Description: Midnight Commander is an ncurses based file manager - mn translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the mn locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-mn
+Provides: mn-translation, mc-locale
+
+Package: mc-locale-nb
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-nb/mc-locale-nb_4.8.10-r0_armel.deb
+Size: 8868
+SHA256: 30bd0b87d72bb18b008041cbb21dacff513a85fa57a2d77b91bb31148df00162
+SHA1: e54740c89b575836d2969efadf852a112e89257c
+MD5sum: ed9fa2872c3423564e787e033161f1dc
+Description: Midnight Commander is an ncurses based file manager - nb translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the nb locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-nb
+Provides: nb-translation, mc-locale
+
+Package: mc-locale-nl
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-nl/mc-locale-nl_4.8.10-r0_armel.deb
+Size: 26218
+SHA256: 70ee1c1206d0851671ba2a56efeb8da9aad0b913f03242400d5583b6dffeffa6
+SHA1: 243e13c7301e7a0b232b3117ef20448d41e32fac
+MD5sum: d105c2bc2eb03136324ef394b6ccd953
+Description: Midnight Commander is an ncurses based file manager - nl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the nl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-nl
+Provides: nl-translation, mc-locale
+
+Package: mc-locale-pl
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-pl/mc-locale-pl_4.8.10-r0_armel.deb
+Size: 27622
+SHA256: f6aa9c6ca5fa488619558e131587834d9880689954ef09efbecc5c48e6d5202f
+SHA1: 65d680421eef95029859a22dc61e4edfbbd94e82
+MD5sum: f581b57c3cffcfa8efff89fec0576ed1
+Description: Midnight Commander is an ncurses based file manager - pl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the pl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-pl
+Provides: pl-translation, mc-locale
+
+Package: mc-locale-pt
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-pt/mc-locale-pt_4.8.10-r0_armel.deb
+Size: 26452
+SHA256: b26e1ccc59cf2476a5f40957fb09eaafffd1d419e9bc164c0cf5303d625cb50e
+SHA1: aff190dfd78d90328c0d692d991cf5996a4c14d2
+MD5sum: d14f3dd78f22bdbe03be8916ec138a36
+Description: Midnight Commander is an ncurses based file manager - pt translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the pt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-pt
+Provides: pt-translation, mc-locale
+
+Package: mc-locale-pt-br
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-pt-br/mc-locale-pt-br_4.8.10-r0_armel.deb
+Size: 16672
+SHA256: a9914b7ebcc7d522eb8f422e09a9d3b2414237082b8652ec05778f5c5cc56b35
+SHA1: a28a226b44ea33ec63806dbcc8d6104686802630
+MD5sum: 6e8e3cbfae757f26496e6c75007955db
+Description: Midnight Commander is an ncurses based file manager - pt_BR translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the pt_BR locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-pt-br
+Provides: pt-br-translation, mc-locale
+
+Package: mc-locale-ro
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ro/mc-locale-ro_4.8.10-r0_armel.deb
+Size: 15480
+SHA256: 9e562400e367463120601442248570011d581692eda38f2694980073bc8174fb
+SHA1: 9381dbbd075ff49c94920967d6559303325990df
+MD5sum: 9dac8541f5e0fcd6888a2fbd06bdfbb5
+Description: Midnight Commander is an ncurses based file manager - ro translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ro locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ro
+Provides: ro-translation, mc-locale
+
+Package: mc-locale-ru
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ru/mc-locale-ru_4.8.10-r0_armel.deb
+Size: 29448
+SHA256: 9f2380a2668f116153937bb2ffed94aed2f70d42a171c223a84bbb1327160cca
+SHA1: 6dbd094e06c326b72f817b7fbdebdf73deb3e324
+MD5sum: a9f6ee56b42247d3f60fd2c3e1ef3ba7
+Description: Midnight Commander is an ncurses based file manager - ru translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ru locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ru
+Provides: ru-translation, mc-locale
+
+Package: mc-locale-sk
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sk/mc-locale-sk_4.8.10-r0_armel.deb
+Size: 14818
+SHA256: 8cb7a26a3b8ab7cbc1760ab8fcfe983a904116d748c725be32e51733600a7c61
+SHA1: 2f052a5a253edd48e48d9078d00ba567f9ff1b9d
+MD5sum: 91dee413cf89a9af1b307e0ba7543865
+Description: Midnight Commander is an ncurses based file manager - sk translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sk
+Provides: sk-translation, mc-locale
+
+Package: mc-locale-sl
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sl/mc-locale-sl_4.8.10-r0_armel.deb
+Size: 10304
+SHA256: 752f7d22ee19da4a9868f6d17c9f1eee9678e35439c4c4bf70594c9871109c15
+SHA1: 5435ce9571c795a171452ee1b797ac18eb8e9f81
+MD5sum: b3bf6453d23c853fd9c8a5e136741b63
+Description: Midnight Commander is an ncurses based file manager - sl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sl
+Provides: sl-translation, mc-locale
+
+Package: mc-locale-sr
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sr/mc-locale-sr_4.8.10-r0_armel.deb
+Size: 10604
+SHA256: 2400b149a13ae4f3420f164d187d1d5dd60faf4206307c19a37ed9fbbfa17cc1
+SHA1: 2ceb66bce23771ff476cfbda7b7c49f7da0fa0b4
+MD5sum: 729d0932348640e9dc9ff385a13c74a4
+Description: Midnight Commander is an ncurses based file manager - sr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sr
+Provides: sr-translation, mc-locale
+
+Package: mc-locale-sv
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sv/mc-locale-sv_4.8.10-r0_armel.deb
+Size: 9334
+SHA256: c8483d7349a6a034612d5ffc481f6ac313580963fbf9369cbf19316842cab81a
+SHA1: 7840c6443b072eb6f64101782c33614fa5bb853c
+MD5sum: ffe8f2053c6ba9796a4d4622202cf30d
+Description: Midnight Commander is an ncurses based file manager - sv translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sv locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sv
+Provides: mc-locale, sv-translation
+
+Package: mc-locale-sv-se
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sv-se/mc-locale-sv-se_4.8.10-r0_armel.deb
+Size: 1240
+SHA256: 209a617b8595a8ff4e60f4f0074b45290030ca71d2c0e61ff24b5c09b1e1f73a
+SHA1: 6b11ef4da097539c60f46fbcd1b95c91addf0946
+MD5sum: bf7f2cd2a099aac826af4fe19a0c2841
+Description: Midnight Commander is an ncurses based file manager - sv_SE translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sv_SE locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sv-se
+Provides: mc-locale, sv-se-translation
+
+Package: mc-locale-szl
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-szl/mc-locale-szl_4.8.10-r0_armel.deb
+Size: 1264
+SHA256: f824c40916ed06b85d87d4188534b3e8aefc8fc22bc8a929360667b75edb177d
+SHA1: 147812d97f507d0a0e8593b0a04f16b370d57e1d
+MD5sum: c107909c49aafddfa730ce7d16c67512
+Description: Midnight Commander is an ncurses based file manager - szl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the szl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-szl
+Provides: szl-translation, mc-locale
+
+Package: mc-locale-ta
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ta/mc-locale-ta_4.8.10-r0_armel.deb
+Size: 1874
+SHA256: c4df887ee8492ecb3a282af7104ab372ad1273215c6be9822ab522967e7ec283
+SHA1: 1ac3d78e9941f6438410ccf7c72d34e3bfa63da2
+MD5sum: ed1f91586b9c760a43f29ec4fcbaef9e
+Description: Midnight Commander is an ncurses based file manager - ta translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ta locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ta
+Provides: ta-translation, mc-locale
+
+Package: mc-locale-tr
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-tr/mc-locale-tr_4.8.10-r0_armel.deb
+Size: 9066
+SHA256: 099fdd9db9097b8135d81cfca60244b9d1db0bcca099fd998e1bfb99ab957ae3
+SHA1: 13d2af301843fb03dd8b367515ef7d93d01919c8
+MD5sum: d72b7e85a39891e7377d700b1877e588
+Description: Midnight Commander is an ncurses based file manager - tr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the tr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-tr
+Provides: tr-translation, mc-locale
+
+Package: mc-locale-uk
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-uk/mc-locale-uk_4.8.10-r0_armel.deb
+Size: 28648
+SHA256: 19e8661e7ce08e0ef4c94013af53e88133ae4a33e512753f026eedbacad901dd
+SHA1: 7d2e0dc7184a9f47d7e0880d031166147711e259
+MD5sum: c0de79a7df0d20404be9e36be09f0265
+Description: Midnight Commander is an ncurses based file manager - uk translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the uk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-uk
+Provides: uk-translation, mc-locale
+
+Package: mc-locale-vi
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-vi/mc-locale-vi_4.8.10-r0_armel.deb
+Size: 10654
+SHA256: 158666b8bf34d5302db1e2a92fd0569e08d93e7461cc6c0c9df6a59e633b4082
+SHA1: 4e4ac0aee355065ca4773092f00324ef225de1a7
+MD5sum: e2df3a71bacf16733eb519f52f3d8f6f
+Description: Midnight Commander is an ncurses based file manager - vi translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the vi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-vi
+Provides: vi-translation, mc-locale
+
+Package: mc-locale-wa
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-wa/mc-locale-wa_4.8.10-r0_armel.deb
+Size: 6848
+SHA256: 536c31c3b24a6bca15273a49096565a11f187f2e1e26c961b0012b05c43bfc7b
+SHA1: 3424aa3044542bb77a4082b7f9942b50822efcea
+MD5sum: 67535f363227e40e96b6c88e0473aad9
+Description: Midnight Commander is an ncurses based file manager - wa translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the wa locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-wa
+Provides: wa-translation, mc-locale
+
+Package: mc-locale-zh-cn
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-zh-cn/mc-locale-zh-cn_4.8.10-r0_armel.deb
+Size: 26034
+SHA256: 34b53f52822d6d365f92b6a442de2bde761134dbdda9c9f74a99e00a982baef1
+SHA1: 47f432bfa3d3073483a63a710a00668f1634ba70
+MD5sum: 428ff90bd011a5002c4ff30c47d3f0b5
+Description: Midnight Commander is an ncurses based file manager - zh_CN translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the zh_CN locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-zh-cn
+Provides: mc-locale, zh-cn-translation
+
+Package: mc-locale-zh-tw
+Version: 4.8.10-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-zh-tw/mc-locale-zh-tw_4.8.10-r0_armel.deb
+Size: 8870
+SHA256: dfead43b6d7df8cc825271d30b81fca2bebcf51b00411d1e4293e3bec8f8cce8
+SHA1: 85ee585973eba5e56850535f24c1bb64f89fe2d8
+MD5sum: 713de3b20a3115caedcdac071daddabd
+Description: Midnight Commander is an ncurses based file manager - zh_TW translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the zh_TW locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mc
+PackageArch: armv6-vfp
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-zh-tw
+Provides: mc-locale, zh-tw-translation
+
 Package: nano
 Version: 2.2.5-r3.0
 Priority: optional
