@@ -1811,6 +1811,2157 @@ PackageArch: armv6-vfp
 Homepage: http://www.gnu.org/software/gettext/gettext.html
 Depends: libgettextlib (>= 0.18.3.2), libc6 (>= 2.19)
 
+Package: libglib-2.0-0
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-0/libglib-2.0-0_2.38.2-r0_armel.deb
+Size: 764794
+SHA256: bee22ed95f4fe7a31fe5fe54a5aa0958bba92ae9da4c3d3737fc7c19783ad866
+SHA1: 7007705eba828867e25a81e0820d93d08e6c2ae2
+MD5sum: 46c72e6f76347e4a3d5c256f754f7dd4
+Description: A general-purpose utility library
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Depends: libffi6 (>= 3.0.13), libz1 (>= 1.2.8), libc6 (>= 2.19)
+
+Package: libglib-2.0-bash-completion
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-bash-completion/libglib-2.0-bash-completion_2.38.2-r0_armel.deb
+Size: 1970
+SHA256: 715886871cdc2d4d792d54698be112d7cc54345f67acdbda46cee67c41ddebc5
+SHA1: 0b06eab91a4e326df1cd40fab3978c5ff79d957c
+MD5sum: af48a62fd50a69d46cd3a256b9a3f352
+Description: A general-purpose utility library
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+
+Package: libglib-2.0-codegen
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-codegen/libglib-2.0-codegen_2.38.2-r0_armel.deb
+Size: 25864
+SHA256: cd0b8ba77fe0a1bd7129d5ad0fdeb29e0ef3ab43911ccbbc410377c42c754941
+SHA1: cac53d2bbf0fa6c38f73e7b8f981b72ff638d2cc
+MD5sum: 44647860c27751b793ee087c40b71a95
+Description: A general-purpose utility library
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+
+Package: libglib-2.0-dbg
+Version: 1:2.38.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libglib-2.0-dbg/libglib-2.0-dbg_2.38.2-r0_armel.deb
+Size: 4323590
+SHA256: e16623d5e4501e412774a15b029c0f1391994a15d287ce05e966aede46e4bacc
+SHA1: e6c4e0eec50d63f2dcefddab38fe7744112b9a4a
+MD5sum: 43d25b3a29710909942a7e297d43bcd1
+Description: A general-purpose utility library - Debugging files
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: libc6-dbg, libz-dbg, libffi-dbg, dbus-lib-dbg
+
+Package: libglib-2.0-dev
+Version: 1:2.38.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libglib-2.0-dev/libglib-2.0-dev_2.38.2-r0_armel.deb
+Size: 214832
+SHA256: db6bfdd518a34e721265d6420ba49a0a1535c82c5e1c23f2240c8aa95495c114
+SHA1: a044faf7d2742a10545f83b4a970a720122376c7
+MD5sum: 9cd0833a758b506c291c78ba6030c681
+Description: A general-purpose utility library - Development files
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Depends: libglib-2.0-0 (= 1:2.38.2-r0)
+Recommends: python-pygobject-dev, eglibc-localedata-translit-cjk-variants-dev, gnome-desktop-testing-dev, eglibc-gconv-utf-32-dev, eglibc-gconv-utf-7-dev, libffi-dev, tzdata-posix-dev, eglibc-gconv-iso8859-1-dev, tzdata-americas-dev, eglibc-gconv-utf-16-dev, eglibc-gconv-euc-jp-dev, libz-dev, tzdata-asia-dev, python-dbus-dev, dbus-dev, tzdata-dev, eglibc-gconv-cp1255-dev, eglibc-charmap-invariant-dev, tzdata-europe-dev, libc6-dev, eglibc-gconv-iso8859-15-dev, eglibc-charmap-cp1255-dev, dbus-lib-dev, eglibc-charmap-utf-8-dev, shared-mime-info-dev
+
+Package: libglib-2.0-locale-af
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-af/libglib-2.0-locale-af_2.38.2-r0_armel.deb
+Size: 3512
+SHA256: a8a0b82a752d6e4fdd0dfe8fa73ca6af2fe7758f46d140a408f1879a54009b8e
+SHA1: 344e169a0051eb7e8a5c17138e4a2c2c0c67cc46
+MD5sum: 5a4d9f55a092d874f087d86313a05c5a
+Description: A general-purpose utility library - af translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the af locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-af
+Provides: glib-2.0-locale, af-translation
+
+Package: libglib-2.0-locale-am
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-am/libglib-2.0-locale-am_2.38.2-r0_armel.deb
+Size: 1980
+SHA256: e0d018893c3536011773c04d328e680b5b9415469048d56e5ff8f55a11263c6f
+SHA1: 6c9ff05fcc719cd4b0fda14ebcb92fd949095303
+MD5sum: 66185977a55261d74cd5e750ff99c046
+Description: A general-purpose utility library - am translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the am locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-am
+Provides: glib-2.0-locale, am-translation
+
+Package: libglib-2.0-locale-an
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-an/libglib-2.0-locale-an_2.38.2-r0_armel.deb
+Size: 26886
+SHA256: b58547f8c9d5675bce4efa89454c1a6a839e62e1954afa92284175cdda36ed27
+SHA1: 518471682804b2962e986c47b09974a8932c7bef
+MD5sum: 54d55dafdc2a01917635cf15973ac928
+Description: A general-purpose utility library - an translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the an locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-an
+Provides: glib-2.0-locale, an-translation
+
+Package: libglib-2.0-locale-ar
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ar/libglib-2.0-locale-ar_2.38.2-r0_armel.deb
+Size: 13180
+SHA256: 43bc2bc25683c6db86678684c82cbe60e038444d0ccb1f380e6e27a11fd773eb
+SHA1: e3a320c9930166763c577312f8c68efb36d48c02
+MD5sum: 4bd82535443a969c873a80b670007bd5
+Description: A general-purpose utility library - ar translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ar locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ar
+Provides: glib-2.0-locale, ar-translation
+
+Package: libglib-2.0-locale-as
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-as/libglib-2.0-locale-as_2.38.2-r0_armel.deb
+Size: 28316
+SHA256: b9f41abe6cfa49bfa9d64fb754d255d993a269277036fbee64f749d2dcd7ec53
+SHA1: 4d5f2d40b8da239935cc45cc86b956b6610d7250
+MD5sum: e57af16dbd0f22f46709bfd1e6237206
+Description: A general-purpose utility library - as translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the as locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-as
+Provides: glib-2.0-locale, as-translation
+
+Package: libglib-2.0-locale-ast
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ast/libglib-2.0-locale-ast_2.38.2-r0_armel.deb
+Size: 14004
+SHA256: bd6f46922092ea9902ee6db5c3a448d82e0459dd992b15f2c45ed253ee66c90e
+SHA1: 109a487688d55ec4b93260b6babe25fe640e9f8d
+MD5sum: bec4875ac0c62749ef3f6ebc7fe91f8e
+Description: A general-purpose utility library - ast translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ast locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ast
+Provides: glib-2.0-locale, ast-translation
+
+Package: libglib-2.0-locale-az
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-az/libglib-2.0-locale-az_2.38.2-r0_armel.deb
+Size: 4972
+SHA256: b3ffda9686fa384e717ab6a7408f636cb216581eb8fc1b0e6c69637643a945bc
+SHA1: 7b7c8e5a84e8d70d39414a554d402f1d65e8d26e
+MD5sum: f38b37c2e25b108aea73139624700879
+Description: A general-purpose utility library - az translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the az locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-az
+Provides: glib-2.0-locale, az-translation
+
+Package: libglib-2.0-locale-be
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-be/libglib-2.0-locale-be_2.38.2-r0_armel.deb
+Size: 29208
+SHA256: c23850e5183b9dfd2c83cf427c000dd645b79e6f1997d847ec310193fccb6edc
+SHA1: 483176e4d4d899176ce305ef05bc259e94ea5d29
+MD5sum: 3c520566424e7fc8c96ab2c3d3ce14d0
+Description: A general-purpose utility library - be translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the be locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-be
+Provides: glib-2.0-locale, be-translation
+
+Package: libglib-2.0-locale-be+latin
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-be+latin/libglib-2.0-locale-be+latin_2.38.2-r0_armel.deb
+Size: 11988
+SHA256: ebd75ec811479c7fdffbfca5f7985a47e1089369513d2d2bdcffd0efb409ab27
+SHA1: a709a95e9c35d004e4d1edbcbbe1ce25305629a4
+MD5sum: 5e153ebce04a30a7c87b64d576374c0d
+Description: A general-purpose utility library - be@latin translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the be@latin locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-be+latin
+Provides: glib-2.0-locale, be+latin-translation
+
+Package: libglib-2.0-locale-bg
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-bg/libglib-2.0-locale-bg_2.38.2-r0_armel.deb
+Size: 28608
+SHA256: 2bca2c38eef805b23b14449b5ea3de79fdbb5ec4b82f23f0165262329c2d3770
+SHA1: 39ddf343c060f6ba98c7bf310ca6990fc3e5119c
+MD5sum: 02d0e5e79117ca359bba0f2b37008a59
+Description: A general-purpose utility library - bg translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the bg locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-bg
+Provides: glib-2.0-locale, bg-translation
+
+Package: libglib-2.0-locale-bn
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-bn/libglib-2.0-locale-bn_2.38.2-r0_armel.deb
+Size: 15192
+SHA256: bea5bbce4601a809a1112355bbd13ff65135c4305a30b268e65bf4934d02fd62
+SHA1: c01ce96ca548148edf4753afc5c593bf826b85ba
+MD5sum: 63ec938ac417318abfd7ed4a2103b283
+Description: A general-purpose utility library - bn translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the bn locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-bn
+Provides: glib-2.0-locale, bn-translation
+
+Package: libglib-2.0-locale-bn-in
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-bn-in/libglib-2.0-locale-bn-in_2.38.2-r0_armel.deb
+Size: 15038
+SHA256: 16d852aecef6b1f14bee040337357775d32cb9551b171563934f38dbad752d73
+SHA1: 1dca48ccf11e222a461f7f425a3eaf091ad4451a
+MD5sum: f3c76c0f1757ad7b7a2c95a1132a39a1
+Description: A general-purpose utility library - bn_IN translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the bn_IN locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-bn-in
+Provides: glib-2.0-locale, bn-in-translation
+
+Package: libglib-2.0-locale-bs
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-bs/libglib-2.0-locale-bs_2.38.2-r0_armel.deb
+Size: 4820
+SHA256: a44d2c60fac6ac5533c3bb6e90347103d83957b542efbfdeebbe28269e083aaf
+SHA1: eb068a74c26c66ccdfc05f375ab9da2c46d271fb
+MD5sum: da24575cff21b6b62511d662be735d9b
+Description: A general-purpose utility library - bs translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the bs locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-bs
+Provides: glib-2.0-locale, bs-translation
+
+Package: libglib-2.0-locale-ca
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ca/libglib-2.0-locale-ca_2.38.2-r0_armel.deb
+Size: 27296
+SHA256: 64939c9e9a4eb36b499fb710d602c2072e690bb58bcce4fa3b6c3972ea3944c0
+SHA1: b6d05801da85a774f00cc1dc1cb61def4bf158cd
+MD5sum: 0a926922abdc98a313b33e9e81d44183
+Description: A general-purpose utility library - ca translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ca locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ca
+Provides: glib-2.0-locale, ca-translation
+
+Package: libglib-2.0-locale-ca+valencia
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ca+valencia/libglib-2.0-locale-ca+valencia_2.38.2-r0_armel.deb
+Size: 27238
+SHA256: c164c8d87e3ea76c934fcd82d3b78774d02c3500374a6790f8e914007cc3d0ef
+SHA1: e6f56e7b24073aacbb9681bdeb1d4a2a97be56e9
+MD5sum: 197d9cb75a62e092be3e668b0bc395af
+Description: A general-purpose utility library - ca@valencia translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ca@valencia locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ca+valencia
+Provides: glib-2.0-locale, ca+valencia-translation
+
+Package: libglib-2.0-locale-cs
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-cs/libglib-2.0-locale-cs_2.38.2-r0_armel.deb
+Size: 27312
+SHA256: b9cf4e236e5e7e8370bd687d9917afb41b7d76acfc73891b0e679a251d6904e1
+SHA1: d0b6b0d36477427ac01989e5c32d06cb63c38981
+MD5sum: 4eaf88a303a76240c73a8cea60ebf838
+Description: A general-purpose utility library - cs translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the cs locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-cs
+Provides: glib-2.0-locale, cs-translation
+
+Package: libglib-2.0-locale-cy
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-cy/libglib-2.0-locale-cy_2.38.2-r0_armel.deb
+Size: 8968
+SHA256: da62648b6f9a5ea7d70f26392d7f8651a70ae87973af5c5f2f234ecb610daefd
+SHA1: 008728bb03fcf7114a5ffaf70757a25f65c84679
+MD5sum: 9f9095f2498501846920e5edc97ed7de
+Description: A general-purpose utility library - cy translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the cy locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-cy
+Provides: glib-2.0-locale, cy-translation
+
+Package: libglib-2.0-locale-da
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-da/libglib-2.0-locale-da_2.38.2-r0_armel.deb
+Size: 26264
+SHA256: 8eacec7048d74ca4b91441f4f4029ef394734ba1674cab5d37c0a0a9351df0e1
+SHA1: 09565330c31f0060aadabe9dcab9b8e54726a521
+MD5sum: 60c5b7f3a2a1a2969f7f9c65e87298eb
+Description: A general-purpose utility library - da translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the da locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-da
+Provides: glib-2.0-locale, da-translation
+
+Package: libglib-2.0-locale-de
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-de/libglib-2.0-locale-de_2.38.2-r0_armel.deb
+Size: 27344
+SHA256: 072375469c093209ca89fd001b69fe756742316a08f6daef3f337b67dcd8344e
+SHA1: 2db97047b79f07b5ad47456b7ada34df1908e1c1
+MD5sum: d2aeabb9f4a0cebd3bf6366a731f6428
+Description: A general-purpose utility library - de translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the de locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-de
+Provides: glib-2.0-locale, de-translation
+
+Package: libglib-2.0-locale-dz
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-dz/libglib-2.0-locale-dz_2.38.2-r0_armel.deb
+Size: 7790
+SHA256: 25baa3370e448aadbcac1e7ccb990b993b9f4cb0e3367339f23a4f3c42de24d9
+SHA1: 33e930568b3a51edf0ccf0ce42cd7fa1216cccb3
+MD5sum: ab32db42b46cc07b64573dd50d63bcf3
+Description: A general-purpose utility library - dz translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the dz locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-dz
+Provides: glib-2.0-locale, dz-translation
+
+Package: libglib-2.0-locale-el
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-el/libglib-2.0-locale-el_2.38.2-r0_armel.deb
+Size: 29276
+SHA256: 5b724b2cf98be7e2b1a7209b51ab260e516771abca022f3ea219156d5080db6c
+SHA1: 47d76c18239824e4d380590b65f3e71a23c004eb
+MD5sum: d38b8943c6ee16671e52f69a653bcaa0
+Description: A general-purpose utility library - el translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the el locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-el
+Provides: glib-2.0-locale, el-translation
+
+Package: libglib-2.0-locale-en+shaw
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-en+shaw/libglib-2.0-locale-en+shaw_2.38.2-r0_armel.deb
+Size: 14274
+SHA256: 3cc870d7bc1004226232283bb433de4b90da650f0f13cc8581f013dd2821bb44
+SHA1: a2649c687508f716ba785aa91dab2d0299591f01
+MD5sum: 77dc52680857f9f529fdfd536415519e
+Description: A general-purpose utility library - en@shaw translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the en@shaw locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-en+shaw
+Provides: glib-2.0-locale, en+shaw-translation
+
+Package: libglib-2.0-locale-en-ca
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-en-ca/libglib-2.0-locale-en-ca_2.38.2-r0_armel.deb
+Size: 14992
+SHA256: 07d5eb599d115e1dd99a1a70b588a0f4bee8047b35e8f1836079f8eda243b899
+SHA1: 596d35101add069c4ca819b235fc3d5425fa6e55
+MD5sum: 38848fa360979e19ec4f8e7b2c85358d
+Description: A general-purpose utility library - en_CA translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the en_CA locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-en-ca
+Provides: glib-2.0-locale, en-ca-translation
+
+Package: libglib-2.0-locale-en-gb
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-en-gb/libglib-2.0-locale-en-gb_2.38.2-r0_armel.deb
+Size: 16768
+SHA256: 6f3d4326fbb7d2e1a3985c95636889527fc102db7fc30e8f401128198af11721
+SHA1: 2a4aece7ef8b16cf5e709b3e0f434a8995717662
+MD5sum: 2f84adb93b8e3b16be1d96b047cc92c3
+Description: A general-purpose utility library - en_GB translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the en_GB locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-en-gb
+Provides: glib-2.0-locale, en-gb-translation
+
+Package: libglib-2.0-locale-eo
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-eo/libglib-2.0-locale-eo_2.38.2-r0_armel.deb
+Size: 24616
+SHA256: b4ade75cc65a4277c4adce3a52b01702c09e82eb5ad22eb3ef279a4c4f0f3e48
+SHA1: a39e712e0a1764b393e5376499a8b255a268dc0f
+MD5sum: 1fa6128f311340fac0da761c03118d7f
+Description: A general-purpose utility library - eo translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the eo locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-eo
+Provides: glib-2.0-locale, eo-translation
+
+Package: libglib-2.0-locale-es
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-es/libglib-2.0-locale-es_2.38.2-r0_armel.deb
+Size: 26840
+SHA256: 0b3dbd0c70581c38ab07a6e3fc46f90cad9df2efbb6af172a1894f92044025f9
+SHA1: a6347cca94eeb5bdd5a65df115832029b5c22d1d
+MD5sum: 5fb98ef77f18ed56c3e81a7dfac55363
+Description: A general-purpose utility library - es translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the es locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-es
+Provides: es-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-et
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-et/libglib-2.0-locale-et_2.38.2-r0_armel.deb
+Size: 15676
+SHA256: 476eeff6883d9646a9b54fe9558c87f1eefb1825f92f95b051fdb65f9d4fa796
+SHA1: e577c22d40c8c7704dcf1001108711f4de2b6855
+MD5sum: 7917d03293914d6f65626789b125b610
+Description: A general-purpose utility library - et translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the et locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-et
+Provides: glib-2.0-locale, et-translation
+
+Package: libglib-2.0-locale-eu
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-eu/libglib-2.0-locale-eu_2.38.2-r0_armel.deb
+Size: 26640
+SHA256: ff305a27daff62c6ae5cbbbda7bc3d83fe565d2b07701ad95cb0b5d32166e6c9
+SHA1: 1a603e0411b0cb167bb43c7c6ce90bc0ee5387a7
+MD5sum: d89398c3ecb3d873a8b5a4ff97406963
+Description: A general-purpose utility library - eu translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the eu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-eu
+Provides: glib-2.0-locale, eu-translation
+
+Package: libglib-2.0-locale-fa
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-fa/libglib-2.0-locale-fa_2.38.2-r0_armel.deb
+Size: 14828
+SHA256: cbea33e23869096ed8ce822c00e095ab526d4e6a354dfc1283a987ebb1ac0547
+SHA1: 419f9c3fc7a40fecd0b78080bea7cced7b67a2e7
+MD5sum: 05ed7bd7bf3d09807281eae26b074881
+Description: A general-purpose utility library - fa translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the fa locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-fa
+Provides: glib-2.0-locale, fa-translation
+
+Package: libglib-2.0-locale-fi
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-fi/libglib-2.0-locale-fi_2.38.2-r0_armel.deb
+Size: 23120
+SHA256: e9b79b86c12eaee37a2501cd2240533f5704f90da41d65afbb7a30e8e86aa89d
+SHA1: ba3ae921fb80004dbd5e9a325097d7babdfa9892
+MD5sum: 4900478934966109d2a7438108697cc5
+Description: A general-purpose utility library - fi translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the fi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-fi
+Provides: glib-2.0-locale, fi-translation
+
+Package: libglib-2.0-locale-fr
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-fr/libglib-2.0-locale-fr_2.38.2-r0_armel.deb
+Size: 27506
+SHA256: 1af7953da757e5b33329f80621d806e5d991d7bab0fa9dbdda068dbd783ac26a
+SHA1: bb803d4b89686dfe06f414986f8d8499b0144de0
+MD5sum: 1b54f70da77ccc459f47a4658728ff24
+Description: A general-purpose utility library - fr translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the fr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-fr
+Provides: glib-2.0-locale, fr-translation
+
+Package: libglib-2.0-locale-ga
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ga/libglib-2.0-locale-ga_2.38.2-r0_armel.deb
+Size: 4896
+SHA256: 6e09616d0e159f52132c1a21c7f423e9783b35603a5fad7ac5824bb03756a5f3
+SHA1: a3e5de1ebb96a02330aeb4e16d414a7907b75eef
+MD5sum: 0f64570ea68b3dbc9d963fce8fdefa65
+Description: A general-purpose utility library - ga translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ga locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ga
+Provides: ga-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-gl
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-gl/libglib-2.0-locale-gl_2.38.2-r0_armel.deb
+Size: 26688
+SHA256: 66960f3987610a7cdcc690afb3ab108965f0ce389d47ebfb6c032ca6da7ab212
+SHA1: 666b358343e3c10d9a691e3bbeb17724aec1d30e
+MD5sum: 1c771f77c94b9122f1abf723df43e584
+Description: A general-purpose utility library - gl translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the gl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-gl
+Provides: glib-2.0-locale, gl-translation
+
+Package: libglib-2.0-locale-gu
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-gu/libglib-2.0-locale-gu_2.38.2-r0_armel.deb
+Size: 28628
+SHA256: 9ce33e784e4c43caf5dd4672b1cc4de69bda8e8f246ab45f23137eaa62d1a926
+SHA1: bd7af5ac6953d1651e3fd1839dd7a8b69f613e68
+MD5sum: e4e8976f871025ddf993f6aed5a58a8c
+Description: A general-purpose utility library - gu translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the gu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-gu
+Provides: glib-2.0-locale, gu-translation
+
+Package: libglib-2.0-locale-he
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-he/libglib-2.0-locale-he_2.38.2-r0_armel.deb
+Size: 16834
+SHA256: 22a9c4cb477a2d0c173a0b0c4aeb4a7d051ff99fca2e51c9d3fc372f9b0d37b8
+SHA1: 3e24114d1b2dd79b5ad1cd932470a12e45c6a218
+MD5sum: 631293ed75bb7a9aaa713b4c8073d5d2
+Description: A general-purpose utility library - he translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the he locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-he
+Provides: glib-2.0-locale, he-translation
+
+Package: libglib-2.0-locale-hi
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-hi/libglib-2.0-locale-hi_2.38.2-r0_armel.deb
+Size: 28924
+SHA256: b5af8330857eb19a54aacbde22ecba96e6bc376e95fe3d02a71247b577c90b26
+SHA1: 74476e97ba3608db082feb414f7319afefcdbe16
+MD5sum: c19bd009769015d8fcb4e8d70941ffee
+Description: A general-purpose utility library - hi translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the hi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-hi
+Provides: glib-2.0-locale, hi-translation
+
+Package: libglib-2.0-locale-hr
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-hr/libglib-2.0-locale-hr_2.38.2-r0_armel.deb
+Size: 6260
+SHA256: 806d4b7671ed1a87966fb8712dae1e4c92422898fa02660d3149e75fed84fadc
+SHA1: 5e3d017c0cc2dc1561a6a19f4812449f2b935c10
+MD5sum: d345e901e6ff7f777db4ad5cd9e79cd9
+Description: A general-purpose utility library - hr translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the hr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-hr
+Provides: glib-2.0-locale, hr-translation
+
+Package: libglib-2.0-locale-hu
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-hu/libglib-2.0-locale-hu_2.38.2-r0_armel.deb
+Size: 27436
+SHA256: 8b5525747118ab0842a48cefed4162dd3e1ce2b7fe22dd7a3346e51f7a681901
+SHA1: 88a720ca202532ef05a039841fa8cb992fb8255d
+MD5sum: 3e02087127b97b368eb37b8af4796384
+Description: A general-purpose utility library - hu translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the hu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-hu
+Provides: glib-2.0-locale, hu-translation
+
+Package: libglib-2.0-locale-hy
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-hy/libglib-2.0-locale-hy_2.38.2-r0_armel.deb
+Size: 22372
+SHA256: c4a6ca2e9ae7e312b9ba069e14850cb579988516f4b3c16423271012f2d23e92
+SHA1: 8b68bf10af6fd26b4b09fbcbd95b4e5577ac6cff
+MD5sum: 96ec1b0438608ba9b588e8fbff4953c5
+Description: A general-purpose utility library - hy translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the hy locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-hy
+Provides: glib-2.0-locale, hy-translation
+
+Package: libglib-2.0-locale-id
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-id/libglib-2.0-locale-id_2.38.2-r0_armel.deb
+Size: 25868
+SHA256: fb4c682c933bead515ef1ffc9099090922bdd5cc0ce3b45157f66452adfe2c6e
+SHA1: 6302dcf9be0379e8eb0936de3e9107a4b6941d70
+MD5sum: 5dc4f1e8e7edf47e3d426659f4bb5c1e
+Description: A general-purpose utility library - id translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the id locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-id
+Provides: glib-2.0-locale, id-translation
+
+Package: libglib-2.0-locale-is
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-is/libglib-2.0-locale-is_2.38.2-r0_armel.deb
+Size: 4794
+SHA256: 37a9c0cb5526abb86c16ad74b555baaf0e3ba4983343cf2be2553a28cbb31c15
+SHA1: 52bb400c270ddb598992bc4e085e34ffdeba6646
+MD5sum: 6ec63387eeba3901ad4dcff69ce0a7c8
+Description: A general-purpose utility library - is translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the is locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-is
+Provides: glib-2.0-locale, is-translation
+
+Package: libglib-2.0-locale-it
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-it/libglib-2.0-locale-it_2.38.2-r0_armel.deb
+Size: 26468
+SHA256: 05fb737acc40f9981a2fda1971505c799f1121cd83eaefc6ce162dac83f46444
+SHA1: 477a540019a9eefbfa8b654bde29c64eb48ce211
+MD5sum: 56ac335a7bd9f838ff10d45a0e186759
+Description: A general-purpose utility library - it translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the it locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-it
+Provides: glib-2.0-locale, it-translation
+
+Package: libglib-2.0-locale-ja
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ja/libglib-2.0-locale-ja_2.38.2-r0_armel.deb
+Size: 21780
+SHA256: a03337098974942b1c12a10c00db881829986478454dc57bf90ea78eea4c06da
+SHA1: 72ad790fa14c5b74c8f10592086d5251de6291ee
+MD5sum: 7b2379cc4ad8f59fc61dae721aee5063
+Description: A general-purpose utility library - ja translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ja locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ja
+Provides: glib-2.0-locale, ja-translation
+
+Package: libglib-2.0-locale-ka
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ka/libglib-2.0-locale-ka_2.38.2-r0_armel.deb
+Size: 8068
+SHA256: 36f68d6a17f19c8fa7785eed8a223bcef79e1f343e724b0fb462feb5bbdfb3ab
+SHA1: 570fa5179bede9018d068e4a1e8a1bc127c79bfd
+MD5sum: ffcc4d4b55fb9245a1efc77b50e836ad
+Description: A general-purpose utility library - ka translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ka locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ka
+Provides: glib-2.0-locale, ka-translation
+
+Package: libglib-2.0-locale-kk
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-kk/libglib-2.0-locale-kk_2.38.2-r0_armel.deb
+Size: 3212
+SHA256: 95cb6f6b666dd7f0288ad22a965ce5f01161790d2c292f0511b9eec37deb1d1e
+SHA1: 18cedd6719aa4e38a91585a0146698e48da93201
+MD5sum: 54601e92089ef830b73e569c4e335e77
+Description: A general-purpose utility library - kk translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the kk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-kk
+Provides: glib-2.0-locale, kk-translation
+
+Package: libglib-2.0-locale-kn
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-kn/libglib-2.0-locale-kn_2.38.2-r0_armel.deb
+Size: 29612
+SHA256: 8b40c92fc9a375f78dbfb1201d82737b225203f5b1c9dbf3693d5cbf035504cf
+SHA1: b288dc74128041fe741644e794dc6771494b927d
+MD5sum: a756118951b5322022d450cb0da9e3e3
+Description: A general-purpose utility library - kn translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the kn locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-kn
+Provides: glib-2.0-locale, kn-translation
+
+Package: libglib-2.0-locale-ko
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ko/libglib-2.0-locale-ko_2.38.2-r0_armel.deb
+Size: 27152
+SHA256: e36457d29dd4f8e4ba35479f0cdc462d64f833725f3038f1030bc55246a9f1b2
+SHA1: f0bc9490f4510f75279e42717fa2e4f6e5f8a83b
+MD5sum: b5dbadea8ec0febcefe58807878ede37
+Description: A general-purpose utility library - ko translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ko locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ko
+Provides: glib-2.0-locale, ko-translation
+
+Package: libglib-2.0-locale-ku
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ku/libglib-2.0-locale-ku_2.38.2-r0_armel.deb
+Size: 2120
+SHA256: 6523b0b32cb774b94d50bdfbca0bac85112c3e0af17d6a1c0dc63664dd920fbf
+SHA1: 78decda4c08f1d69411f9d4a667ec7a2e7f07878
+MD5sum: e43d622cf0223f2f80fab3da19b4b538
+Description: A general-purpose utility library - ku translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ku locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ku
+Provides: ku-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-lt
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-lt/libglib-2.0-locale-lt_2.38.2-r0_armel.deb
+Size: 27184
+SHA256: 48d2f3c61f7005cd2061fe757bacec6afe8859e71069b37de794c35c842ff4b8
+SHA1: 0cded2b9022839cd0cef130bd2eebd4a2e7bbf99
+MD5sum: 1b0d9905399add52b3d1f88dc7011529
+Description: A general-purpose utility library - lt translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the lt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-lt
+Provides: glib-2.0-locale, lt-translation
+
+Package: libglib-2.0-locale-lv
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-lv/libglib-2.0-locale-lv_2.38.2-r0_armel.deb
+Size: 26956
+SHA256: 681bf739465d024c0c531332ffa06ca8deda5e153fcb3dee0b03ef709d532522
+SHA1: c3ea8f368ee2d11705d7cfb7a4e4cd8d943e9ee4
+MD5sum: 2bfd49fad747adfb9e6f708a018559ea
+Description: A general-purpose utility library - lv translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the lv locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-lv
+Provides: glib-2.0-locale, lv-translation
+
+Package: libglib-2.0-locale-mai
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-mai/libglib-2.0-locale-mai_2.38.2-r0_armel.deb
+Size: 10338
+SHA256: b8974a9db51847dbff1dac7d62d6ff565eda3504cb5617abcc3970c2361debd2
+SHA1: 2eef2115689d63edc7418c5b3b76c1869146173f
+MD5sum: 811d8e85fd2fb046645d60305848e29a
+Description: A general-purpose utility library - mai translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the mai locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-mai
+Provides: glib-2.0-locale, mai-translation
+
+Package: libglib-2.0-locale-mg
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-mg/libglib-2.0-locale-mg_2.38.2-r0_armel.deb
+Size: 6472
+SHA256: 7b6cb940bca49f09175650f8a0a3a841d8fdd505cce229747b411885476b541b
+SHA1: 719dfa4a11e9c875d5dee4f482056065f6407489
+MD5sum: 92ff117f604ede8548735f866ddcce0b
+Description: A general-purpose utility library - mg translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the mg locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-mg
+Provides: glib-2.0-locale, mg-translation
+
+Package: libglib-2.0-locale-mk
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-mk/libglib-2.0-locale-mk_2.38.2-r0_armel.deb
+Size: 12352
+SHA256: 0936ad34a8f207912c2a2c2f74a88da2a9ca59a466f8c93f27fce3bb7afafd55
+SHA1: baf1774970074b396f642bb280fc3eeddd6df65d
+MD5sum: beec6c860974df70b26f5d8d567e1d0f
+Description: A general-purpose utility library - mk translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the mk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-mk
+Provides: mk-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-ml
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ml/libglib-2.0-locale-ml_2.38.2-r0_armel.deb
+Size: 18664
+SHA256: e9f162202b047ac2e83a1b0a3b16593e3c1fb3249b6a5f774c8b5520ae269e0e
+SHA1: 034a76e7ce4b81e280cd5c3ba811eea5783e0c5d
+MD5sum: d3cf91aa429ea15b8b1a252df2613d64
+Description: A general-purpose utility library - ml translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ml locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ml
+Provides: glib-2.0-locale, ml-translation
+
+Package: libglib-2.0-locale-mn
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-mn/libglib-2.0-locale-mn_2.38.2-r0_armel.deb
+Size: 6176
+SHA256: b1094d48f653e9c6e2965bbfcd7e8aa9ef3af0d311e97002f07082c3f8a506f6
+SHA1: b5c98aede355d8ebc1e52329a1fafec9ac8fcb77
+MD5sum: daca99f4ec2989f2f9d808d63e7027a5
+Description: A general-purpose utility library - mn translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the mn locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-mn
+Provides: glib-2.0-locale, mn-translation
+
+Package: libglib-2.0-locale-mr
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-mr/libglib-2.0-locale-mr_2.38.2-r0_armel.deb
+Size: 28646
+SHA256: 03f21bf2e7b457006ecf07c242a87f1ee9df90222f59b3997abd38ccd59c8af5
+SHA1: 717695d859e2470914d271325c1b44f2eba879c1
+MD5sum: 0643b54afa35c93c3a320a80c0113929
+Description: A general-purpose utility library - mr translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the mr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-mr
+Provides: glib-2.0-locale, mr-translation
+
+Package: libglib-2.0-locale-ms
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ms/libglib-2.0-locale-ms_2.38.2-r0_armel.deb
+Size: 4692
+SHA256: 1ee6db8bf148b8a69d46057292528e5145c629530f2f284abd9ffbb7e0d3cfc6
+SHA1: f85204dd4e2537b356ee6839fb46bc2e94379b48
+MD5sum: d48350484da375c9df95b155141c5a75
+Description: A general-purpose utility library - ms translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ms locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ms
+Provides: ms-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-nb
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-nb/libglib-2.0-locale-nb_2.38.2-r0_armel.deb
+Size: 25972
+SHA256: 0e0bea92ee7245e3ae133d07f01d824b8f36ba17d05f1680f9453f8f69c8e98e
+SHA1: 5451065316bf7bd0b8f231d1ac4aff463384f19c
+MD5sum: 288b6d45cba289d6954e58d4589adfdc
+Description: A general-purpose utility library - nb translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the nb locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-nb
+Provides: glib-2.0-locale, nb-translation
+
+Package: libglib-2.0-locale-nds
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-nds/libglib-2.0-locale-nds_2.38.2-r0_armel.deb
+Size: 3268
+SHA256: e07ea0b7fcc38d123cdaa2052c8914ae16e5379ba7bca263f1254aa8f46a49c9
+SHA1: 31f63d675e37e4f6686ef569e2c1c7f32e68c847
+MD5sum: 823c7b3c22e4caed8b61444cb83cb920
+Description: A general-purpose utility library - nds translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the nds locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-nds
+Provides: nds-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-ne
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ne/libglib-2.0-locale-ne_2.38.2-r0_armel.deb
+Size: 6810
+SHA256: 241b1a6b209d85e6c75b9eed2a022335a2f5cc306112e1b98ba1569b599fe4c8
+SHA1: ed4cfeabef8fee74cc51fb25625bcfc51624e881
+MD5sum: 761b69c18b1acd10b5308c454f984510
+Description: A general-purpose utility library - ne translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ne locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ne
+Provides: glib-2.0-locale, ne-translation
+
+Package: libglib-2.0-locale-nl
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-nl/libglib-2.0-locale-nl_2.38.2-r0_armel.deb
+Size: 18282
+SHA256: f25ec85e9a28764cd09ff0f1fd9af6472c1dd25ae24e0191f470d1294e107d5d
+SHA1: 915a463bafac15a88bfad757247d1cf95f75f061
+MD5sum: 4f4a572f4dd5f5dcd12ca0191453dafc
+Description: A general-purpose utility library - nl translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the nl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-nl
+Provides: glib-2.0-locale, nl-translation
+
+Package: libglib-2.0-locale-nn
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-nn/libglib-2.0-locale-nn_2.38.2-r0_armel.deb
+Size: 11466
+SHA256: 229fe6e32f3e2e765f836c3ad084d7e25a6d531e5492fc9d3a4f5c2a9f9a5c2b
+SHA1: 211a17c81c6c9f6ba7afb281eb4eab3d6736add2
+MD5sum: 546878f6c0319ea0052558c06cf75487
+Description: A general-purpose utility library - nn translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the nn locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-nn
+Provides: nn-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-oc
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-oc/libglib-2.0-locale-oc_2.38.2-r0_armel.deb
+Size: 2144
+SHA256: f7b5fd017c89f8718332d605dc1f4f9010789ca4528d7fb3354924d12981fdbe
+SHA1: 4772fd00fa6cb0234af7d0e3c5af75ffb50047ba
+MD5sum: f827c89b8d7f8f11dd0aa56c9219bfce
+Description: A general-purpose utility library - oc translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the oc locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-oc
+Provides: glib-2.0-locale, oc-translation
+
+Package: libglib-2.0-locale-or
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-or/libglib-2.0-locale-or_2.38.2-r0_armel.deb
+Size: 28720
+SHA256: 4c010221f739b56e95f83897712fa33e873989cf1ae0dc2328581de1c14f01ee
+SHA1: 5fd01c94bce89cb66536160217735b6eb97b190c
+MD5sum: b271551e44caad014cff05553033a9ad
+Description: A general-purpose utility library - or translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the or locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-or
+Provides: glib-2.0-locale, or-translation
+
+Package: libglib-2.0-locale-pa
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-pa/libglib-2.0-locale-pa_2.38.2-r0_armel.deb
+Size: 28376
+SHA256: eab2c0d8867b5000eda3e0b11ab844c22e49c558e38d06afdf698ba0b5f7d145
+SHA1: 82413d8cacfb9e631ebb99d7aaa69d0614dd46e8
+MD5sum: dcf7172914c4cfc81f70a4d670922d5e
+Description: A general-purpose utility library - pa translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the pa locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-pa
+Provides: glib-2.0-locale, pa-translation
+
+Package: libglib-2.0-locale-pl
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-pl/libglib-2.0-locale-pl_2.38.2-r0_armel.deb
+Size: 27324
+SHA256: 4b1493b996ab080b956d17c649c700253be312a1d7f79b2962f8445d7ed3ec2a
+SHA1: 2f21d0c7db25ac8bb27a9ba6a6d8b1f58a6ee30e
+MD5sum: 56a8eba950b95b4ecc7bae61ae66cdb9
+Description: A general-purpose utility library - pl translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the pl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-pl
+Provides: pl-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-ps
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ps/libglib-2.0-locale-ps_2.38.2-r0_armel.deb
+Size: 4380
+SHA256: eb68dfaaaabd23411e24d12c783688afc7a7bba8a84df2c28b0ea3e711e02e67
+SHA1: f74a3a05b65a5264ac9166bef1cecb84c0160978
+MD5sum: 2f40aec66ba3abb2f4d9fc0a040a2822
+Description: A general-purpose utility library - ps translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ps locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ps
+Provides: glib-2.0-locale, ps-translation
+
+Package: libglib-2.0-locale-pt
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-pt/libglib-2.0-locale-pt_2.38.2-r0_armel.deb
+Size: 26328
+SHA256: 59bd0ec04f1a4d48beb507928d7cf49cbd65a70b7fe7b8f010df4f8fa7a2efb1
+SHA1: 34f0eb6650546fb21d14987b02280d070e3001b5
+MD5sum: 24624226bcab05be19eb2f9e3b39b49d
+Description: A general-purpose utility library - pt translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the pt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-pt
+Provides: pt-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-pt-br
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-pt-br/libglib-2.0-locale-pt-br_2.38.2-r0_armel.deb
+Size: 26442
+SHA256: fffef089e95541f85ade29a1442e043d86ea0212245e4ead4cb4194c78b98f02
+SHA1: 2e8b42e477d7dfc2e5a1828a8d6d3b3e6f528b7a
+MD5sum: 0cfcd25c454537821e1258310a0738ed
+Description: A general-purpose utility library - pt_BR translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the pt_BR locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-pt-br
+Provides: glib-2.0-locale, pt-br-translation
+
+Package: libglib-2.0-locale-ro
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ro/libglib-2.0-locale-ro_2.38.2-r0_armel.deb
+Size: 22818
+SHA256: 104465bb916e8a0a6e72e956d9f50baf311ce1c1a000b2bde2933ec8c8e654e8
+SHA1: 1f770477df3dff697ba93225b9c90445cb66e780
+MD5sum: 3ac07bbe80c7fb54fd595e5368895bc6
+Description: A general-purpose utility library - ro translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ro locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ro
+Provides: glib-2.0-locale, ro-translation
+
+Package: libglib-2.0-locale-ru
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ru/libglib-2.0-locale-ru_2.38.2-r0_armel.deb
+Size: 29024
+SHA256: 33e462a2d26ed3b9296e5d580d6a5d146b94d0ea50a9850590c0e259fe0eeed2
+SHA1: 8c6194352c34b68e822f55b360eb08db886a8c3c
+MD5sum: 7548b7a09ba39f414ba9f54ab10d7bad
+Description: A general-purpose utility library - ru translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ru locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ru
+Provides: glib-2.0-locale, ru-translation
+
+Package: libglib-2.0-locale-rw
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-rw/libglib-2.0-locale-rw_2.38.2-r0_armel.deb
+Size: 1806
+SHA256: e9822caeb92d7996ae281d6e0102242af631e017609029150d2f94d1387c5cc6
+SHA1: 1af266137856f6244e1df67a127d223b49c4f5f4
+MD5sum: 5f1695e51fe987258c85b93868acaad5
+Description: A general-purpose utility library - rw translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the rw locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-rw
+Provides: glib-2.0-locale, rw-translation
+
+Package: libglib-2.0-locale-si
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-si/libglib-2.0-locale-si_2.38.2-r0_armel.deb
+Size: 4042
+SHA256: 7384c41250d69bc0109e8b283aaed0897e7271c5139165e22eb60673d0659fe5
+SHA1: 126a5180858f888712486ac855fc3995d89a94a5
+MD5sum: b9d66b8c53030296dce5bc2cbb536f80
+Description: A general-purpose utility library - si translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the si locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-si
+Provides: glib-2.0-locale, si-translation
+
+Package: libglib-2.0-locale-sk
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-sk/libglib-2.0-locale-sk_2.38.2-r0_armel.deb
+Size: 27368
+SHA256: 01b4880a663423de2d69e8889141336bb265067ac07755ce31569b37801241d5
+SHA1: 1c76eece0884a01ccda95db81e83538860fbeef7
+MD5sum: 5f378f5da1769d62090de04e532432a2
+Description: A general-purpose utility library - sk translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the sk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-sk
+Provides: glib-2.0-locale, sk-translation
+
+Package: libglib-2.0-locale-sl
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-sl/libglib-2.0-locale-sl_2.38.2-r0_armel.deb
+Size: 26872
+SHA256: 59eceba4eb8462c939eeaa2a049bb27330c1ea9ea67631766e09af7e7abb5bb7
+SHA1: bb74698b30e717a3157a021124b86f4eb8cda004
+MD5sum: db305ccd0933254fac9c941c5a8ad3b8
+Description: A general-purpose utility library - sl translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the sl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-sl
+Provides: glib-2.0-locale, sl-translation
+
+Package: libglib-2.0-locale-sq
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-sq/libglib-2.0-locale-sq_2.38.2-r0_armel.deb
+Size: 11848
+SHA256: 6ee5ff7dd0084464afc00472edec4866149ce24623cc476a1af9e80a2dead30f
+SHA1: f1eb2ad7c933a264b3431920cd7915f3ca2d2798
+MD5sum: 8afe0aa5a36529be43a5ff307eeaf6ff
+Description: A general-purpose utility library - sq translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the sq locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-sq
+Provides: glib-2.0-locale, sq-translation
+
+Package: libglib-2.0-locale-sr
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-sr/libglib-2.0-locale-sr_2.38.2-r0_armel.deb
+Size: 29168
+SHA256: eddc53443e5dfe2187d638268804895ff32c5df599458f0a48b99c0bac047a62
+SHA1: 3f3c0ac3b11e1d8a22a9bdcb7fe2b708cf87517a
+MD5sum: 2580f0792c97c2441606e1c68439cdab
+Description: A general-purpose utility library - sr translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the sr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-sr
+Provides: glib-2.0-locale, sr-translation
+
+Package: libglib-2.0-locale-sr+ije
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-sr+ije/libglib-2.0-locale-sr+ije_2.38.2-r0_armel.deb
+Size: 5186
+SHA256: c9ac420f54194c68ddf39861a23acd7d9507977a01729498e4dea8d68c731f81
+SHA1: a2e3bb2e64967ffee0fcf9d5f5af143eea7c0fce
+MD5sum: 95e65c7d211c1f265c6a57c91e9979d7
+Description: A general-purpose utility library - sr@ije translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the sr@ije locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-sr+ije
+Provides: sr+ije-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-sr+latin
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-sr+latin/libglib-2.0-locale-sr+latin_2.38.2-r0_armel.deb
+Size: 27492
+SHA256: ba517e56a10769c5c030a665444f0fe37c55bcffa9a89885f7e3a4ace6c89b00
+SHA1: b8ade7f09522fd04c4f667f74a3a17a322351d0f
+MD5sum: c814c5dbc07758a04e9cecf416ab4043
+Description: A general-purpose utility library - sr@latin translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the sr@latin locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-sr+latin
+Provides: glib-2.0-locale, sr+latin-translation
+
+Package: libglib-2.0-locale-sv
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-sv/libglib-2.0-locale-sv_2.38.2-r0_armel.deb
+Size: 24972
+SHA256: 4d0b35e8ddc7337f383d38a13e4ca339319f464e04124ab40b3834c95eb1fb8d
+SHA1: 0ceb2a4b52dc2073d3cd976e608fb6fb1d12cc34
+MD5sum: cec2fa1fa1d9be1fc4c852e31cd4ff35
+Description: A general-purpose utility library - sv translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the sv locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-sv
+Provides: glib-2.0-locale, sv-translation
+
+Package: libglib-2.0-locale-ta
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ta/libglib-2.0-locale-ta_2.38.2-r0_armel.deb
+Size: 29200
+SHA256: 2fc1c2f0d532f163f369c3ba45e4b0a4c4f3cc7120395071f29fa78d2cbbf708
+SHA1: cb75c1299dc306b22d4ebec04604dc781e4a625d
+MD5sum: 91119fb21c75b771273a802e80711ada
+Description: A general-purpose utility library - ta translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ta locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ta
+Provides: glib-2.0-locale, ta-translation
+
+Package: libglib-2.0-locale-te
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-te/libglib-2.0-locale-te_2.38.2-r0_armel.deb
+Size: 30676
+SHA256: 5cfc259f53302faff1e1ad321349570660d6c701126328db1159fea6d4013e7d
+SHA1: 04f704590aaf73e3b16bd2729f4a71e103a9050f
+MD5sum: 8f25504611a1782e0816a1ed6a308eaf
+Description: A general-purpose utility library - te translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the te locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-te
+Provides: glib-2.0-locale, te-translation
+
+Package: libglib-2.0-locale-tg
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-tg/libglib-2.0-locale-tg_2.38.2-r0_armel.deb
+Size: 2256
+SHA256: 02f25528878f4839e4f3dafe938c843ef3fc05584497765c83d730923737da78
+SHA1: 5f2d2a85a9bf2a10bd3891a83d7e6d1a5251161f
+MD5sum: 0af45c3ba974af5e6429dbf7c1c24089
+Description: A general-purpose utility library - tg translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the tg locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-tg
+Provides: glib-2.0-locale, tg-translation
+
+Package: libglib-2.0-locale-th
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-th/libglib-2.0-locale-th_2.38.2-r0_armel.deb
+Size: 28026
+SHA256: 4f6342ab6a86e23324c36e1a5c39aa2610c386da2e997ccb45b2cd5a90aa4ae5
+SHA1: 66b20091601fa01871adb3e412ffa2a959c8fbb6
+MD5sum: 470fe62f54338a4f67b8d226cffa7dc0
+Description: A general-purpose utility library - th translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the th locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-th
+Provides: th-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-tl
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-tl/libglib-2.0-locale-tl_2.38.2-r0_armel.deb
+Size: 5916
+SHA256: 6fb4679fa3737d96d53eb73e57f1a77b3b76b1b9267a94bfa61f4f0e8b84995c
+SHA1: d7d2b1fea113074ffee2d9b6400b6265833feb2a
+MD5sum: 0031464f62d9d9eb1c4dd1529c429a65
+Description: A general-purpose utility library - tl translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the tl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-tl
+Provides: glib-2.0-locale, tl-translation
+
+Package: libglib-2.0-locale-tr
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-tr/libglib-2.0-locale-tr_2.38.2-r0_armel.deb
+Size: 17042
+SHA256: 198b7b5bcd6f223a154c2c24b3c1628cdecd0288f7fb05f03381f7543de9bfca
+SHA1: caac5c7b2ea3bb21c8e4af30f2f8ea9db66dec3f
+MD5sum: 99b3c10547c8f43aa3644b07ea41071e
+Description: A general-purpose utility library - tr translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the tr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-tr
+Provides: glib-2.0-locale, tr-translation
+
+Package: libglib-2.0-locale-tt
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-tt/libglib-2.0-locale-tt_2.38.2-r0_armel.deb
+Size: 3372
+SHA256: 5df69bfcf97b2aa809bc2b226ed7f7e525fe88f7c6823ab221378b2601cca5b2
+SHA1: 1f01e9789f8b81de821b38c4b28ed97b770bfaec
+MD5sum: d9e5c0d061a0a2ffc7835b6a65908eb6
+Description: A general-purpose utility library - tt translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the tt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-tt
+Provides: glib-2.0-locale, tt-translation
+
+Package: libglib-2.0-locale-ug
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-ug/libglib-2.0-locale-ug_2.38.2-r0_armel.deb
+Size: 28256
+SHA256: c95f693e5aff958386434fc8f0593ac96fe66aa042b63f2dd75349ad693cdf4a
+SHA1: bc2a83f2bb1630c51fa22be86f9f2862e5676392
+MD5sum: 755f38f7d1a737a496f903fc17c30cd7
+Description: A general-purpose utility library - ug translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the ug locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-ug
+Provides: glib-2.0-locale, ug-translation
+
+Package: libglib-2.0-locale-uk
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-uk/libglib-2.0-locale-uk_2.38.2-r0_armel.deb
+Size: 15160
+SHA256: 99c1d2e7a06c5193e2750457e79b55ccfcd9f8d113fe246fe8bfc8a8de1d97cf
+SHA1: 4f8ad9a7ecddb7dc0ad5e48711218b5a02bae9bc
+MD5sum: 6db87ea1582763c31e136abaa8d5d1a4
+Description: A general-purpose utility library - uk translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the uk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-uk
+Provides: uk-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-vi
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-vi/libglib-2.0-locale-vi_2.38.2-r0_armel.deb
+Size: 26536
+SHA256: 7b083774ed3297043565ad00cb09605cd153adbd277771266b8f3da9b2f326aa
+SHA1: fc44f3204c5152d193641fda335881df8090d191
+MD5sum: 2ad1b79a4acbb10e04ed811caafd58a6
+Description: A general-purpose utility library - vi translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the vi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-vi
+Provides: glib-2.0-locale, vi-translation
+
+Package: libglib-2.0-locale-wa
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-wa/libglib-2.0-locale-wa_2.38.2-r0_armel.deb
+Size: 3248
+SHA256: 813e758bbb3025b56fc24f39046516f239d3bd762ce6c4ca92b144da0a7864b9
+SHA1: a4c32a8741c3ffd50c810e80e5074a1f557a9044
+MD5sum: d81ab28fa239077d0a9e5bd8c5dc2c11
+Description: A general-purpose utility library - wa translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the wa locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-wa
+Provides: wa-translation, glib-2.0-locale
+
+Package: libglib-2.0-locale-xh
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-xh/libglib-2.0-locale-xh_2.38.2-r0_armel.deb
+Size: 5850
+SHA256: 531ae7837c30647ca8505348532af6884aba08c1961c2f4486a582b22ebd043d
+SHA1: 2583f420b207ba336e24de8cddebe695798d763a
+MD5sum: a139e96497ec4382c7a6d6ca8057a9bc
+Description: A general-purpose utility library - xh translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the xh locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-xh
+Provides: glib-2.0-locale, xh-translation
+
+Package: libglib-2.0-locale-yi
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-yi/libglib-2.0-locale-yi_2.38.2-r0_armel.deb
+Size: 5044
+SHA256: 6e79a8460a15bb4cd20c6b3465d30e364fb478ee16d904ed181ffa01112c0af0
+SHA1: 2e48d83225e744d6f5e442078cd237c908ab2c16
+MD5sum: cc3200844ac1c5231b6a11807a175b54
+Description: A general-purpose utility library - yi translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the yi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-yi
+Provides: glib-2.0-locale, yi-translation
+
+Package: libglib-2.0-locale-zh-cn
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-zh-cn/libglib-2.0-locale-zh-cn_2.38.2-r0_armel.deb
+Size: 25910
+SHA256: 683209449656fb3a331dc38c6e6b189575dbd31b8cc7cf0ea5b79df0ebebce2d
+SHA1: 321af1de99e44b39ed66b1d2fefe12076dd72f28
+MD5sum: e435372da4ee9e10be362a2576fa0307
+Description: A general-purpose utility library - zh_CN translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the zh_CN locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-zh-cn
+Provides: glib-2.0-locale, zh-cn-translation
+
+Package: libglib-2.0-locale-zh-hk
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-zh-hk/libglib-2.0-locale-zh-hk_2.38.2-r0_armel.deb
+Size: 26280
+SHA256: 3389a10ce11a5bb4bce5b1f10e594f0cf2c2028ceef4f36fd1468fcc80ae05d1
+SHA1: e2b8e544af090c71de159385c5d110e46837a8d3
+MD5sum: edbdfade48016e6832196fd0af45bb34
+Description: A general-purpose utility library - zh_HK translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the zh_HK locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-zh-hk
+Provides: glib-2.0-locale, zh-hk-translation
+
+Package: libglib-2.0-locale-zh-tw
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-locale-zh-tw/libglib-2.0-locale-zh-tw_2.38.2-r0_armel.deb
+Size: 26272
+SHA256: f493a42cedee963ee64c7c36980d262529fd8a10bea080c264fdf6e694c1d2fb
+SHA1: d9fe065ea6547daf8d39a8784dadf97bd243d99a
+MD5sum: eb3a8940d7ee7992326860b6a6f68d8d
+Description: A general-purpose utility library - zh_TW translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the zh_TW locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Recommends: virtual-locale-zh-tw
+Provides: glib-2.0-locale, zh-tw-translation
+
+Package: libglib-2.0-ptest
+Version: 1:2.38.2-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libg/libglib-2.0-ptest/libglib-2.0-ptest_2.38.2-r0_armel.deb
+Size: 2577960
+SHA256: 8757081542709fecab199b01facbcfe41aad2a4ffa9c06bf1576c858b56e0fef
+SHA1: 377ef91a58fcc09105a473cc4b2782048bceede5
+MD5sum: a887928043c28dd5c226796570faedce
+Description: A general-purpose utility library - Package test files
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains a test directory
+ /usr/lib/glib-2.0/ptest for package test purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Depends: eglibc-gconv-euc-jp, shared-mime-info, tzdata-europe, libdbus-1-3 (>= 1.6.18), libz1 (>= 1.2.8), eglibc-gconv-cp1255, tzdata-posix, eglibc-localedata-translit-cjk-variants, eglibc-charmap-utf-8, libffi6 (>= 3.0.13), tzdata-americas, tzdata, eglibc-charmap-cp1255, libglib-2.0-0 (>= 2.38.2), python-pygobject, eglibc-gconv-iso8859-1, python-dbus, eglibc-gconv-iso8859-15, libc6 (>= 2.19), eglibc-gconv-utf-7, eglibc-charmap-invariant, tzdata-asia, gnome-desktop-testing, eglibc-gconv-utf-16, eglibc-gconv-utf-32
+
+Package: libglib-2.0-utils
+Version: 1:2.38.2-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libg/libglib-2.0-utils/libglib-2.0-utils_2.38.2-r0_armel.deb
+Size: 67322
+SHA256: cfd9e38823384724cf4301f8d5cc5c8eb1dd8d0de7fe5ff1fe29828be0365d9b
+SHA1: c34fa89e8c3286bf2dbd37516fff4849bae96916
+MD5sum: 7c84f1f1ce8a3edd4185c6fd7ef16ff2
+Description: A general-purpose utility library
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: glib-2.0
+PackageArch: armv6-vfp
+Depends: libglib-2.0-0 (>= 2.38.2), libc6 (>= 2.19)
+
 Package: libncurses5
 Version: 5.9-r15.1
 Priority: optional
