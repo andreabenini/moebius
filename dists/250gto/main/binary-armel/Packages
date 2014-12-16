@@ -92453,6 +92453,158 @@ OE: util-macros
 PackageArch: armv6-vfp
 Homepage: http://www.x.org
 
+Package: vim
+Version: 7.4.481-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim/vim_7.4.481-r0_armel.deb
+Size: 704390
+SHA256: 625922c465396bd04d16cf9e4806ae58618c06a105c80a7f2be428799279eaa2
+SHA1: e5ebbee6de68ab20a3bb4164ef7c99919422db8d
+MD5sum: 56d3b424a08b2d9f0960d9e140980768
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+Depends: ncurses-terminfo-base, update-alternatives-opkg, libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Suggests: diffutils
+Recommends: vim-help, vim-syntax, vim-common, vim-tutor, vim-vimrc
+
+Package: vim-common
+Version: 7.4.481-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-common/vim-common_7.4.481-r0_armel.deb
+Size: 2212790
+SHA256: 8d0e4bfe8069cd5b48cd903538fac043c09de7fd7fa49292afa940d7fb4b4b27
+SHA1: 519157e2ddab026c91afb344a35b24cd66421d04
+MD5sum: 5939cc28901c0d5f4cbe125fef3c8ee6
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+
+Package: vim-dbg
+Version: 7.4.481-r0
+Priority: optional
+Section: devel
+Filename: pool/main/v/vim-dbg/vim-dbg_7.4.481-r0_armel.deb
+Size: 2840124
+SHA256: 0c50cc5754f353b8fdfad65e012c4c49c8d84417c3f766cae2bb09b42c4fcca1
+SHA1: 850ce74d862e7179b8d54274a5967cdc2250c7ea
+MD5sum: 0975cda2abea95105ad077d4874f2644
+Description: Vi IMproved - enhanced vi editor - Debugging files
+ Vi IMproved - enhanced vi editor.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+Recommends: libc6-dbg, ncurses-libtinfo-dbg
+
+Package: vim-dev
+Version: 7.4.481-r0
+Priority: optional
+Section: devel
+Filename: pool/main/v/vim-dev/vim-dev_7.4.481-r0_armel.deb
+Size: 804
+SHA256: 25b9d4d57c09dd46bdeb0ebffa9635ffbee999e00dc4719433e15b61f7727f98
+SHA1: 6e76b7db4be088347e754e2a8124336e57c8f874
+MD5sum: 03ad639d7ae758bac39f967f80fb8131
+Description: Vi IMproved - enhanced vi editor - Development files
+ Vi IMproved - enhanced vi editor.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+Depends: vim (= 7.4.481-r0)
+Recommends: libc6-dev, ncurses-terminfo-base-dev, update-alternatives-opkg-dev, ncurses-libtinfo-dev, ncurses-dev
+
+Package: vim-doc
+Version: 7.4.481-r0
+Priority: optional
+Section: doc
+Filename: pool/main/v/vim-doc/vim-doc_7.4.481-r0_armel.deb
+Size: 77646
+SHA256: 96a3d38b44673fb98b5ddebf741236a5a117a4b408e382068b855df2eb357f2f
+SHA1: fabf53d6d594cb677a8891a72e4de0e538ec1195
+MD5sum: c99e239b721d6433ec0b4ccfe47a90dd
+Description: Vi IMproved - enhanced vi editor - Documentation files
+ Vi IMproved - enhanced vi editor.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+
+Package: vim-help
+Version: 7.4.481-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-help/vim-help_7.4.481-r0_armel.deb
+Size: 1425970
+SHA256: 213ea0086a89f0fc8509b6905be2a6419110188ba52632e8cb82add72a0386f8
+SHA1: 0f6ebc9b4eba3775d05cb38685549aa45ca59a6b
+MD5sum: c8e6dece495b2d3e51d0f7a012a470f9
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+
+Package: vim-syntax
+Version: 7.4.481-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-syntax/vim-syntax_7.4.481-r0_armel.deb
+Size: 948276
+SHA256: d90f254c442d21c25351fa3ede1be238ad27adb99ce34fd2475cb05f6ede98a5
+SHA1: 32c73ca4d30dde6da77afcd8dbec4f3b42db62a7
+MD5sum: de59ca9192818e20376f3bba39cfa044
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+
+Package: vim-tutor
+Version: 7.4.481-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-tutor/vim-tutor_7.4.481-r0_armel.deb
+Size: 370954
+SHA256: e576420d7b660b4d94a6dbc29d3a71f6a64bd06d879d9584f2bb9923a814f5f4
+SHA1: c1f4c1c622332bc40f3a269f8d5e73f949d1f567
+MD5sum: 41cc76034d4478a3d706c7333492f0de
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+
+Package: vim-vimrc
+Version: 7.4.481-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-vimrc/vim-vimrc_7.4.481-r0_armel.deb
+Size: 2284
+SHA256: ee38bc3c5e477ecc661e8fd9ade5d059db4eb8f15486e9dfc962a9e5abac21e7
+SHA1: d827a1f118bfd4f3a8fb9e47a86a2b07464ddf28
+MD5sum: 70fc94bf198853f75d890bef7dfcbd6f
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: vim
+PackageArch: armv6-vfp
+
 Package: wget
 Version: 1.14-r16.0
 Priority: optional
