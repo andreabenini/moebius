@@ -856,6 +856,1809 @@ PackageArch: raspberrypi
 Depends: bcm2835-bootfiles (= 20140817-r3)
 Recommends: rpi-config-dev
 
+Package: binutils
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils/binutils_2.24-r0_armel.deb
+Size: 830192
+SHA256: f46e39f35af198747f147c8dc5d92b7755d3c914d8818dc8078af41b600a0014
+SHA1: 90a4d2085ae72b5e0de113edf807079bc2284d26
+MD5sum: 2b6ae87aa2e9abdedc1ae2e2e0d757ff
+Description: GNU binary utilities
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Depends: update-alternatives-opkg, libz1 (>= 1.2.8), libc6 (>= 2.19)
+Provides: binutils-symlinks
+
+Package: binutils-dbg
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-dbg/binutils-dbg_2.24-r0_armel.deb
+Size: 3491014
+SHA256: 689a2e9dd07e85f7fbb81af1f8de5305887a78dd73bd8303cbc651dcc27719f8
+SHA1: c18d575303f185b0be85f09a3a8713fb24ff6629
+MD5sum: e2bd81fb182c0e02a2caf8c07ff28996
+Description: GNU binary utilities - Debugging files
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: libc6-dbg, libz-dbg
+
+Package: binutils-dev
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-dev/binutils-dev_2.24-r0_armel.deb
+Size: 81858
+SHA256: 2d7bf4562826fc0e5b3367187b7483ce0c42aae3f3f57e987c23cde0800ae4c8
+SHA1: 6ff12b72392ed5dda2219d5a0afffdc3b1861255
+MD5sum: 47c329c4eb998d41ebae7b00458a6b55
+Description: GNU binary utilities - Development files
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Depends: binutils (= 2.24-r0)
+Recommends: libc6-dev, bison-dev, libz-dev, update-alternatives-opkg-dev, flex-dev
+
+Package: binutils-doc
+Version: 2.24-r0
+Priority: optional
+Section: doc
+Filename: pool/main/b/binutils-doc/binutils-doc_2.24-r0_armel.deb
+Size: 530764
+SHA256: 33fa5c9250716a35096a7490086f4f618f2098035c907437a6fd6541650bb555
+SHA1: 1d420c80c26f79e6ef1c8f9d7666c695a44bd364
+MD5sum: 9de3fe261f91feca03fe9fb354187418
+Description: GNU binary utilities - Documentation files
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+
+Package: binutils-locale-bg
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-bg/binutils-locale-bg_2.24-r0_armel.deb
+Size: 38436
+SHA256: 50499807c8d0547f2dbe14ce0ebc70b9e25d8f16c4cf2701e537d4068ff9459f
+SHA1: bf3a1dc9138d7912cd043273625e65f84077424a
+MD5sum: 68cedc22a98b95e9af38dc812638e517
+Description: GNU binary utilities - bg translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the bg
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-bg
+Provides: bg-translation, binutils-locale
+
+Package: binutils-locale-da
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-da/binutils-locale-da_2.24-r0_armel.deb
+Size: 70392
+SHA256: 8a4fbb56438d1ce963f3bf67ffd1eb634a9747ca56af35791a2ec8df98a7a3a0
+SHA1: a0144520fe9f7d28f835cf16b2e8cf353b201661
+MD5sum: 1ea0651f9aeefe83e68a7f9337d294e5
+Description: GNU binary utilities - da translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the da
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-da
+Provides: binutils-locale, da-translation
+
+Package: binutils-locale-de
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-de/binutils-locale-de_2.24-r0_armel.deb
+Size: 9484
+SHA256: 5a90c36036472d1b9a62f81290f3dd954a55232528c75d017a8551dfa544207a
+SHA1: 106f6827b10671413e11dc9e157b8ec872fb56a7
+MD5sum: 8642eed79c775f30186fd613cab27a82
+Description: GNU binary utilities - de translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the de
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-de
+Provides: de-translation, binutils-locale
+
+Package: binutils-locale-eo
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-eo/binutils-locale-eo_2.24-r0_armel.deb
+Size: 4840
+SHA256: 99d962a08b93b35b15a4e5e913ab9223aae82eacd05351e77556dbad525e1f01
+SHA1: 2d5e2ad868d993cc6159b8e0810c95d3033ed1a2
+MD5sum: 44864eb95cfeeef0d9d21c77d79dc7b2
+Description: GNU binary utilities - eo translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the eo
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-eo
+Provides: binutils-locale, eo-translation
+
+Package: binutils-locale-es
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-es/binutils-locale-es_2.24-r0_armel.deb
+Size: 204754
+SHA256: b565a8050c1bdcb7590f77282bf17836853427a20217f7ed2b1f1786f9511952
+SHA1: a52665d08b7e4be12a9345f6feee219658d11f47
+MD5sum: dc767f896efe62e564585aa74d3f3559
+Description: GNU binary utilities - es translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the es
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-es
+Provides: es-translation, binutils-locale
+
+Package: binutils-locale-fi
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-fi/binutils-locale-fi_2.24-r0_armel.deb
+Size: 211598
+SHA256: ed567d6b055bb5c881d1368bc56ce270a4732cf98023f1d956d0d387629ca533
+SHA1: b51d502cac8c3af63fc7e5bf4797d3fc706b969c
+MD5sum: 57df9d6de2ff002a68d9097724823932
+Description: GNU binary utilities - fi translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the fi
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-fi
+Provides: binutils-locale, fi-translation
+
+Package: binutils-locale-fr
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-fr/binutils-locale-fr_2.24-r0_armel.deb
+Size: 207594
+SHA256: 205c3b2c882284e618490466c602383ef9864ec32460d92c1078e29eedd92465
+SHA1: 41e4e1543dd8dd2c0bbdd423d9cb82451c96f710
+MD5sum: bef571c0aeff2183ad46a11d2b5dadc8
+Description: GNU binary utilities - fr translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the fr
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-fr
+Provides: binutils-locale, fr-translation
+
+Package: binutils-locale-ga
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-ga/binutils-locale-ga_2.24-r0_armel.deb
+Size: 24680
+SHA256: dbf37bc59a9b05ee02a825cc7e3f3f86f14670ca47987b0876ebf95b2a4530d8
+SHA1: ef3cfaabdb1c259ef4dde094f417e439843bacd6
+MD5sum: ebbf4f16415f8cf8d05d118005d22f1c
+Description: GNU binary utilities - ga translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the ga
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-ga
+Provides: ga-translation, binutils-locale
+
+Package: binutils-locale-hr
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-hr/binutils-locale-hr_2.24-r0_armel.deb
+Size: 8126
+SHA256: 11214d7bdd6cf84bfa086babf860ad10873a58f6295029b3b2966818a6ee26e0
+SHA1: b845ab1bf4b0fb7698fc1cc81f80e9a5e237d0fb
+MD5sum: a35f01d47aa20d3bb916b668bf981ab4
+Description: GNU binary utilities - hr translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the hr
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-hr
+Provides: binutils-locale, hr-translation
+
+Package: binutils-locale-id
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-id/binutils-locale-id_2.24-r0_armel.deb
+Size: 173262
+SHA256: 8f5508b61e8161f0bd59a3a7d9091e4e75cf23e0a087a865eb16ab4e5c8492a4
+SHA1: 96da801623f98e712e60d720435412e2ad8bc18f
+MD5sum: d5b8a15da14930b06527ee3e34d5db6c
+Description: GNU binary utilities - id translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the id
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-id
+Provides: binutils-locale, id-translation
+
+Package: binutils-locale-it
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-it/binutils-locale-it_2.24-r0_armel.deb
+Size: 71028
+SHA256: e05c8af70433792735ea90257325cf674e44cbc70763573c5087564c61dac45d
+SHA1: ffb4b1e59b3f30b0883c15a0d398024aa7ecce7b
+MD5sum: 8f330587c185fe2f40080edaccdf7063
+Description: GNU binary utilities - it translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the it
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-it
+Provides: binutils-locale, it-translation
+
+Package: binutils-locale-ja
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-ja/binutils-locale-ja_2.24-r0_armel.deb
+Size: 96300
+SHA256: b39d105df12ed03d127b1a04c0e6657e8f7a86269fa1e3d38b6b90abad1549ec
+SHA1: 4ae188615512fa0ec612015c63b023f6c6dc6cfd
+MD5sum: 2dfe68850b86b4d5ec0c0444076f87d0
+Description: GNU binary utilities - ja translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the ja
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-ja
+Provides: binutils-locale, ja-translation
+
+Package: binutils-locale-ms
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-ms/binutils-locale-ms_2.24-r0_armel.deb
+Size: 4670
+SHA256: 8ef7c78c94f08be3a4b7a45b62ed985d69584dc18d77508ed1c6087fff0e6b58
+SHA1: 908192d3a20a677b186c0162716ebbe9baa2e6aa
+MD5sum: f1a0abcaf148ba7f2605d207442afacd
+Description: GNU binary utilities - ms translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the ms
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-ms
+Provides: ms-translation, binutils-locale
+
+Package: binutils-locale-nl
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-nl/binutils-locale-nl_2.24-r0_armel.deb
+Size: 11102
+SHA256: 329b3d75a867458bf6ec89c18c20f1eed2065deb7246e20c61ff643fcb3804c3
+SHA1: 3cdf803903e722b72d8dd53c4f9f4c29f7cedfac
+MD5sum: d2aa69f13f7b7f3025067a1c5a39fe11
+Description: GNU binary utilities - nl translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the nl
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-nl
+Provides: binutils-locale, nl-translation
+
+Package: binutils-locale-pt-br
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-pt-br/binutils-locale-pt-br_2.24-r0_armel.deb
+Size: 6926
+SHA256: 784bae8f51cc21c682b503c3cca92e136a8213ad2e46bcd96652aafa406fe61b
+SHA1: 61f03b800b5f0dba44e5429b3d7f7d03adfd934b
+MD5sum: 562cd56190c19c45111905ce620acade
+Description: GNU binary utilities - pt_BR translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the
+ pt_BR locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-pt-br
+Provides: binutils-locale, pt-br-translation
+
+Package: binutils-locale-ro
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-ro/binutils-locale-ro_2.24-r0_armel.deb
+Size: 32714
+SHA256: 02cd6b8d30805e2cf037c02beddc66f7e264146039f222d54f06a26c7d18a88a
+SHA1: 1a913f0c237d601378484c1b7ba5d6b1bf577b92
+MD5sum: 55e861e0989ca7b852f26fb4ad29ff8c
+Description: GNU binary utilities - ro translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the ro
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-ro
+Provides: ro-translation, binutils-locale
+
+Package: binutils-locale-ru
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-ru/binutils-locale-ru_2.24-r0_armel.deb
+Size: 97214
+SHA256: e47ed47b71044a808e50b11a71b2a1846134892e8ad1649f6b0e1a879ed5b471
+SHA1: 15e81b6b4bb55be889d6e9fca0fc54293ff9b251
+MD5sum: 24658934a0781e462d42c94368377f2e
+Description: GNU binary utilities - ru translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the ru
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-ru
+Provides: binutils-locale, ru-translation
+
+Package: binutils-locale-rw
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-rw/binutils-locale-rw_2.24-r0_armel.deb
+Size: 1746
+SHA256: 84401ed37788adcac34c122813080d2df55275c710dc0f20f67c7c13503c017f
+SHA1: 50a019445292000eadc6b0e9d341897787cf8f94
+MD5sum: 0d8eef2e98b8691559ecffb83fdcff72
+Description: GNU binary utilities - rw translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the rw
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-rw
+Provides: rw-translation, binutils-locale
+
+Package: binutils-locale-sk
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-sk/binutils-locale-sk_2.24-r0_armel.deb
+Size: 39898
+SHA256: d20e84a1ed7cda2bffbf46fdf133bb194da92169cbb407ba5537515783da8b02
+SHA1: e9dc17d441c9e3dcfccba8d2f8ef7209ed63d6ab
+MD5sum: d05d4555927e6752c7dab56a6da1c70c
+Description: GNU binary utilities - sk translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the sk
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-sk
+Provides: binutils-locale, sk-translation
+
+Package: binutils-locale-sr
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-sr/binutils-locale-sr_2.24-r0_armel.deb
+Size: 5458
+SHA256: 205c088a588db83ddd294355cb2f75610942939d7766b9f8097b3a1363f690e4
+SHA1: c725fa8b1e57623c3e2ae8019d0a085cc512478f
+MD5sum: 99d5a731a54b69df16e2b0004789163e
+Description: GNU binary utilities - sr translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the sr
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-sr
+Provides: binutils-locale, sr-translation
+
+Package: binutils-locale-sv
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-sv/binutils-locale-sv_2.24-r0_armel.deb
+Size: 65418
+SHA256: a0c01d8fbe78fb6dc6c07f1f35905dc5fc0c41495a13aced4e4988b33a2eef18
+SHA1: 123e95175fce37cee7fde8f51a3682b1c794ec8b
+MD5sum: 519f0ba07a2a6d2c87d2873a4625d1fc
+Description: GNU binary utilities - sv translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the sv
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-sv
+Provides: binutils-locale, sv-translation
+
+Package: binutils-locale-tr
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-tr/binutils-locale-tr_2.24-r0_armel.deb
+Size: 123596
+SHA256: 5e44bebb9475726973cbf0b62ac705214c5fbefd2a5c5207263d96e54dd0c193
+SHA1: 5b0c8932c73a7a7b2116c0f42a7eeaac4f5988af
+MD5sum: afd78911abf167e4203ee65525d81d33
+Description: GNU binary utilities - tr translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the tr
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-tr
+Provides: binutils-locale, tr-translation
+
+Package: binutils-locale-uk
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-uk/binutils-locale-uk_2.24-r0_armel.deb
+Size: 115804
+SHA256: 2a56a7f2575896eec0edbb08a81b91b927f34010480e2bab02bce7bd06a5652a
+SHA1: 299f4e70c0374acc6540e87f176dee06bdd97050
+MD5sum: 79b267587431a86dbe7d12caee702826
+Description: GNU binary utilities - uk translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the uk
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-uk
+Provides: uk-translation, binutils-locale
+
+Package: binutils-locale-vi
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-vi/binutils-locale-vi_2.24-r0_armel.deb
+Size: 111318
+SHA256: b083841b2652ecbb7e4676e46b800abad419be722d89e6b63a476ceb5ae10531
+SHA1: 367cea59730a3009eaa41c74dd1ebc5834eb4bbb
+MD5sum: d42b10363e941e22a8fdb9e1391690e0
+Description: GNU binary utilities - vi translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the vi
+ locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-vi
+Provides: binutils-locale, vi-translation
+
+Package: binutils-locale-zh-cn
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-zh-cn/binutils-locale-zh-cn_2.24-r0_armel.deb
+Size: 40764
+SHA256: 04c46b6c09cf2b45be867aeb7e6dee8f36d5dcaa0e3983232ac00a27056f22e8
+SHA1: 5e0dc94bd37351bb1267c84f0d1ede5750f65c86
+MD5sum: 4e512995624a5c4434ae868d738d0000
+Description: GNU binary utilities - zh_CN translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the
+ zh_CN locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-zh-cn
+Provides: binutils-locale, zh-cn-translation
+
+Package: binutils-locale-zh-tw
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-locale-zh-tw/binutils-locale-zh-tw_2.24-r0_armel.deb
+Size: 45144
+SHA256: d63cb155bd1eeeac3d07a6887adeca751ab5c5ae8562964477a740fe8976abef
+SHA1: 9bebb5ecf38f66bd37ba0b0c012ee3508ac28f0b
+MD5sum: c23cdc2cc6eed0dabecfdd7f27e354f4
+Description: GNU binary utilities - zh_TW translations
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains language translation files for the
+ zh_TW locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Recommends: virtual-locale-zh-tw
+Provides: binutils-locale, zh-tw-translation
+
+Package: binutils-staticdev
+Version: 2.24-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/binutils-staticdev/binutils-staticdev_2.24-r0_armel.deb
+Size: 1778104
+SHA256: 44f81f9af07e8aa01fa3680a8e58726022a969f787b5abd6990af36d7476c64b
+SHA1: 4f34e930574898cb3bc7063cb9fe73477ecdb2e1
+MD5sum: 6c81430fe6cd22bd977c38fbbbe1bd50
+Description: GNU binary utilities - Development files (Static Libraries)
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.  This package contains static libraries for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: binutils
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/binutils/
+Depends: binutils-dev (= 2.24-r0)
+
+Package: bison
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison/bison_2.7.1-r0_armel.deb
+Size: 205118
+SHA256: a6e373944978971936cbb115b515d470ced7ebd8e1d544e7332cb64ad9ae6274
+SHA1: e3f631c636e6b83fbc49fb3eed061ca32eb58703
+MD5sum: c7d28b0a4400318f51fa8203c01eaeb7
+Description: GNU Project parser generator (yacc replacement)
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Depends: libc6 (>= 2.19)
+
+Package: bison-dbg
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-dbg/bison-dbg_2.7.1-r0_armel.deb
+Size: 493388
+SHA256: c838506274c27aa0312664cf5a60d86cdcf2046691f823a96e27208277d88d4a
+SHA1: 8ab4fc546438c29fc9ffe1a544c7b646f8fc6e96
+MD5sum: 57bc8d7f1da03dceaf371903213533a0
+Description: GNU Project parser generator (yacc replacement) - Debugging files
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: libc6-dbg
+
+Package: bison-dev
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-dev/bison-dev_2.7.1-r0_armel.deb
+Size: 1984
+SHA256: 7f6568c21a7053cb997f7cf7d7f6b4d9082e28e1bca56da85b7c4b41a3cf10ee
+SHA1: 5e97af4933d8cf81b7cb48e0bba66dee229fe2a5
+MD5sum: 43f32b04722bbfc70d33d1490ba71a50
+Description: GNU Project parser generator (yacc replacement) - Development files
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Depends: bison (= 2.7.1-r0)
+Recommends: libc6-dev
+
+Package: bison-doc
+Version: 2.7.1-r0
+Priority: optional
+Section: doc
+Filename: pool/main/b/bison-doc/bison-doc_2.7.1-r0_armel.deb
+Size: 121628
+SHA256: 5e8d80eec11705c865f1066c8a97f2173e81113177f12142327694fe90db8e38
+SHA1: a08c6312486430b746a6f0469cec480a59f1d02c
+MD5sum: 17b97685dd77ef540e9d3dc7fdec0215
+Description: GNU Project parser generator (yacc replacement) - Documentation files
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+
+Package: bison-locale-ast
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-ast/bison-locale-ast_2.7.1-r0_armel.deb
+Size: 1634
+SHA256: 50d2640d27ffd58649bd16535402b172c2eaab7e8bc857ba6e4dbfd172b7d8ca
+SHA1: 1bd076585f56ce969daae763388fd92441db283b
+MD5sum: efbbad12b90ac8e76c0659be535e718a
+Description: GNU Project parser generator (yacc replacement) - ast translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the ast locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-ast
+Provides: bison-locale, ast-translation
+
+Package: bison-locale-da
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-da/bison-locale-da_2.7.1-r0_armel.deb
+Size: 3940
+SHA256: 66e68689143ac43b49b72f5cdac89c364cc8bc13ed002ae7989a524b5fc88f52
+SHA1: a47e4e0fc6723fcc828441ccb6e7e76778d8ee0e
+MD5sum: 2a32c0b6e4378a71f71cf3740cdf04cd
+Description: GNU Project parser generator (yacc replacement) - da translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the da locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-da
+Provides: bison-locale, da-translation
+
+Package: bison-locale-de
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-de/bison-locale-de_2.7.1-r0_armel.deb
+Size: 9652
+SHA256: 1e3b5cf5c13dab4c80961a363cb84ad5d0a0cee99758d4f7e933e84c3df57b0c
+SHA1: aae31069dfae9ae31e784e38b19c3c4204795869
+MD5sum: 1af5b74e2b09a55c84dcccfb281cae9c
+Description: GNU Project parser generator (yacc replacement) - de translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the de locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-de
+Provides: bison-locale, de-translation
+
+Package: bison-locale-el
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-el/bison-locale-el_2.7.1-r0_armel.deb
+Size: 5574
+SHA256: 3c113367cdd743064b3b341c1cb7bdd94eb8262607f5df7316d3f71aa05f4f4b
+SHA1: 89b8641a1cd78ebe8389286c2b0a9e7eb0667780
+MD5sum: 257e8de64d7019dd869d50b659eccfc1
+Description: GNU Project parser generator (yacc replacement) - el translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the el locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-el
+Provides: bison-locale, el-translation
+
+Package: bison-locale-eo
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-eo/bison-locale-eo_2.7.1-r0_armel.deb
+Size: 9216
+SHA256: 82ff6ad55cadc90e58256d782024ee24d01fda4fc1fd4a7f164e2b14aaadb051
+SHA1: ce21d1ead7ff92610f0e6effe443b9a98e1d6522
+MD5sum: 1deed245da1aa29159feb4ce3cec0eff
+Description: GNU Project parser generator (yacc replacement) - eo translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the eo locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-eo
+Provides: bison-locale, eo-translation
+
+Package: bison-locale-es
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-es/bison-locale-es_2.7.1-r0_armel.deb
+Size: 4020
+SHA256: e204dd93073ab749d87c37632e6122bb8836c1d14b5e07329c1204d06eaba3b7
+SHA1: f47f8fdc2bbbaaee1820bdaf74aa0828a2e4b191
+MD5sum: 653b4d7fe74b40d183206f720cdad80d
+Description: GNU Project parser generator (yacc replacement) - es translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the es locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-es
+Provides: bison-locale, es-translation
+
+Package: bison-locale-et
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-et/bison-locale-et_2.7.1-r0_armel.deb
+Size: 9184
+SHA256: 398d56e2854007fe7b6569789be9c82d366255a0abccbcc981893e52c7dcb0f6
+SHA1: ff693cf77870b57b5243a3830d4270d2c9c71229
+MD5sum: 0be662bfd75f52d9fff4280262b778e6
+Description: GNU Project parser generator (yacc replacement) - et translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the et locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-et
+Provides: bison-locale, et-translation
+
+Package: bison-locale-fi
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-fi/bison-locale-fi_2.7.1-r0_armel.deb
+Size: 9680
+SHA256: 15831d012b28e8b78755cae022196c751aa97702fc42bb40cd320ec3cc569768
+SHA1: 885408f503c0b5857ee231b63de673b83baa5bea
+MD5sum: 749580a97c482eb7194dfddeffd10b4f
+Description: GNU Project parser generator (yacc replacement) - fi translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the fi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-fi
+Provides: bison-locale, fi-translation
+
+Package: bison-locale-fr
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-fr/bison-locale-fr_2.7.1-r0_armel.deb
+Size: 9684
+SHA256: e65810c1ba8efed3b7224f8781cd3acfba6417c96de5948e8316fbf3f22130f3
+SHA1: 040990ca05504cce7db0d156e8d8d04b92f34eff
+MD5sum: 01429cc814e18eff7f3be2a2f6d73118
+Description: GNU Project parser generator (yacc replacement) - fr translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the fr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-fr
+Provides: bison-locale, fr-translation
+
+Package: bison-locale-ga
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-ga/bison-locale-ga_2.7.1-r0_armel.deb
+Size: 6756
+SHA256: 3c8ac15091b990683a5f61f86b198d83efda777201ceb1b6a6f73b79ca5382a7
+SHA1: 28c7fb27170aad5e0c333620fac6a88a1c7dfc14
+MD5sum: 4ff80075ccf3964aeae2fc62ba86ca24
+Description: GNU Project parser generator (yacc replacement) - ga translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the ga locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-ga
+Provides: bison-locale, ga-translation
+
+Package: bison-locale-gl
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-gl/bison-locale-gl_2.7.1-r0_armel.deb
+Size: 1640
+SHA256: a46c68078c1fe7fe68fd614671d4330f083ae53a0074b8c971edf7a8fd86ed72
+SHA1: b4edd4b18ac9c6042cbb9c0f013c08f0fd3517d0
+MD5sum: 4558cb3aacff79ea4ec941b300467006
+Description: GNU Project parser generator (yacc replacement) - gl translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the gl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-gl
+Provides: bison-locale, gl-translation
+
+Package: bison-locale-hr
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-hr/bison-locale-hr_2.7.1-r0_armel.deb
+Size: 9518
+SHA256: 97d85b4ec612a65fe742a702232a9d3700b38b5da600733bc16177193e5043dc
+SHA1: b4c48d51028975653b9e8b996d8a26e98915c8cb
+MD5sum: b960345d7aca8f77f146c3b996bc5324
+Description: GNU Project parser generator (yacc replacement) - hr translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the hr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-hr
+Provides: bison-locale, hr-translation
+
+Package: bison-locale-hu
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-hu/bison-locale-hu_2.7.1-r0_armel.deb
+Size: 1656
+SHA256: b356f00ebf49126dbd76512d6cd218c0ad7b1c1b47284389ade05a0b3e940a07
+SHA1: 5395c5b87e6fc25fa6c16ef7c4fcffd65b437306
+MD5sum: 29c694fc430f40c41e695b180357eb0a
+Description: GNU Project parser generator (yacc replacement) - hu translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the hu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-hu
+Provides: bison-locale, hu-translation
+
+Package: bison-locale-id
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-id/bison-locale-id_2.7.1-r0_armel.deb
+Size: 5100
+SHA256: d1951df1670029dcc41413b3a991c63848867aa7dd6dc611db522a2580560f4b
+SHA1: dc712099cd0aefa67f1fd6b9e60fda62b9c17d9b
+MD5sum: ae48e14588c8b99c1b33b4baacb442eb
+Description: GNU Project parser generator (yacc replacement) - id translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the id locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-id
+Provides: bison-locale, id-translation
+
+Package: bison-locale-it
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-it/bison-locale-it_2.7.1-r0_armel.deb
+Size: 4016
+SHA256: 3f47cfcec0e9dc8721bec1d8c776980fa56eabe4aeb1bfe38e6f5db0fd924682
+SHA1: 67ea2bf92bef9a3e89dab89bb5140daf101f5ec2
+MD5sum: c43e234b0ba3eb8ef9dd76f3c0b78410
+Description: GNU Project parser generator (yacc replacement) - it translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the it locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-it
+Provides: bison-locale, it-translation
+
+Package: bison-locale-ja
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-ja/bison-locale-ja_2.7.1-r0_armel.deb
+Size: 4356
+SHA256: a79f404c2439c2c7a2d3afe50ad35cc925f9201e1711812c953050068b002dea
+SHA1: 9a306418e5c6782cbf8dd72d1df6c6cb08890e73
+MD5sum: 18d81d65ca315d18c891fdc88c00b44b
+Description: GNU Project parser generator (yacc replacement) - ja translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the ja locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-ja
+Provides: bison-locale, ja-translation
+
+Package: bison-locale-ky
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-ky/bison-locale-ky_2.7.1-r0_armel.deb
+Size: 1710
+SHA256: 837dcb178e6dd906b7a36fc685bd708cb943a131603bccdacffb9c852bf36cac
+SHA1: af4e947c238b228f5247a437668f4f8ae45892c4
+MD5sum: f0357585b9cb2f73d4b8bbcef6f3e046
+Description: GNU Project parser generator (yacc replacement) - ky translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the ky locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-ky
+Provides: bison-locale, ky-translation
+
+Package: bison-locale-lt
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-lt/bison-locale-lt_2.7.1-r0_armel.deb
+Size: 1684
+SHA256: 07c927b0772f601f47c97f74dec9969e8a37f6130fc1a3fe7435e0b72ed02cb9
+SHA1: dd65f2eb45dbfa9fbff4c10f7b60efbffd715f57
+MD5sum: d0653dfab81094e31df7fa3616df7146
+Description: GNU Project parser generator (yacc replacement) - lt translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the lt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-lt
+Provides: bison-locale, lt-translation
+
+Package: bison-locale-lv
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-lv/bison-locale-lv_2.7.1-r0_armel.deb
+Size: 1696
+SHA256: d4e064d88b3ac7018bca3dfe4f02b3dde6375bab54b9c7b9cca5896d27c68488
+SHA1: 7bdb099c32a83385eff709c3f2b2167085f2b444
+MD5sum: df2698d29110b71adffa1762a3d0e089
+Description: GNU Project parser generator (yacc replacement) - lv translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the lv locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-lv
+Provides: bison-locale, lv-translation
+
+Package: bison-locale-ms
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-ms/bison-locale-ms_2.7.1-r0_armel.deb
+Size: 4980
+SHA256: 3902ce5e1277f61426c94aad552774f0a9548e7d8c733057ee0bfd603896052f
+SHA1: 4a4febb894a55f966d80e0809a7dfa84a736c565
+MD5sum: 3a2f3a87973393445b478c340a888128
+Description: GNU Project parser generator (yacc replacement) - ms translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the ms locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-ms
+Provides: bison-locale, ms-translation
+
+Package: bison-locale-nb
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-nb/bison-locale-nb_2.7.1-r0_armel.deb
+Size: 3944
+SHA256: a6ad2a93f8b65e54c6fb523b692dbd77a115fcc3356e909f1a3c92a376c8007a
+SHA1: aff10359785d60d47f673f6b24b81da1e2eb48ff
+MD5sum: d88b3d7ca027b2b3e5fa8e2bc62e7011
+Description: GNU Project parser generator (yacc replacement) - nb translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the nb locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-nb
+Provides: bison-locale, nb-translation
+
+Package: bison-locale-nl
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-nl/bison-locale-nl_2.7.1-r0_armel.deb
+Size: 5528
+SHA256: 19109682a36d253dc3908679734a7d0f940e872d8af037568358247dd5ac5a08
+SHA1: 40c986db09115d8c9c52781babe857f3b1c4006d
+MD5sum: 4abb55b334501c7f28c6f50369b41cc4
+Description: GNU Project parser generator (yacc replacement) - nl translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the nl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-nl
+Provides: bison-locale, nl-translation
+
+Package: bison-locale-pl
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-pl/bison-locale-pl_2.7.1-r0_armel.deb
+Size: 9696
+SHA256: cbcfc9e74dcf4ed20ffdd14e1f525207ee5b4dcd1d54d92fef30a048f1dc6201
+SHA1: f80b5df2734113a5fd61fe09210013b8d69d8fd9
+MD5sum: 73774f6f9e0bd491f781c14a7194c701
+Description: GNU Project parser generator (yacc replacement) - pl translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the pl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-pl
+Provides: bison-locale, pl-translation
+
+Package: bison-locale-pt
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-pt/bison-locale-pt_2.7.1-r0_armel.deb
+Size: 2260
+SHA256: ea9c719329ac2fcc4b842267aa643f500d0bb400f4c07dddfca825b3a064060f
+SHA1: a76accb5a44d795e7dbc9bc179777616321c2693
+MD5sum: 5effd3bfb151d710d94b7efb94237d38
+Description: GNU Project parser generator (yacc replacement) - pt translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the pt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-pt
+Provides: bison-locale, pt-translation
+
+Package: bison-locale-pt-br
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-pt-br/bison-locale-pt-br_2.7.1-r0_armel.deb
+Size: 3988
+SHA256: 4ba5772cce004a157b388a5d691caa8760c8ef1ababe56d57e723e03b9e9fc58
+SHA1: 37fb2d3e93dc2cbd45364cb6ebe31b4847a412e8
+MD5sum: f03a8dad4595568251590a101994a17d
+Description: GNU Project parser generator (yacc replacement) - pt_BR translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the pt_BR locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-pt-br
+Provides: bison-locale, pt-br-translation
+
+Package: bison-locale-ro
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-ro/bison-locale-ro_2.7.1-r0_armel.deb
+Size: 4078
+SHA256: 22e778e522e5b01263c9fc447185338dd50406a84395cd317f30f46345adc15c
+SHA1: ae327826b832cee2ac6f514e723f068e110af2a1
+MD5sum: 5c8a0e01a37bd54aee4fd789b352c5e9
+Description: GNU Project parser generator (yacc replacement) - ro translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the ro locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-ro
+Provides: bison-locale, ro-translation
+
+Package: bison-locale-ru
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-ru/bison-locale-ru_2.7.1-r0_armel.deb
+Size: 5726
+SHA256: d341fcad8ffc5f1fbd1384ebe3cafc9f93deacbef402daf92326f180967325e7
+SHA1: 0ee46bda43bf3c5e14911fabac83fde188f30243
+MD5sum: 636a37bec74def36674d8453997ec655
+Description: GNU Project parser generator (yacc replacement) - ru translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the ru locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-ru
+Provides: bison-locale, ru-translation
+
+Package: bison-locale-sl
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-sl/bison-locale-sl_2.7.1-r0_armel.deb
+Size: 1670
+SHA256: 6278fc612824a633deb038d6ab5cd77f3d8c840c6ee1e19aeee124ba71782dfc
+SHA1: 9ffe63e4fe668a331c90eb8e1af82c89d02830a0
+MD5sum: 21f33e671468bcb749cdd7def8306924
+Description: GNU Project parser generator (yacc replacement) - sl translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the sl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-sl
+Provides: bison-locale, sl-translation
+
+Package: bison-locale-sq
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-sq/bison-locale-sq_2.7.1-r0_armel.deb
+Size: 1644
+SHA256: 2fe568f5cb02ffb285870683b369077e3f75c710bb7d32cbb4e6bfea37d17ca0
+SHA1: d63e49c6f5eef45c56a07946acb23f8889090caa
+MD5sum: 6f882532136d5565241618b5ad0944ae
+Description: GNU Project parser generator (yacc replacement) - sq translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the sq locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-sq
+Provides: bison-locale, sq-translation
+
+Package: bison-locale-sr
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-sr/bison-locale-sr_2.7.1-r0_armel.deb
+Size: 8364
+SHA256: 5ccaf5327c70819a34f051dcc0ba658f60e4facd7f88ede52da2946b10ec3139
+SHA1: 9346f80e49b3751f033027b3e204330fad4f0a7b
+MD5sum: bef13b119918141e21a95f33358e0dd4
+Description: GNU Project parser generator (yacc replacement) - sr translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the sr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-sr
+Provides: bison-locale, sr-translation
+
+Package: bison-locale-sv
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-sv/bison-locale-sv_2.7.1-r0_armel.deb
+Size: 9236
+SHA256: 9a0bee50c6f16a0ac4f64b90c2d58745ba1a2cd57a23d95684fc00f3f84dfa8f
+SHA1: d4d4a4893900771ea2283c768abddad8e7bf8a87
+MD5sum: 21d422eced07761fe5d9d978146b6aeb
+Description: GNU Project parser generator (yacc replacement) - sv translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the sv locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-sv
+Provides: bison-locale, sv-translation
+
+Package: bison-locale-th
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-th/bison-locale-th_2.7.1-r0_armel.deb
+Size: 1776
+SHA256: dbe097db62dc29b5ba637c35e17381b9ca2a88c4fe6e4ff29b4bf32f7a7c68c0
+SHA1: 640f0cfae2edfdbaf02a37c618dd8ec867ced991
+MD5sum: 6a53551e81b1e8ceae4b09813c510725
+Description: GNU Project parser generator (yacc replacement) - th translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the th locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-th
+Provides: bison-locale, th-translation
+
+Package: bison-locale-tr
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-tr/bison-locale-tr_2.7.1-r0_armel.deb
+Size: 4178
+SHA256: 9c632e15e7a60a41478321762fe058384e3c127ae74286ff45735ba5a5595c2a
+SHA1: 3c6843e8c0d3282702967dad1c43056729be29c9
+MD5sum: 46f6121add1d8cd08d1aef3b4ab80332
+Description: GNU Project parser generator (yacc replacement) - tr translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the tr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-tr
+Provides: bison-locale, tr-translation
+
+Package: bison-locale-uk
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-uk/bison-locale-uk_2.7.1-r0_armel.deb
+Size: 10728
+SHA256: 5787d758fe7e996d85ada5d13629f50905a6cd050ad57384eeeb2c66e634e63f
+SHA1: b31ff91562296ab3cd6ae53e57908c13c34c11fd
+MD5sum: 097916d109d42f7f760e904679eef0fe
+Description: GNU Project parser generator (yacc replacement) - uk translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the uk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-uk
+Provides: bison-locale, uk-translation
+
+Package: bison-locale-vi
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-vi/bison-locale-vi_2.7.1-r0_armel.deb
+Size: 9986
+SHA256: cbb0abe7fa42b3ff2660c09b63671bdab2b72bbbfc2d0cca2a1bd3551306179a
+SHA1: 89cf0da9d115135cbd0da36b2aea808e9fff28b3
+MD5sum: cc0cefdbff702a14dc1eaa196f0da4c9
+Description: GNU Project parser generator (yacc replacement) - vi translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the vi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-vi
+Provides: bison-locale, vi-translation
+
+Package: bison-locale-zh-cn
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-zh-cn/bison-locale-zh-cn_2.7.1-r0_armel.deb
+Size: 4062
+SHA256: 8e39fa0e111df23f43135ccbe546e640091aab41921fc2fe6493064842b85d3f
+SHA1: d6aa421545eb8bf31516fe8d71bd82afcbb6ae10
+MD5sum: c579b2ea55d9556e4e81d78f30307093
+Description: GNU Project parser generator (yacc replacement) - zh_CN translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the zh_CN locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-zh-cn
+Provides: bison-locale, zh-cn-translation
+
+Package: bison-locale-zh-tw
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-locale-zh-tw/bison-locale-zh-tw_2.7.1-r0_armel.deb
+Size: 9526
+SHA256: 6399cfd152fc647f842a77d1e5120f04c30f69179f460ff57a8d6aa4aee3950b
+SHA1: 5f7e2edb7caec45e3a0f9906cda1b6ebe3c3ef07
+MD5sum: 3c758dc920dfcbea01887404bd423357
+Description: GNU Project parser generator (yacc replacement) - zh_TW translations
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains language
+ translation files for the zh_TW locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Recommends: virtual-locale-zh-tw
+Provides: bison-locale, zh-tw-translation
+
+Package: bison-staticdev
+Version: 2.7.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/bison-staticdev/bison-staticdev_2.7.1-r0_armel.deb
+Size: 3474
+SHA256: 4922de513e4e01ad8f7890d092679896068a266d15fab24c000bc2b1e91928df
+SHA1: 80064dbfd8aa035975f8387785ea53266c6c1131
+MD5sum: df93697b58ea9d3606e5bcf450163a28
+Description: GNU Project parser generator (yacc replacement) - Development files (Static Libraries)
+ Bison is a general-purpose parser generator that converts an annotated
+ context-free grammar into an LALR(1) or GLR parser for that grammar.
+ Bison is upward compatible with Yacc: all properly-written Yacc grammars
+ ought to work with Bison with no change. Anyone familiar with Yacc should
+ be able to use Bison with little trouble.  This package contains static
+ libraries for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: bison
+PackageArch: armv6-vfp
+Homepage: http://www.gnu.org/software/bison/
+Depends: bison-dev (= 2.7.1-r0)
+
 Package: busybox
 Version: 1.22.1-r0
 Priority: optional
