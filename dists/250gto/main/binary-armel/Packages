@@ -71420,6 +71420,79 @@ PackageArch: armv6-vfp
 Homepage: http://www.eglibc.org/
 Depends: libc6 (>= 2.19)
 
+Package: lsb
+Version: 4.1-r2
+Priority: optional
+Section: console/utils
+Filename: pool/main/l/lsb/lsb_4.1-r2_armel.deb
+Size: 5688
+SHA256: 373e99f32b8fb21b14bc3bb92910724af8348f2b7a6f4546b2575e525d498f5e
+SHA1: 65a12fa09b3ca40e8313d00eefd223869d3c2a45
+MD5sum: 59566b747770ae978dfe38e0d26f5aed
+Description: LSB support for OpenEmbedded
+ LSB support for OpenEmbedded.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: lsb
+PackageArch: armv6-vfp
+Homepage: http://prdownloads.sourceforge.net/lsb
+Depends: util-linux
+
+Package: lsb-dbg
+Version: 4.1-r2
+Priority: optional
+Section: devel
+Filename: pool/main/l/lsb-dbg/lsb-dbg_4.1-r2_armel.deb
+Size: 742
+SHA256: 900a20db38c0a513312cbddcac479f95908e5ba18f3059de65e4f2f8dc85cde2
+SHA1: af3a2a6b997baea9acce83fa148c5c04480bc783
+MD5sum: 08c3fd9730a3f6e4f69a95f3450312c8
+Description: LSB support for OpenEmbedded - Debugging files
+ LSB support for OpenEmbedded.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: lsb
+PackageArch: armv6-vfp
+Homepage: http://prdownloads.sourceforge.net/lsb
+
+Package: lsb-dev
+Version: 4.1-r2
+Priority: optional
+Section: devel
+Filename: pool/main/l/lsb-dev/lsb-dev_4.1-r2_armel.deb
+Size: 790
+SHA256: baa0bdb1f54aabf65be71f3526c5cb031c4e0c326ab0b382d89d3e09941843c2
+SHA1: b334f7ed6cc53932ab88cc69012311634320e5b7
+MD5sum: 31249a6282cad2199e88e44c886438e2
+Description: LSB support for OpenEmbedded - Development files
+ LSB support for OpenEmbedded.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: lsb
+PackageArch: armv6-vfp
+Homepage: http://prdownloads.sourceforge.net/lsb
+Depends: lsb (= 4.1-r2)
+Recommends: util-linux-dev
+
+Package: lsb-doc
+Version: 4.1-r2
+Priority: optional
+Section: doc
+Filename: pool/main/l/lsb-doc/lsb-doc_4.1-r2_armel.deb
+Size: 2404
+SHA256: 42c8fa9daf0a3579562207b63a3d584c34a0f79adfb646153660acd53fe5579c
+SHA1: 8eef2f86185af099d99d977f2eba46378d1c9002
+MD5sum: b0288d35004cd00b501c3c5c2f05c327
+Description: LSB support for OpenEmbedded - Documentation files
+ LSB support for OpenEmbedded.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: lsb
+PackageArch: armv6-vfp
+Homepage: http://prdownloads.sourceforge.net/lsb
+
 Package: m4
 Version: 1.4.17-r0
 Priority: optional
