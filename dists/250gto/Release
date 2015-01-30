@@ -1,19 +1,19 @@
 Origin: Moebius
 Label: Moebius
 Codename: 250gto
-Date: Wed, 28 Jan 2015 23:50:33 UTC
+Date: Fri, 30 Jan 2015 07:54:32 UTC
 Architectures: armel
 Components: main
 Description: Apt repository for Moebius
 MD5Sum:
- 632067fe7765e05cda10837148646f20 3334962 main/binary-armel/Packages
- 8689bb7147f87c47008ed4e93b6c55dd 625558 main/binary-armel/Packages.gz
+ 7bf9b1e1c6f591bf2ffb44bd33908994 3378756 main/binary-armel/Packages
+ 8fd9549cb1c80777ac46205fc771af72 634941 main/binary-armel/Packages.gz
  92b1ce9637800e34573ca58a03440afa 107 main/binary-armel/Release
 SHA1:
- ae94f937c47688d72770a5e932d4ef3f837a7fea 3334962 main/binary-armel/Packages
- 8db631ecf2304e932f4ad790c2842d6ca1bebe2c 625558 main/binary-armel/Packages.gz
+ 7604b9cec464f8fd66c0a2f28957c35bae0c3f8a 3378756 main/binary-armel/Packages
+ 763811d0f9e97e571ee128f70fdb16531463e17c 634941 main/binary-armel/Packages.gz
  44e8c71365d9469ca96eeb30e2bcd2d4eaeefcfa 107 main/binary-armel/Release
 SHA256:
- d26ed45ce60be915ae04e1f102ea264ceb8455d01544dec093851a68682b7e80 3334962 main/binary-armel/Packages
- c6e4ee6762447fd0d6917e40919df86a6e9de9b7377c93651ea71296d437f038 625558 main/binary-armel/Packages.gz
+ 2485e3988f2a3ce8cce7b5400cebe4ed852bf948b6a4fc08752d4dc1e02b1b90 3378756 main/binary-armel/Packages
+ e79c8346f9a2fd3263aa150d6792204d6018e60cc5807a572f6414e249b37694 634941 main/binary-armel/Packages.gz
  9e6930b8426347981e138122e19dc6e7274d4f01009df182db8b335dab18b571 107 main/binary-armel/Release
