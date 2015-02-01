@@ -1,1 +1,2 @@
-php.web|PHP + NGINX Web Server, built, configured, packaged and ready to go
+php.web|PHP + NGINX Web Server (httpd), built, configured, packaged and ready to go
+httpd|NGINX configured and built for serving static pages only
