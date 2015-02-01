@@ -1,2 +1,7 @@
-php.web|PHP + NGINX Web Server (httpd), built, configured, packaged and ready to go
+lang.gcc|gcc, g++, make, binutils for a complete C/C++ development environment
+lang.php.cli|PHP development environment, command line only
+lang.php.web|PHP + NGINX Web Server (httpd), built, configured, packaged and ready to go
+lang.php.all|lang.php.web + lang.php.cli containers
 httpd|NGINX configured and built for serving static pages only
+lang.python3|Python 3.x complete environment
+lang.python2|Python 2.7 complete environment
