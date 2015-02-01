@@ -2742,10 +2742,10 @@ Version: 1.22.1-r0
 Priority: optional
 Section: base
 Filename: pool/main/b/busybox/busybox_1.22.1-r0_armel.deb
-Size: 248072
-SHA256: 82d1062ecf519b8e1ae27ca7031c5ebb6ed3430328bd73441d091867f622cf35
-SHA1: 7872479375332911a8d1feb7656a75af9b3cb499
-MD5sum: 1755b5df37948cdcac8f1ee1cbd36886
+Size: 247418
+SHA256: 5ab31a099dd6339973570a301f8b7b114d955330769aafe4a1ccfa52835f222b
+SHA1: 3e863aa9a4be1abb2b0f9588586f8daa51c8c8f7
+MD5sum: 4d6e3fa3c47151ea09a32ae936cc2f68
 Description: Tiny versions of many common UNIX utilities in a single small executable
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -2768,10 +2768,10 @@ Version: 1.22.1-r0
 Priority: optional
 Section: devel
 Filename: pool/main/b/busybox-dbg/busybox-dbg_1.22.1-r0_armel.deb
-Size: 1416288
-SHA256: dde256774cadf9f9dcfe012a2e641fdad831fc7815c96b7dee8e5d2756e23082
-SHA1: 1c04d79dcd6cefdb66ae7d8ef4b538dbaee72d08
-MD5sum: 23504abba564384ce2620e23ad6e5853
+Size: 1417642
+SHA256: efc262d94b30cc57b4e439fe9c2cbcbfd1b59588e30e91e31c124ec9fd53b521
+SHA1: dbc4c71ec74aa6515535d1e7128c9165acf3afd9
+MD5sum: 747fcae5131a272c8fad22c5db0bf7ff
 Description: Tiny versions of many common UNIX utilities in a single small executable - Debugging files
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -2794,10 +2794,10 @@ Version: 1.22.1-r0
 Priority: optional
 Section: devel
 Filename: pool/main/b/busybox-dev/busybox-dev_1.22.1-r0_armel.deb
-Size: 1080
-SHA256: 91cdd71da814680c239f172cb3644388511ee5e8d6db7dc17665e127b4020d10
-SHA1: f86a0d10933f22da442ecf6d1dfb2691becaeec7
-MD5sum: 2b6da43231bd3ddc2a17bc5050ae4b98
+Size: 1084
+SHA256: bc4e23ea47ae15b4631a7e7fd79a68a0cb6a6c0f5ae7dc1f9c8a2bad943c9256
+SHA1: 77d2f8454fbdfe47a2cb9033a2776075d5689f91
+MD5sum: a07ba858a16ebc6d5564f3a91500f887
 Description: Tiny versions of many common UNIX utilities in a single small executable - Development files
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -2821,10 +2821,10 @@ Version: 1.22.1-r0
 Priority: optional
 Section: base
 Filename: pool/main/b/busybox-hwclock/busybox-hwclock_1.22.1-r0_armel.deb
-Size: 2226
-SHA256: 49963eec6dd62db2d621903fd5346c6af0c48f78c0c5ca8b902d8c62c12d46ab
-SHA1: 2b9769224e5adedc45cd353e12e7abb4653e36d3
-MD5sum: 3d2021e4ed8cff73dd6063e93742c128
+Size: 2220
+SHA256: 7d43608aaaf107d27a6b5a0b3bb08807428e8ae94bce51386102eb71eb25cba3
+SHA1: 21f3468f949f0eeff799884a6925eff9fbf28593
+MD5sum: 843534a85188827deba787f27d330ce1
 Description: Tiny versions of many common UNIX utilities in a single small executable
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -2845,10 +2845,10 @@ Version: 1.22.1-r0
 Priority: optional
 Section: devel
 Filename: pool/main/b/busybox-ptest/busybox-ptest_1.22.1-r0_armel.deb
-Size: 83886
-SHA256: 0a632f2a2a86a110342e3173e678de0bbb89bde075c9d3202ec9e83f3a662f30
-SHA1: 743b5327fb8e57aeee00daaef896d10e305016a4
-MD5sum: cb04a4210eda864daab2a7e7321cb332
+Size: 83976
+SHA256: 31cb7da6cc309175f7b9742a11107e0c91d96d8464963f3c9f15240eda24347c
+SHA1: 834ad41cfe6988f73a3f69d7e7749c9e30be36ec
+MD5sum: b99304c72221c48be807fbeb8325f933
 Description: Tiny versions of many common UNIX utilities in a single small executable - Package test files
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -2871,10 +2871,10 @@ Version: 1.22.1-r0
 Priority: optional
 Section: base
 Filename: pool/main/b/busybox-syslog/busybox-syslog_1.22.1-r0_armel.deb
-Size: 2500
-SHA256: aaf5a243f3c93e6cd1a9b1241f3a92943472de31028d8b10e94130f9cd945e3d
-SHA1: 14a82ef590d2464a655fd7c17f6986b1d844ce8c
-MD5sum: f60095fca9dec2e87cf7cdef8f8d59c1
+Size: 2498
+SHA256: 04cfa6b7f34124bbef9d9d238379fc037323dae930f3b53433af461c5d8285b2
+SHA1: f9ab321210129907f03e2fd1b4e8f3353bc82466
+MD5sum: 559d5b91f95d9178d048c9c30c8d094c
 Description: Tiny versions of many common UNIX utilities in a single small executable
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -2896,10 +2896,10 @@ Version: 1.22.1-r0
 Priority: optional
 Section: base
 Filename: pool/main/b/busybox-udhcpc/busybox-udhcpc_1.22.1-r0_armel.deb
-Size: 1940
-SHA256: b22be69e984895793d2fa377a990d31d70bf69e6c8237887ab8384147eb73dc6
-SHA1: abb08e6db0051c3f2eab6fc2e6a1b33c67a0363b
-MD5sum: 5f16d094d79a5c1f53180006b9cc509c
+Size: 1932
+SHA256: 1a81cda36b760dea1d2af3e7dbab81058d14ed23f941e35c6550856d762817c6
+SHA1: 4ba121a01f84e177cd7034eca1b590ba39872d2f
+MD5sum: 2913ac5d28b438aef54b5bf30bc6e99b
 Description: Tiny versions of many common UNIX utilities in a single small executable
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
