@@ -33452,6 +33452,88 @@ Homepage: http://www.gnupg.org/
 Recommends: virtual-locale-zh-tw
 Provides: gnupg-locale, zh-tw-translation
 
+Package: gzip
+Version: 1.6-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/g/gzip/gzip_1.6-r0_armel.deb
+Size: 42568
+SHA256: 4b53580da61337ec02bb9eeee55be82d88b1a7c8eff135e96407da2ed10d341c
+SHA1: d4714b58bc73b6a3d5dd35a63e83146e741b17dd
+MD5sum: 3562293fc08bccc4d506914b50a561d9
+Description: Standard GNU compressor
+ GNU Gzip is a popular data compression program originally written by
+ Jean-loup Gailly for the GNU project. Mark Adler wrote the decompression
+ part
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gzip
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/gzip/
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+
+Package: gzip-dbg
+Version: 1.6-r0
+Priority: optional
+Section: devel
+Filename: pool/main/g/gzip-dbg/gzip-dbg_1.6-r0_armel.deb
+Size: 197508
+SHA256: affeb28b1cf8934d166911968575a2149f075b6b341455fda496b1ad3fe4be1d
+SHA1: 867a6fa8ed6e6e733044275e244d63cb30526146
+MD5sum: 0442d3c0654ac915ccfa8e2bf8d565d0
+Description: Standard GNU compressor - Debugging files
+ GNU Gzip is a popular data compression program originally written by
+ Jean-loup Gailly for the GNU project. Mark Adler wrote the decompression
+ part  This package contains ELF symbols and related sources for debugging
+ purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gzip
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/gzip/
+Recommends: libc6-dbg
+
+Package: gzip-dev
+Version: 1.6-r0
+Priority: optional
+Section: devel
+Filename: pool/main/g/gzip-dev/gzip-dev_1.6-r0_armel.deb
+Size: 882
+SHA256: 46e1e8c7da74897e70ca6557137bab322de304e4cf2e0968bf9a16182d91c556
+SHA1: c6d761943785d8fc39b43c7e344d871d41da9a1d
+MD5sum: 913830bc76a98e5b5597ce35569399db
+Description: Standard GNU compressor - Development files
+ GNU Gzip is a popular data compression program originally written by
+ Jean-loup Gailly for the GNU project. Mark Adler wrote the decompression
+ part  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gzip
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/gzip/
+Depends: gzip (= 1.6-r0)
+Recommends: libc6-dev, update-alternatives-opkg-dev
+
+Package: gzip-doc
+Version: 1.6-r0
+Priority: optional
+Section: doc
+Filename: pool/main/g/gzip-doc/gzip-doc_1.6-r0_armel.deb
+Size: 20698
+SHA256: 9e87e13c617dd9fdca2e33b54a33882c068198d3d0e647a7769188588e0eeb9b
+SHA1: 87a8dae03028dea7867fbd190415119137c39dc9
+MD5sum: a83bebb0419dfa08d29ab04e526cb54b
+Description: Standard GNU compressor - Documentation files
+ GNU Gzip is a popular data compression program originally written by
+ Jean-loup Gailly for the GNU project. Mark Adler wrote the decompression
+ part  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: gzip
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/gzip/
+
 Package: init-ifupdown
 Version: 1.0-r7
 Priority: optional
@@ -76733,6 +76815,70 @@ Architecture: armel
 OE: netbase
 PackageArch: arm1176jzfshf-vfp
 Homepage: http://packages.debian.org/netbase
+
+Package: nginx
+Version: 1.4.4-r0
+Priority: optional
+Section: net
+Filename: pool/main/n/nginx/nginx_1.4.4-r0_armel.deb
+Size: 211304
+SHA256: 758e0aba68f6713075d8987d8710a3e50b7993865c29fb8d4826c43dc28bfa85
+SHA1: ef577b6e8859fc3405bdeea3e605a74afd4580a9
+MD5sum: 420b3b5c8c6e82c5159db18341763b83
+Description: HTTP and reverse proxy server
+ Nginx is a web server and a reverse proxy server for HTTP, SMTP, POP3 and
+ IMAP protocols, with a strong focus on high  concurrency, performance and
+ low memory usage.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: nginx
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://nginx.org/
+Depends: libssl1.0.0 (>= 1.0.1j), libc6 (>= 2.19), libz1 (>= 1.2.8), libpcre1 (>= 8.34), libcrypto1.0.0 (>= 1.0.1j), base-files, shadow, base-passwd
+Recommends: update-rc.d
+
+Package: nginx-dbg
+Version: 1.4.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/n/nginx-dbg/nginx-dbg_1.4.4-r0_armel.deb
+Size: 1103360
+SHA256: 4bea126bf164cc41c6dc4d221fe315a6ed75ace122844cbe9a6d3d34c016110b
+SHA1: cef97296cd7f85cf126fd72e85f9e51daed5268c
+MD5sum: 57d46dd6327785c0001e6397e9cdb974
+Description: HTTP and reverse proxy server - Debugging files
+ Nginx is a web server and a reverse proxy server for HTTP, SMTP, POP3 and
+ IMAP protocols, with a strong focus on high  concurrency, performance and
+ low memory usage.  This package contains ELF symbols and related sources
+ for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: nginx
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://nginx.org/
+Recommends: libpcre-dbg, libc6-dbg, libz-dbg, libcrypto-dbg, libssl-dbg
+
+Package: nginx-dev
+Version: 1.4.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/n/nginx-dev/nginx-dev_1.4.4-r0_armel.deb
+Size: 930
+SHA256: 0b3eb88cd9b4240227d54cbd345cc534b0f76b3c8606a0eed2268b9b9b8dd54c
+SHA1: 15d99339ee9316298bee878ced53a3e074cafa78
+MD5sum: 5e9e6db53954fee711e839ba50608f6d
+Description: HTTP and reverse proxy server - Development files
+ Nginx is a web server and a reverse proxy server for HTTP, SMTP, POP3 and
+ IMAP protocols, with a strong focus on high  concurrency, performance and
+ low memory usage.  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: nginx
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://nginx.org/
+Depends: nginx (= 1.4.4-r0)
+Recommends: base-passwd-dev, shadow-dev, gzip-dev, libz-dev, shadow-sysroot-dev, base-files-dev, openssl-dev, libpcre-dev, libcrypto-dev, libc6-dev, libssl-dev, initscripts-dev
 
 Package: nscd
 Version: 2.19-r0
