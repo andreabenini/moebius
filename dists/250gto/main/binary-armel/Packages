@@ -33723,6 +33723,194 @@ PackageArch: arm1176jzfshf-vfp
 Homepage: http://www.x.org
 Recommends: util-macros-dev
 
+Package: iproute2
+Version: 3.12.0-r0
+Priority: optional
+Section: base
+Filename: pool/main/i/iproute2/iproute2_3.12.0-r0_armel.deb
+Size: 103462
+SHA256: 4bdb31aa9fd8445606cf2e17524b02a06d7ced891df283e0ba4832654d7acf34
+SHA1: de19f3c9addf94735024d45585f1dfdd23ad9a0d
+MD5sum: 21a9c603714f084130279d449efcc2e1
+Description: TCP / IP networking and traffic control utilities
+ Iproute2 is a collection of utilities for controlling TCP / IP networking
+ and traffic control in Linux.  Of the utilities ip and tc are the most
+ important.  ip controls IPv4 and IPv6 configuration and tc stands for
+ traffic control.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iproute2
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+
+Package: iproute2-dbg
+Version: 3.12.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/i/iproute2-dbg/iproute2-dbg_3.12.0-r0_armel.deb
+Size: 620174
+SHA256: 2ecb8ca109c68e4e6485ea761be92d248bc9ba441ef150cfdb5d0cf380c28d89
+SHA1: c84c39aa2ff3c187aaa9268e64c70f239c29f7e5
+MD5sum: 3de7ec027ebd3bf97a92b6fc979aaa88
+Description: TCP / IP networking and traffic control utilities - Debugging files
+ Iproute2 is a collection of utilities for controlling TCP / IP networking
+ and traffic control in Linux.  Of the utilities ip and tc are the most
+ important.  ip controls IPv4 and IPv6 configuration and tc stands for
+ traffic control.  This package contains ELF symbols and related sources
+ for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iproute2
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Recommends: libc6-dbg, iptables-dbg
+
+Package: iproute2-dev
+Version: 3.12.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/i/iproute2-dev/iproute2-dev_3.12.0-r0_armel.deb
+Size: 944
+SHA256: 9e00f92eb07175e25cdfe1817aa466eaf37dbfd4eec03eda3029b10be82b2f9e
+SHA1: bff724bdeaa612ea5fcf1f579b931af2acdd0331
+MD5sum: 54f3209c624abe6301f8478056c06400
+Description: TCP / IP networking and traffic control utilities - Development files
+ Iproute2 is a collection of utilities for controlling TCP / IP networking
+ and traffic control in Linux.  Of the utilities ip and tc are the most
+ important.  ip controls IPv4 and IPv6 configuration and tc stands for
+ traffic control.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iproute2
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Depends: iproute2 (= 3.12.0-r0)
+Recommends: libc6-dev, update-alternatives-opkg-dev, iptables-dev
+
+Package: iproute2-doc
+Version: 3.12.0-r0
+Priority: optional
+Section: doc
+Filename: pool/main/i/iproute2-doc/iproute2-doc_3.12.0-r0_armel.deb
+Size: 72404
+SHA256: 650b9c57a16681d8484aa29cbb57fcc5ff9ef04ef3666f9e904344dc12a087ad
+SHA1: ad713b6535607d2eb35e506b1bd5b158c28663bf
+MD5sum: ebd0b9c3fc03409d8d36e2600536ef02
+Description: TCP / IP networking and traffic control utilities - Documentation files
+ Iproute2 is a collection of utilities for controlling TCP / IP networking
+ and traffic control in Linux.  Of the utilities ip and tc are the most
+ important.  ip controls IPv4 and IPv6 configuration and tc stands for
+ traffic control.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iproute2
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+
+Package: iproute2-tc
+Version: 3.12.0-r0
+Priority: optional
+Section: base
+Filename: pool/main/i/iproute2-tc/iproute2-tc_3.12.0-r0_armel.deb
+Size: 91552
+SHA256: c49551f3bbf1d6c8155d753ecbdf3da56150ec03dd3fc334f21988a3c9dc308b
+SHA1: 3c744c3348c8d72ce759d79190428291fe738854
+MD5sum: 3ed9417f2da06a0ba2b266bb2829a60b
+Description: TCP / IP networking and traffic control utilities
+ Iproute2 is a collection of utilities for controlling TCP / IP networking
+ and traffic control in Linux.  Of the utilities ip and tc are the most
+ important.  ip controls IPv4 and IPv6 configuration and tc stands for
+ traffic control.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iproute2
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Depends: iptables (>= 1.4.21), libc6 (>= 2.19)
+
+Package: iptables
+Version: 1.4.21-r0
+Priority: optional
+Section: base
+Filename: pool/main/i/iptables/iptables_1.4.21-r0_armel.deb
+Size: 156938
+SHA256: 86dbe0a39b2d2a1793ceece2102c99e867da64826d49071e28ddcb98a759784d
+SHA1: ad2f31454e977cdbe729f4942e61cdef2ca5f577
+MD5sum: 965d4dc6cea721bb5bed2b653adf316e
+Description: Tools for managing kernel packet filtering capabilities
+ iptables is the userspace command line program used to configure and
+ control network packet filtering code in Linux.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iptables
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.netfilter.org/
+Depends: libc6 (>= 2.19)
+Recommends: kernel-module-nf-defrag-ipv4, kernel-module-nf-conntrack, kernel-module-ipt-masquerade, kernel-module-x-tables, kernel-module-nf-nat, kernel-module-nf-conntrack-ipv4, kernel-module-iptable-nat, kernel-module-ip-tables, kernel-module-iptable-filter
+
+Package: iptables-dbg
+Version: 1.4.21-r0
+Priority: optional
+Section: devel
+Filename: pool/main/i/iptables-dbg/iptables-dbg_1.4.21-r0_armel.deb
+Size: 576328
+SHA256: a193bb43d3c3d6d804baa7c6c7ffe177e65ebd7e2446358aace92d8ced8b3a45
+SHA1: 7708381b3e4e9b65034f1268aef4936c43273511
+MD5sum: a35cf29f7c5e09a88498b9f748d065e8
+Description: Tools for managing kernel packet filtering capabilities - Debugging files
+ iptables is the userspace command line program used to configure and
+ control network packet filtering code in Linux.  This package contains
+ ELF symbols and related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iptables
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.netfilter.org/
+Recommends: libc6-dbg
+
+Package: iptables-dev
+Version: 1.4.21-r0
+Priority: optional
+Section: devel
+Filename: pool/main/i/iptables-dev/iptables-dev_1.4.21-r0_armel.deb
+Size: 8748
+SHA256: 6bbfa7efd33fe38663d18c2ed9ae88e0850fd1dd631b0deb21928be0e02454ce
+SHA1: 664c0436366a8d6a33d83500c4ef1ee6d2eedc58
+MD5sum: ff886c2a9b2af33633c415639b2d7ba1
+Description: Tools for managing kernel packet filtering capabilities - Development files
+ iptables is the userspace command line program used to configure and
+ control network packet filtering code in Linux.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iptables
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.netfilter.org/
+Depends: iptables (= 1.4.21-r0)
+Recommends: libc6-dev
+
+Package: iptables-doc
+Version: 1.4.21-r0
+Priority: optional
+Section: doc
+Filename: pool/main/i/iptables-doc/iptables-doc_1.4.21-r0_armel.deb
+Size: 36784
+SHA256: 5b2c75e8981b462d039e2f0072120dbe5b067bba9308e9d7203264af3e4efc59
+SHA1: ee0673c4e1f71c2b7d4cb72cd043f811a34d2bbc
+MD5sum: e33a1e632cd21873e0e183e8d1c37384
+Description: Tools for managing kernel packet filtering capabilities - Documentation files
+ iptables is the userspace command line program used to configure and
+ control network packet filtering code in Linux.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: iptables
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.netfilter.org/
+
 Package: kbd
 Version: 2.0.1-r0
 Priority: optional
@@ -77468,6 +77656,83 @@ PackageArch: arm1176jzfshf-vfp
 Homepage: http://www.openssl.org/
 Depends: openssl-dev (= 1.0.1j-r0)
 
+Package: openvpn
+Version: 2.3.4-r0
+Priority: optional
+Section: console/network
+Filename: pool/main/o/openvpn/openvpn_2.3.4-r0_armel.deb
+Size: 187724
+SHA256: e50f797bd13a28ded4b304261aeb68a4f551d17fde5e49ec2daf8234762ba82a
+SHA1: 2e43b067f34841cb165378ce9452cf12e2985f2c
+MD5sum: 942521429d8a80f29dbe9a474ceffabc
+Description: A full-featured SSL VPN solution via tun device.
+ A full-featured SSL VPN solution via tun device..
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openvpn
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://openvpn.sourceforge.net
+Depends: libssl1.0.0 (>= 1.0.1j), libc6 (>= 2.19), liblzo2-2 (>= 2.06), libcrypto1.0.0 (>= 1.0.1j)
+Recommends: kernel-module-tun
+
+Package: openvpn-dbg
+Version: 2.3.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/o/openvpn-dbg/openvpn-dbg_2.3.4-r0_armel.deb
+Size: 889796
+SHA256: ce3125cc4b2721d5e4a4a0b7642621bc875c89144d095a637759ba0e44eb3a96
+SHA1: c21a66baf3b22e1f71107d4f63a101cd86724bdc
+MD5sum: 948a6fe6cecf6e8a29622d27fd7d8a04
+Description: A full-featured SSL VPN solution via tun device. - Debugging files
+ A full-featured SSL VPN solution via tun device..  This package contains
+ ELF symbols and related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openvpn
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://openvpn.sourceforge.net
+Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg, liblzo2-dbg
+
+Package: openvpn-dev
+Version: 2.3.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/o/openvpn-dev/openvpn-dev_2.3.4-r0_armel.deb
+Size: 7050
+SHA256: 7d1cb2bc8b83b6e15b096ee61116c4d0451428f2ba76de1165f2d122d5252aa9
+SHA1: 3db46e29b7753c24efe5e8e16a41b5b29b17b2ad
+MD5sum: c91bcf5be802c4276b45b152ec318605
+Description: A full-featured SSL VPN solution via tun device. - Development files
+ A full-featured SSL VPN solution via tun device..  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openvpn
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://openvpn.sourceforge.net
+Depends: openvpn (= 2.3.4-r0)
+Recommends: liblzo2-dev, openssl-dev, libcrypto-dev, iproute2-dev, libc6-dev, libssl-dev
+
+Package: openvpn-doc
+Version: 2.3.4-r0
+Priority: optional
+Section: doc
+Filename: pool/main/o/openvpn-doc/openvpn-doc_2.3.4-r0_armel.deb
+Size: 70244
+SHA256: 08caceef28d0589524f6dc8b2286612a6513d7f155cd57deba40b496fe6ec4d7
+SHA1: 58c6433527cacd53bdc533f03137f9786ce19b13
+MD5sum: 465dc0e9f841d53389e77f56782230f5
+Description: A full-featured SSL VPN solution via tun device. - Documentation files
+ A full-featured SSL VPN solution via tun device..  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: openvpn
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://openvpn.sourceforge.net
+
 Package: opkg-utils
 Version: 0.1.8+git0+c33b217016-r0
 Priority: optional
@@ -94168,6 +94433,882 @@ Architecture: armel
 OE: sysvinit
 PackageArch: arm1176jzfshf-vfp
 Homepage: http://savannah.nongnu.org/projects/sysvinit/
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+
+Package: tar
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar/tar_1.27.1-r0_armel.deb
+Size: 147216
+SHA256: 2decf696dcdcd29be0b6d581b6177dc209e22a372f8865add9e3e9fd2f07ccad
+SHA1: 2a1cea5e83d7e85978e12076a14b7d2837f95ded
+MD5sum: 69940707b13c72e693f8efc1e84fcd2a
+Description: GNU file archiving program
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+
+Package: tar-dbg
+Version: 1.27.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/t/tar-dbg/tar-dbg_1.27.1-r0_armel.deb
+Size: 786218
+SHA256: 69bf67321285de0ac938b59ef1d69c4f1ca50bfade90940681cb830cc3a01076
+SHA1: d91431776e9f52accf75326ba04e54c5a4b56712
+MD5sum: 4a2fd2f586c483918f499d428f4c708a
+Description: GNU file archiving program - Debugging files
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: libc6-dbg
+
+Package: tar-dev
+Version: 1.27.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/t/tar-dev/tar-dev_1.27.1-r0_armel.deb
+Size: 868
+SHA256: 52548be2fef71bd4b498b927c88019d97064e8e5ff3a612bd9df04285e483305
+SHA1: 8ecd588e5d5be8f194cc3bb4106f32364295c6a7
+MD5sum: 5bdc4bc03de0b11eaf4e94b8ecab415b
+Description: GNU file archiving program - Development files
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Depends: tar (= 1.27.1-r0)
+Recommends: libc6-dev, update-alternatives-opkg-dev
+
+Package: tar-doc
+Version: 1.27.1-r0
+Priority: optional
+Section: doc
+Filename: pool/main/t/tar-doc/tar-doc_1.27.1-r0_armel.deb
+Size: 145576
+SHA256: 14b89c875ce057b67d6b235837265661e4d72f434aa9fbae7b6a373dcbce8265
+SHA1: fec0963f66388182b8ea2527cbb2c9c1a09ad174
+MD5sum: 80cd5d0c13bb32bd73bda7d40e4edfeb
+Description: GNU file archiving program - Documentation files
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+
+Package: tar-locale-bg
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-bg/tar-locale-bg_1.27.1-r0_armel.deb
+Size: 16126
+SHA256: 18a96640e76b2a98ffb2b7707fd72323135ea64b1bf92a122b396a5bea666ae9
+SHA1: a23f60ded37b93ab91b692bafef287da1d979408
+MD5sum: 577d38313c79e28042030d0362fa95de
+Description: GNU file archiving program - bg translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the bg locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-bg
+Provides: bg-translation, tar-locale
+
+Package: tar-locale-ca
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ca/tar-locale-ca_1.27.1-r0_armel.deb
+Size: 17976
+SHA256: 65213c2861150ae2f67717292665027d2c239c4e9adf3dc0b6a6d77b19d85aa2
+SHA1: fac08f6e5dfdac7e183edebc139127fb27f82a67
+MD5sum: 376c6015e1cd73a5ae9020989acfd551
+Description: GNU file archiving program - ca translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ca locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ca
+Provides: tar-locale, ca-translation
+
+Package: tar-locale-cs
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-cs/tar-locale-cs_1.27.1-r0_armel.deb
+Size: 20884
+SHA256: 41738ad4227f71fa02b1b4c649e361ad6983e52d53dc0cb7ad12d921f7bca65b
+SHA1: a44ee24c0e2e9b8f7a0c9ac9f11f3b372d820f0d
+MD5sum: 4d67ff68f03db03f453210ecf896d76b
+Description: GNU file archiving program - cs translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the cs locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-cs
+Provides: tar-locale, cs-translation
+
+Package: tar-locale-da
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-da/tar-locale-da_1.27.1-r0_armel.deb
+Size: 17308
+SHA256: b1c07a1f6953002e676abcd7907277a208a3ac299b76d5723b0a9bb6e06fe2f5
+SHA1: db4c28273364257ab0979a06c35d180c9b691d82
+MD5sum: a5408a9543a566b7878212261fd655d2
+Description: GNU file archiving program - da translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the da locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-da
+Provides: tar-locale, da-translation
+
+Package: tar-locale-de
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-de/tar-locale-de_1.27.1-r0_armel.deb
+Size: 20330
+SHA256: 60739b8c9e3dbed6375cc27e18f995b4213eb64f11005e6b62a8218a9e55a359
+SHA1: c2845f534a0fc7f60712d158fa79638a36df9715
+MD5sum: b2c9c6a1aceb3acbec42f315e37e6e80
+Description: GNU file archiving program - de translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the de locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-de
+Provides: de-translation, tar-locale
+
+Package: tar-locale-el
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-el/tar-locale-el_1.27.1-r0_armel.deb
+Size: 5312
+SHA256: 0a7efae27ede2cdcde11f50c0f1335773a15cf6a71881a1bc723a6a42a04b41f
+SHA1: 0a814ea5304c6c2ff1bfe235ae82a2612b20ff4a
+MD5sum: a8ccfb5c89da04670fb9761040afec55
+Description: GNU file archiving program - el translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the el locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-el
+Provides: tar-locale, el-translation
+
+Package: tar-locale-eo
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-eo/tar-locale-eo_1.27.1-r0_armel.deb
+Size: 19338
+SHA256: ba6a3de9be6ff8d26933d8e37d94f4217e046a4e23a822d5c8b0527621321ab2
+SHA1: 51973910e28a7eb72dd11ba537e195994ff2b266
+MD5sum: b30b6b733144abca9174485cca1ac987
+Description: GNU file archiving program - eo translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the eo locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-eo
+Provides: tar-locale, eo-translation
+
+Package: tar-locale-es
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-es/tar-locale-es_1.27.1-r0_armel.deb
+Size: 8974
+SHA256: b9f258c097e2556c9c79165cb4321caaec1dbd3e5d6b20515acbf6b9ae00f107
+SHA1: 3d36450e76a064c1763f9ccb58f2bf82cf3f2a5e
+MD5sum: a79e0213179be61b147c2e5621098193
+Description: GNU file archiving program - es translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the es locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-es
+Provides: es-translation, tar-locale
+
+Package: tar-locale-et
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-et/tar-locale-et_1.27.1-r0_armel.deb
+Size: 19174
+SHA256: 9bae8625433faa2c308239a1276fa1d7d1526d19d5ccea0266b473f0953de6d2
+SHA1: d5b4c673766900dffaed66bd07b25255ef11cb49
+MD5sum: 5d6ec2c016b2a149a065ab561711f003
+Description: GNU file archiving program - et translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the et locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-et
+Provides: tar-locale, et-translation
+
+Package: tar-locale-eu
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-eu/tar-locale-eu_1.27.1-r0_armel.deb
+Size: 11732
+SHA256: e7e7d9068877c4e5833cdd7042ad3bdcecb97fd1875a18d546bdfee408a185cf
+SHA1: 197fd2f413988ad859834e6e0e4538c17a05e3bd
+MD5sum: 07fb0f17c2ee733db1ce561f2ed7c162
+Description: GNU file archiving program - eu translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the eu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-eu
+Provides: tar-locale, eu-translation
+
+Package: tar-locale-fi
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-fi/tar-locale-fi_1.27.1-r0_armel.deb
+Size: 11512
+SHA256: f1b43b8b173adbd1e9289b806fd82e1b434d51a6ab2ded8a07a55fedd2d0fd3f
+SHA1: 20d0364950227521584c5eeeff128c72c61f9e61
+MD5sum: 7fba65c9c3ab6bb90ef1624f3d763846
+Description: GNU file archiving program - fi translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the fi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-fi
+Provides: tar-locale, fi-translation
+
+Package: tar-locale-fr
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-fr/tar-locale-fr_1.27.1-r0_armel.deb
+Size: 18240
+SHA256: 7c395a4cc8fc332adddfb165b610cb75f022af9229992409419faccf74ebaa3c
+SHA1: 6ebf9e544b389afc702c1ade514e52675eb1e554
+MD5sum: 903be7a73e07c8aefc13702493196395
+Description: GNU file archiving program - fr translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the fr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-fr
+Provides: tar-locale, fr-translation
+
+Package: tar-locale-ga
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ga/tar-locale-ga_1.27.1-r0_armel.deb
+Size: 16820
+SHA256: 16947228c04edc9dd02fa8f3cea30afc395cc39e8c2296eb53c80edb4932b4e6
+SHA1: ef3a059b0ebf9d4b9afeabdbc9c8c9b6faa9dfa6
+MD5sum: 8e6cf3e3c8fa8b87abf3f5db6361ef68
+Description: GNU file archiving program - ga translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ga locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ga
+Provides: ga-translation, tar-locale
+
+Package: tar-locale-gl
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-gl/tar-locale-gl_1.27.1-r0_armel.deb
+Size: 4694
+SHA256: d7008376708c598b496190ee9e622d30fb60f65edc3aa3f1a164394f57692d7c
+SHA1: 269d3c07f8bac072b1d861cb9be0af91ec670ba3
+MD5sum: f6329c4a662b4184714a0cc1a69793b7
+Description: GNU file archiving program - gl translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the gl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-gl
+Provides: gl-translation, tar-locale
+
+Package: tar-locale-hr
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-hr/tar-locale-hr_1.27.1-r0_armel.deb
+Size: 17744
+SHA256: aab1f94956d0dfe15855e978751a8b87375a431b0e90c7610d515896853745b1
+SHA1: 3f9688741d4c738d540937365305a91fb24f30f3
+MD5sum: 17e22f7b1805d50d3d3f7de9db43a211
+Description: GNU file archiving program - hr translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the hr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-hr
+Provides: tar-locale, hr-translation
+
+Package: tar-locale-hu
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-hu/tar-locale-hu_1.27.1-r0_armel.deb
+Size: 18582
+SHA256: 0d08ca10e4e9c2cae73ca8561622ca35cfd643bf0516a3ff1914b583ba4d3891
+SHA1: d16713e8a65d7b1f8652c9dd27d4fb145d9fe278
+MD5sum: 19eac74a5c0f2597c68503c4699ef2b3
+Description: GNU file archiving program - hu translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the hu locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-hu
+Provides: tar-locale, hu-translation
+
+Package: tar-locale-id
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-id/tar-locale-id_1.27.1-r0_armel.deb
+Size: 16788
+SHA256: 8cd7ac20e34b8b756933f14f35280a8e92b0fd13b92a10a08df12cfd730132a0
+SHA1: 0c443a0136f18d1825cc4109aef051554daa92f1
+MD5sum: cb43bb3772baa57d7ef57221bf5d3711
+Description: GNU file archiving program - id translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the id locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-id
+Provides: tar-locale, id-translation
+
+Package: tar-locale-it
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-it/tar-locale-it_1.27.1-r0_armel.deb
+Size: 19532
+SHA256: e85f172990e7ae5250b5592e3edddd213cebe44cacb6a772cd68eae0d38136bc
+SHA1: 6c20a949e984b3fa04960368e9b8cd9baec8d77a
+MD5sum: 22f73bca4986a3648b9923b07d403df8
+Description: GNU file archiving program - it translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the it locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-it
+Provides: tar-locale, it-translation
+
+Package: tar-locale-ja
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ja/tar-locale-ja_1.27.1-r0_armel.deb
+Size: 19436
+SHA256: 6b698f58ab7972917bbe50ddd68781f7e53c6cdb7745f98afb58654ccb45e6bc
+SHA1: e679b80466bbdd2f36a892638d313aa915b91670
+MD5sum: 87a936348ac86c07e32626edeb7f634b
+Description: GNU file archiving program - ja translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ja locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ja
+Provides: tar-locale, ja-translation
+
+Package: tar-locale-ko
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ko/tar-locale-ko_1.27.1-r0_armel.deb
+Size: 2732
+SHA256: 9dc2629146b5fc455612b86b3e16f4e7713a6add0a8922f0ea62fe0a0a570670
+SHA1: da5a43bdce889d99b6e40f6739330bc641c9e746
+MD5sum: a649a69332187ab8c3615dfd6e143dd2
+Description: GNU file archiving program - ko translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ko locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ko
+Provides: tar-locale, ko-translation
+
+Package: tar-locale-ky
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ky/tar-locale-ky_1.27.1-r0_armel.deb
+Size: 16312
+SHA256: efe979ffbe60ab4ac5d2fad62e3f34d97c203e68c51bd23fb1ce84e41f98989f
+SHA1: 00263f48d2138cf9864ed949edef697a2ec59195
+MD5sum: b5a6f586c1a2ea98112a80e9f4f23f63
+Description: GNU file archiving program - ky translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ky locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ky
+Provides: tar-locale, ky-translation
+
+Package: tar-locale-ms
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ms/tar-locale-ms_1.27.1-r0_armel.deb
+Size: 4364
+SHA256: 4ea64daea05f556227d1aabe4527d8a79b756f80007e8d9bed4a61d0f2a703d0
+SHA1: a5200b28a785101e34aa798776b9a30a40a3fead
+MD5sum: 7ac7870a229ca3822c8d1a38f3c88dfc
+Description: GNU file archiving program - ms translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ms locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ms
+Provides: ms-translation, tar-locale
+
+Package: tar-locale-nb
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-nb/tar-locale-nb_1.27.1-r0_armel.deb
+Size: 2768
+SHA256: 76592d072f2c170f79062213ace2e514d832c8df235eadcb07fd041a8f743872
+SHA1: 6fa4f030a6a82d6b6ba9aca03581bcf2d65b88ac
+MD5sum: 09968d22af0a41160ee962e974a8bb33
+Description: GNU file archiving program - nb translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the nb locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-nb
+Provides: tar-locale, nb-translation
+
+Package: tar-locale-nl
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-nl/tar-locale-nl_1.27.1-r0_armel.deb
+Size: 19824
+SHA256: 755a9741dc001b1392b00f944d00ecbbb9bdc41ac51b18fb54e052da50f15273
+SHA1: 398e29c60e82356ceca7c91e79f64bda4d9e322c
+MD5sum: 5f751a008bc59282dea8016c1322d954
+Description: GNU file archiving program - nl translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the nl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-nl
+Provides: tar-locale, nl-translation
+
+Package: tar-locale-pl
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-pl/tar-locale-pl_1.27.1-r0_armel.deb
+Size: 18212
+SHA256: cae703a0ba77aa9617c342dffae77eab6632e59db50b19ee793207e20e32e397
+SHA1: 3c9fae458d2cf85b7a31241baa0407ed3e86aebe
+MD5sum: b202a164b9e1f15c7f3f52ab644755d3
+Description: GNU file archiving program - pl translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the pl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-pl
+Provides: pl-translation, tar-locale
+
+Package: tar-locale-pt
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-pt/tar-locale-pt_1.27.1-r0_armel.deb
+Size: 2528
+SHA256: c5deaa28e385addfc6f4ea8d5f7c0d53c27c4311e45602d14c6c0a2fb7b1fd13
+SHA1: 833597d853c8c7f2fd84a93c86a6c825b938af49
+MD5sum: 1c835f87f02c3cc0b9c5a8b7f3d3ab53
+Description: GNU file archiving program - pt translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the pt locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-pt
+Provides: pt-translation, tar-locale
+
+Package: tar-locale-pt-br
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-pt-br/tar-locale-pt-br_1.27.1-r0_armel.deb
+Size: 15072
+SHA256: ad781ba327dd3584602602fad02858256df27d5512b434d43cfc673641e6005e
+SHA1: a0a6bb3030c5863ea2a64f34c21b40f8c2a2c08d
+MD5sum: 6fed3c7a5e1b424a6ac77895aa614336
+Description: GNU file archiving program - pt_BR translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the pt_BR locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-pt-br
+Provides: tar-locale, pt-br-translation
+
+Package: tar-locale-ro
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ro/tar-locale-ro_1.27.1-r0_armel.deb
+Size: 8906
+SHA256: d869ac007efab9d2a6c999064f95f98ce1382f4493bfc8b45a0edf0c0b1ab76f
+SHA1: f42effe47a358b8cfd0b1665820f3fd658bc8108
+MD5sum: 87f21048b31f8a04cceefe39f6bd26db
+Description: GNU file archiving program - ro translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ro locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ro
+Provides: ro-translation, tar-locale
+
+Package: tar-locale-ru
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-ru/tar-locale-ru_1.27.1-r0_armel.deb
+Size: 19400
+SHA256: 0fbfadd574d6639bc2d0d2ec6a80a5d565e2872149ce1ca56fbc536a00c8539f
+SHA1: 123c49ee090967dc4b273a18780dcce38e64dc63
+MD5sum: d5d740390ef62c4197907983e36bb675
+Description: GNU file archiving program - ru translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the ru locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-ru
+Provides: tar-locale, ru-translation
+
+Package: tar-locale-sk
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-sk/tar-locale-sk_1.27.1-r0_armel.deb
+Size: 4804
+SHA256: 0bf841dfec048881f05c7f35fec5fdc237fe33682bb1390982b9666aeb5a5862
+SHA1: b595593622e2e0dc786f736d93cab63850199c18
+MD5sum: 0a8a04a10c269c19c358848d020eeab3
+Description: GNU file archiving program - sk translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the sk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-sk
+Provides: tar-locale, sk-translation
+
+Package: tar-locale-sl
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-sl/tar-locale-sl_1.27.1-r0_armel.deb
+Size: 18132
+SHA256: b9b44aae497831f7e0caf20665bd5b161b8f985662b59226372c057d8a7c706e
+SHA1: 5b9b8bdfe8489eca203ca2fe59cd66064f69691e
+MD5sum: f34da3f888a5870c284f7baba09cb562
+Description: GNU file archiving program - sl translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the sl locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-sl
+Provides: tar-locale, sl-translation
+
+Package: tar-locale-sv
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-sv/tar-locale-sv_1.27.1-r0_armel.deb
+Size: 19360
+SHA256: b2c51e42512c4f33e5ca5363077138fdbf7ff82339a78dfa147a5bada186e6d8
+SHA1: beff51fa72e2d998f6df3e4f8aa0ca6bfc958508
+MD5sum: c5222c71a5a0a96155d19f1125c2b3c5
+Description: GNU file archiving program - sv translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the sv locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-sv
+Provides: tar-locale, sv-translation
+
+Package: tar-locale-tr
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-tr/tar-locale-tr_1.27.1-r0_armel.deb
+Size: 17980
+SHA256: 5b687dea89a0127d510b2eaebeeace0f6b08a57f9959219f2d5b111b4b3dbe35
+SHA1: c247518b13ed5834e13760fcbe133dafb9881e70
+MD5sum: 479249cedeadcff25892574299e0fca5
+Description: GNU file archiving program - tr translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the tr locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-tr
+Provides: tar-locale, tr-translation
+
+Package: tar-locale-uk
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-uk/tar-locale-uk_1.27.1-r0_armel.deb
+Size: 19192
+SHA256: c0e9be92d198cd1ef22e9f04665312ca5053d420c36e2fcf957050b5312ffd40
+SHA1: ed76efd6f9ec1f2e492a0ed59a6c876386647216
+MD5sum: f103e78524fce83eb8316c66ab88e220
+Description: GNU file archiving program - uk translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the uk locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-uk
+Provides: uk-translation, tar-locale
+
+Package: tar-locale-vi
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-vi/tar-locale-vi_1.27.1-r0_armel.deb
+Size: 20588
+SHA256: b5dc5df7eb231dbe33259d4fec3e0e18f18e2bd32ece96fb4c49556b7d81165c
+SHA1: 4566697a756fd790b348f39abe78f08aedb01c68
+MD5sum: 3c1e4b8077f674f4467d5078461f6fc5
+Description: GNU file archiving program - vi translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the vi locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-vi
+Provides: tar-locale, vi-translation
+
+Package: tar-locale-zh-cn
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-zh-cn/tar-locale-zh-cn_1.27.1-r0_armel.deb
+Size: 17268
+SHA256: 3f98918ef10d3d784d49404cb2193862993ff579465b89896b4a3c55d5ea25c2
+SHA1: eb7a6e6507de9d1792f206629c539741cde5a9df
+MD5sum: 004235aa9cf3acd4b203980f1689f8eb
+Description: GNU file archiving program - zh_CN translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the zh_CN locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-zh-cn
+Provides: tar-locale, zh-cn-translation
+
+Package: tar-locale-zh-tw
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-locale-zh-tw/tar-locale-zh-tw_1.27.1-r0_armel.deb
+Size: 17492
+SHA256: 76f3ca399a3cf43bd72ff285aa8be19072900c1bbc361dbedcd71282dd0b2efe
+SHA1: 36aa13a6f8c17af9728f7caebddcc58ce6d9a3e4
+MD5sum: b1f16a0955a7bda67eb63770f893d42c
+Description: GNU file archiving program - zh_TW translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the zh_TW locale.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-zh-tw
+Provides: tar-locale, zh-tw-translation
+
+Package: tar-rmt
+Version: 1.27.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/t/tar-rmt/tar-rmt_1.27.1-r0_armel.deb
+Size: 20594
+SHA256: 61e6c34300cd8786ef7337b4e292b6ac3e0f60c297b283c77ecec33129a476e7
+SHA1: 8214f3d955ebe6bc39ef2d390375bda0dd3e3e8a
+MD5sum: 76b0b3dacdfa31614dd468445cbd128d
+Description: GNU file archiving program
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: tar
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/tar/
 Depends: update-alternatives-opkg, libc6 (>= 2.19)
 
 Package: tcp-wrappers
