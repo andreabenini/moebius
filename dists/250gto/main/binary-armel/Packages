@@ -29933,6 +29933,85 @@ Homepage: http://www.eglibc.org/home
 Depends: libc6 (>= 2.19)
 Provides: glibc-utils
 
+Package: fcgi
+Version: 2.4.0-r0
+Priority: optional
+Section: base
+Filename: pool/main/f/fcgi/fcgi_2.4.0-r0_armel.deb
+Size: 21234
+SHA256: 687519768252bd155339dfd26f1f1f5af6d696436292c6707d457bff834a71b7
+SHA1: f4eb0a38571d159a9d635a2546cb20a8dd0b76aa
+MD5sum: 905a6d976b4d0f02e8fd6e009de571d9
+Description: fcgi version 2.4.0-r0
+ FastCGI is a protocol for interfacing interactive programs with a web
+ server.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: fcgi
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.fastcgi.com
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+
+Package: fcgi-dbg
+Version: 2.4.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/f/fcgi-dbg/fcgi-dbg_2.4.0-r0_armel.deb
+Size: 85734
+SHA256: a54af49e873749a90cdf681ca82e0ad23b50b692b20ae7313b4d8cad68352b54
+SHA1: 18ce30d1abbc8cc3ce7c2f413ecee59469119224
+MD5sum: fdec8bb3bfa294639ad427db7e87bf23
+Description: fcgi version 2.4.0-r0 - Debugging files
+ FastCGI is a protocol for interfacing interactive programs with a web
+ server.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: fcgi
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.fastcgi.com
+Recommends: libc6-dbg, libstdc++-dbg, libgcc-s-dbg
+
+Package: fcgi-dev
+Version: 2.4.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/f/fcgi-dev/fcgi-dev_2.4.0-r0_armel.deb
+Size: 10768
+SHA256: eb12542bfd95590198c09e22a004d19fb7607689091ce56fae7e46a05ad192cf
+SHA1: 5e1952b58b00dd168ac962dec71c1be58c073fd6
+MD5sum: a7825fdae668282ae5a78c2bc09bf2b0
+Description: fcgi version 2.4.0-r0 - Development files
+ FastCGI is a protocol for interfacing interactive programs with a web
+ server.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: fcgi
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.fastcgi.com
+Depends: fcgi (= 2.4.0-r0)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
+
+Package: fcgi-staticdev
+Version: 2.4.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/f/fcgi-staticdev/fcgi-staticdev_2.4.0-r0_armel.deb
+Size: 58526
+SHA256: dc44850fb9bd5eb72425f6527b5a8aa651cabdb499af77040469b6c1b863c1ef
+SHA1: 6461c1390a444154b2a6059f67fc3b822623019f
+MD5sum: 5c2d9eae5eb6bc9b2e489e3a57434aa1
+Description: fcgi version 2.4.0-r0 - Development files (Static Libraries)
+ FastCGI is a protocol for interfacing interactive programs with a web
+ server.  This package contains static libraries for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: fcgi
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.fastcgi.com
+Depends: fcgi-dev (= 2.4.0-r0)
+
 Package: flex
 Version: 2.5.38-r0
 Priority: optional
