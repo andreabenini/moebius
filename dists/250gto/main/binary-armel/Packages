@@ -93279,6 +93279,86 @@ PackageArch: all
 Depends: run-postinsts (= 1.0-r9)
 Recommends: initscripts-dev
 
+Package: screen
+Version: 4.0.3-r4
+Priority: optional
+Section: console/utils
+Filename: pool/main/s/screen/screen_4.0.3-r4_armel.deb
+Size: 301744
+SHA256: 716fcc0a268da234947d1212ec5411adb4b8e0496aff1a76653100211c7ec0d9
+SHA1: 3cdce07b588154739277c31a54b89d5d8aa64c8c
+MD5sum: dda8620cac0b1d0fea3343c8e50fa053
+Description: Multiplexing terminal manager
+ Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: screen
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/screen/
+Depends: libc6 (>= 2.19), libtinfo5 (>= 5.9), base-files
+
+Package: screen-dbg
+Version: 4.0.3-r4
+Priority: optional
+Section: devel
+Filename: pool/main/s/screen-dbg/screen-dbg_4.0.3-r4_armel.deb
+Size: 408592
+SHA256: 82ce31b37ef43db6d83f9a5ba141773247016c5e02ff399e67c7850aa9ec4fb7
+SHA1: aec84fafa71ee13e758fe4283427c5b36e69cb60
+MD5sum: 8fd7fde83969da13951c04294bbbb99c
+Description: Multiplexing terminal manager - Debugging files
+ Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.  This
+ package contains ELF symbols and related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: screen
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/screen/
+Recommends: libc6-dbg, ncurses-libtinfo-dbg
+
+Package: screen-dev
+Version: 4.0.3-r4
+Priority: optional
+Section: devel
+Filename: pool/main/s/screen-dev/screen-dev_4.0.3-r4_armel.deb
+Size: 884
+SHA256: 2d1665f32818619dcb3fc9f73c7b05ba3e15e20853380dabdbf21e43974cab6e
+SHA1: 5d1a117204c920d9b111601c6b6d718de870701a
+MD5sum: 7378934613f156c59a69f1999d86f8c4
+Description: Multiplexing terminal manager - Development files
+ Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: screen
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/screen/
+Depends: screen (= 4.0.3-r4)
+Recommends: base-files-dev, ncurses-libtinfo-dev, ncurses-dev, libc6-dev
+
+Package: screen-doc
+Version: 4.0.3-r4
+Priority: optional
+Section: doc
+Filename: pool/main/s/screen-doc/screen-doc_4.0.3-r4_armel.deb
+Size: 79586
+SHA256: 45a0f02befdb54e7c60e39d75b70aeebec40b261a3631aa42cc850ebd9d64c52
+SHA1: fcdb5a54f3eb98a23e8f7691b242f673503c92ea
+MD5sum: 1585232a3403b72482bfa900804da30a
+Description: Multiplexing terminal manager - Documentation files
+ Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.  This
+ package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: screen
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.gnu.org/software/screen/
+
 Package: shadow
 Version: 4.1.4.3-r14
 Priority: optional
