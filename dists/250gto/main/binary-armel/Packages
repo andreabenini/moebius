@@ -4173,6 +4173,45 @@ PackageArch: arm1176jzfshf-vfp
 Homepage: http://www.gnu.org/software/gcc/
 Depends: cpp
 
+Package: cppunit
+Version: 1.13.1-r0
+Priority: optional
+Section: libs
+Filename: pool/main/c/cppunit/cppunit_1.13.1-r0_armel.deb
+Size: 70234
+SHA256: 064653cc546aa4dd73363f879e5584ad670230d3b8717673ce17297d76be555c
+SHA1: 268ac3ba39cfe4d3b8976a18a2f549c84dc6ee9e
+MD5sum: c4abde75417c9cf1a5532bc0d952eb6d
+Description: cppunit version 1.13.1-r0
+ CppUnit is the C++ port of the famous JUnit framework for unit testing.
+ Test output is in XML for automatic testing and GUI based for supervised
+ tests.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: cppunit
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.freedesktop.org/wiki/Software/cppunit
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+
+Package: cppunit-doc
+Version: 1.13.1-r0
+Priority: optional
+Section: doc
+Filename: pool/main/c/cppunit-doc/cppunit-doc_1.13.1-r0_armel.deb
+Size: 1996
+SHA256: 174e4bc7d6b3140540b323186292a572e119391e26503afccb642f2dad3e63d4
+SHA1: 6fa2760a59b0845a9e9dac8419ca762c36f18d27
+MD5sum: 2fd1c1760ebb14b5d34090a3108e1f6c
+Description: cppunit version 1.13.1-r0 - Documentation files
+ CppUnit is the C++ port of the famous JUnit framework for unit testing.
+ Test output is in XML for automatic testing and GUI based for supervised
+ tests.   This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: cppunit
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://www.freedesktop.org/wiki/Software/cppunit
+
 Package: cracklib
 Version: 2.9.1-r0
 Priority: optional
@@ -63820,6 +63859,40 @@ PackageArch: arm1176jzfshf-vfp
 Homepage: http://www.eglibc.org/home
 Depends: libc6 (>= 2.19)
 
+Package: libsigc-2.0-0
+Version: 2.2.11-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsigc-2.0-0/libsigc-2.0-0_2.2.11-r0_armel.deb
+Size: 5572
+SHA256: 1ed63c20c4ed982d9c919deaa66c277244c0d61a9b04ee21d9e690820f5d1f9b
+SHA1: ccbbaa058be546086e96311f0f082bb281abfe32
+MD5sum: b3c74e1e31b3d4fac610fa56c4483522
+Description: A library for loose coupling of C++ method calls
+ A library for loose coupling of C++ method calls.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libsigc++-2.0
+PackageArch: arm1176jzfshf-vfp
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+
+Package: libsigc-2.0-doc
+Version: 2.2.11-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libs/libsigc-2.0-doc/libsigc-2.0-doc_2.2.11-r0_armel.deb
+Size: 2918798
+SHA256: 14b6cd14abadc163e0c1a2bbc11b78a567b9fe991ad72c4a49400f31df49fa31
+SHA1: 823120d4e23cc94bbcfa31bbe677cf5cc7a66671
+MD5sum: f09fc4c58193166c98d03d39e2649c62
+Description: A library for loose coupling of C++ method calls - Documentation files
+ A library for loose coupling of C++ method calls.  This package contains
+ documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libsigc++-2.0
+PackageArch: arm1176jzfshf-vfp
+
 Package: libsm-dbg
 Version: 1:1.2.2-r0
 Priority: optional
@@ -64359,6 +64432,25 @@ Homepage: http://www.gnu.org/software/ncurses/ncurses.html
 Depends: libc6 (>= 2.19)
 Suggests: ncurses-terminfo
 Recommends: ncurses-terminfo-base
+
+Package: libtorrent17
+Version: 0.13.3-r0
+Priority: optional
+Section: base
+Filename: pool/main/libt/libtorrent17/libtorrent17_0.13.3-r0_armel.deb
+Size: 300240
+SHA256: 1e1c5a20c4c6ce4990eb1a281fff3be5602ba66167053b1f7826438ff416eb94
+SHA1: 9e08ffbe610611acd3b27c1cb71cdef6f6fb0d95
+MD5sum: 13fd0a8f89de259e1d58a7915a7f2055
+Description: libtorrent version 0.13.3-r0
+ libTorrent is a BitTorrent library written in C++ for *nix, with a focus
+ on high performance and good code.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: libtorrent
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://libtorrent.rakshasa.no/
+Depends: libgcc1 (>= 4.8.2), libcrypto1.0.0 (>= 1.0.1j), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
 
 Package: libudev0
 Version: 182-r7
@@ -76095,6 +76187,38 @@ PackageArch: arm1176jzfshf-vfp
 Homepage: http://www.midnight-commander.org/
 Recommends: virtual-locale-zh-tw
 Provides: mc-locale, zh-tw-translation
+
+Package: mm-common
+Version: 0.9.6-r0
+Priority: optional
+Section: base
+Filename: pool/main/m/mm-common/mm-common_0.9.6-r0_armel.deb
+Size: 481164
+SHA256: fb270387fc61d408dc8fce55a0a113a46dea7f577ea57616fb4eee7f87b69975
+SHA1: a2af140aad315b5c0fc74c8f04f4d29f56cf0d56
+MD5sum: e07cafc62d9c33cb84f1049cfd4f77b8
+Description: mm-common version 0.9.6-r0
+ mm-common version 0.9.6-r0.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mm-common
+PackageArch: arm1176jzfshf-vfp
+
+Package: mm-common-doc
+Version: 0.9.6-r0
+Priority: optional
+Section: doc
+Filename: pool/main/m/mm-common-doc/mm-common-doc_0.9.6-r0_armel.deb
+Size: 22978
+SHA256: 4d610feb6c0d535cf1084e5c3cc8abf9af3ce3096696acbc41c4a328d5fe8a2a
+SHA1: 48d7e24efadfbc56ad9fedb97cbf8cdf170880f7
+MD5sum: 96065400b7e81e3a2526f268b46e8600
+Description: mm-common version 0.9.6-r0 - Documentation files
+ mm-common version 0.9.6-r0.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: mm-common
+PackageArch: arm1176jzfshf-vfp
 
 Package: modutils-initscripts
 Version: 1.0-r7
