@@ -93397,6 +93397,24 @@ OE: rpi-config
 PackageArch: raspberrypi
 Depends: rpi-config (= git-r4)
 
+Package: rtorrent
+Version: 0.9.3-r0
+Priority: optional
+Section: base
+Filename: pool/main/r/rtorrent/rtorrent_0.9.3-r0_armel.deb
+Size: 340938
+SHA256: 1ddafc5878b5e7a6c8e9ef820e4b872a76602b520f26820efbe7205b16ddf309
+SHA1: ff5aab94284e3e3065594fbe013f97db9e7e0abc
+MD5sum: 3baadccdbeabdb2c7ce4174bf4687fd2
+Description: Torrent client
+ Torrent client.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: rtorrent
+PackageArch: arm1176jzfshf-vfp
+Homepage: http://libtorrent.rakshasa.no/
+Depends: libgcc1 (>= 4.8.2), libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19), libcurl5 (>= 7.35.0), libsigc-2.0-0 (>= 2.2.11), libstdc++6 (>= 4.8.2), libtorrent17 (>= 0.13.3)
+
 Package: run-postinsts
 Version: 1.0-r9
 Priority: optional
