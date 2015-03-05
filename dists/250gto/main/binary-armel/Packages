@@ -4949,6 +4949,93 @@ PackageArch: arm1176jzfshf-vfp
 Homepage: http://sourceforge.net/projects/cracklib
 Depends: cracklib-dev (= 2.9.1-r0)
 
+Package: cronie
+Version: 1.4.11-r0
+Priority: optional
+Section: utils
+Filename: pool/main/c/cronie/cronie_1.4.11-r0_armel.deb
+Size: 27348
+SHA256: bfdde66b1404bbc9f2c75b1802efa938ecfbe2d3f2254ce7010c98b250c583d7
+SHA1: c0174b7a0269fd93a16f82e6e900ed8e3b90cacd
+MD5sum: 1940997b456eac467300cc6a7d6b8d8d
+Description: Cron daemon for executing programs at set times
+ Cronie contains the standard UNIX daemon crond that runs specified
+ programs at scheduled times and related tools. It is based on the
+ original cron and has security and configuration enhancements like the
+ ability to use pam and SELinux.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: cronie
+PackageArch: arm1176jzfshf-vfp
+Homepage: https://fedorahosted.org/cronie/
+Depends: shadow, initscripts-functions, base-passwd, libc6 (>= 2.19), base-files
+Recommends: update-rc.d
+
+Package: cronie-dbg
+Version: 1.4.11-r0
+Priority: optional
+Section: devel
+Filename: pool/main/c/cronie-dbg/cronie-dbg_1.4.11-r0_armel.deb
+Size: 97676
+SHA256: 779e00d787375d6f72cf755b9fd7e44dee5e0979e81bc4a23a905552e09ba19b
+SHA1: e528e07a83229ae6239621d9d793fd084579778a
+MD5sum: c1a940e064c8555072439717aa4a18da
+Description: Cron daemon for executing programs at set times - Debugging files
+ Cronie contains the standard UNIX daemon crond that runs specified
+ programs at scheduled times and related tools. It is based on the
+ original cron and has security and configuration enhancements like the
+ ability to use pam and SELinux.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: cronie
+PackageArch: arm1176jzfshf-vfp
+Homepage: https://fedorahosted.org/cronie/
+Recommends: libc6-dbg
+
+Package: cronie-dev
+Version: 1.4.11-r0
+Priority: optional
+Section: devel
+Filename: pool/main/c/cronie-dev/cronie-dev_1.4.11-r0_armel.deb
+Size: 968
+SHA256: 7a7cab1bf60c726a73956531b102d5bac4a3f84c454f1afdfca913b7d77261c8
+SHA1: d8e367d330efd3b8cde2880c26a1fd6d3a4246f4
+MD5sum: dc7e4f49cc2ae98e89253d82cf732a93
+Description: Cron daemon for executing programs at set times - Development files
+ Cronie contains the standard UNIX daemon crond that runs specified
+ programs at scheduled times and related tools. It is based on the
+ original cron and has security and configuration enhancements like the
+ ability to use pam and SELinux.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: cronie
+PackageArch: arm1176jzfshf-vfp
+Homepage: https://fedorahosted.org/cronie/
+Depends: cronie (= 1.4.11-r0)
+Recommends: base-passwd-dev, shadow-dev, shadow-sysroot-dev, base-files-dev, initscripts-functions-dev, libc6-dev, initscripts-dev
+
+Package: cronie-doc
+Version: 1.4.11-r0
+Priority: optional
+Section: doc
+Filename: pool/main/c/cronie-doc/cronie-doc_1.4.11-r0_armel.deb
+Size: 9464
+SHA256: a1ad9389de9f5cfcaec90ef4dba17ecd6609764e0bf43bf011c962f79b270c67
+SHA1: f4662c0afe501cf4dc5440a530a7672cf2a04c04
+MD5sum: 34ec9ecef69447ae723512e7f82d206f
+Description: Cron daemon for executing programs at set times - Documentation files
+ Cronie contains the standard UNIX daemon crond that runs specified
+ programs at scheduled times and related tools. It is based on the
+ original cron and has security and configuration enhancements like the
+ ability to use pam and SELinux.  This package contains documentation.
+Maintainer: Poky <poky@yoctoproject.org>
+Architecture: armel
+OE: cronie
+PackageArch: arm1176jzfshf-vfp
+Homepage: https://fedorahosted.org/cronie/
+
 Package: cryptodev-linux
 Version: 1.6-r0
 Priority: optional
@@ -76064,14 +76151,14 @@ Depends: modutils-initscripts (= 1.0-r7)
 Recommends: initscripts-dev
 
 Package: moebius
-Version: 1.0.1-r0
+Version: 1.2.0-r0
 Priority: optional
 Section: console/utils
-Filename: pool/main/m/moebius/moebius_1.0.1-r0_armel.deb
-Size: 64208
-SHA256: c3f17e6f17d1d0474c2ac4b6d70c5ddb1b1b9af13fb3fe10e921d9ed563188ac
-SHA1: 8b5f9b53753e8ded763e89cd1a3ef2863d34b59b
-MD5sum: d88c80a3b95f37a0425483266988f6d9
+Filename: pool/main/m/moebius/moebius_1.2.0-r0_armel.deb
+Size: 82408
+SHA256: 43401a0f457b45c6ce94b93f3f6d933c4a1fe0d3ac7561bc365781ac2f2c7451
+SHA1: 5c1f4e2c09b030fba9cd7c9c6be3d83f74ff03a6
+MD5sum: ffdc525d354af17379393b9ee8457c36
 Description: Moebius configuration tool
  Moebius configuration tool.
 Maintainer: Poky <poky@yoctoproject.org>
@@ -76080,45 +76167,6 @@ OE: moebius
 PackageArch: arm1176jzfshf-vfp
 Homepage: http://moebiuslinux.sourceforge.net/
 Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
-
-Package: moebius-dbg
-Version: 1.0.1-r0
-Priority: optional
-Section: devel
-Filename: pool/main/m/moebius-dbg/moebius-dbg_1.0.1-r0_armel.deb
-Size: 13086
-SHA256: 98b7533b9d2cde25e3c68880dbfde458aa2eb5cf9fa76b17b59d499c053485ec
-SHA1: 6dddff4fc46f9b10ee9d6cca860fd831f71b11be
-MD5sum: 03518c1efa22cb696f13a73fdf036c83
-Description: Moebius configuration tool - Debugging files
- Moebius configuration tool.  This package contains ELF symbols and
- related sources for debugging purposes.
-Maintainer: Poky <poky@yoctoproject.org>
-Architecture: armel
-OE: moebius
-PackageArch: arm1176jzfshf-vfp
-Homepage: http://moebiuslinux.sourceforge.net/
-Recommends: ncurses-libncurses-dbg, libc6-dbg, libstdc++-dbg, libgcc-s-dbg, ncurses-libtinfo-dbg
-
-Package: moebius-dev
-Version: 1.0.1-r0
-Priority: optional
-Section: devel
-Filename: pool/main/m/moebius-dev/moebius-dev_1.0.1-r0_armel.deb
-Size: 822
-SHA256: d787603bd3fdcf371a41feb1a2bc6e4136de32a78d2c1ca76c224abd34a23e78
-SHA1: 087cac893eb3589a2725b12c7f8b18684fa1d21b
-MD5sum: f534add3e1472de7641fe91c5230216a
-Description: Moebius configuration tool - Development files
- Moebius configuration tool.  This package contains symbolic links, header
- files, and related items necessary for software development.
-Maintainer: Poky <poky@yoctoproject.org>
-Architecture: armel
-OE: moebius
-PackageArch: arm1176jzfshf-vfp
-Homepage: http://moebiuslinux.sourceforge.net/
-Depends: moebius (= 1.0.1-r0)
-Recommends: libgcc-s-dev, ncurses-libtinfo-dev, ncurses-dev, ncurses-libncurses-dev, libstdc++-dev, libc6-dev
 
 Package: nano
 Version: 2.2.5-r3.0
