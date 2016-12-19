@@ -1,0 +1,5 @@
+Component: main
+Origin: Moebius
+Label: Moebius
+Architecture: armhf
+Description: Apt repository for Moebius

@@ -1,0 +1,19 @@
+Origin: Moebius
+Label: Moebius
+Codename: 308gtb
+Date: Sun, 18 Dec 2016 22:10:27 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for Moebius
+MD5Sum:
+ 85a66233b72a3cc296cc5ed5e6455fcd 3536409 main/binary-armhf/Packages
+ ad992fc8e36937ee3d2a8e4b94e81007 679952 main/binary-armhf/Packages.gz
+ cf407cda5d5d210845adbcbb76eb8502 107 main/binary-armhf/Release
+SHA1:
+ acb8a99baf366c663aebe891324e5a51049c415c 3536409 main/binary-armhf/Packages
+ b4d2ddcb39412459247aa4783dd61d0e9f1bfc14 679952 main/binary-armhf/Packages.gz
+ 887673618c4bcdec270dfd6762b0c1baf063cc61 107 main/binary-armhf/Release
+SHA256:
+ bb358f94eee2339d8bec36b2d4e346be631bd9ebde996f75dc1f64a6308dabb4 3536409 main/binary-armhf/Packages
+ 34acc5bc0a632ce486552443775ffba66ff945ac4a3894e039dbb3aaa83765bd 679952 main/binary-armhf/Packages.gz
+ 307fa575658673a8067572973e43afb4fde2f3876aea8fb5aa02bcd23b006321 107 main/binary-armhf/Release
