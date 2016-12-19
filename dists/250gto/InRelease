@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Moebius
+Label: Moebius
+Codename: 250gto
+Date: Thu, 30 Apr 2015 21:23:24 UTC
+Architectures: armel
+Components: main
+Description: Apt repository for Moebius
+MD5Sum:
+ 06557eb2b2ab762bf51167c5e3801106 4452726 main/binary-armel/Packages
+ fb9cfbfcd299500debbdc42b615dd8f9 834152 main/binary-armel/Packages.gz
+ 92b1ce9637800e34573ca58a03440afa 107 main/binary-armel/Release
+SHA1:
+ 4e9e8535caabcfebe43a8ba15ee65e242bef9a90 4452726 main/binary-armel/Packages
+ aa0e9018a8dea01a3619c69123ef51b1cacb81cc 834152 main/binary-armel/Packages.gz
+ 44e8c71365d9469ca96eeb30e2bcd2d4eaeefcfa 107 main/binary-armel/Release
+SHA256:
+ 1c021899977063345a46f03b2d52de0cb3e73428a96fc228aba5479b612ddb3e 4452726 main/binary-armel/Packages
+ 82d4dbdd4baf8f8b5ec34ef465d17fad947c8b7d40e1e02105d385ab5f6230bc 834152 main/binary-armel/Packages.gz
+ 9e6930b8426347981e138122e19dc6e7274d4f01009df182db8b335dab18b571 107 main/binary-armel/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQIcBAEBAgAGBQJVQp1MAAoJEBy/KvKRlS2fX3wP/1JlO7BjLWCupb6a9t3/gg4W
+SKmO7HQ9Y4VeG1tXIJAq/C62mW8N/n3MdnWtBOBXvIc/SCklXbVDZ/ukk/voLsL/
+XENYxJ8224UpzZdiZExtRRfXBnYCwagBB8uIp4ddANvG1zhedqZRHcLfbK0xkoOb
+Uf6DOVF/YjPm61nSy6xSJziN4fPTPEdxwIyHkYUElwRBvNbD/kfR+pm+I+Vz8rim
+Tl/tZSeeKLcGDLyOYf4Klfr9TqZlqB3CpGvqFAiGNOD/HtiM3NurXUlOqOLruAz2
+yHL0MiGSi5S/3nCkSqR1jlMUP50o6FrL4KDOLyHGxFAZJRWWB/Cptq9/peFF/4wQ
+/hQkG7dFmzMQ0eomyfj2SjvIk2xGgyf5u208bibDNGouGrmSBQuhgpRiIe47FgtS
+vj+8r6g1tJpR8uTgrWUWsqd4lK/3JF+zR6cIhhyFSVLy/z50YyijvL3EqdsftN/4
+WJ55h4DoQCXxEbRLD49+fK1aAsbiJzCsTMD3vqa3s+vINFnM5onCJEK3xWmXfDYL
+9vaAJxvkMNW86yUor6w9FwYsLGkGufXKsJBbH/fSxwpubesBGNGEy5WdCQsRKHqQ
+ZQqMe27AEUYyz/jXSyKF8qPtBqXCoyejF4JUwtAKnAS5qhtBV3FbfRguM9/oC4iE
+UZAbnFy7yNAWlkzIIs0b
+=12bc
+-----END PGP SIGNATURE-----
