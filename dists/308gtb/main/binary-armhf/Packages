@@ -666,161 +666,6 @@ PackageArch: raspberrypi3
 Depends: bcm2835-bootfiles (= 20161020-r3)
 Recommends: rpi-config-dev
 
-Package: busybox
-Version: 1.24.1-r0
-Priority: optional
-Section: base
-Filename: pool/main/b/busybox/busybox_1.24.1-r0_armhf.deb
-Size: 253978
-SHA256: d12ccec7436ea301af8af9e25b804c242d118b39da737d8e9eb59d5f0ec042d4
-SHA1: 97e39f70785b4217ca15bbabc1dad83710272068
-MD5sum: 3e631391b065e31ec2a81236a53b79e6
-Description: Tiny versions of many common UNIX utilities in a single small executable
- BusyBox combines tiny versions of many common UNIX utilities into a
- single small executable. It provides minimalist replacements for most of
- the utilities you usually find in GNU fileutils, shellutils, etc. The
- utilities in BusyBox generally have fewer options than their full-
- featured GNU cousins; however, the options that are included provide the
- expected functionality and behave very much like their GNU counterparts.
- BusyBox provides a fairly complete POSIX environment for any small or
- embedded system.
-Maintainer: Ben <ben@moebius>
-Architecture: armhf
-OE: busybox
-PackageArch: cortexa7hf-neon-vfpv4
-Homepage: http://www.busybox.net
-Depends: libc6 (>= 2.24), update-alternatives-opkg
-Recommends: busybox-syslog, busybox-udhcpc
-
-Package: busybox-dev
-Version: 1.24.1-r0
-Priority: optional
-Section: devel
-Filename: pool/main/b/busybox-dev/busybox-dev_1.24.1-r0_armhf.deb
-Size: 1084
-SHA256: b73f35f2c54595310012744aba686a6e36f8c55226f147c2227706ff234e428c
-SHA1: c82f66b73b1f933b46509b46ff006d15dfb3b5db
-MD5sum: 9a1ddd24ff1e68e96486f6db7ef43a17
-Description: Tiny versions of many common UNIX utilities in a single small executable - Development files
- BusyBox combines tiny versions of many common UNIX utilities into a
- single small executable. It provides minimalist replacements for most of
- the utilities you usually find in GNU fileutils, shellutils, etc. The
- utilities in BusyBox generally have fewer options than their full-
- featured GNU cousins; however, the options that are included provide the
- expected functionality and behave very much like their GNU counterparts.
- BusyBox provides a fairly complete POSIX environment for any small or
- embedded system.  This package contains symbolic links, header files, and
- related items necessary for software development.
-Maintainer: Ben <ben@moebius>
-Architecture: armhf
-OE: busybox
-PackageArch: cortexa7hf-neon-vfpv4
-Homepage: http://www.busybox.net
-Depends: busybox (= 1.24.1-r0)
-Recommends: initscripts-dev, libc6-dev, update-alternatives-opkg-dev, update-rc.d-dev
-
-Package: busybox-hwclock
-Version: 1.24.1-r0
-Priority: optional
-Section: base
-Filename: pool/main/b/busybox-hwclock/busybox-hwclock_1.24.1-r0_armhf.deb
-Size: 2250
-SHA256: 85b1eb63413b70f36b05787c417b8ed18cb445c01b7a6865a3293cfe9fd78660
-SHA1: 6ff7b415a47bd2de2139e2556179620f32547d0a
-MD5sum: 46de1934a1502f136f539a7e91acb95e
-Description: Tiny versions of many common UNIX utilities in a single small executable
- BusyBox combines tiny versions of many common UNIX utilities into a
- single small executable. It provides minimalist replacements for most of
- the utilities you usually find in GNU fileutils, shellutils, etc. The
- utilities in BusyBox generally have fewer options than their full-
- featured GNU cousins; however, the options that are included provide the
- expected functionality and behave very much like their GNU counterparts.
- BusyBox provides a fairly complete POSIX environment for any small or
- embedded system.
-Maintainer: Ben <ben@moebius>
-Architecture: armhf
-OE: busybox
-PackageArch: cortexa7hf-neon-vfpv4
-Homepage: http://www.busybox.net
-Recommends: update-rc.d
-
-Package: busybox-ptest
-Version: 1.24.1-r0
-Priority: optional
-Section: devel
-Filename: pool/main/b/busybox-ptest/busybox-ptest_1.24.1-r0_armhf.deb
-Size: 85726
-SHA256: b8763eba9b8af439934f727ca897a8f5ce1786eac550a20913e4aab9b48ad6e3
-SHA1: 0776e423520770dae5002e5a3cdb052eee9954f4
-MD5sum: 20a68b845952bd90547ea410ec5c5eb0
-Description: Tiny versions of many common UNIX utilities in a single small executable - Package test files
- BusyBox combines tiny versions of many common UNIX utilities into a
- single small executable. It provides minimalist replacements for most of
- the utilities you usually find in GNU fileutils, shellutils, etc. The
- utilities in BusyBox generally have fewer options than their full-
- featured GNU cousins; however, the options that are included provide the
- expected functionality and behave very much like their GNU counterparts.
- BusyBox provides a fairly complete POSIX environment for any small or
- embedded system.  This package contains a test directory
- /usr/lib/busybox/ptest for package test purposes.
-Maintainer: Ben <ben@moebius>
-Architecture: armhf
-OE: busybox
-PackageArch: cortexa7hf-neon-vfpv4
-Homepage: http://www.busybox.net
-Depends: busybox
-Recommends: ptest-runner
-
-Package: busybox-syslog
-Version: 1.24.1-r0
-Priority: optional
-Section: base
-Filename: pool/main/b/busybox-syslog/busybox-syslog_1.24.1-r0_armhf.deb
-Size: 2514
-SHA256: aa835ab69154030479284c28838d6c9ea54b7ae85a97f3cb74f2fc92f5a487fe
-SHA1: 59d135170ee017eba2ed4e43c558a82d6381e4a1
-MD5sum: 7d9ef8d0c86c8498518697e3e0a7dae8
-Description: Tiny versions of many common UNIX utilities in a single small executable
- BusyBox combines tiny versions of many common UNIX utilities into a
- single small executable. It provides minimalist replacements for most of
- the utilities you usually find in GNU fileutils, shellutils, etc. The
- utilities in BusyBox generally have fewer options than their full-
- featured GNU cousins; however, the options that are included provide the
- expected functionality and behave very much like their GNU counterparts.
- BusyBox provides a fairly complete POSIX environment for any small or
- embedded system.
-Maintainer: Ben <ben@moebius>
-Architecture: armhf
-OE: busybox
-PackageArch: cortexa7hf-neon-vfpv4
-Homepage: http://www.busybox.net
-Depends: update-alternatives-opkg
-Recommends: update-rc.d
-
-Package: busybox-udhcpc
-Version: 1.24.1-r0
-Priority: optional
-Section: base
-Filename: pool/main/b/busybox-udhcpc/busybox-udhcpc_1.24.1-r0_armhf.deb
-Size: 1944
-SHA256: 06390e41838b2d60dbd83c7a25b2e8374cf458577b4b74b148725349380e0978
-SHA1: c5c7ae544ccd6c69edfedaae6aab318b6dc3dc35
-MD5sum: 8fd83089663eb7ab7fe8b9e0433c48b7
-Description: Tiny versions of many common UNIX utilities in a single small executable
- BusyBox combines tiny versions of many common UNIX utilities into a
- single small executable. It provides minimalist replacements for most of
- the utilities you usually find in GNU fileutils, shellutils, etc. The
- utilities in BusyBox generally have fewer options than their full-
- featured GNU cousins; however, the options that are included provide the
- expected functionality and behave very much like their GNU counterparts.
- BusyBox provides a fairly complete POSIX environment for any small or
- embedded system.
-Maintainer: Ben <ben@moebius>
-Architecture: armhf
-OE: busybox
-PackageArch: cortexa7hf-neon-vfpv4
-Homepage: http://www.busybox.net
-
 Package: bzip2
 Version: 1.0.6-r5
 Priority: optional
@@ -2047,10 +1892,10 @@ Version: 7.50.1-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/c/curl/curl_7.50.1-r0_armhf.deb
-Size: 90792
-SHA256: 275185eb8a4171ae422f8ee045a99509bd0f3dd574fec7b1cc6d34cba5a43478
-SHA1: 3b10258f14dbf1e3fa0ea75ceee6e69ee9a34c96
-MD5sum: 03f1983cc57975c840d9bb8f74ab9eb2
+Size: 90756
+SHA256: 3e75a14407b187385c72fbc0abf5f0097944868e5347aff7141b959085a94e79
+SHA1: c50dc264cc9a43999053f44fd91aa002e5396a60
+MD5sum: 43f8b1754f50be05f50cbc5d90416aa4
 Description: Command line tool and library for client-side URL transfers
  Command line tool and library for client-side URL transfers.
 Maintainer: Ben <ben@moebius>
@@ -2065,10 +1910,10 @@ Version: 7.50.1-r0
 Priority: optional
 Section: devel
 Filename: pool/main/c/curl-dev/curl-dev_7.50.1-r0_armhf.deb
-Size: 41434
-SHA256: 9f0fdcd04da96e64a406f523d7d9a20bcd624321963c3926357b5ecc31f90a2e
-SHA1: b082cfc899d649490efb5ef73b2c97ebf0c6ecba
-MD5sum: bae13ab1945bd23fa5914c999a57fb15
+Size: 41390
+SHA256: c393be112f62226afe3dce177e6fdf79b985caf615345cb1389ea9a8dfd3287e
+SHA1: a205623f7e7e81f5a1e5b59307464d5560f976ff
+MD5sum: d9f23500ba76c70e0421f5784ee82f33
 Description: Command line tool and library for client-side URL transfers - Development files
  Command line tool and library for client-side URL transfers.  This
  package contains symbolic links, header files, and related items
@@ -2086,10 +1931,10 @@ Version: 7.50.1-r0
 Priority: optional
 Section: doc
 Filename: pool/main/c/curl-doc/curl-doc_7.50.1-r0_armhf.deb
-Size: 165354
-SHA256: 563dc3863aecb554182a716441173e4937be107453d399f6710a4def8d7f1973
-SHA1: 9a1f6060f8eb3b59199587e9b965654acd67adec
-MD5sum: a31952e7e296e8be1ab98e9c4b51668a
+Size: 165394
+SHA256: c081a85ac86c6a2aa982efe7fdcef8130cb6ee071cab0d1755abab3d2d727a8c
+SHA1: 0f80304f2fe3a379ae16c2532815eeb51d3f2689
+MD5sum: d5362b8d80003baadb589322f32c727e
 Description: Command line tool and library for client-side URL transfers - Documentation files
  Command line tool and library for client-side URL transfers.  This
  package contains documentation.
@@ -58747,10 +58592,10 @@ Version: 7.50.1-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/libc/libcurl4/libcurl4_7.50.1-r0_armhf.deb
-Size: 114342
-SHA256: d198fe1ad995f002da92e01f49766c0915a1102ed4396e24edb2525416bbcb35
-SHA1: d86991b3b437c08969892d6e3e25891d8baabab0
-MD5sum: b64faf57a281458b20a9c0e915647659
+Size: 114370
+SHA256: d561e2ed8169814d6fd2a3e6d0490addaf687b2ac5022ca09720b9fd44f7eae7
+SHA1: 2902f98da18ba30393bec0cb8c2b2fd1a6165351
+MD5sum: aaaaf4a5198386c062bd898f4f63da65
 Description: Command line tool and library for client-side URL transfers
  Command line tool and library for client-side URL transfers.
 Maintainer: Ben <ben@moebius>
@@ -58806,6 +58651,65 @@ PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://e2fsprogs.sourceforge.net/
 Depends: libc6 (>= 2.24)
 Provides: libe2p
+
+Package: libevent
+Version: 2.0.22-r0
+Priority: optional
+Section: libs
+Filename: pool/main/libe/libevent/libevent_2.0.22-r0_armhf.deb
+Size: 121074
+SHA256: f8759c6e02e15ba55ffd0ca7362ab3b5472cd9edbbfbf798e90732adb1aa2e7a
+SHA1: 994ddb9fd3ed8966e2607b25445b43d67fe49fc2
+MD5sum: 5a5475e3d050c149f1fd272427599f32
+Description: An asynchronous event notification library
+ An asynchronous event notification library.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: libevent
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://libevent.org/
+Depends: libc6 (>= 2.24)
+
+Package: libevent-dev
+Version: 2.0.22-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libe/libevent-dev/libevent-dev_2.0.22-r0_armhf.deb
+Size: 59996
+SHA256: d901e3cd7f2a4c7d71f6b0d6b929d0b5bf909fd1ce0d2e03487662fed27111b4
+SHA1: 6333cbf88b9e16d0e3a3e9caae078bb919daacfb
+MD5sum: 62fe048095e1d98613ae3d1a17a3f6e1
+Description: An asynchronous event notification library - Development files
+ An asynchronous event notification library.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: libevent
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://libevent.org/
+Depends: libevent (= 2.0.22-r0)
+Recommends: libc6-dev, libz-dev
+
+Package: libevent-ptest
+Version: 2.0.22-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libe/libevent-ptest/libevent-ptest_2.0.22-r0_armhf.deb
+Size: 105926
+SHA256: 9d3848910b65af305e708f689880154af88e8a1384981a90876ce3776ee76e55
+SHA1: b2eb7ff7ba3edaace830b399df338e05ab887f22
+MD5sum: da547bcd62b07a0fb71a5e418bd2039c
+Description: An asynchronous event notification library - Package test files
+ An asynchronous event notification library.  This package contains a test
+ directory /usr/lib/libevent/ptest for package test purposes.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: libevent
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://libevent.org/
+Depends: libc6 (>= 2.24), libevent (>= 2.0.22), libz1 (>= 1.2.8)
+Recommends: ptest-runner
 
 Package: libexpat-bin
 Version: 2.2.0-r0
@@ -75377,6 +75281,140 @@ PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://www.gnu.org/software/libc/libc.html
 Depends: libc6 (>= 2.24)
 
+Package: ntp
+Version: 4.2.8p8-r0
+Priority: optional
+Section: net
+Filename: pool/main/n/ntp/ntp_4.2.8p8-r0_armhf.deb
+Size: 265186
+SHA256: 712b2e18a31f5937bb2ede9ba5fa50a0f1165faa067147e39258f8bde6e980b8
+SHA1: bc05e8ea4673b300b70a5c0c9fcd7d329b0e2aef
+MD5sum: 396fb81b1486d98972d6700b1e7ba18b
+Description: Network Time Protocol daemon and utilities
+ The Network Time Protocol (NTP) is used to synchronize the time of a
+ computer client or server to another server or reference time source,
+ such as a radio or satellite receiver or modem.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: ntp
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://support.ntp.org
+Depends: base-files, base-passwd, initscripts-functions, libc6 (>= 2.24), libcap2 (>= 2.25), libcrypto1.0.0 (>= 1.0.2j), ntp-tickadj, shadow, update-alternatives-opkg
+Suggests: iana-etc
+Recommends: update-rc.d
+Provides: ntp-systemd
+Replaces: ntp-systemd
+Conflicts: ntp-systemd
+
+Package: ntp-dev
+Version: 4.2.8p8-r0
+Priority: optional
+Section: devel
+Filename: pool/main/n/ntp-dev/ntp-dev_4.2.8p8-r0_armhf.deb
+Size: 990
+SHA256: 4451ea67b46e49f6584f620bc28a1f7f28679336d96e89272adc77c6cba60580
+SHA1: 618032687d3fb43dc11d83e6a099dc920ca4697d
+MD5sum: 06aa7c37a2b08f58fe1d75c79ea7bd2c
+Description: Network Time Protocol daemon and utilities - Development files
+ The Network Time Protocol (NTP) is used to synchronize the time of a
+ computer client or server to another server or reference time source,
+ such as a radio or satellite receiver or modem.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: ntp
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://support.ntp.org
+Depends: ntp (= 4.2.8p8-r0)
+Recommends: base-files-dev, base-passwd-dev, initscripts-dev, initscripts-functions-dev, libc6-dev, libcap-dev, libcrypto-dev, libevent-dev, ntp-tickadj-dev, openssl-dev, perl-dev, pps-tools-dev, shadow-dev, shadow-sysroot-dev, update-alternatives-opkg-dev, update-rc.d-dev
+
+Package: ntp-doc
+Version: 4.2.8p8-r0
+Priority: optional
+Section: doc
+Filename: pool/main/n/ntp-doc/ntp-doc_4.2.8p8-r0_armhf.deb
+Size: 1231482
+SHA256: 8d6099f0afa775bf535e602e1acf27db05394278dd021522a0d70be462de6e5e
+SHA1: b8f9b3d643349a75f49bb2db67b259a9f9c2f1f4
+MD5sum: 80607c51e788ac585ffd0853bdb2a502
+Description: Network Time Protocol daemon and utilities - Documentation files
+ The Network Time Protocol (NTP) is used to synchronize the time of a
+ computer client or server to another server or reference time source,
+ such as a radio or satellite receiver or modem.  This package contains
+ documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: ntp
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://support.ntp.org
+
+Package: ntp-tickadj
+Version: 4.2.8p8-r0
+Priority: optional
+Section: net
+Filename: pool/main/n/ntp-tickadj/ntp-tickadj_4.2.8p8-r0_armhf.deb
+Size: 2424
+SHA256: 680eafe062b4fd805320db8ac536e2268eef0bf87e766538718af23adcff4d80
+SHA1: 4098b846faeeab332bb79be428b80137cf34eb31
+MD5sum: 5996fafcf5a638a235fbfb6ce0c7ccac
+Description: Network Time Protocol daemon and utilities
+ The Network Time Protocol (NTP) is used to synchronize the time of a
+ computer client or server to another server or reference time source,
+ such as a radio or satellite receiver or modem.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: ntp
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://support.ntp.org
+Depends: libc6 (>= 2.24)
+
+Package: ntp-utils
+Version: 4.2.8p8-r0
+Priority: optional
+Section: net
+Filename: pool/main/n/ntp-utils/ntp-utils_4.2.8p8-r0_armhf.deb
+Size: 150154
+SHA256: d8bdb659cd04dc86c0c415feb92496e51daf679dd61ff7954f4ea24de345fc9f
+SHA1: 4b550ab8d7fa9a36a8f98f820555b62604ef2c2f
+MD5sum: 13256f7e37016b03023eac3406d267ff
+Description: Network Time Protocol daemon and utilities
+ The Network Time Protocol (NTP) is used to synchronize the time of a
+ computer client or server to another server or reference time source,
+ such as a radio or satellite receiver or modem.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: ntp
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://support.ntp.org
+Depends: libc6 (>= 2.24), libcrypto1.0.0 (>= 1.0.2j), perl
+Provides: ntp-bin
+Replaces: ntp-bin
+Conflicts: ntp-bin
+
+Package: ntpdate
+Version: 4.2.8p8-r0
+Priority: optional
+Section: net
+Filename: pool/main/n/ntpdate/ntpdate_4.2.8p8-r0_armhf.deb
+Size: 40828
+SHA256: 48de217dd79da04e6e8ddae67d848b6ce042b3426426b122ca030820e2149ddc
+SHA1: a58fe546b1fce01d5da7ed3039b09af8a53fd0f9
+MD5sum: 01eea79d81037ec268bbf03292f34d72
+Description: Network Time Protocol daemon and utilities
+ The Network Time Protocol (NTP) is used to synchronize the time of a
+ computer client or server to another server or reference time source,
+ such as a radio or satellite receiver or modem.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: ntp
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://support.ntp.org
+Depends: libc6 (>= 2.24), libcrypto1.0.0 (>= 1.0.2j)
+Provides: ntpdate-systemd
+Replaces: ntpdate-systemd
+Conflicts: ntpdate-systemd
+
 Package: openssl
 Version: 1.0.2j-r0
 Priority: optional
@@ -87395,6 +87433,42 @@ OE: pinentry
 PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://www.gnupg.org/related_software/pinentry/index.en.html
 
+Package: pps-tools
+Version: 0.0.0+git0+0deb9c7e13-r0
+Priority: optional
+Section: base
+Filename: pool/main/p/pps-tools/pps-tools_0.0.0+git0+0deb9c7e13-r0_armhf.deb
+Size: 6224
+SHA256: fdede60e64b7bd8b459939baf8180f4807951bb31f09dcb9de9d287ff9dc639c
+SHA1: e123071df97eaa44ed067aa0fe136ca72eb7460d
+MD5sum: 67d59dfa48f9f6d41e75f67f6f761ed4
+Description: User-space tools for LinuxPPS
+ User-space tools for LinuxPPS.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: pps-tools
+PackageArch: cortexa7hf-neon-vfpv4
+Depends: libc6 (>= 2.24)
+
+Package: pps-tools-dev
+Version: 0.0.0+git0+0deb9c7e13-r0
+Priority: optional
+Section: devel
+Filename: pool/main/p/pps-tools-dev/pps-tools-dev_0.0.0+git0+0deb9c7e13-r0_armhf.deb
+Size: 2628
+SHA256: fcdf97f11f848c41ea06d2ee2eaff7b2b12912e37d82505ed85f135fdeca2e1d
+SHA1: b641260449d3c6b70d6917905688915e4a7b8909
+MD5sum: 49cfb8b34d8da0b8707f1b048dd12b49
+Description: User-space tools for LinuxPPS - Development files
+ User-space tools for LinuxPPS.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: pps-tools
+PackageArch: cortexa7hf-neon-vfpv4
+Depends: pps-tools (= 0.0.0+git0+0deb9c7e13-r0)
+Recommends: libc6-dev
+
 Package: procps
 Version: 3.3.12-r0
 Priority: optional
@@ -90850,6 +90924,26 @@ OE: glibc
 PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://www.gnu.org/software/libc/libc.html
 
+Package: sntp
+Version: 4.2.8p8-r0
+Priority: optional
+Section: net
+Filename: pool/main/s/sntp/sntp_4.2.8p8-r0_armhf.deb
+Size: 75012
+SHA256: 91a4de44ee8044fcb05bc7cab6cc10711264aa1816e3c72d53298623e2d48c21
+SHA1: 40174233187a6b148dfdc26ec3f5b599a8838f6b
+MD5sum: 1469f1c0c9f21e4e98e360d345b3de59
+Description: Network Time Protocol daemon and utilities
+ The Network Time Protocol (NTP) is used to synchronize the time of a
+ computer client or server to another server or reference time source,
+ such as a radio or satellite receiver or modem.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: ntp
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://support.ntp.org
+Depends: libc6 (>= 2.24), libcrypto1.0.0 (>= 1.0.2j), libevent (>= 2.0.22)
+
 Package: sqlite3
 Version: 3:3.14.1-r0
 Priority: optional
@@ -92630,10 +92724,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget/wget_1.18-r0_armhf.deb
-Size: 172682
-SHA256: fc244453a98f0e9f5758751e3d0a0d868904695bf09328f69a58c7cf216606c1
-SHA1: 247d19dfa59db9650d2299e66fdc4fa5b283878d
-MD5sum: d0f6e4e018fcc3304760c8c2a6c85839
+Size: 172410
+SHA256: 422ee4d79a1de266d10d839d445dd519875efc307238702e7978c570cbdf598f
+SHA1: be61a6bf24bdcf82ddac8c3b1964b6a542b31465
+MD5sum: 21b5d85bc0db94f212fb682521161a88
 Description: Console URL download utility supporting HTTP, FTP, etc
  Console URL download utility supporting HTTP, FTP, etc.
 Maintainer: Ben <ben@moebius>
@@ -92650,9 +92744,9 @@ Priority: optional
 Section: devel
 Filename: pool/main/w/wget-dev/wget-dev_1.18-r0_armhf.deb
 Size: 846
-SHA256: 1e8f068822a6656e584abcf4c8db2172e3338307c5c709b40f86620673ff9ad7
-SHA1: 43733780c59c400c96740b9a412c6b42de34c70e
-MD5sum: d5b3423edb53ae98ea9e60972f7c9be6
+SHA256: be736a28cfc7d6668350233d786ab3affcc2cf69ab7fff23b1d3f4ec094e862a
+SHA1: 7d56ce0f2cc359b1e960a9f7a0338f14c0a9914c
+MD5sum: f85a22e12ec5f7d33972ba499acf903f
 Description: Console URL download utility supporting HTTP, FTP, etc - Development files
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains symbolic links, header files, and related items necessary for
@@ -92670,10 +92764,10 @@ Version: 1.18-r0
 Priority: optional
 Section: doc
 Filename: pool/main/w/wget-doc/wget-doc_1.18-r0_armhf.deb
-Size: 77980
-SHA256: 6ec96241f2a767720843bc734af37138af01d9732b3599339de96d5e87d0b8d0
-SHA1: aa51b4919d59f7c83a32405db34f0cc27bc3f64c
-MD5sum: b78345c7194f6d1e0eed063faf37b3b3
+Size: 77924
+SHA256: 71c22d7dab85635fd6f3bd4c419e2adb8982518a9b397cc93ea02a4b5549040a
+SHA1: 8fa569eeac1ff92655c59b1d187998e5cdd863c1
+MD5sum: 61cbe30d68b8573a714c6f7b693d4535
 Description: Console URL download utility supporting HTTP, FTP, etc - Documentation files
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains documentation.
@@ -92688,10 +92782,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-be/wget-locale-be_1.18-r0_armhf.deb
-Size: 8122
-SHA256: a190f424c9b1312ac187ec8f00f57384d2172659ff38f114775d3fa5cf318e96
-SHA1: bc8e33b1e7469f8e059e9fd92df10aacae5afbb9
-MD5sum: 84ff4fdea0c0cc9b7e04b05780206d18
+Size: 8128
+SHA256: 2934e25c5abf23d59e78c0e2977ac500c5ce90a392a7ca81ec27278705878d53
+SHA1: b19335898f6aae2270885de97b6d728e538a10ca
+MD5sum: d58ab6dfd8a9cd3899c9480e3e27aa3f
 Description: Console URL download utility supporting HTTP, FTP, etc - be translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the be locale.
@@ -92708,10 +92802,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-bg/wget-locale-bg_1.18-r0_armhf.deb
-Size: 4548
-SHA256: fbd878434f2579ecf3bf16043e52e6499992a670bbd9518f0f234c5324ff8262
-SHA1: b4be134f6cf3826556240a2d33d186f0cb67cfd2
-MD5sum: a8980ab977f943bd283dd9a7c4f6b1b4
+Size: 4552
+SHA256: b1f2afc7b77c0ebad1b7dbe4768425e58bfc2b7aab3622d2dc6652d14d448b99
+SHA1: 328b238969175d6da2235cb29010242bacfe5e63
+MD5sum: 347803567bc8b0fe42b9d67986ad2e99
 Description: Console URL download utility supporting HTTP, FTP, etc - bg translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the bg locale.
@@ -92728,10 +92822,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-ca/wget-locale-ca_1.18-r0_armhf.deb
-Size: 13186
-SHA256: dd98440a0a9d627311d719c16a9acb1392071112b7243f367e54a88d28ab28fb
-SHA1: dfde78ebc980df7e207b2857548d8cffb959ec23
-MD5sum: 6d5434ee754581bcf2f0fa52d8ca551a
+Size: 13198
+SHA256: e053bf2323fd07bbacc2366e160a550197294bcfc43b66aa15c6b856573ffc2b
+SHA1: 04e6a4fd9a9f1be63946ecc1990edbf01d94de3a
+MD5sum: 8b907ade274cdfc8090044808381a946
 Description: Console URL download utility supporting HTTP, FTP, etc - ca translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the ca locale.
@@ -92748,10 +92842,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-cs/wget-locale-cs_1.18-r0_armhf.deb
-Size: 23130
-SHA256: b8904887bf4ab279fc93a8d242e44045242a48f2ee4be4dc47abccb8e071bdc0
-SHA1: f50ba88369560cef64c43f4a81d6aace10343cb9
-MD5sum: aa04b4c733c02bad3527d3670988f975
+Size: 23110
+SHA256: 7c2fb4bc397cf9d2aca8e594c0a08b743cdfb602ad68acefc6b8401f99daf903
+SHA1: 8aa2f92481fa70afd3fa598c8856a32af615243b
+MD5sum: 80507245d3a536d126102d0330218d0f
 Description: Console URL download utility supporting HTTP, FTP, etc - cs translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the cs locale.
@@ -92768,10 +92862,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-da/wget-locale-da_1.18-r0_armhf.deb
-Size: 9212
-SHA256: 65fd3b30c989b8e6072c5fb22899e4506a6956e1f9d0ef517a8169fff0fb84be
-SHA1: e890f6750e99c3b8893eb1309a47e5b1acf7ebeb
-MD5sum: 95630fbe828e8a150da2786991dbfc07
+Size: 9206
+SHA256: b92d0e732f76123f91b8693a9e0e55e7078990ce7da5801ca04f2777154d00f1
+SHA1: e3e2994b1e450cee39e46f35d691bdc9f76d3c70
+MD5sum: a497fd4ef9e0c6bfc36ec720f5f803f6
 Description: Console URL download utility supporting HTTP, FTP, etc - da translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the da locale.
@@ -92788,10 +92882,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-de/wget-locale-de_1.18-r0_armhf.deb
-Size: 22558
-SHA256: 0c784d665cdb0887c5e97b69c362beaa3eb2356fa2dddd33a07aefbd20d09c96
-SHA1: 2da5b79c2e0b661145feba37b5a9c08586ac3697
-MD5sum: 5e0b34d527830384f868a2f6bbaf40f1
+Size: 22566
+SHA256: b949fe537f9a9c6cfb5b7c5c07af2d549dd53bdea91d5b732ba0291674d3b142
+SHA1: ed03b16dca057efe3cb8d35338ec195ac9a59e6d
+MD5sum: d98beafd5cf459d971f3a08a79fb3564
 Description: Console URL download utility supporting HTTP, FTP, etc - de translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the de locale.
@@ -92808,10 +92902,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-el/wget-locale-el_1.18-r0_armhf.deb
-Size: 4782
-SHA256: 699ce0b36b11c896619ba5fc32720767551bc1c3f95cda766b75eff430a9ffc5
-SHA1: 9ab1977831135004f65b660d2108de36011642f2
-MD5sum: da855b6c7e096abad8f78db47c4fb8eb
+Size: 4786
+SHA256: 33794c6d02597ddd8029930bb59d7cd41faa1b479117df6efe4dbf4e458f58a2
+SHA1: e72723858b0820969dc2cd740d97e90fad86dc95
+MD5sum: 5da6100c20feda5da8b12c8badc988bb
 Description: Console URL download utility supporting HTTP, FTP, etc - el translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the el locale.
@@ -92828,10 +92922,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-en-gb/wget-locale-en-gb_1.18-r0_armhf.deb
-Size: 3194
-SHA256: b952a9cfc037e488063d45b3e3173fb5b16e2713757dd71cf94cad85350d100b
-SHA1: ac1bb582b3d059e170d4609386bda9b48df04685
-MD5sum: 8f4b0798138c43b3bd26048c57fa493e
+Size: 3200
+SHA256: 1076482496d3988e7d5c9ea5f99c0a4c273be40925c08d02000b67dd0e77904c
+SHA1: 55a7956a4c097d769b99dcf3063f92d0b0a45a71
+MD5sum: 0314218a4492cb602e78f755a5fca61f
 Description: Console URL download utility supporting HTTP, FTP, etc - en_GB translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the en_GB locale.
@@ -92848,10 +92942,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-eo/wget-locale-eo_1.18-r0_armhf.deb
-Size: 19250
-SHA256: 9d0cd28aa425163d0b5a99f1974f14de64b316867fa20bca89e7ff5ef72b1b42
-SHA1: be629d21c02c02013ac45d14fa57dffa02a1bae7
-MD5sum: 0f6c65b493e72a01a0a1ff4709107293
+Size: 19266
+SHA256: 5a405f0362a90c7ebd41be844ed64e89f84ee390b4c3228a7aebc0db7ddc6a68
+SHA1: 31d5d3202bfbe0eaf95d9eae0e74c17ceb7ce0c8
+MD5sum: fffffe54f47e920bb3a18b97bff678c9
 Description: Console URL download utility supporting HTTP, FTP, etc - eo translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the eo locale.
@@ -92868,10 +92962,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-es/wget-locale-es_1.18-r0_armhf.deb
-Size: 21422
-SHA256: 77c509818cd0479cce8f52b42052004d960c8fdbad43333e3598111922fb391c
-SHA1: 02807d5ef7e73ba22413c06a7be265b11dc875ca
-MD5sum: 2bb00589327f702856a1b91f742d355a
+Size: 21442
+SHA256: f7f7685348bfc2ffd45fb5e5e1abd265ce6ec2a857cb4c1a8ab9e8cd6f4fc961
+SHA1: af18681d3d4fdb00eb1cf446813b3fd1a3ac2f78
+MD5sum: 2e5d561069232ce2da9dfcda5cedfdc0
 Description: Console URL download utility supporting HTTP, FTP, etc - es translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the es locale.
@@ -92888,10 +92982,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-et/wget-locale-et_1.18-r0_armhf.deb
-Size: 20790
-SHA256: 272c56d124e0e5585e95b28eae87ccb3bac50d701f9c3704ab841bda6f53256e
-SHA1: bd54006be55e2acd5cf0e48015d47d13d4658ec2
-MD5sum: 9f0d838d0d610be205adddb8c8ae3b48
+Size: 20806
+SHA256: 682f1b155b6efe6aa5729f12d7b358dcf1930fb58e007ba7b5e36d715714bf65
+SHA1: d5a4555fb4c90f58701bd6f2214356894b40194b
+MD5sum: e8cac2f5c7f570c38c2a18b593d11aa4
 Description: Console URL download utility supporting HTTP, FTP, etc - et translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the et locale.
@@ -92908,10 +93002,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-eu/wget-locale-eu_1.18-r0_armhf.deb
-Size: 4838
-SHA256: ddb7dfc24d068bcd1676b71b7f1132623108dfa5ca91d82acd742a30f1c3d07c
-SHA1: 85912523908e06a0a114e7a438de1d78b1e1a723
-MD5sum: 3edff0aa28aa339aa7d0c87a18e73a7d
+Size: 4842
+SHA256: 3d67f16c53bda1c40b7e47005d2128cd5b00ef303d1a5fbd6520dd9ce55a1788
+SHA1: 3ca93ee47383c7990aa85a179900969f23a683d9
+MD5sum: 396a3f6ff6dce9d3eda1842d51f9df7b
 Description: Console URL download utility supporting HTTP, FTP, etc - eu translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the eu locale.
@@ -92928,10 +93022,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-fi/wget-locale-fi_1.18-r0_armhf.deb
-Size: 19882
-SHA256: 7917854cf45499c1cb5528dad83b976cc83b5a478b487cdb7ba27f537dbebbe2
-SHA1: fa78813efbf7668b987516e91ac7df0dbc778863
-MD5sum: f953fd289fa0adf1b8816606833cdb7f
+Size: 19878
+SHA256: 70071fff7b30208204192b53964e2a4cf5c7bfce373689ca275454f48ddab1c7
+SHA1: c0a6a42a24777918bbf21033055182981537de4a
+MD5sum: e3c30d7e76925d7c455a53ab20d4145c
 Description: Console URL download utility supporting HTTP, FTP, etc - fi translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the fi locale.
@@ -92948,10 +93042,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-fr/wget-locale-fr_1.18-r0_armhf.deb
-Size: 19814
-SHA256: b08e01dad08016934e8afbb1b232699fdcee3e969a774a23ce4001b4248bb7c9
-SHA1: 50b9566f879095570e9f63991efe20a39b486805
-MD5sum: 58fc240d37f21f982c0aa274433341be
+Size: 19810
+SHA256: 0db33e441abdc1c9883823cd7ff073e0b652c342cd319bc1f335031478b6e955
+SHA1: 3f6755ed956b41922b9e54ff63f95e5c1f30763b
+MD5sum: a3db63e2a2ea18b9fc05414b7334366d
 Description: Console URL download utility supporting HTTP, FTP, etc - fr translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the fr locale.
@@ -92968,10 +93062,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-ga/wget-locale-ga_1.18-r0_armhf.deb
-Size: 7006
-SHA256: 0f54402a4299bb5c615c51efe015fd7949d278dbd038c314fc379b6f7cdd48e3
-SHA1: 84a4f24b8424affcce7b917997fcc788ac6a420d
-MD5sum: 10b5b26aa17fe1285e2c88c84239029c
+Size: 7014
+SHA256: 335664539866b60c49e33ef705edffe2030fe179f962e5a9579f51a1d01558a4
+SHA1: 97d30a6909779a0e9831354b684bb2e027426a9e
+MD5sum: 0c339f3b56785e6d09f37db8b702b09f
 Description: Console URL download utility supporting HTTP, FTP, etc - ga translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the ga locale.
@@ -92988,10 +93082,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-gl/wget-locale-gl_1.18-r0_armhf.deb
-Size: 8338
-SHA256: 401524e93c7080610b70adc8ac4d0a051f169b0d4760c8e1790a883acfc37258
-SHA1: 475ac99a292dcd5321c0794c70eb681f32771368
-MD5sum: d4fd12cdad6251427796827909f355d4
+Size: 8342
+SHA256: f40dc4299d88f3a499bdd9c01088818ef0d8eaf6bf43083d0ddb709bd510e991
+SHA1: 59a72ce425065b98e995919bbb2a9d18e6553d5f
+MD5sum: 828b102c7c72f4d91e2f70d9967dd981
 Description: Console URL download utility supporting HTTP, FTP, etc - gl translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the gl locale.
@@ -93008,10 +93102,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-he/wget-locale-he_1.18-r0_armhf.deb
-Size: 3982
-SHA256: 0eb34f342b38867a0493b93a1645250f1b28373589be26358edf5aff73dd140e
-SHA1: bdc6e22e5353b29055b82f5b80db095e28cfda52
-MD5sum: a5b279ffcfaf8b0a9bcc4a78acd86e98
+Size: 3998
+SHA256: 466c12b025176ebf7e0a0550f88702af8ba07dc278173957849762dcdccfd3f5
+SHA1: 1cc356a2fd6f556f7520e0e863b2405d832d8005
+MD5sum: 5590a24b3fdf88fd10c6c4155a1cb8b5
 Description: Console URL download utility supporting HTTP, FTP, etc - he translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the he locale.
@@ -93028,10 +93122,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-hr/wget-locale-hr_1.18-r0_armhf.deb
-Size: 10302
-SHA256: 063f3cb6a49ec3ec1743c8a3ba1ac6c277555ce9dfbb518543b786e8132c4928
-SHA1: 1b06e55dbba2ddd7ea57ee0160a66b4076218c24
-MD5sum: f402df5fa6a6b28b0d624bf94c3bf852
+Size: 10304
+SHA256: 14a6fb961d7213b68a43a4cb2bd4ab1f1bfa78d9e84c4c46521df1f4fc16dd99
+SHA1: 1094094166e6e03cf06e529c759b5f0e02a9082f
+MD5sum: 2641402bdff690f75ff4a7c20a521670
 Description: Console URL download utility supporting HTTP, FTP, etc - hr translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the hr locale.
@@ -93048,10 +93142,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-hu/wget-locale-hu_1.18-r0_armhf.deb
-Size: 22544
-SHA256: 880a946ea48d9426e9a97193d5c246fc1de75ef98efd7d50a2989fd325fd70d1
-SHA1: f4d25216f6762036b3ebe3fe3eb16dba1729a8f7
-MD5sum: 6323509b2117f67d8ad56f7674e27418
+Size: 22548
+SHA256: ff16c0280b55699530afe90ab1b4213267ed295f05d0eeaf8e72304aada54c49
+SHA1: 84b427b1b701e36b0376329183ab77994d09e946
+MD5sum: f529fa8864e4f514e4863596ed0bb4a6
 Description: Console URL download utility supporting HTTP, FTP, etc - hu translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the hu locale.
@@ -93068,10 +93162,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-id/wget-locale-id_1.18-r0_armhf.deb
-Size: 11248
-SHA256: 70641fda4cd914021ce8a25de66d989d4e1b36f7878722aa1f818b71e32f09fe
-SHA1: c4c4b08bd254e08174ab1479d7ff2ab80d4864ac
-MD5sum: cf8c83791ad31c62f1f00990ba5213a5
+Size: 11252
+SHA256: 86ec79853d40a0c99a9bdc628a619f917c7dcf8f813ee53d1c5f2b6ee26a7ae7
+SHA1: e30d3e31519078b7e7ea0ade043739f838d13933
+MD5sum: 31287ff7ff727e8734033ca22c017ad4
 Description: Console URL download utility supporting HTTP, FTP, etc - id translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the id locale.
@@ -93088,10 +93182,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-it/wget-locale-it_1.18-r0_armhf.deb
-Size: 21380
-SHA256: 49b4232e949d6b01ea0e2c6871bd3261c5f88aa0f210027dc39051897e385587
-SHA1: f879777fb11959d501c713982ea336165864ad14
-MD5sum: 0334250fd84dbdc348f9cf9e9ff57bea
+Size: 21392
+SHA256: 518497bbc39833347fe00628beb911cef52729af4e30e6422949282d101759d2
+SHA1: 447a89768bb5d80bb85a32c8e4632b5dfb57e7ed
+MD5sum: 66394ae3d722d82d885ce92dca474c5d
 Description: Console URL download utility supporting HTTP, FTP, etc - it translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the it locale.
@@ -93108,10 +93202,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-ja/wget-locale-ja_1.18-r0_armhf.deb
-Size: 21984
-SHA256: b4e9e00159c5ebbc9d342fffa0430882fd1af5d799bbd62aa67cb6f9b86051f0
-SHA1: 1baf6b2fd837758fd00e88107beabd8a69dc4fef
-MD5sum: 368e4b60b1d0e0dd88d81e413cd7aada
+Size: 21996
+SHA256: 55edafbcb7136769991040f65ded6fe9d5d1e618651c3d72efa7c5d719808781
+SHA1: 00e657bae93299d7fc3f7e174b1654963b073535
+MD5sum: 7b2a3986ca6f72d6f3df8785a6d2c909
 Description: Console URL download utility supporting HTTP, FTP, etc - ja translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the ja locale.
@@ -93128,10 +93222,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-lt/wget-locale-lt_1.18-r0_armhf.deb
-Size: 6988
-SHA256: ccad7eba3d54fa115ad4b7c6db21ba4a21248d8ae7bbb2d53e0d9bed54b7050d
-SHA1: 47fd54696d2e97c4107197fdf4fb88e046f3f566
-MD5sum: 8dafa6341d1fb8bbd9d91cc6a58be425
+Size: 6992
+SHA256: 489160a90b82063656f528ebd8cf7fb9cf5e37ee4df35ed76297f9924a4c5a19
+SHA1: def76dfb0fa97260ac63d78e9982adbf992199be
+MD5sum: 9d89076849461db67b7bd7e4e0170d2f
 Description: Console URL download utility supporting HTTP, FTP, etc - lt translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the lt locale.
@@ -93148,10 +93242,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-nb/wget-locale-nb_1.18-r0_armhf.deb
-Size: 21534
-SHA256: 4e2a408646b8c45950cd5b347274a8421276bbfbc48d057610a55ae503fb1932
-SHA1: 9337ad49f5449936c7c6e42f87aa325fa0f44d96
-MD5sum: 6a17bcdadcac447ff423cc39db8e2923
+Size: 21524
+SHA256: b12855a985496181bdccc4f5eef67881cb7aaf976dfda01f97b90d5585aa674b
+SHA1: aee7dd170934e61ce0516b358192090bc521c6d5
+MD5sum: 5c929f708ca81d69d3dd160ed5f86917
 Description: Console URL download utility supporting HTTP, FTP, etc - nb translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the nb locale.
@@ -93168,10 +93262,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-nl/wget-locale-nl_1.18-r0_armhf.deb
-Size: 20302
-SHA256: cda0bda7217e4531ba4ca35f0eb3294b889eb77921481fdaefddeaabff72f889
-SHA1: 1cc42be99a8c0c408738e64105e470f6451111c5
-MD5sum: a10e9ab3474f3c37d0f08ba0bcd912e2
+Size: 20304
+SHA256: dc925ac72033da614a4074b753e8013afb314a32f1b7f83be317d3ac3f8ae7a7
+SHA1: efa297303933c031a78636d1ea60c88e9388c56d
+MD5sum: a9c248f0dec72075dad19d1d1039c115
 Description: Console URL download utility supporting HTTP, FTP, etc - nl translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the nl locale.
@@ -93188,10 +93282,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-pl/wget-locale-pl_1.18-r0_armhf.deb
-Size: 22206
-SHA256: dc573284cb8f59e334165997893d2f2e9475044a7f5e74ac0627e9b67358d863
-SHA1: 6a5cb1e694b9e37b38a02b69446a837b602e04c7
-MD5sum: f4f829851805b99b7e16e7ebf0b9de8f
+Size: 22216
+SHA256: b4e60b252515b71010e395515868162b6a0f08e70cf5bd2f62ab810ab14324b1
+SHA1: e8e4e5e7772c5d5b19c36675c4b3f72ead97811e
+MD5sum: 071a68f72b049e38042f3a62cefc352f
 Description: Console URL download utility supporting HTTP, FTP, etc - pl translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the pl locale.
@@ -93208,10 +93302,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-pt/wget-locale-pt_1.18-r0_armhf.deb
-Size: 6814
-SHA256: 61f9e8cceaa3015d345e871e0fc683acb13938f4f470ca10e775fe2f751d6220
-SHA1: b99cb7163b0ab98632996a22864676a12b1a12ad
-MD5sum: e603bdab16c87f3f6296c34196694de9
+Size: 6820
+SHA256: a7fd2029a3940c8e3fc7f5f7e4b2b0c8a4abeeb8bfc1109f1d4370feae967f8b
+SHA1: d19062e4737419ca5dbe918fc8b66e9c2dea1e5a
+MD5sum: 4611b44b0f4ab2aceaf5be532b4861cb
 Description: Console URL download utility supporting HTTP, FTP, etc - pt translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the pt locale.
@@ -93228,10 +93322,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-pt-br/wget-locale-pt-br_1.18-r0_armhf.deb
-Size: 19646
-SHA256: 75a51da92cbc943d91552eae503ed5b08325336e73a98cb8603fd98a86308543
-SHA1: 1efa0445f3969f98090073ecdaeb50229d49cf66
-MD5sum: f73c628175a125a3a989299a1b07c241
+Size: 19656
+SHA256: 3ea1beffed8dd2619c1b888af3ab78edaabde2f5993238404a0c306120577f54
+SHA1: f7381b31a57363400bc8e17c4d84a1a9483c8799
+MD5sum: bea83a3ae096d2a50797f57672fedbde
 Description: Console URL download utility supporting HTTP, FTP, etc - pt_BR translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the pt_BR locale.
@@ -93248,10 +93342,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-ro/wget-locale-ro_1.18-r0_armhf.deb
-Size: 4432
-SHA256: 2b6759d6979775a2c40daf580030e556d1c67be8ebac7c1210086c6c97aa8eaf
-SHA1: 8e861744808a166e675b96d04c1f9d7039007979
-MD5sum: 02d2630596902544eeb81e952f210f56
+Size: 4438
+SHA256: 5214369a608c96e61bedf066fa36e57a854148b91bfec8f1adda8838b58e6db7
+SHA1: 346967d6ca630e1f17f09c08439f112deff6e904
+MD5sum: 746eeb74d61554acaf43edc2de98e085
 Description: Console URL download utility supporting HTTP, FTP, etc - ro translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the ro locale.
@@ -93268,10 +93362,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-ru/wget-locale-ru_1.18-r0_armhf.deb
-Size: 23514
-SHA256: 06d719a932512a69f0e636031f9dc8971345aaf8556dd20160a1f665e457a882
-SHA1: b557919e007f1f45a7043793eb0cfe88717eebff
-MD5sum: fe05129b8c592a7c389dfb334bfeeafd
+Size: 23536
+SHA256: f00974ac6207a9a107ce3a08570fe235b4e69999575edab4846c89e3450147fd
+SHA1: 2a50356192e3e6b516299ebc09db5a2fee957e74
+MD5sum: 6a87c6c4f071ca85a51a0d6aae013e3c
 Description: Console URL download utility supporting HTTP, FTP, etc - ru translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the ru locale.
@@ -93288,10 +93382,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-sk/wget-locale-sk_1.18-r0_armhf.deb
-Size: 22238
-SHA256: c1aae39a4fefbebcb7e5462565a55e5e9e8053c0789aa75fc7ef625cbb8f8412
-SHA1: 3b920a31de1d55bbdf59bcf76cf02424acf6a17d
-MD5sum: 404b0bdd252c52746eed9d10ec95cc88
+Size: 22252
+SHA256: 0416ca5d5a214d9dbce837ee7f1798a37ad3ca07a0bdef7b955c54d13ea80837
+SHA1: deeb439f5b9948c8993f77c117c4f6390a8142e0
+MD5sum: 16745f6e639f0ae25fbaffd1607a3ae4
 Description: Console URL download utility supporting HTTP, FTP, etc - sk translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the sk locale.
@@ -93308,10 +93402,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-sl/wget-locale-sl_1.18-r0_armhf.deb
-Size: 9574
-SHA256: df184b3b89b3946cf128aee820b1dd14c472bb125ed0356b15501b767e4e3d3b
-SHA1: 04c00e377b42df897a0525c6a31b449459e92648
-MD5sum: 9211412152dcb0cbe5b79cdf54f0665f
+Size: 9580
+SHA256: 0ab341e5e67fcf659aecfc0be24858b02497feef740ba6994e427b8ebb5962c9
+SHA1: ba76e0ac031a2d97739f73c4fc9c2ce23e251f34
+MD5sum: c667151625b661e786ff9337ff23a3fc
 Description: Console URL download utility supporting HTTP, FTP, etc - sl translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the sl locale.
@@ -93329,9 +93423,9 @@ Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-sr/wget-locale-sr_1.18-r0_armhf.deb
 Size: 23470
-SHA256: 71dffdc349167dbbfa708c24461b39e8575df096520fd890ffbe4a57abeeb35c
-SHA1: ef978bc86b6ec19e8cb8670fed04c5e2d1ebe53c
-MD5sum: a878030b247dcfb79e7040f4b4de048e
+SHA256: 6badfb7bb1e7d7b2157b7cb8bb0a77bee45f2c14daa9c4c7891c76728505438e
+SHA1: 7a74651343286c518d8e3217a4d0510042ac8bc3
+MD5sum: 7360d5adc2411e85b52b519f85844aee
 Description: Console URL download utility supporting HTTP, FTP, etc - sr translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the sr locale.
@@ -93348,10 +93442,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-sv/wget-locale-sv_1.18-r0_armhf.deb
-Size: 9246
-SHA256: 7c61e2f9ee7ee55a9f8906cb99dd625503f568b9bfcd1eb034200f28dba60608
-SHA1: a51a5dda30ea15dae2d13c9c819e54439492417f
-MD5sum: cb778df3d0afd439a9931f50e638dd48
+Size: 9260
+SHA256: 93ea834db1ec45111908349edc57b3f002394e981997dcb1f102fa448ba09883
+SHA1: 7c68aef1caacd0a07ba9b69d5de95ae450ef24e8
+MD5sum: d744bd69d4425a36619ae92427e89c1e
 Description: Console URL download utility supporting HTTP, FTP, etc - sv translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the sv locale.
@@ -93369,9 +93463,9 @@ Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-tr/wget-locale-tr_1.18-r0_armhf.deb
 Size: 12170
-SHA256: 682a572ea01ad15f5bf4c945ffda033150e86723bc4c7a1d3e039c74d47568f1
-SHA1: 037408826c24a784c91653ca9615c01ed3d6f90f
-MD5sum: e3a8cc0fdcd57736ae18a0ad78fb7a27
+SHA256: 2458d6002acf574b8dcaa0f11c45aebb16642a5eefef2292facd1ca0bce9e819
+SHA1: 2f8ce4cc7197d1c3a43ea6f82e43d423264d9c7b
+MD5sum: 2d63a01ae742d7c51cb9fe28b845296a
 Description: Console URL download utility supporting HTTP, FTP, etc - tr translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the tr locale.
@@ -93388,10 +93482,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-uk/wget-locale-uk_1.18-r0_armhf.deb
-Size: 23640
-SHA256: f6db1df99f2694a8aaca2b48e9572ba74549cd1237398e00aa11295727ca39f7
-SHA1: 46214bc064cdcc1296ac303fe4d4d323fa92a0f0
-MD5sum: 5ca1d5f005004bae48d69ed2c7afda5c
+Size: 23666
+SHA256: 7276574a592c8e3d23eeeeb421a4dac40fed08af81c7b20547ca65d17ba7e9a8
+SHA1: c10889a110527ff238c91d75d9a28424a4de908a
+MD5sum: 30023aae4272bedbb36dc116a7715940
 Description: Console URL download utility supporting HTTP, FTP, etc - uk translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the uk locale.
@@ -93408,10 +93502,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-vi/wget-locale-vi_1.18-r0_armhf.deb
-Size: 22426
-SHA256: 67f3be09dc54efd263a616e1e813f5cffdf4fc23075dd22c661975571a8668b8
-SHA1: bd71be33b82682a48c975e89599d8c5d124bc9e3
-MD5sum: 8a3c86aff9ec8e6267e4ba497c8edc2c
+Size: 22424
+SHA256: 178b6a0680ec301e9af3d686f3cdf3af2ae8dd9293523bab4d31452d62da7c1a
+SHA1: af43c117838a030f294c97ef2d28f6bba3bc67ab
+MD5sum: 8660c3eae8fc7de80f1042ccd4cfb687
 Description: Console URL download utility supporting HTTP, FTP, etc - vi translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the vi locale.
@@ -93428,10 +93522,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-zh-cn/wget-locale-zh-cn_1.18-r0_armhf.deb
-Size: 21608
-SHA256: 1f5e880a7e6c6b5cd2676faa692e611546f9adca691b01dbcc92c089a8fd5957
-SHA1: 3f30781c5e59b48fa60e61eef56d4577cbc04de5
-MD5sum: 413af8f49c1ffeacea93a93c33ca9a44
+Size: 21656
+SHA256: a686f634824931d7dd96561c6b070f1acca15a7b12dffb659d292a9fe3659a01
+SHA1: 2f0066814a11f927463f90e524e690373ce23b5a
+MD5sum: 538c76c597705afb13b5024ced5956f6
 Description: Console URL download utility supporting HTTP, FTP, etc - zh_CN translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the zh_CN locale.
@@ -93448,10 +93542,10 @@ Version: 1.18-r0
 Priority: optional
 Section: console/network
 Filename: pool/main/w/wget-locale-zh-tw/wget-locale-zh-tw_1.18-r0_armhf.deb
-Size: 6056
-SHA256: ae9bc2e1de9398950491b43b5e8f7884ea1499fc95bf946100778981b07684c9
-SHA1: 55b81095758e312cf067fa200ef3e771a283b162
-MD5sum: dda0fa96d9ff48fcc3f011eabada26ef
+Size: 6058
+SHA256: 9544c6ab80d17b6e7d5a508ce429ffe93b16337fc812040111a95a34f762e6bf
+SHA1: 0d1eb30f3aaee1d60e33bfdcd899ad15ccf58dcc
+MD5sum: 1edccd4366d89341e8add30845ac79be
 Description: Console URL download utility supporting HTTP, FTP, etc - zh_TW translations
  Console URL download utility supporting HTTP, FTP, etc.  This package
  contains language translation files for the zh_TW locale.
