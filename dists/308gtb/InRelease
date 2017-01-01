@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Moebius
+Label: Moebius
+Codename: 308gtb
+Date: Sun, 01 Jan 2017 00:03:02 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for Moebius
+MD5Sum:
+ 9bd9acd197e37dd61a964ce9c441e33a 3544481 main/binary-armhf/Packages
+ 0ea3f3dc3df2d07e3076bb6d1ee4f30d 681979 main/binary-armhf/Packages.gz
+ cf407cda5d5d210845adbcbb76eb8502 107 main/binary-armhf/Release
+SHA1:
+ 906b7bb65e31fb71c338cdeb7b69b2535fc12669 3544481 main/binary-armhf/Packages
+ 45941c52d9f7a16dfa4105a979e4ca6d6a4c5224 681979 main/binary-armhf/Packages.gz
+ 887673618c4bcdec270dfd6762b0c1baf063cc61 107 main/binary-armhf/Release
+SHA256:
+ 9ad85211193744316591553a75cc2b1a12835eaf6b80c2b9248a9d02fed027f4 3544481 main/binary-armhf/Packages
+ d78d94060c9218f58debaa350680dfc2303996fd137bc63985f1ac21796fadb8 681979 main/binary-armhf/Packages.gz
+ 307fa575658673a8067572973e43afb4fde2f3876aea8fb5aa02bcd23b006321 107 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJYaEc2AAoJEBcOuGpg39u1AUUQAJHEXSFdTmddFxMcMo8SvmQc
+zMWLHw4B2/sqqKjqt4bsr1MthuX2+ttwWgyLLh/vHfCSt+7+wdD4dwbb1ENezjXm
+XXsy6o8swBBCDMpadsRWTOBdNzJcSl6dr3ksI5VyETdq6Bh9ufcrmFwoYL5RJ7v6
+5wCKGRkYtePbnbim6RRzrmKTD/exJz7AxVX05o9+uz4/ftsgUr/t85RocLYc/FqZ
+xf21I5VZlb4O4bSzLNCs11isNnP4vPOTnBg/9dn7rYj5Mud0/UDALPvXfdIpl9K8
+Qq230X6fagVswa8amjwA3Ne6T0xc1mlflqWy4eBaxDJBqcFvNmY70FNIcuatBROo
+T7/LIJUfflVvlGv7hZLnE4PCInJQMb90UnKeMcWtmpGPhD9HE//g3dddoywmg+9n
+ncbHnCUToRfF1W5AD0irbrltrxBmpDhROtD0lDZmHH+RzPEKnwVmGQrqh5EgMRqm
+Dca3IKw4USAupAJ/mzjL7flT7nVUXLXQHlBuT5+t5TFcyUUf+jWbhc5q7PG6YNQi
+h27H3y8UQpSe2T0Da9VCI59WBva43PQHurHB6ljfMfoPUYSTVsZMaOUJqeevIyEp
+8t3UspBDN60rCQFoOLiqbOeoxA7DhvUyxIaPKipjCCKezeMsj9CDhqTy3PUJeevI
+YBjUMXqHYqWH+UWnEkQj
+=3R4d
+-----END PGP SIGNATURE-----
