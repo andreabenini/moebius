@@ -666,6 +666,136 @@ PackageArch: raspberrypi3
 Depends: bcm2835-bootfiles (= 20161020-r3)
 Recommends: rpi-config-dev
 
+Package: busybox
+Version: 1.24.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/b/busybox/busybox_1.24.1-r0_armhf.deb
+Size: 267880
+SHA256: 2e8964b6e008bbdae3793ee0a03a8b13cab9db2daa3121012b8562ede36a33e9
+SHA1: b230762fd976eacf04d316350226c9caf28855f3
+MD5sum: 366d256652c2a96bae10db2da7a051bc
+Description: Tiny versions of many common UNIX utilities in a single small executable
+ BusyBox combines tiny versions of many common UNIX utilities into a
+ single small executable. It provides minimalist replacements for most of
+ the utilities you usually find in GNU fileutils, shellutils, etc. The
+ utilities in BusyBox generally have fewer options than their full-
+ featured GNU cousins; however, the options that are included provide the
+ expected functionality and behave very much like their GNU counterparts.
+ BusyBox provides a fairly complete POSIX environment for any small or
+ embedded system.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: busybox
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.busybox.net
+Depends: libc6 (>= 2.24), update-alternatives-opkg
+Recommends: busybox-syslog, busybox-udhcpc
+
+Package: busybox-dev
+Version: 1.24.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/busybox-dev/busybox-dev_1.24.1-r0_armhf.deb
+Size: 1084
+SHA256: 2ab15cdeaa3e1edfc182414177871657c4c2f5fcdea8ad219a065a9fad6096da
+SHA1: e608bf78ab73bfffb5c31a6a840d625f5ee89bcd
+MD5sum: 62b577bd95d0afc6e132566324f39f25
+Description: Tiny versions of many common UNIX utilities in a single small executable - Development files
+ BusyBox combines tiny versions of many common UNIX utilities into a
+ single small executable. It provides minimalist replacements for most of
+ the utilities you usually find in GNU fileutils, shellutils, etc. The
+ utilities in BusyBox generally have fewer options than their full-
+ featured GNU cousins; however, the options that are included provide the
+ expected functionality and behave very much like their GNU counterparts.
+ BusyBox provides a fairly complete POSIX environment for any small or
+ embedded system.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: busybox
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.busybox.net
+Depends: busybox (= 1.24.1-r0)
+Recommends: initscripts-dev, libc6-dev, update-alternatives-opkg-dev, update-rc.d-dev
+
+Package: busybox-ptest
+Version: 1.24.1-r0
+Priority: optional
+Section: devel
+Filename: pool/main/b/busybox-ptest/busybox-ptest_1.24.1-r0_armhf.deb
+Size: 85746
+SHA256: cd5ebcf0faeff94c7bfef4db99e5a0ac43b62f069c2ad874ff983beb6d188276
+SHA1: f1b32ed08b46fdd22fa07f471f23d5fca709e3a5
+MD5sum: c7a84d66ff1553bb35ae2fe843527909
+Description: Tiny versions of many common UNIX utilities in a single small executable - Package test files
+ BusyBox combines tiny versions of many common UNIX utilities into a
+ single small executable. It provides minimalist replacements for most of
+ the utilities you usually find in GNU fileutils, shellutils, etc. The
+ utilities in BusyBox generally have fewer options than their full-
+ featured GNU cousins; however, the options that are included provide the
+ expected functionality and behave very much like their GNU counterparts.
+ BusyBox provides a fairly complete POSIX environment for any small or
+ embedded system.  This package contains a test directory
+ /usr/lib/busybox/ptest for package test purposes.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: busybox
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.busybox.net
+Depends: busybox
+Recommends: ptest-runner
+
+Package: busybox-syslog
+Version: 1.24.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/b/busybox-syslog/busybox-syslog_1.24.1-r0_armhf.deb
+Size: 2512
+SHA256: e13f375329310540e66454ebfb708bf9e2682082de6c1f5bd768ec5741e4cfd1
+SHA1: e6b8049e35e584acc6f20db1ce38e61eccda594b
+MD5sum: 40907d6e02b976b69b43cf88b51ad187
+Description: Tiny versions of many common UNIX utilities in a single small executable
+ BusyBox combines tiny versions of many common UNIX utilities into a
+ single small executable. It provides minimalist replacements for most of
+ the utilities you usually find in GNU fileutils, shellutils, etc. The
+ utilities in BusyBox generally have fewer options than their full-
+ featured GNU cousins; however, the options that are included provide the
+ expected functionality and behave very much like their GNU counterparts.
+ BusyBox provides a fairly complete POSIX environment for any small or
+ embedded system.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: busybox
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.busybox.net
+Depends: update-alternatives-opkg
+Recommends: update-rc.d
+
+Package: busybox-udhcpc
+Version: 1.24.1-r0
+Priority: optional
+Section: base
+Filename: pool/main/b/busybox-udhcpc/busybox-udhcpc_1.24.1-r0_armhf.deb
+Size: 1942
+SHA256: 82aaf38d115ea5fa2e5c6bcbc4847b686b9e29d2474c104b8118505b00775dc7
+SHA1: 74b15c83b50138e12043c34d39a6c7fbd8268ad6
+MD5sum: de7b7213f200f889da1ebfb5ceb4300c
+Description: Tiny versions of many common UNIX utilities in a single small executable
+ BusyBox combines tiny versions of many common UNIX utilities into a
+ single small executable. It provides minimalist replacements for most of
+ the utilities you usually find in GNU fileutils, shellutils, etc. The
+ utilities in BusyBox generally have fewer options than their full-
+ featured GNU cousins; however, the options that are included provide the
+ expected functionality and behave very much like their GNU counterparts.
+ BusyBox provides a fairly complete POSIX environment for any small or
+ embedded system.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: busybox
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.busybox.net
+
 Package: bzip2
 Version: 1.0.6-r5
 Priority: optional
@@ -75609,9 +75739,9 @@ Priority: optional
 Section: base
 Filename: pool/main/p/packagegroup-core-boot/packagegroup-core-boot_1.0-r17_armhf.deb
 Size: 758
-SHA256: 47fdc6d2e19291fe10269009ca92920bbef29a2a05e6ed9f5505bcb9c2ec76db
-SHA1: f32c8ea9211b11566795511f94ca69d43c1e8b25
-MD5sum: bb54d27212518e838bcd2e249bbd3698
+SHA256: c73be1faa2270d8567c2bf1946e8d1af21bb60440de7967e8f5dbf0543db0b69
+SHA1: 413616cf55d2817ce9eb1cafc25ab226cbc18604
+MD5sum: fe2afbfb6ab8ece536f7a6dc145043aa
 Description: Minimal boot requirements
  The minimal set of packages required to boot the system
 Maintainer: Ben <ben@moebius>
@@ -75626,9 +75756,9 @@ Priority: optional
 Section: devel
 Filename: pool/main/p/packagegroup-core-boot-dev/packagegroup-core-boot-dev_1.0-r17_armhf.deb
 Size: 858
-SHA256: 92a474ec8a8901806569a9465bec60db10ce1cd950617aea018c1a904567d4b1
-SHA1: 268891e543915a356a87139a1d6a4359ddf15932
-MD5sum: d8faa3537a1a4b99a7b02937d993bbd9
+SHA256: 0991a70ebbed5f655218e1fdf0976225df387eff6dc473cc419cc9f6628cc07b
+SHA1: 9bd0af9eb215dd635a00bafa6e8947ba80141952
+MD5sum: e58b71906a59ea37b5e6945c8710d7dd
 Description: Minimal boot requirements - Development files
  The minimal set of packages required to boot the system  This package
  contains symbolic links, header files, and related items necessary for
@@ -75645,10 +75775,10 @@ Version: 1.0-r17
 Priority: optional
 Section: base
 Filename: pool/main/p/packagegroup-core-boot-ptest/packagegroup-core-boot-ptest_1.0-r17_armhf.deb
-Size: 672
-SHA256: 26a769cff9b8079c8d0bf588c1b5a888393557e73ddfcefef642ca264422f215
-SHA1: 3ee34eb39a0d67986571fcc78fbf92d548a3cd5b
-MD5sum: 9b0d32486221adf3cc9e9418810f4a44
+Size: 674
+SHA256: 0a16ecb748bd4b67095a42e09e407d77aa47e0c0867a93c4d110789d4c054698
+SHA1: 94626b3d5e2954c33e1b6da73191b74756b34511
+MD5sum: 8ad53e496995deeae04f5f70b7da630f
 Description: Minimal boot requirements
  The minimal set of packages required to boot the system
 Maintainer: Ben <ben@moebius>
