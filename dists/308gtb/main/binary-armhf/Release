@@ -1,5 +1,12 @@
 Component: main
+<<<<<<< HEAD
 Origin: Moebius Repository
 Label: Moebius Repository
 Architecture: armhf
 Description: Moebius packages official repository
+=======
+Origin: Moebius
+Label: Moebius
+Architecture: armhf
+Description: Apt repository for Moebius
+>>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d

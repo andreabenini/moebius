@@ -1,6 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
+<<<<<<< HEAD
 Origin: Moebius Repository
 Label: Moebius Repository
 Codename: 308gtb
@@ -36,4 +37,41 @@ Rz2lfDQCiBzt06djRWjOQkd15l0s4FX6dAYnAa27W7b7T3UPVqE72qGO/3sLPzXI
 9Ix6t8SvCBed/bJWEAHlCbP0iVoYYmLXez35do3BNZSnJTKHRezTwyBfKIgTyBUi
 xOEDCVq1C9ebAXUmCDHW
 =4teP
+=======
+Origin: Moebius
+Label: Moebius
+Codename: 308gtb
+Date: Sun, 01 Jan 2017 15:05:33 UTC
+Architectures: armhf
+Components: main
+Description: Apt repository for Moebius
+MD5Sum:
+ e2e04a625aa318ce67c81ee37038cada 3544481 main/binary-armhf/Packages
+ d923b988aba07cef4382011b38d46725 681968 main/binary-armhf/Packages.gz
+ cf407cda5d5d210845adbcbb76eb8502 107 main/binary-armhf/Release
+SHA1:
+ f8100cf2ff912f80ec6901147cc240da600a0b5c 3544481 main/binary-armhf/Packages
+ ce9b431a1fea7979b6e534d778ab147a9d8c2414 681968 main/binary-armhf/Packages.gz
+ 887673618c4bcdec270dfd6762b0c1baf063cc61 107 main/binary-armhf/Release
+SHA256:
+ 497f33ac917060fa6b064dfdce6954045309974c8c9b29d158a30bb5fef60b75 3544481 main/binary-armhf/Packages
+ 69b1a0c36e50b07c3e58d63e320d2be3b72a1b0848fe91aaa29cf6776b1bcb7b 681968 main/binary-armhf/Packages.gz
+ 307fa575658673a8067572973e43afb4fde2f3876aea8fb5aa02bcd23b006321 107 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJYaRq9AAoJEBcOuGpg39u14swP/0ZfOBKDVeINripOvukMVQ/g
+pIaWQRI48ZmRhVLY1HCl1v2sgRnCIIlkQoP3wcrBTF69IfTg6BRhurGI4IgBkflG
+Fh2qU/2LchB5DqPzF27Gx8hJGHd1Iy8PdcGvPUDX+vlA+iatmg+TCZcNJ6/J1SOZ
+oQCS6VQ7P1atfMiWPT6LC4JExy0Nx3QyYNAu12yjQH2Ip7RFXUIMWk9MPhcYpfZW
++aWncHBCisIHxaMD3PJIzAG2tJnNYBWuuLRzZz9bXyehpgeX3ne2vErSsi2mu0M5
+TX2+8QbbPofb6dItqvCk7DLUornIeG3rSB+goU6OG8Ouig0xo72NMIabklk7/4J3
+W78kXLhY/l7F4CSUYh8kHSuEYbO17GSckVP+nLMJ5NCjPDYy7//A61IieAKH132S
+vUmEvXPXjtfjTFhlcJxpJ8feRr/UHudV1cmChWrado1fiYZR0OQ2bD3v7snTD8E5
+yehRTMRLmxsCp6ZYNWVhrRp8QxAv39tsA9rbh6rBlk8h51qWKds8Aoq8Y82+brrn
+Sa80mDIH/IOmq8+zNGZoZ6UGN91wvHOeFhMv9M5zEIRsNfzzpDfvgwYL+kzJouNu
+Hapgerp8QD2Chr3qe0+ri6nA7KmgI2vWpJh4rJiLTqCYyFAC2eCUnznKsA8EbCMG
+R379U3aXeSZhbXB4pXJE
+=wAjq
+>>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 -----END PGP SIGNATURE-----
