@@ -671,17 +671,10 @@ Version: 1.24.1-r0
 Priority: optional
 Section: base
 Filename: pool/main/b/busybox/busybox_1.24.1-r0_armhf.deb
-<<<<<<< HEAD
 Size: 264654
 SHA256: 9848f31077ff216da0f9ac2b2cda7b5437beb3c3ebbad518e5f2b6f6f769558d
 SHA1: 856ce00580108808d10ed576d367514516664d4f
 MD5sum: 11c5971c51919cc4e87abf97d21f96fa
-=======
-Size: 268390
-SHA256: d17cd6c7d45de783ee541dd025553748208bc954daa5ad7ad2f3bdb9eb9c674b
-SHA1: ac720a29490b1c7567b396b599ecd828b5351565
-MD5sum: 0b826f07abde9beebe0377214a68d297
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Tiny versions of many common UNIX utilities in a single small executable
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -705,15 +698,9 @@ Priority: optional
 Section: devel
 Filename: pool/main/b/busybox-dev/busybox-dev_1.24.1-r0_armhf.deb
 Size: 1084
-<<<<<<< HEAD
 SHA256: 6db51889b4f1faee2b376b437312ceba25dc0b66a956093397f37ffd6484e28b
 SHA1: ebfa3d6387a51c5e87720f95cdf82ca1afd5912c
 MD5sum: b64a332e0e75e1492269150871fb55fc
-=======
-SHA256: 14d22ffaa41eb9990ef9ef3ade8a402734a8769cb6f74fa03436a71b2adaea78
-SHA1: 88d983251b9cdf29ca17b2c41b5c31dfd3bc5c06
-MD5sum: 01238e362ad340ba4498c1e6ba038f65
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Tiny versions of many common UNIX utilities in a single small executable - Development files
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -737,17 +724,10 @@ Version: 1.24.1-r0
 Priority: optional
 Section: devel
 Filename: pool/main/b/busybox-ptest/busybox-ptest_1.24.1-r0_armhf.deb
-<<<<<<< HEAD
 Size: 85672
 SHA256: 813d631d415bc5212bb91e54f66f4625b8949a5f693e1ebcfe9d3ce77446bb3e
 SHA1: 951035fc92801371f02db0045f6c5c69f10600f2
 MD5sum: b0515f9347be8c60c0ac48a23a043495
-=======
-Size: 85682
-SHA256: c59985f73cede00ec27e9e0d94e438b01f99d93a625950d63a5087f19e3ec0ee
-SHA1: 6b7df23b8f0b8051d0ae9357d5924f04de72806c
-MD5sum: 7af914ecafc7ffa7a357d27952127ecb
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Tiny versions of many common UNIX utilities in a single small executable - Package test files
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -771,17 +751,10 @@ Version: 1.24.1-r0
 Priority: optional
 Section: base
 Filename: pool/main/b/busybox-syslog/busybox-syslog_1.24.1-r0_armhf.deb
-<<<<<<< HEAD
 Size: 2512
 SHA256: d4280b62d2d8dae5eb4ae21cee270e60dc1b029724799e31c1bd5935984ec6fa
 SHA1: 2525691b09828588b5146378b4f2bbc27108d7ea
 MD5sum: ed97a8b215695a448e8be2b57d6d4384
-=======
-Size: 2508
-SHA256: 1671bccc3f4f2f8a626262648cc334d1f1248431adbc71a83d7e20cb9ee4871b
-SHA1: acc0e670ec64710cc813a71cd91383c35fad047f
-MD5sum: b303fda81b562196798603f9221729b4
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Tiny versions of many common UNIX utilities in a single small executable
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -805,15 +778,9 @@ Priority: optional
 Section: base
 Filename: pool/main/b/busybox-udhcpc/busybox-udhcpc_1.24.1-r0_armhf.deb
 Size: 1944
-<<<<<<< HEAD
 SHA256: 6331e27897ffd427f6e7727ca5275db6978f51548e5b8cea260e0f63bdf53445
 SHA1: 90ae1675bc0087be1e0d55c875ec2650ed6a7d04
 MD5sum: cda2921ac3a8d35f823c7a5da6d96b57
-=======
-SHA256: 9911e8a0ad94f642fe7eb3ca8921867394a16b088a9adb80c591cb57f9a5965b
-SHA1: 6dc089fdfdc68d8ff2e3d65cef722e5c07d17122
-MD5sum: e0deff138446105bd9280eb7ef478de3
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Tiny versions of many common UNIX utilities in a single small executable
  BusyBox combines tiny versions of many common UNIX utilities into a
  single small executable. It provides minimalist replacements for most of
@@ -75772,15 +75739,9 @@ Priority: optional
 Section: base
 Filename: pool/main/p/packagegroup-core-boot/packagegroup-core-boot_1.0-r17_armhf.deb
 Size: 758
-<<<<<<< HEAD
 SHA256: ba903361075db2403f9938d2cc82e9628ef2a3f9fa4d4bc450c3bae6c050ce9d
 SHA1: 1406d21e17e639fd076c1f04ea8ad9ddde5469ac
 MD5sum: 76624cca99d77e9b8d48470f2882a806
-=======
-SHA256: 5687b38c265631838d22034182294df521117dd11ac2fb157d73f18d22aa7260
-SHA1: 05cbe3506fd40a301d9361e55642de4d06c1db49
-MD5sum: a2430b19ba024f111a3b933002c23f29
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Minimal boot requirements
  The minimal set of packages required to boot the system
 Maintainer: Ben <ben@moebius>
@@ -75794,17 +75755,10 @@ Version: 1.0-r17
 Priority: optional
 Section: devel
 Filename: pool/main/p/packagegroup-core-boot-dev/packagegroup-core-boot-dev_1.0-r17_armhf.deb
-<<<<<<< HEAD
 Size: 856
 SHA256: 625dae2a4ef66c68c808023034849312fbb8dbdf783d8453f46c2ec06a0b7a09
 SHA1: 910b2c2e244ffa0a6d0f7a9bafabf5e847b905e3
 MD5sum: a49d30720f989bb254124680d81fa835
-=======
-Size: 858
-SHA256: c45afdb428cec775e1f95ab410698225b1c11cd481ec95fd5f86273e19013561
-SHA1: 2cdf24ae94e00a311bdb536214413eda18f95750
-MD5sum: d3892ab2f377b7d9ef076dc113f7d85a
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Minimal boot requirements - Development files
  The minimal set of packages required to boot the system  This package
  contains symbolic links, header files, and related items necessary for
@@ -75822,15 +75776,9 @@ Priority: optional
 Section: base
 Filename: pool/main/p/packagegroup-core-boot-ptest/packagegroup-core-boot-ptest_1.0-r17_armhf.deb
 Size: 672
-<<<<<<< HEAD
 SHA256: 52681171056092e5173eab52b08be0ee21b992410583f04f9cb545d82c70238d
 SHA1: 7d8ad08fd9c9fb5be803530ec24c47fa1bd21790
 MD5sum: a5987aa78b234658758bff5f10d8e92e
-=======
-SHA256: 6a5074720d2e63c3e3b8dc44b4c845028aa15e1a09c389d143b2531fec12ad5e
-SHA1: 4877dc68e5eab3968c8377baab6139adc1cbd0c1
-MD5sum: 2125069378650301f5e7cda7b691d51c
->>>>>>> f35b6b67803efb7e90df7cf0af3b9fa8135d8e4d
 Description: Minimal boot requirements
  The minimal set of packages required to boot the system
 Maintainer: Ben <ben@moebius>
