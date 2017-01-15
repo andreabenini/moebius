@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Moebius Repository
+Label: Moebius Repository
+Codename: 308gtb
+Date: Sun, 15 Jan 2017 00:07:28 UTC
+Architectures: armhf
+Components: main
+Description: Moebius packages official repository
+MD5Sum:
+ bf3bb46e2ef301c43aececa0e3a6ec2c 3544481 main/binary-armhf/Packages
+ 89bb0bbd12f2bc0978332e951b1889c8 681975 main/binary-armhf/Packages.gz
+ 821923b83b688c2f83e25c2d6b27226b 139 main/binary-armhf/Release
+SHA1:
+ e6ba49dcfc5a670bc984ebe1f1d75993ee3c623c 3544481 main/binary-armhf/Packages
+ 19b5016b42b0a76bbdb6bc677eb55e5259b6e68d 681975 main/binary-armhf/Packages.gz
+ 47c57f1520ecaea4fd0937e43f0e06859833c563 139 main/binary-armhf/Release
+SHA256:
+ 2a0c92ba241c54baa92e61b433ad11ccf0a9be26b5f7301297b4e9dfc15a5d33 3544481 main/binary-armhf/Packages
+ c468770df0832fa77e34842e18f25f1b90d93af07738bb5e14a6327c1f75d37c 681975 main/binary-armhf/Packages.gz
+ 651aba6c4b7511424b7d36d3ace0115051e74882f9a2e9bd0cc5d16143702b45 139 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJYer1AAAoJEBcOuGpg39u1UPsP/1uHUhy+lvbFDemis1CR+Xmu
+jwcjnvoaGrPVbMx1rDMtvE/A/e9GvToWleruJKiRUDIFuPNDJ10nqIJjMIUxtycU
+a3lN4Uzo7HetKqugX/+Cc96t/mq6kwtRtFdwLxCjpSHMua3pgt+J3HSYB3VlKogY
+ywM1uN5YhXVYrqXRim6t7dJ2jFBmLeZ2/zpHInepZK+VDx1ijf1Ssw8IpiRXPvhw
+N9BN5Q+lsbXt2ys2jt01vekixJ0yRa3xdlZrAVAn5Ei9EIADXw7fVLKtL5JMrZ6p
+/VI5N0iBVk69HZqMPSLNnyb5fmQaD9zrLHPVyRLpHYo1VioAFVsxSHHqYxv6Dnu2
+6tm4HhRv3EuOskpQ/4voa78dHwvIxpE5RQzhxh5MQWX0+06ZqS+j+41Yuv5HCvDy
+23Md7+7SfiT3N8C3gKtoyDGtwfbhjkgwf5lVH7NliiG6gr5V6R0LAOirGzWWbVrn
+sMKEgs2IUMC30kznbZR4rLsFK06LF9aZiD4ryJKpc4K15suJDk2g6CXBW1UUToZe
+Rz2lfDQCiBzt06djRWjOQkd15l0s4FX6dAYnAa27W7b7T3UPVqE72qGO/3sLPzXI
+9Ix6t8SvCBed/bJWEAHlCbP0iVoYYmLXez35do3BNZSnJTKHRezTwyBfKIgTyBUi
+xOEDCVq1C9ebAXUmCDHW
+=4teP
+-----END PGP SIGNATURE-----
