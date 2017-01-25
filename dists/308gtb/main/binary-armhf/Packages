@@ -75066,14 +75066,14 @@ Depends: modutils-initscripts (= 1.0-r7)
 Recommends: initscripts-dev, update-rc.d-dev
 
 Package: moebius
-Version: 1.2.0-r0
+Version: 1.2.1-r0
 Priority: optional
 Section: console/utils
-Filename: pool/main/m/moebius/moebius_1.2.0-r0_armhf.deb
-Size: 82550
-SHA256: 9c0e747c79821d10968f2529f56c63214b02e761d7797d7f6a8af9c203da5866
-SHA1: fe834d0c6630c5b8af8a9eab3c2f079e50c7263c
-MD5sum: c9bcdcfb49f8e77050b4d2239c547a2c
+Filename: pool/main/m/moebius/moebius_1.2.1-r0_armhf.deb
+Size: 84856
+SHA256: 9a9820822a5ee3441a37de8a82dce3c45c4c2917cf93e6c83b8602c2ab904399
+SHA1: cce6962548645327a217e00fbc67db1da0387af4
+MD5sum: 0b22efc0b87a65c6b0b9cc2d7d43ffba
 Description: Moebius configuration tool
  Moebius configuration tool.
 Maintainer: Ben <ben@moebius>
@@ -75082,26 +75082,6 @@ OE: moebius
 PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://moebiuslinux.sourceforge.net/
 Depends: libc6 (>= 2.24), libgcc1 (>= 6.2.0), libncurses5 (>= 6.0+20160625), libstdc++6 (>= 6.2.0), libtinfo5 (>= 6.0+20160625)
-
-Package: moebius-dev
-Version: 1.2.0-r0
-Priority: optional
-Section: devel
-Filename: pool/main/m/moebius-dev/moebius-dev_1.2.0-r0_armhf.deb
-Size: 812
-SHA256: 35e93b0b2f5f92f5c1c18b8dcc3fdfe3a24bc418b6f9f0401bfdf5853fd0080e
-SHA1: 85790556444823f7fb3b1ddad17c46ef921a60e1
-MD5sum: ae4f5ca3d3a9c77ded4f983470851aa5
-Description: Moebius configuration tool - Development files
- Moebius configuration tool.  This package contains symbolic links, header
- files, and related items necessary for software development.
-Maintainer: Ben <ben@moebius>
-Architecture: armhf
-OE: moebius
-PackageArch: cortexa7hf-neon-vfpv4
-Homepage: http://moebiuslinux.sourceforge.net/
-Depends: moebius (= 1.2.0-r0)
-Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev, ncurses-dev, ncurses-libncurses-dev, ncurses-libtinfo-dev
 
 Package: ncurses
 Version: 6.0+20160625-r0
