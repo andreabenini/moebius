@@ -4297,6 +4297,992 @@ PackageArch: cortexa7hf-neon-vfpv4
 Homepage: https://wiki.gentoo.org/wiki/Eudev
 Depends: eudev
 
+Package: findutils
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils/findutils_4.6.0-r0_armhf.deb
+Size: 132938
+SHA256: e4cc474e7ff9691cf531c64c1576afe840b3351c25b28c3653c2324d8e955106
+SHA1: 10fb87aad3e12000230f6902b8763d681a452867
+MD5sum: 3b22adf61d3aad6efbe3dfbb2aa5a475
+Description: find, locate, and xargs binaries
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Depends: libc6 (>= 2.24), update-alternatives-opkg
+
+Package: findutils-dev
+Version: 4.6.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/f/findutils-dev/findutils-dev_4.6.0-r0_armhf.deb
+Size: 950
+SHA256: 93d0dffcfe79ffb1be6b731ef0e6fe093f4d693bd6f3f3ef192fa6a9360ec29b
+SHA1: a6045d832ac7c30dd77193e08ec7a42ac2d6cc64
+MD5sum: 951c8f57290d481e50d944a26da98280
+Description: find, locate, and xargs binaries - Development files
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Depends: findutils (= 4.6.0-r0)
+Recommends: libc6-dev, update-alternatives-opkg-dev
+
+Package: findutils-doc
+Version: 4.6.0-r0
+Priority: optional
+Section: doc
+Filename: pool/main/f/findutils-doc/findutils-doc_4.6.0-r0_armhf.deb
+Size: 112156
+SHA256: 191ab58e04d9b1fefb2697be9c3755c47d3426ddb626a1df810524050933e6c8
+SHA1: ee7169140871b58b36879c64dda94a1f484f8de7
+MD5sum: b4be8b7c014990e830f00f6fe5608b39
+Description: find, locate, and xargs binaries - Documentation files
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+
+Package: findutils-locale-be
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-be/findutils-locale-be_4.6.0-r0_armhf.deb
+Size: 2126
+SHA256: 43c33346facb0e9530ede59a422ea5122de4f066d1bc3a7dd155c9cd3d3acfd0
+SHA1: 3154c4ff38c5407700f386641de2b59f4d7fd883
+MD5sum: 3fce2561078b60481da2948b44a25436
+Description: find, locate, and xargs binaries - be translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the be locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-be
+Provides: be-translation, findutils-locale
+
+Package: findutils-locale-bg
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-bg/findutils-locale-bg_4.6.0-r0_armhf.deb
+Size: 8928
+SHA256: 21935de8a7e7fa2364b548c25525e8f16b5503cc8a75cf60abcba833f02e05c0
+SHA1: 05d502ac02794af582518d564ef9367faa9b3160
+MD5sum: 15b778fb8573937b87b7a811adab5d19
+Description: find, locate, and xargs binaries - bg translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the bg locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-bg
+Provides: bg-translation, findutils-locale
+
+Package: findutils-locale-ca
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-ca/findutils-locale-ca_4.6.0-r0_armhf.deb
+Size: 4930
+SHA256: 14f72baea07b36a717f492ce9147604531858b7b81b102faacf97cf0e0021f3f
+SHA1: 541a1503160934e1d552e7c8c6cdcadad0c5bfd6
+MD5sum: d4a27e969029ceb03487093ee803a3d1
+Description: find, locate, and xargs binaries - ca translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the ca locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-ca
+Provides: ca-translation, findutils-locale
+
+Package: findutils-locale-cs
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-cs/findutils-locale-cs_4.6.0-r0_armhf.deb
+Size: 14990
+SHA256: e1eb15258d40aa4d27708379001c7a284bff16cbc9b7bfcce62341f3e7669037
+SHA1: e395cf5bbbe55c3dd8ca0745b0c0fb275c13dd55
+MD5sum: 7f8e557c2470b926c1add05b86d6bafd
+Description: find, locate, and xargs binaries - cs translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the cs locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-cs
+Provides: cs-translation, findutils-locale
+
+Package: findutils-locale-da
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-da/findutils-locale-da_4.6.0-r0_armhf.deb
+Size: 13998
+SHA256: 16bbef9dd643b43bd907998b430f864a58ae6e85587bde75cdf1c918d7b19cdd
+SHA1: 13b201ae9b2fba848f0e064efc5eedbc1a84ff32
+MD5sum: c5cb60d065c70c9f8d6a9e1a53a4e08e
+Description: find, locate, and xargs binaries - da translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the da locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-da
+Provides: da-translation, findutils-locale
+
+Package: findutils-locale-de
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-de/findutils-locale-de_4.6.0-r0_armhf.deb
+Size: 14382
+SHA256: dfc7cc4ddb949f8693514af3922a36bcef15ccdebfab97fdffd1b4029dcab1a9
+SHA1: 4d1f91d297cb00754c2c62f4dff7061c8fdb5c6e
+MD5sum: 458c5beeb49703fee39dbfd2dcbf0305
+Description: find, locate, and xargs binaries - de translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the de locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-de
+Provides: de-translation, findutils-locale
+
+Package: findutils-locale-el
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-el/findutils-locale-el_4.6.0-r0_armhf.deb
+Size: 14426
+SHA256: 3c48fe6310086313737ebde25c03652cda357b905c0f6cbc378458e72eb5f795
+SHA1: f7a6c960be342385084f42706729b17a76ad9a4f
+MD5sum: 1cff6d16ac6daa2a3285bee5fa199028
+Description: find, locate, and xargs binaries - el translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the el locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-el
+Provides: el-translation, findutils-locale
+
+Package: findutils-locale-eo
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-eo/findutils-locale-eo_4.6.0-r0_armhf.deb
+Size: 13742
+SHA256: ef1e5436e7dabdca28f25f85d917dbcdd5f509a13675987a33cfdbffe23c2a9d
+SHA1: 2fc60dfddbe2a619f00e8e247fe5a594022da504
+MD5sum: d2770122476a624b60c88f6e0e31a69e
+Description: find, locate, and xargs binaries - eo translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the eo locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-eo
+Provides: eo-translation, findutils-locale
+
+Package: findutils-locale-es
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-es/findutils-locale-es_4.6.0-r0_armhf.deb
+Size: 10462
+SHA256: 9a66532d628b57d63a32f65979443c661367829b03f7b53b7155786cd4dba030
+SHA1: 23c41e1cd0f00572bf5b38ddab0a30f443f0d82b
+MD5sum: 817d778e0e6547607ed2741da3fb53cc
+Description: find, locate, and xargs binaries - es translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the es locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-es
+Provides: es-translation, findutils-locale
+
+Package: findutils-locale-et
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-et/findutils-locale-et_4.6.0-r0_armhf.deb
+Size: 13666
+SHA256: 89e09529027001b558dbfc864746d9296474e6695feded09c887d9b1131805de
+SHA1: 3fdd77245ca2b4eba6a40c267d90f4e245a068a4
+MD5sum: 7a64bd243ed2589c221db284b01b285e
+Description: find, locate, and xargs binaries - et translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the et locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-et
+Provides: et-translation, findutils-locale
+
+Package: findutils-locale-fi
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-fi/findutils-locale-fi_4.6.0-r0_armhf.deb
+Size: 14246
+SHA256: 5b2a030fd9c1be21a2bd610012deb88299dd414359a4db9686c21fee049a7c59
+SHA1: 15ec1a2da78c087ad6888358a21e69a8fd11d2be
+MD5sum: dd86b08e0b9395f28a684437fc19f79d
+Description: find, locate, and xargs binaries - fi translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the fi locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-fi
+Provides: fi-translation, findutils-locale
+
+Package: findutils-locale-fr
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-fr/findutils-locale-fr_4.6.0-r0_armhf.deb
+Size: 14474
+SHA256: 214091336ec4b723457b6893b2cbea52469dd45a9f0c61e2cc47fab7b5218a07
+SHA1: 63a4dff49a8e55ee7d026a5297030eb7dc8670fe
+MD5sum: 8d849f1e201e07a63a2d8fb6264c879f
+Description: find, locate, and xargs binaries - fr translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the fr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-fr
+Provides: findutils-locale, fr-translation
+
+Package: findutils-locale-ga
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-ga/findutils-locale-ga_4.6.0-r0_armhf.deb
+Size: 9422
+SHA256: ae36118e7921dde97315f048c8044609a7e203eb2c25bca98cf27aad7ab7b5e1
+SHA1: 01bcc00ca7710be30017be56e86bbe1c38bb9c71
+MD5sum: b1b0b19552c70c896f1e16b8f6fc45b6
+Description: find, locate, and xargs binaries - ga translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the ga locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-ga
+Provides: findutils-locale, ga-translation
+
+Package: findutils-locale-gl
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-gl/findutils-locale-gl_4.6.0-r0_armhf.deb
+Size: 10058
+SHA256: 8eb471f6b9487cd8dff5aa790dded27705fd78a6d69b1cc275efbd03314266a9
+SHA1: ed42f22ced34aba908f5c74edcf962b56cc01e89
+MD5sum: c7b10370e25ce36ce133fbac59db9523
+Description: find, locate, and xargs binaries - gl translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the gl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-gl
+Provides: findutils-locale, gl-translation
+
+Package: findutils-locale-hr
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-hr/findutils-locale-hr_4.6.0-r0_armhf.deb
+Size: 10878
+SHA256: fdcccd1f5d326c17c2200e09ddbbf86890d4c36137ec5146aa61fc2332051499
+SHA1: 545ef1d306843301d9e0ae6a0035fe2de518b832
+MD5sum: 29018abc649e09dee9309c43f2dd6401
+Description: find, locate, and xargs binaries - hr translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the hr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-hr
+Provides: findutils-locale, hr-translation
+
+Package: findutils-locale-hu
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-hu/findutils-locale-hu_4.6.0-r0_armhf.deb
+Size: 14758
+SHA256: c6f5cd168db8ab32b3994de5d84831c9c9109d8d2165d38e64b04e61e0aec5de
+SHA1: 879daf788e3f0cfb55fe512f38f5ae7e548b4ff0
+MD5sum: 58585c79411c4f6f0b8288a31af3aef3
+Description: find, locate, and xargs binaries - hu translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the hu locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-hu
+Provides: findutils-locale, hu-translation
+
+Package: findutils-locale-id
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-id/findutils-locale-id_4.6.0-r0_armhf.deb
+Size: 8862
+SHA256: 6d7b1fb140756c56f104b8f0b3cafbf27feb54630b73b7607b70c07ad90b8c2e
+SHA1: 5f8df9dce04d0f69a024062658fe16fd89d029db
+MD5sum: f5c33337941254ea5cb29badbfdf9e25
+Description: find, locate, and xargs binaries - id translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the id locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-id
+Provides: findutils-locale, id-translation
+
+Package: findutils-locale-it
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-it/findutils-locale-it_4.6.0-r0_armhf.deb
+Size: 13294
+SHA256: f33d7f501de00b5037013f82a74b363d35ce65775f95b0847e352518178e3f6e
+SHA1: f5ca5773131c75597b3dd40a63f4bd25f9de4af1
+MD5sum: 61f06ab834d2665c7e0bc9748d889a66
+Description: find, locate, and xargs binaries - it translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the it locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-it
+Provides: findutils-locale, it-translation
+
+Package: findutils-locale-ja
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-ja/findutils-locale-ja_4.6.0-r0_armhf.deb
+Size: 11186
+SHA256: 856fedbc29a96dad810d1551f0cbd6c2fa28c9c7785b5624cd591230f0bbae4a
+SHA1: 04872bbbc3d531b121efe34ba8f33b4248cd41f1
+MD5sum: c6b861faf294c35bdd94193382c7a3c1
+Description: find, locate, and xargs binaries - ja translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the ja locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-ja
+Provides: findutils-locale, ja-translation
+
+Package: findutils-locale-ko
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-ko/findutils-locale-ko_4.6.0-r0_armhf.deb
+Size: 2054
+SHA256: d6d83432ee501c01570cf4f3c038b56f6ebf983655e0a8e9d2335135023d3169
+SHA1: 0a98787fcd47a631fedd5e842b2e270f7c1ac038
+MD5sum: 1276fdba470e3042f2b719ee350f1777
+Description: find, locate, and xargs binaries - ko translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the ko locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-ko
+Provides: findutils-locale, ko-translation
+
+Package: findutils-locale-lg
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-lg/findutils-locale-lg_4.6.0-r0_armhf.deb
+Size: 2294
+SHA256: e0a944a760ecab9dd1d08ba288ef22e022b69f31c0894c945990a563ddafbfcb
+SHA1: 1c806467b5ae09a742e2a76fb98b72f9e90aeaef
+MD5sum: 02c30e112f9129acc58fb15676221f0d
+Description: find, locate, and xargs binaries - lg translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the lg locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-lg
+Provides: findutils-locale, lg-translation
+
+Package: findutils-locale-lt
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-lt/findutils-locale-lt_4.6.0-r0_armhf.deb
+Size: 3978
+SHA256: 88150636e6e41a18f50222d97eb6131183523c348f93e19aa93834be38368f2a
+SHA1: 09d130da31c7894a317b4ff9fcc2d26e4a00a224
+MD5sum: 00c0edcf8ce9c463d7bedcac9ee6ac00
+Description: find, locate, and xargs binaries - lt translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the lt locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-lt
+Provides: findutils-locale, lt-translation
+
+Package: findutils-locale-ms
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-ms/findutils-locale-ms_4.6.0-r0_armhf.deb
+Size: 1786
+SHA256: 6a5f9e183f9aa8f7ea17def842fea6a270b691e547955eaa44d353653382a009
+SHA1: c4feb8bef38d01451218ecaf0baaa9ca29672dfe
+MD5sum: 432b22ef813e3208134b328d27cf0b58
+Description: find, locate, and xargs binaries - ms translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the ms locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-ms
+Provides: findutils-locale, ms-translation
+
+Package: findutils-locale-nb
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-nb/findutils-locale-nb_4.6.0-r0_armhf.deb
+Size: 14030
+SHA256: 097fb17286cd45821739015172c529c12fa2f45b5b707220630970e9b27a3f76
+SHA1: cfef6cbfc84fe61662b3e7e2e54db5de12003bb0
+MD5sum: 97cc6d1a96aa7254081997b03c15433d
+Description: find, locate, and xargs binaries - nb translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the nb locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-nb
+Provides: findutils-locale, nb-translation
+
+Package: findutils-locale-nl
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-nl/findutils-locale-nl_4.6.0-r0_armhf.deb
+Size: 14094
+SHA256: a23759e3c2bc6018f6ebc2ed31c3c72ae4e1ff6adca088926e88df5a37700802
+SHA1: b63a5d9164a0460256a161b74178170e49239ad2
+MD5sum: 656a5c7e058a3ad43c4ba919f16bd890
+Description: find, locate, and xargs binaries - nl translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the nl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-nl
+Provides: findutils-locale, nl-translation
+
+Package: findutils-locale-pl
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-pl/findutils-locale-pl_4.6.0-r0_armhf.deb
+Size: 14498
+SHA256: 294d37d165fd0befaac6ba3bc0cb0e88929ff2c2244afe453939ee411ce61da9
+SHA1: e92f9a1527db1a8e2f73ec3cced6012dffc1b6b4
+MD5sum: bbf619322a80974dab7d982eafc9ade3
+Description: find, locate, and xargs binaries - pl translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the pl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-pl
+Provides: findutils-locale, pl-translation
+
+Package: findutils-locale-pt
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-pt/findutils-locale-pt_4.6.0-r0_armhf.deb
+Size: 7594
+SHA256: 902e6d7489ff67d5873eec204c01ed9eeaed4021a5b6cc88d9d11e3f1e97c98b
+SHA1: 08a67a7d6f37f30a2bfd278301b76d3214479bb1
+MD5sum: e5b5349b7af1b981d3e694c18336ee9f
+Description: find, locate, and xargs binaries - pt translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the pt locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-pt
+Provides: findutils-locale, pt-translation
+
+Package: findutils-locale-pt-br
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-pt-br/findutils-locale-pt-br_4.6.0-r0_armhf.deb
+Size: 14120
+SHA256: a1c79b102ac70f336aa5f710a9d109ae85b08b64db2fc483ff94497c19ec4e2b
+SHA1: ddc9a2da2af03c024b89b7becc33aaf8939ed6af
+MD5sum: 83153f48c0cbc60b5fa3ed6f36894c64
+Description: find, locate, and xargs binaries - pt_BR translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the pt_BR locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-pt-br
+Provides: findutils-locale, pt-br-translation
+
+Package: findutils-locale-ro
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-ro/findutils-locale-ro_4.6.0-r0_armhf.deb
+Size: 4594
+SHA256: 91763586f20cc01dddfb705f12ada2ba75c153167d0ed8e4bc58604483066e59
+SHA1: d8743f316d2727addfa60aae0be72b255c32dc46
+MD5sum: 5517182fd6d9c5967f7ed2ca62ef8cac
+Description: find, locate, and xargs binaries - ro translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the ro locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-ro
+Provides: findutils-locale, ro-translation
+
+Package: findutils-locale-ru
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-ru/findutils-locale-ru_4.6.0-r0_armhf.deb
+Size: 15486
+SHA256: 798966189af8dc528b7cb546d305a9f9cf5102c3c88a63fab6bb8f4f6c619e0a
+SHA1: 91cde7530a104b4d02fe0e5ca90af8fc5a26cb88
+MD5sum: 43fb44700aa086ee61c10135d115245b
+Description: find, locate, and xargs binaries - ru translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the ru locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-ru
+Provides: findutils-locale, ru-translation
+
+Package: findutils-locale-rw
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-rw/findutils-locale-rw_4.6.0-r0_armhf.deb
+Size: 1366
+SHA256: 44133d5e1edad74a4f4cc85221302adf13c8cc5790a61e86cc535452f2a95af2
+SHA1: c830c7192de34341614d871c0d6822bfb4609f8b
+MD5sum: 4455012139c3561fd179297a0d4d226d
+Description: find, locate, and xargs binaries - rw translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the rw locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-rw
+Provides: findutils-locale, rw-translation
+
+Package: findutils-locale-sk
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-sk/findutils-locale-sk_4.6.0-r0_armhf.deb
+Size: 4828
+SHA256: c4e50251a58b97658086e1b8c3bc94544f1c38638e3becf34261c5e6e655e3fe
+SHA1: 1ff8b28a4a0fa3b9770acde3875252e6783def5c
+MD5sum: ff16586d911045b0bcf894a3538bce82
+Description: find, locate, and xargs binaries - sk translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the sk locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-sk
+Provides: findutils-locale, sk-translation
+
+Package: findutils-locale-sl
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-sl/findutils-locale-sl_4.6.0-r0_armhf.deb
+Size: 14386
+SHA256: 58d927f17b4cd6de903b2f96e870b338eb3a21aaddefc08b81f6a672aed4db7c
+SHA1: b2b60a2b255ac0f7ed9d606ed64b769cb739fbfb
+MD5sum: 80a93de845d8404208328a34c22cec94
+Description: find, locate, and xargs binaries - sl translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the sl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-sl
+Provides: findutils-locale, sl-translation
+
+Package: findutils-locale-sr
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-sr/findutils-locale-sr_4.6.0-r0_armhf.deb
+Size: 15630
+SHA256: eda69a95dc808e4e6a3a2d5949fbc3b27e141c9ccf3cc809f4f2ab2bb30d861f
+SHA1: 43dee0d1f3d087e59bbb2097e19112765bb5f002
+MD5sum: 7e4725a27433ee69d16ff46add0d2421
+Description: find, locate, and xargs binaries - sr translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the sr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-sr
+Provides: findutils-locale, sr-translation
+
+Package: findutils-locale-sv
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-sv/findutils-locale-sv_4.6.0-r0_armhf.deb
+Size: 14082
+SHA256: 4e4e6146292085a46a18d381e2aae6b11095659980c0a38112cd7ab58a144353
+SHA1: d7ea96725a0b4f3a7f603cd543d9c88b16a1bb20
+MD5sum: 7962051f2e969068ee1349268d50c63e
+Description: find, locate, and xargs binaries - sv translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the sv locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-sv
+Provides: findutils-locale, sv-translation
+
+Package: findutils-locale-tr
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-tr/findutils-locale-tr_4.6.0-r0_armhf.deb
+Size: 13882
+SHA256: 948cb2ba0402340a326b5865f4086b7778c31a2935215728b93853249166ccc0
+SHA1: 9bb712bf829ba2f16d829999c2f70dbc8514fafb
+MD5sum: 5e6b0fe1687e30743622a31053733ed4
+Description: find, locate, and xargs binaries - tr translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the tr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-tr
+Provides: findutils-locale, tr-translation
+
+Package: findutils-locale-uk
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-uk/findutils-locale-uk_4.6.0-r0_armhf.deb
+Size: 15580
+SHA256: 22c7314d0f18e152fd34decb40b13ffbe08697e289f9a717c3ac1948762082de
+SHA1: 9e1f91322b08268fda2a7b5f5ca875d15d119102
+MD5sum: 20801a638fe2fe83a3a5b88d728fb929
+Description: find, locate, and xargs binaries - uk translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the uk locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-uk
+Provides: findutils-locale, uk-translation
+
+Package: findutils-locale-vi
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-vi/findutils-locale-vi_4.6.0-r0_armhf.deb
+Size: 14742
+SHA256: ae049d6e3203bfea073d68cb2b58e5a2d0ce9121b16bf599871eaa6dabd0c79e
+SHA1: b27bf8e9f8d3a1974339e298866cedaf0c7c8d4d
+MD5sum: dad46a61c88e3c11dd76dd831182f63b
+Description: find, locate, and xargs binaries - vi translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the vi locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-vi
+Provides: findutils-locale, vi-translation
+
+Package: findutils-locale-zh-cn
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-zh-cn/findutils-locale-zh-cn_4.6.0-r0_armhf.deb
+Size: 11658
+SHA256: f1229454662be2cf52e6b96d360b1b23a96f1a3c958e407e587849fa8281cb7b
+SHA1: 36617611d4f16f060370303954f10d0ef3bf964f
+MD5sum: 76370a153a0f665ce190375b771b0d2f
+Description: find, locate, and xargs binaries - zh_CN translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the zh_CN locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-zh-cn
+Provides: findutils-locale, zh-cn-translation
+
+Package: findutils-locale-zh-tw
+Version: 4.6.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/f/findutils-locale-zh-tw/findutils-locale-zh-tw_4.6.0-r0_armhf.deb
+Size: 4370
+SHA256: 2be68daf2f7df4dd6c8dc621d866fa22690f3017b7ff60e8a4cd534b04b534e6
+SHA1: e573ab6318155f984972a290b595c80cc5f99c30
+MD5sum: b0cc17ef2d3c069cd818619a4dddec06
+Description: find, locate, and xargs binaries - zh_TW translations
+ The GNU Find Utilities are the basic directory searching utilities of the
+ GNU operating system. These programs are typically used in conjunction
+ with other programs to provide modular and powerful directory search and
+ file locating capabilities to other commands.  This package contains
+ language translation files for the zh_TW locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: findutils
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/findutils/
+Recommends: virtual-locale-zh-tw
+Provides: findutils-locale, zh-tw-translation
+
 Package: flex
 Version: 2.6.0-r0
 Priority: optional
@@ -6443,6 +7429,115 @@ Architecture: armhf
 OE: gettext
 PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://www.gnu.org/software/gettext/gettext.html
+
+Package: git
+Version: 2.9.3-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/g/git/git_2.9.3-r0_armhf.deb
+Size: 1544220
+SHA256: 294f503e2d61781ae62ea1657b765328f5e25f25c291bd37ab7b3696026c7c2e
+SHA1: c06eb979e4ec40f4309939af4faa1f0aad1f5532
+MD5sum: d0e759d7d3209370a7a382390cd53eeb
+Description: Distributed version control system
+ Distributed version control system.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: git
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://git-scm.com
+Depends: libc6 (>= 2.24), libcrypto1.0.0 (>= 1.0.2j), libcurl4 (>= 7.50.1), libexpat1 (>= 2.2.0), libssl1.0.0 (>= 1.0.2j), libz1 (>= 1.2.8)
+
+Package: git-bash-completion
+Version: 2.9.3-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/g/git-bash-completion/git-bash-completion_2.9.3-r0_armhf.deb
+Size: 15930
+SHA256: d806a1181ed6c070a6dd39a3a340923c4bf54b513f9b031c27011d17264515df
+SHA1: 4e3ce5322bf68f548c1cee50e20d4912c2a64f3c
+MD5sum: 918f4e3c9464b2ae4ba134a33a87ac86
+Description: Distributed version control system
+ Distributed version control system.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: git
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://git-scm.com
+Depends: bash-completion
+
+Package: git-dev
+Version: 2.9.3-r0
+Priority: optional
+Section: devel
+Filename: pool/main/g/git-dev/git-dev_2.9.3-r0_armhf.deb
+Size: 842
+SHA256: a524a60c3a6bbab1b4a7f1e34a1fb8cadd1465c69a712d1175023eaa48eea8f9
+SHA1: eb50ae3e45548adcf0fd363a71a97a7019a19a65
+MD5sum: c9caf2a51229c7173f868c5c9c09fb53
+Description: Distributed version control system - Development files
+ Distributed version control system.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: git
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://git-scm.com
+Depends: git (= 2.9.3-r0)
+Recommends: bash-completion-dev, curl-dev, findutils-dev, libc6-dev, libcrypto-dev, libcurl-dev, libexpat-dev, libssl-dev, libz-dev, openssl-dev, perl-dev, perl-module-file-path-dev
+
+Package: git-doc
+Version: 2.9.3-r0
+Priority: optional
+Section: doc
+Filename: pool/main/g/git-doc/git-doc_2.9.3-r0_armhf.deb
+Size: 406324
+SHA256: 1a8c58c18cbbf4d0a405481d05a3b66807a53eb2eec20ef95e33066814566c8c
+SHA1: fc16c36be8d50727fce5fd5f252ac289f1f631f2
+MD5sum: ff679c4a832d54f7d6e069b87686d9f3
+Description: Distributed version control system - Documentation files
+ Distributed version control system.  This package contains documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: git
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://git-scm.com
+
+Package: git-perltools
+Version: 2.9.3-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/g/git-perltools/git-perltools_2.9.3-r0_armhf.deb
+Size: 786134
+SHA256: 344f958c810fdf23d5819db7489752b563de16171ad73ad3a9ac9a4aa70d3456
+SHA1: 52f6174f9b2de5a1b3b7bcece0d36a6314edc632
+MD5sum: 7528443ad35217ed71e2f96d245ec9e6
+Description: Distributed version control system
+ Distributed version control system.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: git
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://git-scm.com
+Depends: findutils, git, libc6 (>= 2.24), libcrypto1.0.0 (>= 1.0.2j), libz1 (>= 1.2.8), perl, perl-module-file-path
+
+Package: gitweb
+Version: 2.9.3-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/g/gitweb/gitweb_2.9.3-r0_armhf.deb
+Size: 74982
+SHA256: a563e6224846d97cc815c47d11104c49936e1012936353d505cf3ef08b1db510
+SHA1: 079c921d3ea0fd749eb8987c1b2c6747a4b20703
+MD5sum: 5b3d2c0b78073187255fc4f2ce164119
+Description: Distributed version control system
+ Distributed version control system.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: git
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://git-scm.com
 
 Package: glibc-binaries
 Version: 2.24-r0
@@ -61872,6 +62967,89 @@ Homepage: http://www.gnu.org/software/ncurses/ncurses.html
 Depends: libc6 (>= 2.24), libncursesw5 (>= 6.0+20160625), libtinfo5 (>= 6.0+20160625)
 Provides: ncurses-libpanelw
 
+Package: libpcap-dev
+Version: 1.7.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libp/libpcap-dev/libpcap-dev_1.7.4-r0_armhf.deb
+Size: 24656
+SHA256: ac5fdffa0386d8b446431fd138080a21aa042a8a201a6d58d574f77880181d86
+SHA1: 9cba65daaa3a052d5515979e4730a28c64b048b7
+MD5sum: b9374c9d6c2a4261f81796cf8b00019b
+Description: Interface for user-level network packet capture - Development files
+ Libpcap provides a portable framework for low-level network monitoring.
+ Libpcap can provide network statistics collection, security monitoring
+ and network debugging.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: libpcap
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+Depends: libpcap1 (= 1.7.4-r0)
+Recommends: libc6-dev
+
+Package: libpcap-doc
+Version: 1.7.4-r0
+Priority: optional
+Section: doc
+Filename: pool/main/libp/libpcap-doc/libpcap-doc_1.7.4-r0_armhf.deb
+Size: 33550
+SHA256: 8585e827c1eed0e81a1f6c358da5ef5ae40f1ab35ad195e009bb7fe861e3a341
+SHA1: 99a402dcb35b2f8c2abc6a05edbbfdfdbdf7ed31
+MD5sum: 83b51ef6c8b23b2031e78786aeb3bc6f
+Description: Interface for user-level network packet capture - Documentation files
+ Libpcap provides a portable framework for low-level network monitoring.
+ Libpcap can provide network statistics collection, security monitoring
+ and network debugging.  This package contains documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: libpcap
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+
+Package: libpcap-staticdev
+Version: 1.7.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/libp/libpcap-staticdev/libpcap-staticdev_1.7.4-r0_armhf.deb
+Size: 279618
+SHA256: 9ca430c39abc14c7e4c963387387c46c8ffe5bf2751d812a5e77b7565e2a2bed
+SHA1: 86dfeab767604f57826c6ff22c4fb02ef857c4fa
+MD5sum: 120dafe0f325c0936929c709f28f322a
+Description: Interface for user-level network packet capture - Development files (Static Libraries)
+ Libpcap provides a portable framework for low-level network monitoring.
+ Libpcap can provide network statistics collection, security monitoring
+ and network debugging.  This package contains static libraries for
+ software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: libpcap
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+Depends: libpcap-dev (= 1.7.4-r0)
+
+Package: libpcap1
+Version: 1.7.4-r0
+Priority: optional
+Section: libs/network
+Filename: pool/main/libp/libpcap1/libpcap1_1.7.4-r0_armhf.deb
+Size: 82344
+SHA256: dc34c93b847caeb82e4377bb6a46201e67cfe05eb3f3581b1b19b8a291062630
+SHA1: ba49712d5b58c131dfcde84da439e4d37915c8d4
+MD5sum: 202091662b8975681d4f2394c146d6b5
+Description: Interface for user-level network packet capture
+ Libpcap provides a portable framework for low-level network monitoring.
+ Libpcap can provide network statistics collection, security monitoring
+ and network debugging.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: libpcap
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+Depends: libc6 (>= 2.24)
+Provides: libpcap
+
 Package: libpcre-dev
 Version: 8.39-r0
 Priority: optional
@@ -73180,6 +74358,1153 @@ Homepage: http://www.gnu.org/software/make/
 Recommends: virtual-locale-zh-cn
 Provides: make-locale, zh-cn-translation
 
+Package: mc
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc/mc_4.8.17-r0_armhf.deb
+Size: 690764
+SHA256: e95d7eeb7a7dbbd7f34244432045eef86330c9a0c49ecaecf449184424782d62
+SHA1: aad1592e7c0f2afb6f4d15b4f43eca7ab654df5d
+MD5sum: a2b37c389400dab86b737039f5fc4330
+Description: Midnight Commander is an ncurses based file manager
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Depends: libc6 (>= 2.24), libglib-2.0-0 (>= 2.48.2), libncursesw5 (>= 6.0+20160625), libtinfo5 (>= 6.0+20160625), ncurses-terminfo
+
+Package: mc-dev
+Version: 4.8.17-r0
+Priority: optional
+Section: devel
+Filename: pool/main/m/mc-dev/mc-dev_4.8.17-r0_armhf.deb
+Size: 848
+SHA256: 391ca769c3e9083a38fb067ee98e1abcdaebe59f6e3fc8a8007162e5230a09c7
+SHA1: 210a70cb5ccdcca4813df7d9e378a3f36b33caee
+MD5sum: 4f822241296aa12f03fd5689491eb3a4
+Description: Midnight Commander is an ncurses based file manager - Development files
+ Midnight Commander is an ncurses based file manager.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Depends: mc (= 4.8.17-r0)
+Recommends: libc6-dev, libglib-2.0-dev, ncurses-dev, ncurses-libncursesw-dev, ncurses-libtinfo-dev, ncurses-terminfo-dev, perl-dev, python-dev, util-linux-dev
+
+Package: mc-doc
+Version: 4.8.17-r0
+Priority: optional
+Section: doc
+Filename: pool/main/m/mc-doc/mc-doc_4.8.17-r0_armhf.deb
+Size: 248472
+SHA256: 5d41d02ee27c3010338986b76ff15a295dd160c8fc204f1e9a496e943e9ebb2a
+SHA1: f71f0bf6d0e7f370a15dcfa889a266a5279f3018
+MD5sum: 4ca64b1518b9675d13f891dabd666162
+Description: Midnight Commander is an ncurses based file manager - Documentation files
+ Midnight Commander is an ncurses based file manager.  This package
+ contains documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+
+Package: mc-fish
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-fish/mc-fish_4.8.17-r0_armhf.deb
+Size: 6076
+SHA256: 5d20f82107993ed13ca9611e0c4fc243ae1c1fd4562f6058fd08e765000e337e
+SHA1: 909d3ed9385a849af760a3d06620448505b9746f
+MD5sum: d2c12494535c6e0d2a1d247270f809e3
+Description: Midnight Commander Fish scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+
+Package: mc-helpers
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-helpers/mc-helpers_4.8.17-r0_armhf.deb
+Size: 22186
+SHA256: 8ea39f7f0d1f863e97ad3eba6a6bda4bc6b0e81de2a136ac0ac64b4de3ce2b02
+SHA1: 4ba15dddb10aab64c2eb972a23d9d41bedfe5eaa
+MD5sum: ee82c7157b0622f6dccd658e9b6ae809
+Description: Midnight Commander shell helper scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+
+Package: mc-helpers-perl
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-helpers-perl/mc-helpers-perl_4.8.17-r0_armhf.deb
+Size: 18074
+SHA256: ffff5ac31e6368417577ed24d0424d297a3ad74213198d82a837254dc8077241
+SHA1: 3782b4fbdb6ce3932692052a8be45d89634a088c
+MD5sum: 696e41f0e8270d9bc0f6c3486a10c7ef
+Description: Midnight Commander Perl-based helper scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Depends: perl
+
+Package: mc-helpers-python
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-helpers-python/mc-helpers-python_4.8.17-r0_armhf.deb
+Size: 10522
+SHA256: d0e30fa50a03ca43ccdd22d413cf162f4ccfdd1a927ef8b203b1babbe90b0fe5
+SHA1: 0e6c31e3255c17a3060cb62fb8cca2c758bc8a04
+MD5sum: 961dccdc2a8c8c9f1a21ee8d66931d74
+Description: Midnight Commander Python-based helper scripts
+ Midnight Commander is an ncurses based file manager.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Depends: python
+
+Package: mc-locale-az
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-az/mc-locale-az_4.8.17-r0_armhf.deb
+Size: 8914
+SHA256: 1f7af0f35e020aaefa184b52bb666f27f7ee3caad10993a3a9ffd7183f77f313
+SHA1: e66dbd14d188497e6df77d4a589d930a4f38b714
+MD5sum: c104e42a93fb0b068aa733b7861e6cac
+Description: Midnight Commander is an ncurses based file manager - az translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the az locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-az
+Provides: az-translation, mc-locale
+
+Package: mc-locale-be
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-be/mc-locale-be_4.8.17-r0_armhf.deb
+Size: 27408
+SHA256: dfd175310a7aaa7b1256919636ed014b909779c0d02013e9e4f2e7c62e6d408c
+SHA1: c7730b191dbe305e20d23e1d52bf9f24e6e3706a
+MD5sum: 0d6be92bef2ef4c8c6606059adffef83
+Description: Midnight Commander is an ncurses based file manager - be translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the be locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-be
+Provides: be-translation, mc-locale
+
+Package: mc-locale-bg
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-bg/mc-locale-bg_4.8.17-r0_armhf.deb
+Size: 28610
+SHA256: 2cfdb9e21ef144c2575c7a5b0911e96d76aa37b430264f083355f7be7a5b39db
+SHA1: cebd47c1c8f28057ef00330a8627b803243ea3e8
+MD5sum: c703ec9e8e4de43db9c1c18029f485ea
+Description: Midnight Commander is an ncurses based file manager - bg translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the bg locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-bg
+Provides: bg-translation, mc-locale
+
+Package: mc-locale-ca
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ca/mc-locale-ca_4.8.17-r0_armhf.deb
+Size: 16348
+SHA256: 29ff3580684fd705abd4012b03da80b49ee0034cdf23fc1388d92d4ce4c257c4
+SHA1: 2ffed6253df4cccb8e489d4e5b9037dc24e360f0
+MD5sum: 3d018ce62f90ae2ecb803ca4b4b2f614
+Description: Midnight Commander is an ncurses based file manager - ca translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ca locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ca
+Provides: ca-translation, mc-locale
+
+Package: mc-locale-cs
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-cs/mc-locale-cs_4.8.17-r0_armhf.deb
+Size: 23488
+SHA256: 1fdfb01299cdd0da50be9d8738fb136fdde010b00756807216a77c9c24460483
+SHA1: fba8284e15ebc0ad0ead709b9a198f66a753feeb
+MD5sum: c6b29ec397f9ac068abf8bd2b205158e
+Description: Midnight Commander is an ncurses based file manager - cs translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the cs locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-cs
+Provides: cs-translation, mc-locale
+
+Package: mc-locale-da
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-da/mc-locale-da_4.8.17-r0_armhf.deb
+Size: 22518
+SHA256: 4dcd030025ee9ba37c04f1d930d9aaf342d5c6c42e11c710198fc87b48a651ab
+SHA1: 79a7fe4a4549886baa7e60c6cf0c513cb6e43614
+MD5sum: de54577864daa991635f7ac8394e77d8
+Description: Midnight Commander is an ncurses based file manager - da translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the da locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-da
+Provides: da-translation, mc-locale
+
+Package: mc-locale-de
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-de/mc-locale-de_4.8.17-r0_armhf.deb
+Size: 27588
+SHA256: 354e927f858f52c7757e2eb0f5f4ed7602091cb41a1d1af5f4de118a4f18f813
+SHA1: 1cba41184bccd32c112279c977b75bb4da67c5b4
+MD5sum: e57b261aeb854b496b25d33c066eefc2
+Description: Midnight Commander is an ncurses based file manager - de translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the de locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-de
+Provides: de-translation, mc-locale
+
+Package: mc-locale-de-ch
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-de-ch/mc-locale-de-ch_4.8.17-r0_armhf.deb
+Size: 1252
+SHA256: 9be9a28f6ec55a72f1518b649f844c4420e241ce89c2facafea1c5cf5379b459
+SHA1: d1c474a1bb0b89fee7c190c8d9d3574f6e1e92a3
+MD5sum: 2eb70a7dfde1fffb91b31deecfc5085b
+Description: Midnight Commander is an ncurses based file manager - de_CH translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the de_CH locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-de-ch
+Provides: de-ch-translation, mc-locale
+
+Package: mc-locale-el
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-el/mc-locale-el_4.8.17-r0_armhf.deb
+Size: 18272
+SHA256: cb7ef2f753e02dd12f04057f31a25fbf2274d305ab1bf4696bae94e331127c7f
+SHA1: f4af9f20123c37ee78c6b29053fc65e328d679d1
+MD5sum: 29166ed91a6c7e4fe3f0bf6afd13703c
+Description: Midnight Commander is an ncurses based file manager - el translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the el locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-el
+Provides: el-translation, mc-locale
+
+Package: mc-locale-en-gb
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-en-gb/mc-locale-en-gb_4.8.17-r0_armhf.deb
+Size: 1406
+SHA256: 90e1cdfca67e6e9b1343bfee2a1f94e1c1bf3b64c34a5da5434ca9cb55d66b18
+SHA1: 830643a25241d50ea74d8dfe82ecff162d0eac1f
+MD5sum: d56dca10eeb81aef51140307363b7f95
+Description: Midnight Commander is an ncurses based file manager - en_GB translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the en_GB locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-en-gb
+Provides: en-gb-translation, mc-locale
+
+Package: mc-locale-eo
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-eo/mc-locale-eo_4.8.17-r0_armhf.deb
+Size: 27268
+SHA256: 7107f7e02479bb5f506d39cb2382951a6371d66b701eacda290bdf8b8bc1aac3
+SHA1: fb8cadd6bb506a9f972b32a0f40ea21eb9387f55
+MD5sum: 8da2f303770b2f49b8d1acaaf416226c
+Description: Midnight Commander is an ncurses based file manager - eo translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the eo locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-eo
+Provides: eo-translation, mc-locale
+
+Package: mc-locale-es
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-es/mc-locale-es_4.8.17-r0_armhf.deb
+Size: 27436
+SHA256: d609f90022c2f56c950c484e9990fa7dc28b3fd6f95b91309f349277c5e5ffd9
+SHA1: c3e2562e8ab2b82dc721a73f3ffe0b3e1307aa7d
+MD5sum: 3ce7f62f382d0d7b1cf9d2bd1096bb18
+Description: Midnight Commander is an ncurses based file manager - es translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the es locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-es
+Provides: es-translation, mc-locale
+
+Package: mc-locale-et
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-et/mc-locale-et_4.8.17-r0_armhf.deb
+Size: 27278
+SHA256: 974a9cb049871edeac01eaeacd36b584ec214210597fe7d8e1ca923088a4e90a
+SHA1: 2f29f688b4106642506c32abf11452f3f64ee5d3
+MD5sum: 07707a75ceddf4d606388aeb59e28ebc
+Description: Midnight Commander is an ncurses based file manager - et translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the et locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-et
+Provides: et-translation, mc-locale
+
+Package: mc-locale-eu
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-eu/mc-locale-eu_4.8.17-r0_armhf.deb
+Size: 27376
+SHA256: e0c876a9d56deee3380ffb65e3de43b19016d93274b79b789aa661088e55e945
+SHA1: 2030efc6805c480fcb773a9147cd3ef36b060ce6
+MD5sum: 9fdd5e690e7de965ec289d9cc4b8d7cd
+Description: Midnight Commander is an ncurses based file manager - eu translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the eu locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-eu
+Provides: eu-translation, mc-locale
+
+Package: mc-locale-fa
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-fa/mc-locale-fa_4.8.17-r0_armhf.deb
+Size: 6872
+SHA256: a378c11acd06067f8b5fedbf9a2b900ff6057ed3e19909aa39acb49bf11af667
+SHA1: 23e5a831b8e1e7064c6b522ccb26e027e26b6e93
+MD5sum: 527fb5539c0c74ded4f031c82961af2b
+Description: Midnight Commander is an ncurses based file manager - fa translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the fa locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-fa
+Provides: fa-translation, mc-locale
+
+Package: mc-locale-fi
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-fi/mc-locale-fi_4.8.17-r0_armhf.deb
+Size: 6652
+SHA256: 894f4364e0421d3703d31675700974b38ff79782c4db123d6f653de4590fa06b
+SHA1: 66ee9884720911a5faa7d52204bffffda79fb7e3
+MD5sum: a53213f582c8882cc73698534bbe13a6
+Description: Midnight Commander is an ncurses based file manager - fi translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the fi locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-fi
+Provides: fi-translation, mc-locale
+
+Package: mc-locale-fr
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-fr/mc-locale-fr_4.8.17-r0_armhf.deb
+Size: 22864
+SHA256: 4da265ae6dea465b8749610e3982d2eb8641f0f8ede1de762476df0c995b0e3d
+SHA1: 2e95b037e6660be5908d89f6b892485c53b24290
+MD5sum: a98d1c98208254ebbd99c7e67fdaffda
+Description: Midnight Commander is an ncurses based file manager - fr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the fr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-fr
+Provides: fr-translation, mc-locale
+
+Package: mc-locale-fr-ca
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-fr-ca/mc-locale-fr-ca_4.8.17-r0_armhf.deb
+Size: 1246
+SHA256: 1facf303798c6793cb318401224eb5a9b320e200d7a24afc3bccb308fca98384
+SHA1: 6e87aa3620943b14eb139d90a155af48f5261f23
+MD5sum: 6ef8c1e27ea3cd40ca175b68f7600192
+Description: Midnight Commander is an ncurses based file manager - fr_CA translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the fr_CA locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-fr-ca
+Provides: fr-ca-translation, mc-locale
+
+Package: mc-locale-gl
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-gl/mc-locale-gl_4.8.17-r0_armhf.deb
+Size: 27794
+SHA256: b4291cf14c81e2f3c672b5e26505cb1ae9888ed7ef533d17c4eba46f0b4f14f1
+SHA1: f1a01b71d84516b5f00316d5e2d2596f98722dd9
+MD5sum: 085b9d5899f067b32d7e59fc8f150344
+Description: Midnight Commander is an ncurses based file manager - gl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the gl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-gl
+Provides: gl-translation, mc-locale
+
+Package: mc-locale-hr
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-hr/mc-locale-hr_4.8.17-r0_armhf.deb
+Size: 1264
+SHA256: c3cf4644ce53e2dba0d26bea4ec31f6445df987b56f815cca81ca1c635827252
+SHA1: b31242a6826fa58f8fea574e1250dbe9b4a4ce1e
+MD5sum: 60a78baca0898eff6bf783248cac8649
+Description: Midnight Commander is an ncurses based file manager - hr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the hr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-hr
+Provides: hr-translation, mc-locale
+
+Package: mc-locale-hu
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-hu/mc-locale-hu_4.8.17-r0_armhf.deb
+Size: 27890
+SHA256: da2b7a0eeb9785d0d636ebe0779fba7b74394d9b1ea4d4d67231d008abb04b66
+SHA1: bef22838b28002a3935d3050baf5f899a794008c
+MD5sum: a9d7235706bdb5af4bb73992d3b28aba
+Description: Midnight Commander is an ncurses based file manager - hu translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the hu locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-hu
+Provides: hu-translation, mc-locale
+
+Package: mc-locale-ia
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ia/mc-locale-ia_4.8.17-r0_armhf.deb
+Size: 10380
+SHA256: 2af3168a7ad93ee01645f0d606b03313817ea881aa887d723fef2b9bbe6e6e3f
+SHA1: a15a3c6b3fbbf37c9edb0ca39592bd433a8a6452
+MD5sum: cf8d45e8af0f7269b805744c014608e7
+Description: Midnight Commander is an ncurses based file manager - ia translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ia locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ia
+Provides: ia-translation, mc-locale
+
+Package: mc-locale-id
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-id/mc-locale-id_4.8.17-r0_armhf.deb
+Size: 6848
+SHA256: 08dcf536ab67ebe64ba7f88e2f1959ee2785bb1e9e96f6876d7fa75118ac8722
+SHA1: 683aa84e31d1baa8455b4ce30ae688d845f30756
+MD5sum: baadc2de48a8f7bb5512fc220862f074
+Description: Midnight Commander is an ncurses based file manager - id translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the id locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-id
+Provides: id-translation, mc-locale
+
+Package: mc-locale-it
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-it/mc-locale-it_4.8.17-r0_armhf.deb
+Size: 27168
+SHA256: c9e50a99c01cedab861d69218ebe41ec166df89910a8781a03a6133d41bf1ea5
+SHA1: 925357b875a049c0c2d81fb9a823ba95a14475d4
+MD5sum: 631f5a0d4d1a8732f2e03cd6bd8f438c
+Description: Midnight Commander is an ncurses based file manager - it translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the it locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-it
+Provides: it-translation, mc-locale
+
+Package: mc-locale-ja
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ja/mc-locale-ja_4.8.17-r0_armhf.deb
+Size: 14034
+SHA256: 4546d57a75529f781b68e523c6e302fbff3505e69d027ce8da13ca0718840f91
+SHA1: 702c3c67ba4255c62ed51f90ede108ca9f14bbe7
+MD5sum: c3c8c4a77a3ad80a667a4618aa9a8fad
+Description: Midnight Commander is an ncurses based file manager - ja translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ja locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ja
+Provides: ja-translation, mc-locale
+
+Package: mc-locale-ka
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ka/mc-locale-ka_4.8.17-r0_armhf.deb
+Size: 6532
+SHA256: f895326a02dd5556427750a18961a79ba08074efdedc15f68c615760e80b7e98
+SHA1: 74a21b3cb9e777b1da042f61201a2e8afd7bab97
+MD5sum: 75e55ee57fcc0f977ff0dee7d9c7ae32
+Description: Midnight Commander is an ncurses based file manager - ka translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ka locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ka
+Provides: ka-translation, mc-locale
+
+Package: mc-locale-kk
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-kk/mc-locale-kk_4.8.17-r0_armhf.deb
+Size: 1216
+SHA256: 7337c02ae8ac8a921d43d77aeb949554b943abeb41801436ab70dbfdc9d332dc
+SHA1: beb213d7449aac8e3805d2cec450c8f44b53c544
+MD5sum: 540ec74ecc4e6ac4acc342e0909e8a45
+Description: Midnight Commander is an ncurses based file manager - kk translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the kk locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-kk
+Provides: kk-translation, mc-locale
+
+Package: mc-locale-ko
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ko/mc-locale-ko_4.8.17-r0_armhf.deb
+Size: 14448
+SHA256: aa12b320fb5bb7d3ddb9ac44918b784b24fadf0b3740f40791f7ab94be2e77e9
+SHA1: 888524cde07e4914d38acbb9a1a262eff3d466a8
+MD5sum: 9e67d4565efe809675a3b8abc34e496e
+Description: Midnight Commander is an ncurses based file manager - ko translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ko locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ko
+Provides: ko-translation, mc-locale
+
+Package: mc-locale-lt
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-lt/mc-locale-lt_4.8.17-r0_armhf.deb
+Size: 11200
+SHA256: 1d36f02fe322c35dae2fe07047cc0c09e41643ce5d874073a42ccf6cba468a05
+SHA1: bb01980c0dd95ad4a0cc094f89a85285852c52b1
+MD5sum: 8b3c4c5063434b14a22a907074b6f8e4
+Description: Midnight Commander is an ncurses based file manager - lt translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the lt locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-lt
+Provides: lt-translation, mc-locale
+
+Package: mc-locale-lv
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-lv/mc-locale-lv_4.8.17-r0_armhf.deb
+Size: 8718
+SHA256: e5ed1327697bfac60fbad836e57a7283b328cb9983b0fab82fd837753a0a664f
+SHA1: e231b10fe4bc4cfafbb52b2c2e1df41a3a1235c6
+MD5sum: 3842908a392af76593854997ae6902ab
+Description: Midnight Commander is an ncurses based file manager - lv translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the lv locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-lv
+Provides: lv-translation, mc-locale
+
+Package: mc-locale-mn
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-mn/mc-locale-mn_4.8.17-r0_armhf.deb
+Size: 9760
+SHA256: 333aba0fb28fa4e898289460f787ab4ffe11a2b21b1ccca0ceffab7f1a84e00c
+SHA1: bd377d796fb3025d4ac6bea8db5db6ea832b8c87
+MD5sum: a493e833baf3197faabe6368cac3d0af
+Description: Midnight Commander is an ncurses based file manager - mn translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the mn locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-mn
+Provides: mc-locale, mn-translation
+
+Package: mc-locale-nb
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-nb/mc-locale-nb_4.8.17-r0_armhf.deb
+Size: 8550
+SHA256: 9ca2e940fa6667aaa8e54d14ebce6ecb16bfb0cecb7e5ee7b84b46dd2bd002d9
+SHA1: 9b9ddd50bdb47c6d59cb87b9c47ebec661a47375
+MD5sum: d0f29f61619921bd279fb94428269bca
+Description: Midnight Commander is an ncurses based file manager - nb translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the nb locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-nb
+Provides: mc-locale, nb-translation
+
+Package: mc-locale-nl
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-nl/mc-locale-nl_4.8.17-r0_armhf.deb
+Size: 26856
+SHA256: 71f428c0ebfcbfcf5e31633795509bab0e74aa75627c832f609ca3c385871fb9
+SHA1: 21b55328d94c37de8cbef65a8e51891c81976994
+MD5sum: abafeb1c1f2d9a33bebb6505dee4e2fe
+Description: Midnight Commander is an ncurses based file manager - nl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the nl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-nl
+Provides: mc-locale, nl-translation
+
+Package: mc-locale-pl
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-pl/mc-locale-pl_4.8.17-r0_armhf.deb
+Size: 28240
+SHA256: 425aab2a04adb969fd7ca6a7e0e27db4bcfc25bf22124f67cd22960b67b746b5
+SHA1: 1c69d50393408bc26d505c22de10e3daaaac2109
+MD5sum: 9f707dbb61e7eb5ce31ea8580fcf7227
+Description: Midnight Commander is an ncurses based file manager - pl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the pl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-pl
+Provides: mc-locale, pl-translation
+
+Package: mc-locale-pt
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-pt/mc-locale-pt_4.8.17-r0_armhf.deb
+Size: 27092
+SHA256: 3c97e9ef89dcc018820e3b54ba6beca0fdcfb2180676eed187384b67ece63752
+SHA1: 0ee2dbf8e1ea5b264307957d1d3a9b1d6a759691
+MD5sum: 2b336b6da5c523c0fc8958a2e071adb3
+Description: Midnight Commander is an ncurses based file manager - pt translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the pt locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-pt
+Provides: mc-locale, pt-translation
+
+Package: mc-locale-pt-br
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-pt-br/mc-locale-pt-br_4.8.17-r0_armhf.deb
+Size: 16114
+SHA256: 305f9de667f8caadff0bc36f8d49e5016e0c3e58001761dbc71dd98e8cebbd91
+SHA1: 1e463b495aace23eeb8c382dddc6488378a52d86
+MD5sum: 02c0376085002d0519c04e21e5f5926c
+Description: Midnight Commander is an ncurses based file manager - pt_BR translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the pt_BR locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-pt-br
+Provides: mc-locale, pt-br-translation
+
+Package: mc-locale-ro
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ro/mc-locale-ro_4.8.17-r0_armhf.deb
+Size: 26590
+SHA256: 4f5f18540bcdcc5b507e315a479a4055f59a1fdc8395bb610470ac5b9ea70d9e
+SHA1: 20c8c36603a166500ce15b12d6c8d16b42c01ddb
+MD5sum: 3622f0722f2b01c0261120a5fa5ba90c
+Description: Midnight Commander is an ncurses based file manager - ro translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ro locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ro
+Provides: mc-locale, ro-translation
+
+Package: mc-locale-ru
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ru/mc-locale-ru_4.8.17-r0_armhf.deb
+Size: 30186
+SHA256: 54219d112e42479f8ed8fa654c0eb23f7a485d9ede5511a530bb5222dd771e4d
+SHA1: 4cf777d823271216dc1478d262e0df28a1a5740d
+MD5sum: 217b14c8829494ec17f6798cf084f3a0
+Description: Midnight Commander is an ncurses based file manager - ru translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ru locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ru
+Provides: mc-locale, ru-translation
+
+Package: mc-locale-sk
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sk/mc-locale-sk_4.8.17-r0_armhf.deb
+Size: 28466
+SHA256: 0df3d39038d7c862e0e5e273da7d149d866b56fde020058019d00e91efe45b82
+SHA1: 08bf15ce9e37cd6c58c03608bb72749173615a99
+MD5sum: 7285f4acec4df9f9b90b176acd9121de
+Description: Midnight Commander is an ncurses based file manager - sk translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sk locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sk
+Provides: mc-locale, sk-translation
+
+Package: mc-locale-sl
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sl/mc-locale-sl_4.8.17-r0_armhf.deb
+Size: 9930
+SHA256: 628dc794471929849b002edaeb1231243856e6c100776a313ebe6ad439af5304
+SHA1: 15e3f61a413b3fed8439b22f6347cb41d58b4422
+MD5sum: 24e858cd6d9a510e1d4bb6131382669d
+Description: Midnight Commander is an ncurses based file manager - sl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sl
+Provides: mc-locale, sl-translation
+
+Package: mc-locale-sr
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sr/mc-locale-sr_4.8.17-r0_armhf.deb
+Size: 29334
+SHA256: 312dc7be84cef16eb05537847fdbe23b7f94530c0aa126dc5d87aa8ece00c70f
+SHA1: ad072f102394ba5b68ef5c6249cfe91ed218cba1
+MD5sum: 18034a2624371385c4dcd0e0f642ea88
+Description: Midnight Commander is an ncurses based file manager - sr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sr
+Provides: mc-locale, sr-translation
+
+Package: mc-locale-sv
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-sv/mc-locale-sv_4.8.17-r0_armhf.deb
+Size: 12976
+SHA256: 4bf76f1dafb0b04fcf199a0ec351f75d6d7751d6a8c02e889d1c73556215e656
+SHA1: a32aa1bb915cc19fab32f6323a1bbeaa734d60d5
+MD5sum: 515464306aa6e42dd48ade1c00b66306
+Description: Midnight Commander is an ncurses based file manager - sv translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the sv locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-sv
+Provides: mc-locale, sv-translation
+
+Package: mc-locale-szl
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-szl/mc-locale-szl_4.8.17-r0_armhf.deb
+Size: 1262
+SHA256: acf1a231e2bd0740b1ed7b7b4af7f359c235721aecb5fbd56ba509c98b0b4285
+SHA1: 7e99489a1a17193b307b65621cc21f3fa57029d0
+MD5sum: 4a4ce8fd99d44d7b3fb325e62685a5d5
+Description: Midnight Commander is an ncurses based file manager - szl translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the szl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-szl
+Provides: mc-locale, szl-translation
+
+Package: mc-locale-ta
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-ta/mc-locale-ta_4.8.17-r0_armhf.deb
+Size: 1870
+SHA256: 8ecb3ad45ae0e7c503b860448f16d1ac760e3f6c279a393210c063f6f282bde6
+SHA1: ce6603355927c936f2e10f4e88d88bc85288c2f0
+MD5sum: 8054660754a3eadd140c1aebbecf653d
+Description: Midnight Commander is an ncurses based file manager - ta translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the ta locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-ta
+Provides: mc-locale, ta-translation
+
+Package: mc-locale-te
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-te/mc-locale-te_4.8.17-r0_armhf.deb
+Size: 1222
+SHA256: 09c5de560687e1c4a1a9834da9cee8955dee03921928fc839b7fee5990d8a376
+SHA1: a8c7b01193e930b52add6a464d7a5229fb0c22cb
+MD5sum: 8bf833b42f5c7b111fd1f4aa1a32a09e
+Description: Midnight Commander is an ncurses based file manager - te translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the te locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-te
+Provides: mc-locale, te-translation
+
+Package: mc-locale-tr
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-tr/mc-locale-tr_4.8.17-r0_armhf.deb
+Size: 27794
+SHA256: a3b20f84c0ac21c500b8c4d0317904d38912821efbed4a5e434ead898ddcbb4c
+SHA1: 288cdea00cb31775e2208f23fdea8cf4d1013c3f
+MD5sum: 6eae4b4b1c249754f95aaa398168ebf1
+Description: Midnight Commander is an ncurses based file manager - tr translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the tr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-tr
+Provides: mc-locale, tr-translation
+
+Package: mc-locale-uk
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-uk/mc-locale-uk_4.8.17-r0_armhf.deb
+Size: 27302
+SHA256: 5cadc31b82c001dbcc61fb780b64c01ab4b0320e634e0ef70accc6b8c22e6e37
+SHA1: 2667ae138b6760d3783a63d8315d0d8a48c331bc
+MD5sum: 88bf62168e8f61a0034c875412b57611
+Description: Midnight Commander is an ncurses based file manager - uk translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the uk locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-uk
+Provides: mc-locale, uk-translation
+
+Package: mc-locale-vi
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-vi/mc-locale-vi_4.8.17-r0_armhf.deb
+Size: 10300
+SHA256: 857e25d9eb2cbb4a4ac10956b09db2d6c6dfe240ce764fbfb85fc4a4f86ede47
+SHA1: 3dbc854670fdc72cc4325126574f7108cfcb1e2b
+MD5sum: 50b5d5ebab9e58ed9d2e8c822c31caf2
+Description: Midnight Commander is an ncurses based file manager - vi translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the vi locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-vi
+Provides: mc-locale, vi-translation
+
+Package: mc-locale-wa
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-wa/mc-locale-wa_4.8.17-r0_armhf.deb
+Size: 6512
+SHA256: 2353fd18d613b8ccee13a67db5538221ea1f6016b63a9bb75cb557cfecfe265e
+SHA1: f21c5fa9e99ec5e29f8882ab4e71cfe3e2e70163
+MD5sum: 923cbbbe8cf142a7f87b874ffd7229a5
+Description: Midnight Commander is an ncurses based file manager - wa translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the wa locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-wa
+Provides: mc-locale, wa-translation
+
+Package: mc-locale-zh-cn
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-zh-cn/mc-locale-zh-cn_4.8.17-r0_armhf.deb
+Size: 24918
+SHA256: 779b2a8ce45c24999b08b8184872e22d9e0e1a9db8e270a2db8898d0c65835a0
+SHA1: 7811ea65ee6fce59709a41304fde83ab7f37ecb4
+MD5sum: 198e92d45706da76373b88ef26e44a6c
+Description: Midnight Commander is an ncurses based file manager - zh_CN translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the zh_CN locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-zh-cn
+Provides: mc-locale, zh-cn-translation
+
+Package: mc-locale-zh-tw
+Version: 4.8.17-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/m/mc-locale-zh-tw/mc-locale-zh-tw_4.8.17-r0_armhf.deb
+Size: 8590
+SHA256: 7f63b9eb6fc88daf727e7ffb84b0fa407c167dce9e740265ab99690de0e7bdb3
+SHA1: ae8d6430742f5d1a0c8fd192c708ce1fba33f9b6
+MD5sum: 5f7f4f5b1e428dfb305dd41ae3ae7585
+Description: Midnight Commander is an ncurses based file manager - zh_TW translations
+ Midnight Commander is an ncurses based file manager.  This package
+ contains language translation files for the zh_TW locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: mc
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.midnight-commander.org/
+Recommends: virtual-locale-zh-tw
+Provides: mc-locale, zh-tw-translation
+
 Package: modutils-initscripts
 Version: 1.0-r7
 Priority: optional
@@ -73254,6 +75579,694 @@ PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://moebiuslinux.sourceforge.net/
 Depends: moebius (= 1.2.1-r0)
 Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev, ncurses-dev, ncurses-libncurses-dev, ncurses-libtinfo-dev
+
+Package: nano
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano/nano_2.2.5-r3.0_armhf.deb
+Size: 71382
+SHA256: bb3370142342b090a165a6994ae50963d5fbfeb34a4f4c25985da19052bc8abc
+SHA1: b26fb0c12721378a3c03d94157ce8c2b69d32393
+MD5sum: 0cc624d5e157c874cc9270fb16a6bfcf
+Description: nano version 2.2.5-r3.0
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Depends: libc6 (>= 2.24), libncursesw5 (>= 6.0+20160625), libtinfo5 (>= 6.0+20160625), ncurses-terminfo
+
+Package: nano-dev
+Version: 2.2.5-r3.0
+Priority: optional
+Section: devel
+Filename: pool/main/n/nano-dev/nano-dev_2.2.5-r3.0_armhf.deb
+Size: 850
+SHA256: c973de22391713e06cfbfa132c58fa133c0add80018f742838c6a0f201135bd3
+SHA1: 29fe7bde7d195b0c061b535443a527d55d41220d
+MD5sum: eff9eedb8c63a658de4de433649e420e
+Description: nano version 2.2.5-r3.0 - Development files
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Depends: nano (= 2.2.5-r3.0)
+Recommends: libc6-dev, ncurses-dev, ncurses-libncursesw-dev, ncurses-libtinfo-dev, ncurses-terminfo-dev
+
+Package: nano-doc
+Version: 2.2.5-r3.0
+Priority: optional
+Section: doc
+Filename: pool/main/n/nano-doc/nano-doc_2.2.5-r3.0_armhf.deb
+Size: 23168
+SHA256: 451bcaec9f5aa1251d28cb576ce701593960e4f94d3c37a76194c1f8c93ee4c2
+SHA1: 5cc6db3716139aed575ce9440f25912929a382c5
+MD5sum: 971654704ea0daf62840c4ac59c8adba
+Description: nano version 2.2.5-r3.0 - Documentation files
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+
+Package: nano-locale-bg
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-bg/nano-locale-bg_2.2.5-r3.0_armhf.deb
+Size: 13232
+SHA256: ce824e55cf910ee37936120d96f1be860bd55799a16bd3ffdabe9446c97487e4
+SHA1: 23ac7b821fc1dbf7837c6ade3888b08a52064a14
+MD5sum: c75a733393fa13cd8498e7b3b2e4e868
+Description: nano version 2.2.5-r3.0 - bg translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the bg locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-bg
+Provides: bg-translation, nano-locale
+
+Package: nano-locale-ca
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-ca/nano-locale-ca_2.2.5-r3.0_armhf.deb
+Size: 14250
+SHA256: fbdb935ba5e6fa8bbded6c880866ecd89834333c287c2f85420d70116d983bd0
+SHA1: 47c0e8bd8e0b2b749c9f8c5c9f4376a0477e3bb0
+MD5sum: 7a4701121a1339dd5ba8f58e17c6a7b7
+Description: nano version 2.2.5-r3.0 - ca translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the ca locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-ca
+Provides: ca-translation, nano-locale
+
+Package: nano-locale-cs
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-cs/nano-locale-cs_2.2.5-r3.0_armhf.deb
+Size: 3158
+SHA256: 0407b05de5a1801c66b91722365c1c16d665515430b288c561a92db3ba7149a6
+SHA1: 5ed05cdb5a93577fac59d48ba5c8463880a77381
+MD5sum: de88aaf51df875a2b120292b2d42157e
+Description: nano version 2.2.5-r3.0 - cs translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the cs locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-cs
+Provides: cs-translation, nano-locale
+
+Package: nano-locale-da
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-da/nano-locale-da_2.2.5-r3.0_armhf.deb
+Size: 13914
+SHA256: ed35c131b977ba91a97e9ebd19234bd10282027bb3e409b64f5b1286b3bbd907
+SHA1: 886dc3a6967eddf6d8b820eed5ac8a3f20fae28d
+MD5sum: adcd88038ef8784835c53453fd75209e
+Description: nano version 2.2.5-r3.0 - da translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the da locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-da
+Provides: da-translation, nano-locale
+
+Package: nano-locale-de
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-de/nano-locale-de_2.2.5-r3.0_armhf.deb
+Size: 14698
+SHA256: cd6345429b53b3fbe1272bd09a044e64eb0e171e96cc0578081ecc780aaa509b
+SHA1: dfc0c8c22132546356b8ce8a1334778f42d58ade
+MD5sum: 23ec76c503844575eb80f8cc6f18dcd6
+Description: nano version 2.2.5-r3.0 - de translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the de locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-de
+Provides: de-translation, nano-locale
+
+Package: nano-locale-es
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-es/nano-locale-es_2.2.5-r3.0_armhf.deb
+Size: 12332
+SHA256: d14d9d2f842a8d357fc93e479f94511e580bbe740b2f918b80777c7334b807c0
+SHA1: f6c949a3e263f0bf88dfddb98405974586afd163
+MD5sum: 39da974762febec8f3c43a43e849cdd4
+Description: nano version 2.2.5-r3.0 - es translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the es locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-es
+Provides: es-translation, nano-locale
+
+Package: nano-locale-eu
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-eu/nano-locale-eu_2.2.5-r3.0_armhf.deb
+Size: 11206
+SHA256: 7e473679b12586f4ae4d386fc85b4d14fb20c172cdec24356bc28b507c0ade72
+SHA1: 17cb4faa692491d713d11859dde9d3e0ed7454a6
+MD5sum: 66d1a19adaede3928a10654dd5c4967b
+Description: nano version 2.2.5-r3.0 - eu translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the eu locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-eu
+Provides: eu-translation, nano-locale
+
+Package: nano-locale-fi
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-fi/nano-locale-fi_2.2.5-r3.0_armhf.deb
+Size: 14414
+SHA256: 2228f39f35ad411d8b3d77bf0b4d12ee50c797de180544cc8614239eeed0303c
+SHA1: c5807e879db47ea1df82a7c77ba8a13014f0cbbd
+MD5sum: 197815f32eeee6bf03f419b3a540d341
+Description: nano version 2.2.5-r3.0 - fi translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the fi locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-fi
+Provides: fi-translation, nano-locale
+
+Package: nano-locale-fr
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-fr/nano-locale-fr_2.2.5-r3.0_armhf.deb
+Size: 14594
+SHA256: bbd8c1fbb330c125862c58d2bdd3e189984cb838b4fcf690458499697f9af032
+SHA1: 37675c2fbc18f4fcfec26b51e2cf4928f2dd3d05
+MD5sum: cd9c93adc0a3e76fa8122ae50e60e473
+Description: nano version 2.2.5-r3.0 - fr translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the fr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-fr
+Provides: fr-translation, nano-locale
+
+Package: nano-locale-ga
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-ga/nano-locale-ga_2.2.5-r3.0_armhf.deb
+Size: 13810
+SHA256: c6af0d2dc87028ccd8f38dfdd035fe85e17430ef6588ce688a47ce106bd98d20
+SHA1: 5129676bf497f6d2c4daab085afba18305930571
+MD5sum: b95a49c270060ba5c24dcde38e2f41a1
+Description: nano version 2.2.5-r3.0 - ga translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the ga locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-ga
+Provides: ga-translation, nano-locale
+
+Package: nano-locale-gl
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-gl/nano-locale-gl_2.2.5-r3.0_armhf.deb
+Size: 13658
+SHA256: c8d0e03f497e3e0e8e13dda2d38e48ea4525a5b6472f2b62fe4b1e0b42e0b9e2
+SHA1: 5cfb5bd5e7b939820a2805389b905dfd4ee6fab4
+MD5sum: 86b93af744c33b32d1440b7dff05bf78
+Description: nano version 2.2.5-r3.0 - gl translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the gl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-gl
+Provides: gl-translation, nano-locale
+
+Package: nano-locale-hu
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-hu/nano-locale-hu_2.2.5-r3.0_armhf.deb
+Size: 14830
+SHA256: 96c459335d1e8c1a66bf1d6c9e0d6bb56d549e070e20bfd93da637a2d92cda4f
+SHA1: 7bb38b068942bed0140c6bc1129aeb9c4d13570d
+MD5sum: 66599e04d4ffc9f9ff14899c785f56f2
+Description: nano version 2.2.5-r3.0 - hu translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the hu locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-hu
+Provides: hu-translation, nano-locale
+
+Package: nano-locale-id
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-id/nano-locale-id_2.2.5-r3.0_armhf.deb
+Size: 5478
+SHA256: 3dcecc965a4956240d67c6287ea964cd5356099192df8a7b77fe7e76bc1a8d3c
+SHA1: 5af83d89d582a7dddffa5896bf0542bcebf07492
+MD5sum: dcea461de4f4ac8df81b3124ebbd0c05
+Description: nano version 2.2.5-r3.0 - id translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the id locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-id
+Provides: id-translation, nano-locale
+
+Package: nano-locale-it
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-it/nano-locale-it_2.2.5-r3.0_armhf.deb
+Size: 13696
+SHA256: db1a2ac059eec5f929fe54dbec7c093adbd8aed42b2436d9a9ca6f12fe9d4b87
+SHA1: a05d67e4b123d4e8a8e48b351edcccc903e61a2d
+MD5sum: 908a67afb181fa54fbfd462e0ec88a33
+Description: nano version 2.2.5-r3.0 - it translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the it locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-it
+Provides: it-translation, nano-locale
+
+Package: nano-locale-ms
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-ms/nano-locale-ms_2.2.5-r3.0_armhf.deb
+Size: 12958
+SHA256: 7b7fc4a78eaba21c8f3ae849e2d13a7c86a1368322a6b03c4afb4050145aa403
+SHA1: 507462dcc15300cb8647517bc8de4e8a8bbc5b85
+MD5sum: 63575487fc07e23d60eafbc5d03331fe
+Description: nano version 2.2.5-r3.0 - ms translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the ms locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-ms
+Provides: ms-translation, nano-locale
+
+Package: nano-locale-nb
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-nb/nano-locale-nb_2.2.5-r3.0_armhf.deb
+Size: 12074
+SHA256: 4c60fd31e93cc7b571c6992940a200ed9ba94f8165103059aa8eedfa42e634a3
+SHA1: a66496eb88c15846e7a9013531e081523c54a11d
+MD5sum: babf40511b26b5013286d52912a8db78
+Description: nano version 2.2.5-r3.0 - nb translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the nb locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-nb
+Provides: nano-locale, nb-translation
+
+Package: nano-locale-nl
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-nl/nano-locale-nl_2.2.5-r3.0_armhf.deb
+Size: 14114
+SHA256: 2e735f9647dd4a8de54e334f32a7d31ffe778fc8945d3e7c2fc77eb505f067d2
+SHA1: 195e0b32a8f93a5799cf671d62979adf30ff2330
+MD5sum: d72ab638fda9bdcd35918680e007c4c4
+Description: nano version 2.2.5-r3.0 - nl translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the nl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-nl
+Provides: nano-locale, nl-translation
+
+Package: nano-locale-nn
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-nn/nano-locale-nn_2.2.5-r3.0_armhf.deb
+Size: 3554
+SHA256: e4ad7bc118bb71c3ba76359fac33e9a140540301983d3f6973cceaf1f6c77f31
+SHA1: 0b53d76a1306946392ec0b9d50a387d241d51513
+MD5sum: 65c867e335e33f7a5d414ed2eb87460c
+Description: nano version 2.2.5-r3.0 - nn translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the nn locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-nn
+Provides: nano-locale, nn-translation
+
+Package: nano-locale-pl
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-pl/nano-locale-pl_2.2.5-r3.0_armhf.deb
+Size: 14542
+SHA256: 14ee8d504cc3af2bf99621287b597e4af9b34943ccc820b8ba42f7cec7752094
+SHA1: 8a045cc4db92efda5b3bae4fac550ed9d0746df5
+MD5sum: c9878fff69c123ac7615ae4508424e7e
+Description: nano version 2.2.5-r3.0 - pl translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the pl locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-pl
+Provides: nano-locale, pl-translation
+
+Package: nano-locale-pt-br
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-pt-br/nano-locale-pt-br_2.2.5-r3.0_armhf.deb
+Size: 14352
+SHA256: 9d6a1d161d3bfefc0b6a2fb5214eb29ea860c8ea22ed62da605e66cf5302c40f
+SHA1: 029e37eae79f7895a2215435f4711d032849e4e2
+MD5sum: c7b815c29891fe0358d263206391bed9
+Description: nano version 2.2.5-r3.0 - pt_BR translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the pt_BR locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-pt-br
+Provides: nano-locale, pt-br-translation
+
+Package: nano-locale-ro
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-ro/nano-locale-ro_2.2.5-r3.0_armhf.deb
+Size: 8378
+SHA256: 0d745327d25d25e988e3caa5f8977313f5941bb3a0c2f56569871b58047d6294
+SHA1: 2425a046f3d3bb28d5252b72fcbe9107de6f3acd
+MD5sum: 2515d756ab84e8578cac7cd3fa7c219c
+Description: nano version 2.2.5-r3.0 - ro translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the ro locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-ro
+Provides: nano-locale, ro-translation
+
+Package: nano-locale-ru
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-ru/nano-locale-ru_2.2.5-r3.0_armhf.deb
+Size: 13450
+SHA256: 3d9ab333b7fa1e3102ba68e330e27214053d508843daea55b2fe0419456d4923
+SHA1: 336ebd943438ae69fb1854ec0b38e53b3d414492
+MD5sum: af765e414420035304f02676ed47f3e4
+Description: nano version 2.2.5-r3.0 - ru translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the ru locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-ru
+Provides: nano-locale, ru-translation
+
+Package: nano-locale-rw
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-rw/nano-locale-rw_2.2.5-r3.0_armhf.deb
+Size: 1702
+SHA256: 66ae9765f4c2c47525b9119d6e36c11f93790a6c55c07a371edeff0560490c49
+SHA1: 6b4603fddc54615e0bfdea14e422a2f99e787b87
+MD5sum: 8a47b3fc53aa2cdb4b9bc96b30ec1070
+Description: nano version 2.2.5-r3.0 - rw translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the rw locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-rw
+Provides: nano-locale, rw-translation
+
+Package: nano-locale-sr
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-sr/nano-locale-sr_2.2.5-r3.0_armhf.deb
+Size: 6230
+SHA256: 2e9e51d625bade846ee85e3f5f5627ead580dd642decd012a78fe569749a1bb4
+SHA1: 2cb7876d73e895a0fcf2bbd7756d367d8d9b0dbf
+MD5sum: f00f61598d546eda524a33dbed32f303
+Description: nano version 2.2.5-r3.0 - sr translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the sr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-sr
+Provides: nano-locale, sr-translation
+
+Package: nano-locale-sv
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-sv/nano-locale-sv_2.2.5-r3.0_armhf.deb
+Size: 12078
+SHA256: 11892caebd0aa0769140b0ebb96d38f51566f2ef9c8291eb1a47f01a7f0561c6
+SHA1: f74f099096b4668501ca0d5463d77bba6a00a1c8
+MD5sum: 38d1bc03262a7f08f10d7d57a3fa5c88
+Description: nano version 2.2.5-r3.0 - sv translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the sv locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-sv
+Provides: nano-locale, sv-translation
+
+Package: nano-locale-tr
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-tr/nano-locale-tr_2.2.5-r3.0_armhf.deb
+Size: 5986
+SHA256: d521277db2bfb787262dbd249b2ef33b519d379c90973304f6f7ae4f63a500d1
+SHA1: 97ec6a35afec2332b5db187f32a66728c8d2084f
+MD5sum: 4a5c1e3ddac8aa500b1332a99c03470e
+Description: nano version 2.2.5-r3.0 - tr translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the tr locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-tr
+Provides: nano-locale, tr-translation
+
+Package: nano-locale-uk
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-uk/nano-locale-uk_2.2.5-r3.0_armhf.deb
+Size: 6074
+SHA256: 416b48dc915a750558feb549b3ea3662369694b1d13113392f732f067e9f0948
+SHA1: 7def1d875dafa245316b9cae9e61b651144ba8a3
+MD5sum: 54e7f8e88980c2426d201bdf15f1d224
+Description: nano version 2.2.5-r3.0 - uk translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the uk locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-uk
+Provides: nano-locale, uk-translation
+
+Package: nano-locale-vi
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-vi/nano-locale-vi_2.2.5-r3.0_armhf.deb
+Size: 14510
+SHA256: 2fe859ac7666c15ac7d6febaf29696eec2ad782b7b85b1fe432a698997c5fe49
+SHA1: efe1000830c98ab5667b224240cf728b6bf0c536
+MD5sum: 05486ee6d90a60a461f5235b473fcc54
+Description: nano version 2.2.5-r3.0 - vi translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the vi locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-vi
+Provides: nano-locale, vi-translation
+
+Package: nano-locale-zh-cn
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-zh-cn/nano-locale-zh-cn_2.2.5-r3.0_armhf.deb
+Size: 13974
+SHA256: 46d7365315a63e91d3c2dd2cde17219d06104b832017faa36a1ba0ccd656eaa0
+SHA1: 0e1ff0d0d374fd9d7086e7d3172c426f589ca11c
+MD5sum: a4913f829df3f93d9a7ba34f3c8dc9b8
+Description: nano version 2.2.5-r3.0 - zh_CN translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the zh_CN locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-zh-cn
+Provides: nano-locale, zh-cn-translation
+
+Package: nano-locale-zh-tw
+Version: 2.2.5-r3.0
+Priority: optional
+Section: console/utils
+Filename: pool/main/n/nano-locale-zh-tw/nano-locale-zh-tw_2.2.5-r3.0_armhf.deb
+Size: 9230
+SHA256: f8b4c4a6bcbad1464a70d896f30d672be061a41acdfdf885330581fd167d4fc3
+SHA1: 7acd0a75b2230b3b3d8daf5c4cd8a380d76e372d
+MD5sum: ce89991d0feb1c0dcb9082b2a69d0af1
+Description: nano version 2.2.5-r3.0 - zh_TW translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the zh_TW locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: nano
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-zh-tw
+Provides: nano-locale, zh-tw-translation
 
 Package: ncurses
 Version: 6.0+20160625-r0
@@ -73467,6 +76480,131 @@ Architecture: armhf
 OE: netbase
 PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://packages.debian.org/netbase
+
+Package: netcat
+Version: 0.7.1-r3
+Priority: optional
+Section: net
+Filename: pool/main/n/netcat/netcat_0.7.1-r3_armhf.deb
+Size: 13798
+SHA256: de4e4c85bdb3d215d94406cf3cc3da3c50c955445a8844d3ff2b0eb375023f60
+SHA1: 94cee99a5c8e4cc6a9b8dde9ad55121d4c40cd49
+MD5sum: e426adebc5ab95518061659d3690dcb8
+Description: GNU Netcat
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol.  It is designed to be a reliable
+ 'back-end' tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: netcat
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://netcat.sourceforge.net
+Depends: libc6 (>= 2.24), update-alternatives-opkg
+
+Package: netcat-dev
+Version: 0.7.1-r3
+Priority: optional
+Section: devel
+Filename: pool/main/n/netcat-dev/netcat-dev_0.7.1-r3_armhf.deb
+Size: 1042
+SHA256: c13a50729ca7412264fc11359a55a0d54c898fe6b1935ec048882f3f63e221b1
+SHA1: 8f1b02802b3e0a3b997bbc974636fb024aa08c65
+MD5sum: ac09a80a01e1c9f98709489d6f8dece1
+Description: GNU Netcat - Development files
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol.  It is designed to be a reliable
+ 'back-end' tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: netcat
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://netcat.sourceforge.net
+Depends: netcat (= 0.7.1-r3)
+Recommends: libc6-dev, update-alternatives-opkg-dev
+
+Package: netcat-doc
+Version: 0.7.1-r3
+Priority: optional
+Section: doc
+Filename: pool/main/n/netcat-doc/netcat-doc_0.7.1-r3_armhf.deb
+Size: 7052
+SHA256: 49d8960a82bf1671f94749b3a6f46c0ab1f16fa1349f2b3b4db6e0452a46ce13
+SHA1: d1d2f7873336df88ea4d2ecf9421fac73ecd7d6e
+MD5sum: b380a8ab8532d457a999fcc60f5ff33f
+Description: GNU Netcat - Documentation files
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol.  It is designed to be a reliable
+ 'back-end' tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.  This package contains documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: netcat
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://netcat.sourceforge.net
+
+Package: netcat-locale-it
+Version: 0.7.1-r3
+Priority: optional
+Section: net
+Filename: pool/main/n/netcat-locale-it/netcat-locale-it_0.7.1-r3_armhf.deb
+Size: 4624
+SHA256: 4a6078110096811fdb7c63319699beb25c90d5a652b2211a0078efda651d7d69
+SHA1: 5625078db35fa98b5bc5e3bbd40950172a563a31
+MD5sum: 528a557baec04223b8f8a83dba358f7a
+Description: GNU Netcat - it translations
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol.  It is designed to be a reliable
+ 'back-end' tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.  This package contains language translation files for the
+ it locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: netcat
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://netcat.sourceforge.net
+Recommends: virtual-locale-it
+Provides: it-translation, netcat-locale
+
+Package: netcat-locale-sk
+Version: 0.7.1-r3
+Priority: optional
+Section: net
+Filename: pool/main/n/netcat-locale-sk/netcat-locale-sk_0.7.1-r3_armhf.deb
+Size: 3952
+SHA256: 3eef525317ac0810109f59bdef8fac1d3d97b9748b03c48a1bcf1ccf87572795
+SHA1: bb4e0f9d8682f269d707fcfdc92e3379ce857b57
+MD5sum: e338d1efe6fbd963c549e51a598a8599
+Description: GNU Netcat - sk translations
+ A simple Unix utility which reads and writes data across network
+ connections using TCP or UDP protocol.  It is designed to be a reliable
+ 'back-end' tool that can be used directly or easily driven by other
+ programs and scripts. At the same time it is a feature-rich network
+ debugging and exploration tool, since it can create almost any kind of
+ connection you would need and has several interesting built-in
+ capabilities.  This package contains language translation files for the
+ sk locale.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: netcat
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://netcat.sourceforge.net
+Recommends: virtual-locale-sk
+Provides: netcat-locale, sk-translation
 
 Package: nettle
 Version: 3.2-r0
@@ -87404,6 +90542,66 @@ PackageArch: all
 Depends: run-postinsts (= 1.0-r9)
 Recommends: initscripts-dev, update-rc.d-dev
 
+Package: screen
+Version: 4.4.0-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/s/screen/screen_4.4.0-r0_armhf.deb
+Size: 312046
+SHA256: 4dc742515cbcec58035b8831067e456a4fed1e63dad9a790e19c92c99f51d346
+SHA1: 1323170953071aaaf22c1ad2a7a764ca59699391
+MD5sum: 083bd74b45bf1ec8d68cac553bf8a524
+Description: Multiplexing terminal manager
+ Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: screen
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/screen/
+Depends: base-files, libc6 (>= 2.24), libtinfo5 (>= 6.0+20160625)
+
+Package: screen-dev
+Version: 4.4.0-r0
+Priority: optional
+Section: devel
+Filename: pool/main/s/screen-dev/screen-dev_4.4.0-r0_armhf.deb
+Size: 878
+SHA256: 0b4baf28da8c7583e1d48f105b49317dab5124767e80912724f0a962bc1344bf
+SHA1: a6f0d633238ddfa145cb7065cb0b6967367457f3
+MD5sum: ec1cb1de9bed0bddc74bd21d2f07f9b4
+Description: Multiplexing terminal manager - Development files
+ Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: screen
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/screen/
+Depends: screen (= 4.4.0-r0)
+Recommends: base-files-dev, libc6-dev, ncurses-dev, ncurses-libtinfo-dev
+
+Package: screen-doc
+Version: 4.4.0-r0
+Priority: optional
+Section: doc
+Filename: pool/main/s/screen-doc/screen-doc_4.4.0-r0_armhf.deb
+Size: 89504
+SHA256: 5026e5a239c3ca8a62c4ad694397c0ad90ddfbc3cac891fa42bbe5a436d6412b
+SHA1: 5684ad14464fad016d9adada84bac01fc3e34128
+MD5sum: fc6400bc2baa69eaaf78bd2b5c5df571
+Description: Multiplexing terminal manager - Documentation files
+ Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.  This
+ package contains documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: screen
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.gnu.org/software/screen/
+
 Package: sed
 Version: 4.2.2-r0
 Priority: optional
@@ -89383,6 +92581,83 @@ PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://savannah.nongnu.org/projects/sysvinit/
 Depends: libc6 (>= 2.24), update-alternatives-opkg
 
+Package: tcpdump
+Version: 4.7.4-r0
+Priority: optional
+Section: net
+Filename: pool/main/t/tcpdump/tcpdump_4.7.4-r0_armhf.deb
+Size: 262420
+SHA256: 48148ef9adda0cd495042b7ef0272577ff74cc18c69719dcefbdd1a3de2917df
+SHA1: 1b156178d51d97b546d8d9d58271a0350b80428b
+MD5sum: 7432d9bdf050e3bc42fd603f9f6c316e
+Description: A sophisticated network protocol analyzer
+ A sophisticated network protocol analyzer.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: tcpdump
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+Depends: libc6 (>= 2.24), libcrypto1.0.0 (>= 1.0.2j), libpcap1 (>= 1.7.4)
+
+Package: tcpdump-dev
+Version: 4.7.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/t/tcpdump-dev/tcpdump-dev_4.7.4-r0_armhf.deb
+Size: 810
+SHA256: ee996ab81b6730acda823429e91c69446aa04d2953d114b447d8175c0c79f8a1
+SHA1: 25bbac2c1e467f4e78fd8f4092019ee84ad402da
+MD5sum: fd356c368efa0236a3bd765831b7186a
+Description: A sophisticated network protocol analyzer - Development files
+ A sophisticated network protocol analyzer.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: tcpdump
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+Depends: tcpdump (= 4.7.4-r0)
+Recommends: libc6-dev, libcrypto-dev, libpcap-dev, openssl-dev
+
+Package: tcpdump-doc
+Version: 4.7.4-r0
+Priority: optional
+Section: doc
+Filename: pool/main/t/tcpdump-doc/tcpdump-doc_4.7.4-r0_armhf.deb
+Size: 20534
+SHA256: 56465bfee09503a12bd0d1e2b015425a04f1a2e4ed920db72d6321187aced6dd
+SHA1: 22dda7f809517fdaa49cc860bdc102b40f341a28
+MD5sum: a9cfb7469295faeae38fb4022a4a915f
+Description: A sophisticated network protocol analyzer - Documentation files
+ A sophisticated network protocol analyzer.  This package contains
+ documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: tcpdump
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+
+Package: tcpdump-ptest
+Version: 4.7.4-r0
+Priority: optional
+Section: devel
+Filename: pool/main/t/tcpdump-ptest/tcpdump-ptest_4.7.4-r0_armhf.deb
+Size: 211286
+SHA256: d870ba7e597aa7e02ac3bcd3a5ff213f916a5468e7a04b7d12fa9b9e8e173195
+SHA1: b4c54ad6e635f119323a02ae4d1107349771c65a
+MD5sum: 0c8138ca5a8de61250d2572e692522de
+Description: A sophisticated network protocol analyzer - Package test files
+ A sophisticated network protocol analyzer.  This package contains a test
+ directory /usr/lib/tcpdump/ptest for package test purposes.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: tcpdump
+PackageArch: cortexa7hf-neon-vfpv4
+Homepage: http://www.tcpdump.org/
+Depends: tcpdump
+Recommends: ptest-runner
+
 Package: tzcode
 Version: 2.24-r0
 Priority: optional
@@ -91000,6 +94275,156 @@ Architecture: armhf
 OE: util-macros
 PackageArch: cortexa7hf-neon-vfpv4
 Homepage: http://www.x.org
+
+Package: vim
+Version: 8.0.0022-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim/vim_8.0.0022-r0_armhf.deb
+Size: 775274
+SHA256: 5cf093f5df563ce3a0a4967f9ec230dc2888c427b4a882d64960b4b3839c3dad
+SHA1: c99e705967da156d3b184bde0b502b04781a775a
+MD5sum: 019ac5505f0fc5bf3342f94ba33f8fbe
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+Depends: libc6 (>= 2.24), libtinfo5 (>= 6.0+20160625), ncurses-terminfo-base, update-alternatives-opkg
+Suggests: diffutils
+Recommends: vim-common, vim-help, vim-syntax, vim-tutor, vim-vimrc
+
+Package: vim-common
+Version: 8.0.0022-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-common/vim-common_8.0.0022-r0_armhf.deb
+Size: 2323632
+SHA256: de97cf81f09f37a83107a7b47724eab7c3f3a27475c106b476701ee3b24fdb0e
+SHA1: f8bc9f91f2d3a200a9fe028c19adb6a6f05463d7
+MD5sum: ec601af827a7f611226bd50b4ceb2cb7
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+
+Package: vim-dev
+Version: 8.0.0022-r0
+Priority: optional
+Section: devel
+Filename: pool/main/v/vim-dev/vim-dev_8.0.0022-r0_armhf.deb
+Size: 804
+SHA256: 20153dd88b70e0fd09f610d9a18c81048723488f59748e441f06fa61f189f2e5
+SHA1: edf67a1ff79484d08908ce8559f94a11fb2757da
+MD5sum: be6eb7f287940cba2a0440b357dba160
+Description: Vi IMproved - enhanced vi editor - Development files
+ Vi IMproved - enhanced vi editor.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+Depends: vim (= 8.0.0022-r0)
+Recommends: libc6-dev, ncurses-dev, ncurses-libtinfo-dev, ncurses-terminfo-base-dev, update-alternatives-opkg-dev
+
+Package: vim-doc
+Version: 8.0.0022-r0
+Priority: optional
+Section: doc
+Filename: pool/main/v/vim-doc/vim-doc_8.0.0022-r0_armhf.deb
+Size: 77634
+SHA256: 8f8117685382b5ad69b57516a4551d73385b4dfdcb03061ee5f20cac97627073
+SHA1: 22a4f52434841531a1068e803d57ae92cd2898e2
+MD5sum: a64c743de7af0b2ca18979515f3c222f
+Description: Vi IMproved - enhanced vi editor - Documentation files
+ Vi IMproved - enhanced vi editor.  This package contains documentation.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+
+Package: vim-help
+Version: 8.0.0022-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-help/vim-help_8.0.0022-r0_armhf.deb
+Size: 1556362
+SHA256: ac95cd6cf4d80e1c7154947a03ff1b9431106607feee57cdd9bada86d93b2446
+SHA1: 396d628237ca4ecefcceee97e85f823f6f32bc3b
+MD5sum: ca4ac5c95a17bb8dab94b8ad9ba19e78
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+
+Package: vim-syntax
+Version: 8.0.0022-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-syntax/vim-syntax_8.0.0022-r0_armhf.deb
+Size: 972716
+SHA256: 6ff21f8df7676dd8f37a0a95f0e0055f48d7154d44785487e3faf886bd9f01df
+SHA1: 218414abac92fc15f11aa7b6006a0794e85eb17e
+MD5sum: fe452621d707bc57a11090092f544b29
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+
+Package: vim-tools
+Version: 8.0.0022-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-tools/vim-tools_8.0.0022-r0_armhf.deb
+Size: 22942
+SHA256: fd5ae7ca17fddc5dd2911224829e3e8d393ad16e090ff54aa9cb762f65f0b616
+SHA1: fe8c0546320bda3dcac05d5ebf858aac354e4e13
+MD5sum: 4e43051ebed821d432990ebbf61b7948
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+
+Package: vim-tutor
+Version: 8.0.0022-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-tutor/vim-tutor_8.0.0022-r0_armhf.deb
+Size: 388514
+SHA256: 00a7cee55837849d8387f4a9015912da43e8eca2a17fcba56d40e0a2110bfb64
+SHA1: 2595f728b091330870cc6fdcc831145256cd7c4f
+MD5sum: 2f64ec81ac2abd116587565e3ada587a
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
+
+Package: vim-vimrc
+Version: 8.0.0022-r0
+Priority: optional
+Section: console/utils
+Filename: pool/main/v/vim-vimrc/vim-vimrc_8.0.0022-r0_armhf.deb
+Size: 1534
+SHA256: 5d3954f3c0330a04a63cd0de930fbf8081d0927592dd193af61dedc0143f1f64
+SHA1: 7143a04063d5d8029633385c12516550d23b7fa6
+MD5sum: 3420060e7c85482c0096fdb9676ca0be
+Description: Vi IMproved - enhanced vi editor
+ Vi IMproved - enhanced vi editor.
+Maintainer: Ben <ben@moebius>
+Architecture: armhf
+OE: vim
+PackageArch: cortexa7hf-neon-vfpv4
 
 Package: wget
 Version: 1.18-r0
