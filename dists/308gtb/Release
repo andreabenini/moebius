@@ -1,19 +1,19 @@
 Origin: Moebius Repository
 Label: Moebius Repository
 Codename: 308gtb
-Date: Tue, 31 Jan 2017 09:05:34 UTC
+Date: Tue, 31 Jan 2017 12:02:14 UTC
 Architectures: armhf
 Components: main
 Description: Moebius packages official repository
 MD5Sum:
- 9472cee39e3646ff5f440cd16ba4ba03 3605478 main/binary-armhf/Packages
- 78e29425cb79dcc991cb6010c2c3e801 689153 main/binary-armhf/Packages.gz
+ 73ce8d7b3a2cb5a12a999806a6d08b05 3877685 main/binary-armhf/Packages
+ 78c98232aa752bc946f8c7ae6813b640 741480 main/binary-armhf/Packages.gz
  821923b83b688c2f83e25c2d6b27226b 139 main/binary-armhf/Release
 SHA1:
- 88e6c4520d5537359c59a88b54a5e06d19a11b34 3605478 main/binary-armhf/Packages
- bef455c87c423fa1db1698c442d6c9c5eae5dcba 689153 main/binary-armhf/Packages.gz
+ f7cade44314e60c8f9046133d5d8202c5f921214 3877685 main/binary-armhf/Packages
+ edd8f1f3ae4ce046999fd474aeb6e3f3f33e0668 741480 main/binary-armhf/Packages.gz
  47c57f1520ecaea4fd0937e43f0e06859833c563 139 main/binary-armhf/Release
 SHA256:
- 0b1b0bef225490c0aa6e001f39dadb4cec1ee01924215c3c38aa8ab2c1b989c3 3605478 main/binary-armhf/Packages
- 3d7db37dd04efda964cddfc74c5b4a110575331b3ba4e93550ed2103bbb896cd 689153 main/binary-armhf/Packages.gz
+ 9bc8693f2abdd4d8ca6ed112166641234659cf18147f9cdbd800a6287a856c1f 3877685 main/binary-armhf/Packages
+ 07ec73948af594e1d750b0764efdbb8e48127a7966d0d52768551eb044781f0c 741480 main/binary-armhf/Packages.gz
  651aba6c4b7511424b7d36d3ace0115051e74882f9a2e9bd0cc5d16143702b45 139 main/binary-armhf/Release
