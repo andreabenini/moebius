@@ -1,0 +1,152 @@
+2017-01-30 (v3.0.0 beta1)   Andrea Benini <andreabenini@myemailaddress.com>
+
+    * A lot of things  still needs to be changed,  kernel and output log must be 
+    shown on stdout and not on console, S0 is still respawning too fast, inittab
+    must be  fixed and  hardware compatibility tests are still  missing, testing
+    platform is now RPi3 but this is just a beta release and MUST NOT BE USED in
+    production (or use it at your own risk)
+
+    * SD Image has just been released , it's still a beta because hardware tests
+    are not completed for all the Pi cards, RPi v3 is the suggested card in this
+    moment, Piv1/v2/zero are not fully tested, you might try them if you want.
+
+    * Beta 1 RELEASE. Seems to work fine, it's still a barebone system but boots
+    and works fine.  Mainly tested with a RPiv3 machine,  more tests has to come
+    with older cards (RPi v2, v1, zero).  It's not tightly optimized but usable.
+    Repository has been heavily  reduced and it includes just basic packages,  a
+    massive rebuild with main daemons and utilities will arrive soon.
+
+    * Major distro rewrite. Kernel update to 4.x.x version, added native support
+    Raspberry Pi v1,v2,v3. General repackaging for the whole repository,  little
+    bit of bugfixing and major republish since v2.0.1
+
+    * Unfortunately eglibc has been discontinued after a long period of pain and
+    agony, it was a cool lib because memory footprint and code size matters in a
+    common embedded machine.   Now I'm switching back to glibc even if this will
+    increase the memory size and overall system space requirements.  I'll try to
+    do my best to limit glibc overall required resources
+
+    * Increased memory consumption and bigger footprint, mainly related to glibc
+    usage and newer broadcom hardware drivers release. armhf fully supported and
+    it might be possible to exchange '.deb' packages from other distros as well.
+    Disk image is now ~165Mb, a 256Mb SD card is suggested for the installation,
+    root filesystem is ~75Mb and operating system, ssh and a running shell takes
+    "30Mb" of RAM while running, remaining memory is available for your needs.
+
+
+2015-01-30 (v2.0.1)   Andrea Benini <andreabenini@myemailaddress.com>
+
+    * Busybox. Added "uniq" utility, seems required for some packages during the
+    installation process
+
+    * Containers. Added containers support.  Now you can use containers to add a
+    bunch of packages, configure them and make proper patches as well. It's some
+    sort of dpkg install+makefile with steroids. Everything from 'moebius' util.
+
+    * Repository. Now added: php, mysql, nginx, tar, screen and other few libs..
+
+
+2015-01-30 (v2.0.1)   Andrea Benini <andreabenini@myemailaddress.com>
+
+    ** WARNING ** After the first boot it's strongly suggested to autoresize the
+    SD card, there's not so much space in it.  You'd better resize the root part
+    before doing anything else.
+
+    * Full ARMHF support, kernel and base packages recompiled with full ARM Hard
+    Float support, on daily usage performances are basically the same but if you
+    use CPU intensive tasks/programs  or something where the floating point unit
+    is involved you may see huge differences
+
+    * To avoid confusion github repository has been wiped and packages there are
+    now fully armhf compliants, to detect or check these files just use readelf:
+        root@moebius:~# readelf -A /proc/self/exe |grep Tag_ABI_VFP_args
+        Tag_ABI_VFP_args: VFP registers
+    If you see the line "Tag_ABI_VFP_args: VFP registers" you are using an ARMHF
+    binary, this is valid for whatever distro you may want to use
+
+    * Distribution repository on github is now reduced to its minimal terms.  In
+    the next days you'll see major improvements,  there is an huge compile queue
+    on the run. Current repository counts approx 5000 packages
+
+    * Distro manager utility "moebius" has been improved to better handle distro
+    packages, a new update will be released soon to support containers as well.
+
+
+2015-01-10 (v2.0.0)   Andrea Benini <andreabenini@myemailaddress.com>
+
+    ** WARNING ** After the first boot it's strongly suggested to autoresize the
+    SD card, there's not so much space in it.  You'd better resize the root part
+    before doing anything else.
+
+    * Image released ! There's not so much in here but it works fine. Repository
+    now has ~5800 packages, gcc/g++ included, python 2 and 3 support, locale and
+    basic utilities (nano, mc and few more). Maybe needs to be polished a little
+    bit but it runs nice.
+
+    * Minor filesystem fixes to user environment, first time .profile startup to
+    detect first login, first moebius utility startup and few more.
+
+    * Added "moebius" utility for dealing with the system configuration, not yet
+    ready for the primetime but useful enough for basic operations. Many options
+    are still missing but it's growing fine.   Locales and timezone settings are
+    in an early stage but they're working with some minor tweaks.
+
+    * This image can be flashed in a 128Mb card (if you still have one of those)
+    I even considered to fit it in a 64Mb, still possible but I'm now happy with 
+    current features (busybox but full of options) and additional libraries. Now
+    curses libs are included so 'moebius' utility can be cute.
+
+
+2014-12-18 (v2.00b)    Andrea Benini <andreabenini@myemailaddress.com>
+
+    * Image is on the run (release notes):  Not yet ready for production but I'm
+    adding packages and useful tools for development. Upcoming 2.00 version will
+    be bony but usable enough for developers and barebone usage.
+
+    * Added packages (repository): glibc, libc, gtk, build-tools, tzdata, locale
+    and lots of different lib files for basic usage, now there are approx '6000'
+    packages ready to go.    Most of them are locales, debug and devel versions.
+
+    * Development tools (toolchain): Not only Python but a lots of languages and
+    libs. Now there's perl, c++, c and related libs
+
+
+2014-11-21 (v2.00b)    Andrea Benini <andreabenini@myemailaddress.com>
+
+    * Repository and optimizations (release notes):  Published a new github repo
+    with basic packages (ssh, ssl, wget, ash), package signing required
+
+    * Packages (repository):  Python 2 and 3 is available through github as well
+    as additional libraries
+
+    * "moebius" (utility): New installer and main utility is now called moebius,
+    and will handle the install phase as well as common administration, it's not
+    just a wrapper but aims to be the replacement for previous moebius-config or
+    raspi-config
+
+
+2014-11-05 (v2.00a)    Andrea Benini <andreabenini@myemailaddress.com>
+    * Booting and fine (release notes): Now I have a bootable image, modules are
+    not a problem anymore and binary packages from PiFoundation are working with
+    the kernel (v3.12)
+
+    * local shell and ssh (functions):  Nothing more than shell, dropbear (SSH),
+    udev and few services. Seems to be fine and stable
+
+    * GCC, toolchains (toolchain): Now I finally have a working toolchain for Pi
+    and ARM optimizations.
+
+
+2014-10-31 (v2.00aa)   Andrea Benini <andreabenini@myemailaddress.com>
+
+    * Announcing v2.0 (release notes):    Here's a brand new release of Moebius,
+    previous version has been wiped and a new project toolchain is now trying to
+    get out something from gcc. I'm still getting troubles with Pi blob binaries
+    but at least it boots (most of the times), need to get something better soon
+
+--------------------------------------------------------------------------------
+    * I won't explicitly write my email address in this changelog because I hate
+      to be spammed  from bot crawlers but you can easily  write me something if
+      you want. Just take a look at the website, use the forum or find me on the
+      web, I have a gmail address (guess what it is...) linkedin and so on.  Ben
+--------------------------------------------------------------------------------
