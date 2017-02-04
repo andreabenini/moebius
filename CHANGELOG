@@ -1,5 +1,12 @@
 2017-01-30 (v3.0.0 beta1)   Andrea Benini <andreabenini@myemailaddress.com>
 
+    * Fixed beta releases troubles with S0 respawn, inittab missing features and
+    few glitches on hw compatibility, newly udpated kernel and few minor patches
+    requested from forum users
+
+
+2017-01-30 (v3.0.0 beta1)   Andrea Benini <andreabenini@myemailaddress.com>
+
     * A lot of things  still needs to be changed,  kernel and output log must be 
     shown on stdout and not on console, S0 is still respawning too fast, inittab
     must be  fixed and  hardware compatibility tests are still  missing, testing
