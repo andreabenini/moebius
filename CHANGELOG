@@ -1,8 +1,8 @@
-2017-01-30 (v3.0.0 beta1)   Andrea Benini <andreabenini@myemailaddress.com>
+2017-xx-xx (v3.0.0 beta2)   Andrea Benini <andreabenini@myemailaddress.com>
 
-    * Fixed beta releases troubles with S0 respawn, inittab missing features and
-    few glitches on hw compatibility, newly udpated kernel and few minor patches
-    requested from forum users
+    * Fixed beta glitches: S0 respawn, three fingers on inittab, setterm -blank,
+    * Fixed compatibility issues with Raspberry Pi boards, RPi3 tested, working.
+    RPi1 and RPi2 are fine.
 
 
 2017-01-30 (v3.0.0 beta1)   Andrea Benini <andreabenini@myemailaddress.com>

@@ -4,36 +4,36 @@ Hash: SHA256
 Origin: Moebius Repository
 Label: Moebius Repository
 Codename: 308gtb
-Date: Tue, 31 Jan 2017 12:02:14 UTC
+Date: Thu, 16 Feb 2017 23:54:46 UTC
 Architectures: armhf
 Components: main
 Description: Moebius packages official repository
 MD5Sum:
- 73ce8d7b3a2cb5a12a999806a6d08b05 3877685 main/binary-armhf/Packages
- 78c98232aa752bc946f8c7ae6813b640 741480 main/binary-armhf/Packages.gz
+ 7881e26dc639baa757070b87e63475b8 3868903 main/binary-armhf/Packages
+ 8ffce30cbcc287dc4c24d8a4dfb94d88 743187 main/binary-armhf/Packages.gz
  821923b83b688c2f83e25c2d6b27226b 139 main/binary-armhf/Release
 SHA1:
- f7cade44314e60c8f9046133d5d8202c5f921214 3877685 main/binary-armhf/Packages
- edd8f1f3ae4ce046999fd474aeb6e3f3f33e0668 741480 main/binary-armhf/Packages.gz
+ 67a4009831f87b56755f11aa48e6fd6f0349332b 3868903 main/binary-armhf/Packages
+ 3877f9af829809ce81585041811a1ec11d647f59 743187 main/binary-armhf/Packages.gz
  47c57f1520ecaea4fd0937e43f0e06859833c563 139 main/binary-armhf/Release
 SHA256:
- 9bc8693f2abdd4d8ca6ed112166641234659cf18147f9cdbd800a6287a856c1f 3877685 main/binary-armhf/Packages
- 07ec73948af594e1d750b0764efdbb8e48127a7966d0d52768551eb044781f0c 741480 main/binary-armhf/Packages.gz
+ c7d994346b4eee0ad8e52dcada47d37c9b757cf31c5fb07a99fcee4ebc7a5486 3868903 main/binary-armhf/Packages
+ 6df8b2d4f6a3e10c22947a6399801c90a6a8f10f19499eb43530a216be0ee30f 743187 main/binary-armhf/Packages.gz
  651aba6c4b7511424b7d36d3ace0115051e74882f9a2e9bd0cc5d16143702b45 139 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJYkHzGAAoJEBcOuGpg39u108YP/3jEblh4AJv0kJ/mm3tKEaSo
-FPIvbcZ0AOswwB5prKNWerLwpxx81D2rEhojKZIZJ1jYv0u7CKH4UoW5b66cXLSf
-w004l8ddvKTrzlMrEKEgzV5CxPuTjYBD/+fG8BUYVT6xG8Lt1t6Ti7QAqLragMRY
-v6owCXMbHXAJ3kdB1k+nXQPiJAn9CojPyfhQQKkSAd2+rpp4qwvgpTyuGYXjie1p
-eNSCMr+RKWk5mkXG/XPtREIclro2BlGVMq4MRKiQkA9YIL5Zh9z9YJrB/Rh3pSEP
-d4z6Y4QDlrVUUxkHF6tC7u8VnbfZOwZISTAJfFJtgt8JE5CZ+1vUPd9cKaGw5AxZ
-+eN76KipImoHTKkL9N1EuMyX2j8VIQtJ/uDxZW2df33So9BL5uvhLKgegGXf6Rbn
-iAnYOqDyeOy8a958IEmGbVBxBGKG2ilMG5Bx7Yi7/rwrLOAjUusPGaqEYGGhFvAN
-cLRGAJjYbTvZWPrmhu2zpdrJVTx2sv3Wa8WOspVTERY/031uVw2zoCU9z5FSOVe0
-usKlhUTx7LTt6FlK9XOJMm+rXKCo7xMiivHupWcEVc+WneQwYTb1/ANTc9spx9Yv
-/noR3l6+Z8viKsI2HJlPe/YRN2VzEKFDfDErZBQ1VjYE2hApqlqNhiA/0LjWIJFM
-LKvAS/Yz8/tlBDrhmnpA
-=RRqa
+iQIcBAEBCAAGBQJYpjvGAAoJEBcOuGpg39u1/ekQAMYR6tD+dTG9aCz99kssEmM2
+MNvOsnoNCJXxQNldmFdkZR6M/MIjY9EV2z0jCrDKdaSe0s6Ogoui2teIJSBOSRzb
+D5T3WFhOAD36VxKvnfYLSs8uJv82xZsxmKIC3tvfmbprhPbmNWsOTJc+8+NrdHrp
+kVsq0h5CgIeHickzDdEQ7OfistpG597VX/Vve5+GI2QDGXDcbwrIYUJ3gmil0B2C
+fTTTcNnlGT3pA7P/ZR0QgIGjrhoSGiRlkhfVewdtS4kXnPBSRvCpHumb0u/mtOZH
+s3SHj/JwUJyfeRiI71MJg5ZtQ2zYU7v7IC1Y5lbSp0OrlOsNMmHzwhaGCnts4MAK
+byh2Hq+ki2GHlkrqxz+Of3lHak6LZsUC2B2zDxSafBXTmxfG1XclmrVGMyVXX9ve
+9CuXRk1xi+8gGW++yTnPv26c40xngldDlZAsl2HBJBBUE7Eg2e2ojwSQSaDIWC/U
+UmuwYf8l4YXWtdmqRwkvDh/cTP64GUW+UcQEcRuz0ttV61uiOOrggH8VR6wPlyMY
+/Nm4DNUn5DUNyUQ/uLlHgwK+kbFJbK+S0g7DbZzJlB5PNsqpP5EFuJBut9rTy1Pe
+gcVlDWWxtdZe1J9DxyLPuO6R9rmxEycysr3B/19Ga8f+QmGY0mnvBnNLgmMy0wP6
++NC0pRnP+qU7KVRatX3B
+=+AX3
 -----END PGP SIGNATURE-----
