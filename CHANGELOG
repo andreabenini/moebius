@@ -3,6 +3,8 @@
     * Fixed beta glitches: S0 respawn, three fingers on inittab, setterm -blank,
     * Fixed compatibility issues with Raspberry Pi boards, RPi3 tested, working.
     RPi1 and RPi2 are fine.
+    * Repository cleanup, there're less packages in the main repo but everything
+    has been totally from scratch to avoid old stale gcc deps
 
 
 2017-01-30 (v3.0.0 beta1)   Andrea Benini <andreabenini@myemailaddress.com>
