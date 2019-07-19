@@ -1,6 +1,11 @@
 [moebius](http://moebiuslinux.sourceforge.net)
 =========
 
+---
+##### WARNING **[project stalled]**. rebuilding the entire toolchain in order to keep/maintain different architectures and RPi boards (from Zero to 4)
+---
+
+
 [Moebius Linux Package Repository](https://github.com/andreabenini/moebius).
 
 This is the official repository of Moebius Linux where you can retrieve package files and various containers.<br/>
